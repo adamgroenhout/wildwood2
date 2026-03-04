@@ -65,25 +65,25 @@ const formatUrl = (url: string) => {
 	</div>
 
 	<!-- Mobile Navigation Drawer -->
-	<div id="mobile-menu" class="hidden lg:hidden bg-[#414224] border-t border-white/5 px-4 pt-2 pb-6 space-y-1 shadow-2xl">
+	<div id="mobile-menu" class="hidden lg:hidden bg-[#414224] border-t border-white/10 px-4 pt-2 pb-6 space-y-1 shadow-2xl">
 		{navigation.map(item => (
-			<div>
+			<div class="border-b border-white/5 last:border-0">
 				<div class="flex items-center justify-between">
-					<a href={formatUrl(item.href)} class="block px-3 py-4 text-base font-medium text-white/70 hover:text-white">
+					<a href={formatUrl(item.href)} class="block px-3 py-4 text-base font-medium text-white hover:text-white/80 transition-colors">
 						{item.name}
 					</a>
 					{item.subItems && (
-						<button class="mobile-submenu-toggle p-3 text-white/40">
-							<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<button class="mobile-submenu-toggle p-3 text-white/50 hover:text-white transition-colors">
+							<svg class="w-5 h-5 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 							</svg>
 						</button>
 					)}
 				</div>
 				{item.subItems && (
-					<div class="hidden pl-6 space-y-1 bg-black/10 rounded-lg mb-2">
+					<div class="hidden pl-4 pr-2 pb-2 space-y-1 bg-black/20 rounded-lg mb-2">
 						{item.subItems.map(subItem => (
-							<a href={formatUrl(subItem.href)} class="block px-3 py-3 text-sm text-white/60 hover:text-white">
+							<a href={formatUrl(subItem.href)} class="block px-4 py-3 text-sm text-white/70 hover:text-white border-l border-white/10 ml-2">
 								{subItem.name}
 							</a>
 						))}
@@ -91,8 +91,8 @@ const formatUrl = (url: string) => {
 				)}
 			</div>
 		))}
-		<div class="pt-4">
-			<a href={`${base}contact`} class="block text-center px-6 py-3 border border-white/20 text-base font-medium text-white hover:bg-white hover:text-[#414224] transition-all">
+		<div class="pt-6">
+			<a href={`${base}contact`} class="block text-center px-6 py-4 bg-[#B17048] text-white text-base font-medium hover:bg-[#414224] transition-all uppercase tracking-widest shadow-lg">
 				Contact
 			</a>
 		</div>
