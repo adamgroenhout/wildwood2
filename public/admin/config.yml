@@ -10,7 +10,7 @@ backend:
   auth_endpoint: api/auth # The path to the Vercel auth function
 
 media_folder: "public/images"
-public_folder: "/images"
+public_folder: "/wildwood/images"
 
 collections:
   - name: "pages"
