@@ -1,14 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
 import faqsData from '../content/faqs.json';
 
 const { title, faqs, footer_cta_text } = faqsData;
 ---
 
 <Layout title="FAQs | Wildwood Psychotherapy">
-	<Header />
 	<main>
 		<section class="bg-alternate pt-32 pb-20 px-4">
 			<div class="max-w-4xl mx-auto">
@@ -67,5 +64,4 @@ const { title, faqs, footer_cta_text } = faqsData;
 			);
 		})()}
 	</main>
-	<Footer />
 </Layout>

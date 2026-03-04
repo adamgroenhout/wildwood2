@@ -6,6 +6,7 @@ backend:
   name: github
   repo: adamgroenhout/wildwood
   branch: main
+  base_url: https://wildwood-gateway.vercel.app # Your private Vercel gateway
 
 media_folder: "public/images"
 public_folder: "/images"

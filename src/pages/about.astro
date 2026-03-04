@@ -1,7 +1,5 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
 import aboutData from '../content/about.json';
 import { marked } from 'marked';
 
@@ -9,7 +7,6 @@ const { title, seo_title, subtitle, bio, sections, cta_text, cta_url } = aboutDa
 ---
 
 <Layout title={seo_title}>
-	<Header />
 	<main>
 		<section class="bg-alternate pt-32 pb-20 px-4">
 			<div class="max-w-4xl mx-auto">
@@ -45,5 +42,4 @@ const { title, seo_title, subtitle, bio, sections, cta_text, cta_url } = aboutDa
 			</div>
 		</section>
 	</main>
-	<Footer />
 </Layout>

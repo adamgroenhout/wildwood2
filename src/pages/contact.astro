@@ -1,14 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
 import contactData from '../content/contact.json';
 
 const { title, intro_title, intro_text, cta_text, cta_url, location, parking, arrival } = contactData;
 ---
 
 <Layout title="Contact | Wildwood Psychotherapy">
-	<Header />
 	<main>
 		<section class="bg-alternate pt-32 pb-20 px-4">
 			<div class="max-w-4xl mx-auto">
@@ -56,5 +53,4 @@ const { title, intro_title, intro_text, cta_text, cta_url, location, parking, ar
 			</div>
 		</section>
 	</main>
-	<Footer />
 </Layout>

@@ -1,14 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
 import gfeData from '../content/good-faith-estimate.json';
 
 const { title, subtitle, content, highlight_box, footer_text, footer_url } = gfeData;
 ---
 
 <Layout title="Good Faith Estimate | Wildwood Psychotherapy">
-	<Header />
 	<main>
 		<section class="bg-alternate pt-32 pb-20 px-4">
 			<div class="max-w-4xl mx-auto text-center">
@@ -33,5 +30,4 @@ const { title, subtitle, content, highlight_box, footer_text, footer_url } = gfe
 			</div>
 		</section>
 	</main>
-	<Footer />
 </Layout>

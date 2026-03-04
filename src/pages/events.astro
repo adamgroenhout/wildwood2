@@ -1,14 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
 import eventsData from '../content/events.json';
 
 const { title, subtitle, sections } = eventsData;
 ---
 
 <Layout title="Events | Wildwood Psychotherapy">
-	<Header />
 	<main>
 		<section class="bg-alternate pt-32 pb-20 px-4">
 			<div class="max-w-4xl mx-auto">
@@ -79,5 +76,4 @@ const { title, subtitle, sections } = eventsData;
 			);
 		})()}
 	</main>
-	<Footer />
 </Layout>

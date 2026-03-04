@@ -47,5 +47,26 @@ const { site_name, tagline, contact } = settings;
 	</div>
 	<div class="max-w-7xl mx-auto mt-20 pt-10 border-t border-white/5 flex justify-between items-center text-xs text-white/30">
 		<p>&copy; {year} {site_name}. All rights reserved.</p>
+		<button 
+			id="logout-button" 
+			class="hidden hover:text-white transition-colors uppercase tracking-widest text-[10px]"
+		>
+			Staff Logout
+		</button>
 	</div>
 </footer>
+
+<script is:inline define:vars={{ base }}>
+	// Check if user is logged in to show logout button
+	const user = localStorage.getItem('decap-cms-user') || localStorage.getItem('netlify-cms-user');
+	const logoutBtn = document.getElementById('logout-button');
+	
+	if (user && logoutBtn) {
+		logoutBtn.classList.remove('hidden');
+		logoutBtn.addEventListener('click', () => {
+			localStorage.removeItem('decap-cms-user');
+			localStorage.removeItem('netlify-cms-user');
+			window.location.href = base;
+		});
+	}
+</script>
