@@ -8,6 +8,7 @@ const { site_name, logo, navigation } = settings;
 // Helper to format URLs correctly with base path
 const formatUrl = (url: string) => {
   if (url === '#' || url.startsWith('http')) return url;
+  if (url.startsWith(base)) return url;
   return `${base}${url.startsWith('/') ? url.slice(1) : url}`;
 };
 ---

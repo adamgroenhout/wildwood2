@@ -11,7 +11,7 @@ const base = import.meta.env.BASE_URL;
 		<div class="max-w-md w-full text-center space-y-12 animate-fade-in">
 			<div class="flex flex-col items-center gap-6">
 				<img 
-					src={`${base}${logo.startsWith('/') ? logo.slice(1) : logo}`} 
+					src={logo.startsWith(base) ? logo : `${base}${logo.startsWith('/') ? logo.slice(1) : logo}`}
 					alt={site_name} 
 					class="w-24 h-24 md:w-32 md:h-32 object-contain"
 				/>
