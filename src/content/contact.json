@@ -1,7 +1,7 @@
 {
-  "title": "Schedule Your Consultation",
-  "intro_title": "Your Path to Healing Begins with a Conversation.",
-  "intro_text": "Because the therapeutic relationship is the most important factor in your success, a 15-minute consultation call is a required first step for all new clients.",
+  "title": "Schedule Your Free Consultation",
+  "intro_title": "A Space Where You Don't Have to Carry It All.",
+  "intro_text": "Finding the right therapist is a lot like finding a home. It has to feel right. Because the connection between us is the single most important factor in \"successful\" therapy, I offer a complimentary 15-minute consultation call for all new clients.\n\nThis is a low-pressure space for us to discuss what’s bringing you to therapy, explore how I can help, discuss possible modalities like EMDR or IFS-informed parts work, and ensure we are a good fit before we begin the deep work together.",
   "cta_text": "Book Your Consultation",
   "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
   "location": {
@@ -15,9 +15,18 @@
   "parking": {
     "title": "Parking",
     "options": [
-      { "label": "Free Parking", "text": "The Liberty Street parking lot at 204 Liberty St, SW typically has the best availability." },
-      { "label": "Alternative", "text": "The Town Hall garage at 10 Loudoun St, SW is a reliable paid option." },
-      { "label": "Street Parking", "text": "Metered spots are available on Wirt St SW." }
+      {
+        "label": "Free Parking",
+        "text": "The Liberty Street parking lot at 204 Liberty St, SW typically has the best availability."
+      },
+      {
+        "label": "Alternative",
+        "text": "The Town Hall garage at 10 Loudoun St, SW is a reliable paid option."
+      },
+      {
+        "label": "Street Parking",
+        "text": "Metered spots are available on Wirt St SW."
+      }
     ]
   },
   "arrival": {
