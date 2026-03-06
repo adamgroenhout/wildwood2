@@ -1,8 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Carousel from '../components/Carousel.astro';
 import contactData from '../content/contact.json';
+import { marked } from 'marked';
 
-const { title, intro_title, intro_text, cta_text, cta_url, location, parking, arrival } = contactData;
+const { title, intro_title, intro_text, cta_text, cta_url, location, parking, arrival, studio_images } = contactData;
+
+const carouselImages = studio_images?.map(item => item.image) || [];
 ---
 
 <Layout title="Contact | Wildwood Psychotherapy">
@@ -14,7 +18,7 @@ const { title, intro_title, intro_text, cta_text, cta_url, location, parking, ar
 				<div class="prose prose-invert prose-lg max-w-none ">
 					<div class="text-center">
 						<h2 class="text-3xl font-serif mb-6 italic ">{intro_title}</h2>
-						<p>{intro_text}</p>
+						<div class="prose prose-invert mx-auto" set:html={marked.parse(intro_text || '')} />
 						
 						<div class="mt-8">
 							<a href={cta_url} class="bg-terracotta inline-block px-6 md:px-10 py-4 text-sm font-medium hover:bg-[#965d3a] transition-all uppercase tracking-widest text-center">{cta_text}</a>
@@ -34,7 +38,7 @@ const { title, intro_title, intro_text, cta_text, cta_url, location, parking, ar
 							<p>{location.address_line1}</p>
 							<p>{location.address_line2}</p>
 							<p class="mt-4"><strong class="">Phone:</strong> {location.phone}</p>
-							<p><strong class="">Email:</strong> {location.email}</p>
+							<p><strong class="">Email:</strong> <a href={`mailto:${location.email}`} class="hover:text-terracotta transition-colors">{location.email}</a></p>
 						</div>
 
 						<div class="bg-terracotta/5 p-8 border border-white/5 rounded-lg">
@@ -47,8 +51,15 @@ const { title, intro_title, intro_text, cta_text, cta_url, location, parking, ar
 
 					<div class="bg-terracotta/10 p-8 rounded-lg border border-white/5">
 						<h3 class="text-2xl font-serif mb-4 ">{arrival.title}</h3>
-						<p>{arrival.text}</p>
+						<div class="prose prose-invert text-white/80 max-w-none" set:html={marked.parse(arrival.text || '')} />
 					</div>
+
+					{carouselImages.length > 0 && (
+						<div class="mt-12">
+							<h3 class="text-2xl font-serif mb-6 text-center italic">Entering the Space</h3>
+							<Carousel images={carouselImages} />
+						</div>
+					)}
 				</div>
 			</div>
 		</section>

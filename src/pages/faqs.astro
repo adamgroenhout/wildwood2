@@ -1,13 +1,35 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import BackToTop from '../components/BackToTop.astro';
 import faqsData from '../content/faqs.json';
+import { marked } from 'marked';
 
-const { title, faqs, footer_cta_text } = faqsData;
+const { title, faqs, footer_cta_text, meta_description } = faqsData;
+
+// Strip markdown for meta tag
+const cleanDescription = meta_description?.replace(/[#*`]/g, '') || "Frequently Asked Questions about Wildwood Psychotherapy.";
+
+// Generate FAQ Schema
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.filter(f => f.question && f.answer).map(faq => ({
+    "@type": "Question",
+    "name": faq.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.answer?.replace(/[#*`]/g, '') // Schema should be plain text
+    }
+  }))
+};
 ---
 
-<Layout title="FAQs | Wildwood Psychotherapy">
+<Layout title="FAQs | Wildwood Psychotherapy" description={cleanDescription}>
+	<!-- Inject FAQ Schema -->
+	<script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+
 	<main>
-		<section class="bg-alternate pt-32 pb-20 px-4">
+		<section class="bg-alternate pt-48 pb-20 px-4">
 			<div class="max-w-4xl mx-auto">
 				<h1 class="text-5xl font-serif mb-10 text-center ">{title}</h1>
 			</div>
@@ -24,12 +46,16 @@ const { title, faqs, footer_cta_text } = faqsData;
 						{faqList.map(faq => (
 							<div class="bg-terracotta/5 p-8 border border-white/5 rounded-lg">
 								<h3 class="text-2xl font-serif mb-4 ">{faq.question}</h3>
-								{faq.answer && <p>{faq.answer}</p>}
+								
+								{faq.answer && (
+									<div class="prose prose-invert text-white/80 max-w-none" set:html={marked.parse(faq.answer || '')} />
+								)}
+
 								{faq.rates && (
-									<ul class="list-none pl-0 space-y-2">
+									<ul class="list-none pl-0 space-y-2 mt-4">
 										{faq.rates.map(rate => (
 											<li class="flex justify-between border-b border-white/10 pb-2">
-												<span>{rate.service}</span> 
+												<span set:html={rate.service} /> 
 												<span class={`${rate.is_italic ? ' italic' : ' font-bold'}`}>{rate.price}</span>
 											</li>
 										))}
@@ -63,5 +89,6 @@ const { title, faqs, footer_cta_text } = faqsData;
 				</>
 			);
 		})()}
+		<BackToTop />
 	</main>
 </Layout>

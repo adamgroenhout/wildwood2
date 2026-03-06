@@ -1,31 +1,52 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import gfeData from '../content/good-faith-estimate.json';
+import { marked } from 'marked';
 
-const { title, subtitle, content, highlight_box, footer_text, footer_url } = gfeData;
+const { title, subtitle, content, highlight_box, footer_text, footer_url, keep_in_mind } = gfeData;
+
+// Handle the footer link more robustly
+const linkPlaceholder = "www.cms.gov/nosurprises";
+const footerParts = footer_text.split(linkPlaceholder);
 ---
 
 <Layout title="Good Faith Estimate | Wildwood Psychotherapy">
 	<main>
-		<section class="bg-alternate pt-32 pb-20 px-4">
+		<section class="bg-alternate pt-48 pb-20 px-4">
 			<div class="max-w-4xl mx-auto text-center">
 				<h1 class="text-5xl font-serif mb-10 ">{title}</h1>
-				<p class="text-2xl italic mb-12 ">{subtitle}</p>
+				<h2 class="text-2xl font-serif italic mb-12 opacity-80">{subtitle}</h2>
 			</div>
 		</section>
 
 		<section class="bg-alternate py-20 px-4">
 			<div class="max-w-4xl mx-auto">
 				<div class="prose prose-invert prose-lg max-w-none  space-y-8 text-left">
-					{content.map(p => <p>{p}</p>)}
+					{content.map(p => <div set:html={marked.parse(p)} />)}
 					
-					<div class="bg-terracotta/5 p-8 border border-white/5 rounded-lg">
-						{highlight_box.map(p => <p>{p}</p>)}
+					<div class="bg-terracotta/5 p-8 border border-white/5 rounded-lg space-y-4">
+						{highlight_box.map(p => <div set:html={marked.parse(p)} />)}
 					</div>
 					
-					<p>{footer_text.split(footer_url).map((part, i, arr) => (
-						i === arr.length - 1 ? part : <span>{part}<a href={footer_url} class="underline  hover: transition-colors">{footer_url}</a></span>
-					))}</p>
+					<p>
+						{footerParts.map((part, i) => (
+							<>
+								{part}
+								{i < footerParts.length - 1 && (
+									<a href={footer_url} class="underline hover:text-terracotta transition-colors" target="_blank" rel="noopener noreferrer">
+										{linkPlaceholder}
+									</a>
+								)}
+							</>
+						))}
+					</p>
+
+					{keep_in_mind && (
+						<div class="mt-16 bg-white/5 p-8 border-l-4 border-[#B17048] rounded-r-lg">
+							<h3 class="text-2xl font-serif mb-4 italic">{keep_in_mind.title}</h3>
+							<div class="prose prose-sm max-w-none prose-li:list-disc" set:html={marked.parse(keep_in_mind.text || '')} />
+						</div>
+					)}
 				</div>
 			</div>
 		</section>

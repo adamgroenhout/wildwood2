@@ -2,12 +2,12 @@
 import Layout from '../layouts/Layout.astro';
 import settings from '../content/settings.json';
 
-const { site_name, tagline, logo } = settings;
+const { site_name, tagline, logo, coming_soon_text, staff_login_text } = settings;
 const base = import.meta.env.BASE_URL;
 ---
 
 <Layout title={`${site_name} | Coming Soon`} hideNav={true}>
-	<main class="h-screen flex flex-col items-center justify-center bg-[#414224] text-white p-4">
+	<main class="h-screen flex flex-col items-center justify-center bg-[#294b27] text-white p-4">
 		<div class="max-w-md w-full text-center space-y-12 animate-fade-in">
 			<div class="flex flex-col items-center gap-6">
 				<img 
@@ -21,7 +21,7 @@ const base = import.meta.env.BASE_URL;
 			<div class="space-y-4">
 				<p class="text-xl md:text-2xl font-serif italic opacity-90">{tagline}</p>
 				<div class="h-px w-12 bg-[#B17048] mx-auto my-8"></div>
-				<p class="text-sm uppercase tracking-[0.3em] font-medium opacity-60">Coming Soon</p>
+				<p class="text-sm uppercase tracking-[0.3em] font-medium opacity-60">{coming_soon_text}</p>
 			</div>
 
 			<div class="pt-12">
@@ -30,7 +30,7 @@ const base = import.meta.env.BASE_URL;
 					id="staff-login"
 					class="text-[10px] uppercase tracking-widest text-white/20 hover:text-white/60 transition-colors border border-white/10 px-4 py-2 hover:border-white/30"
 				>
-					Staff Login
+					{staff_login_text}
 				</a>
 			</div>
 		</div>

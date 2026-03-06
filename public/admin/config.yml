@@ -1,5 +1,5 @@
 # Local backend for development (set to true for local development with npx decap-server)
-# local_backend: true
+local_backend: true
 
 # Backend for GitHub
 backend:
@@ -24,8 +24,10 @@ collections:
         fields:
           - { label: "Site Name", name: "site_name", widget: "string" }
           - { label: "Default SEO Title", name: "site_title", widget: "string" }
-          - { label: "Default Meta Description", name: "site_description", widget: "text" }
+          - { label: "Default Meta Description", name: "site_description", widget: "markdown" }
           - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Coming Soon Text", name: "coming_soon_text", widget: "string" }
+          - { label: "Staff Login Text", name: "staff_login_text", widget: "string" }
           - { label: "Logo", name: "logo", widget: "image" }
           - label: "Contact Information"
             name: "contact"
@@ -55,23 +57,36 @@ collections:
         file: "src/content/homepage.json"
         fields:
           - { label: "Hero Title", name: "hero_title", widget: "string" }
-          - { label: "Hero Subtitle", name: "hero_subtitle", widget: "string" }
+          - { label: "Hero Subtitle", name: "hero_subtitle", widget: "string", required: false }
           - { label: "Hero Image", name: "hero_image", widget: "image" }
           - { label: "CTA Text", name: "cta_text", widget: "string" }
           - { label: "CTA URL", name: "cta_url", widget: "string" }
           - label: "Specialties"
             name: "specialties"
             widget: "list"
+            required: false
             fields:
               - { label: "Name", name: "name", widget: "string" }
               - { label: "URL", name: "url", widget: "string" }
           - { label: "Intro Title", name: "intro_title", widget: "string" }
-          - { label: "Intro Text", name: "intro_text", widget: "text" }
+          - { label: "Intro Text", name: "intro_text", widget: "markdown" }
           - { label: "Feature Image", name: "feature_image", widget: "image" }
           - { label: "Feature Title", name: "feature_title", widget: "string" }
-          - { label: "Feature Text", name: "feature_text", widget: "text" }
+          - { label: "Feature Text", name: "feature_text", widget: "markdown" }
           - { label: "Feature Link Text", name: "feature_link_text", widget: "string" }
           - { label: "Feature Link URL", name: "feature_link_url", widget: "string" }
+          - { label: "Resources Title", name: "resources_title", widget: "string" }
+          - { label: "Resources Text", name: "resources_text", widget: "markdown" }
+          - label: "Resources Items"
+            name: "resources_items"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Kaylie Intro Title", name: "kaylie_title", widget: "string" }
+          - { label: "Kaylie Subtitle", name: "kaylie_subtitle", widget: "string" }
+          - { label: "Kaylie Bio", name: "kaylie_bio", widget: "markdown" }
+          - { label: "Kaylie Link Text", name: "kaylie_link_text", widget: "string" }
       - name: "about"
         label: "About Page"
         file: "src/content/about.json"
@@ -95,7 +110,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Intro Title", name: "intro_title", widget: "string" }
-          - { label: "Intro Text", name: "intro_text", widget: "text" }
+          - { label: "Intro Text", name: "intro_text", widget: "markdown" }
           - { label: "CTA Text", name: "cta_text", widget: "string" }
           - { label: "CTA URL", name: "cta_url", widget: "string" }
           - label: "Location"
@@ -124,19 +139,26 @@ collections:
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Text", name: "text", widget: "text" }
+              - { label: "Text", name: "text", widget: "markdown" }
+          - label: "Studio Images"
+            name: "studio_images"
+            widget: "list"
+            required: false
+            summary: "{{fields.image}}"
+            field: { label: "Image", name: "image", widget: "image", required: false }
       - name: "faqs"
         label: "FAQs Page"
         file: "src/content/faqs.json"
         fields:
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "Meta Description", name: "meta_description", widget: "markdown" }
           - label: "FAQs"
             name: "faqs"
             widget: "list"
             summary: "{{question}}"
             fields:
               - { label: "Question", name: "question", widget: "string" }
-              - { label: "Answer", name: "answer", widget: "text", required: false }
+              - { label: "Answer", name: "answer", widget: "markdown", required: false }
               - label: "Rates"
                 name: "rates"
                 widget: "list"
@@ -174,7 +196,7 @@ collections:
                 fields:
                   - { label: "Label", name: "label", widget: "string" }
                   - { label: "Text", name: "text", widget: "string" }
-          - { label: "Bottom Text", name: "bottom_text", widget: "text" }
+          - { label: "Bottom Text", name: "bottom_text", widget: "markdown" }
           - { label: "CTA Text", name: "cta_text", widget: "string" }
           - { label: "CTA URL", name: "cta_url", widget: "string" }
       - name: "group-therapy"
@@ -188,7 +210,7 @@ collections:
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Text 1", name: "text1", widget: "text" }
+              - { label: "Text 1", name: "text1", widget: "markdown" }
               - { label: "Quote", name: "quote", widget: "string" }
           - label: "Benefits Section"
             name: "benefits_section"
@@ -200,14 +222,14 @@ collections:
                 widget: "list"
                 fields:
                   - { label: "Title", name: "title", widget: "string" }
-                  - { label: "Text", name: "text", widget: "text" }
+                  - { label: "Text", name: "text", widget: "markdown" }
           - label: "Featured Group"
             name: "featured_group"
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Subtitle", name: "subtitle", widget: "string" }
-              - { label: "Text", name: "text", widget: "text" }
+              - { label: "Text", name: "text", widget: "markdown" }
               - { label: "CTA Text", name: "cta_text", widget: "string" }
               - { label: "CTA URL", name: "cta_url", widget: "string" }
           - label: "Is Right Section"
@@ -215,7 +237,7 @@ collections:
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Text", name: "text", widget: "text" }
+              - { label: "Text", name: "text", widget: "markdown" }
               - { label: "Points", name: "points", widget: "list", field: { label: "Point", name: "point", widget: "string" } }
           - { label: "CTA Text", name: "cta_text", widget: "string" }
           - { label: "CTA URL", name: "cta_url", widget: "string" }
@@ -230,9 +252,9 @@ collections:
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Text 1", name: "text1", widget: "text" }
-              - { label: "Text 2", name: "text2", widget: "text" }
-              - { label: "Text 3", name: "text3", widget: "text" }
+              - { label: "Text 1", name: "text1", widget: "markdown" }
+              - { label: "Text 2", name: "text2", widget: "markdown" }
+              - { label: "Text 3", name: "text3", widget: "markdown" }
           - label: "Who For Section"
             name: "who_for_section"
             widget: "object"
@@ -280,10 +302,16 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Subtitle", name: "subtitle", widget: "string" }
-          - { label: "Content", name: "content", widget: "list", field: { label: "Paragraph", name: "paragraph", widget: "text" } }
-          - { label: "Highlight Box", name: "highlight_box", widget: "list", field: { label: "Paragraph", name: "paragraph", widget: "text" } }
+          - { label: "Content", name: "content", widget: "list", field: { label: "Paragraph", name: "paragraph", widget: "markdown" } }
+          - { label: "Highlight Box", name: "highlight_box", widget: "list", field: { label: "Paragraph", name: "paragraph", widget: "markdown" } }
           - { label: "Footer Text", name: "footer_text", widget: "string" }
           - { label: "Footer URL", name: "footer_url", widget: "string" }
+          - label: "Keep In Mind Box"
+            name: "keep_in_mind"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "markdown" }
       - name: "events"
         label: "Events Page"
         file: "src/content/events.json"
@@ -296,7 +324,7 @@ collections:
             summary: "{{title}}"
             fields:
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Text", name: "text", widget: "text", required: false }
+              - { label: "Text", name: "text", widget: "markdown", required: false }
               - label: "Highlight"
                 name: "highlight"
                 widget: "object"
@@ -319,8 +347,8 @@ collections:
                   - { label: "Name", name: "name", widget: "string" }
                   - { label: "Location", name: "location", widget: "string", required: false }
                   - { label: "Cost", name: "cost", widget: "string", required: false }
-                  - { label: "Text", name: "text", widget: "text" }
-                  - { label: "Footer", name: "footer", widget: "text", required: false }
+                  - { label: "Text", name: "text", widget: "markdown" }
+                  - { label: "Footer", name: "footer", widget: "markdown", required: false }
                   - { label: "CTA Text", name: "cta_text", widget: "string", required: false }
                   - { label: "CTA URL", name: "cta_url", widget: "string", required: false }
       - name: "privacy"

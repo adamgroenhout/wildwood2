@@ -1,15 +1,19 @@
 {
   "title": "Good Faith Estimate",
-  "subtitle": "\"NO SURPRISES ACT\" - Understanding your rights against surprise medical bills",
+  "subtitle": "Your right to clear, upfront pricing.",
   "content": [
     "You have the right to receive a \"Good Faith Estimate\" (GFE) explaining how much your non-emergency health care will cost.",
-    "Under federal law, health care providers must give patients who don't have or won't be using insurance an estimate of the bill for medical items and services. Wildwood Psychotherapy is out-of-network and does not participate with any insurance plans.",
-    "This means you are entitled to receive a Good Faith Estimate in writing estimating the cost of your care upfront when you schedule your first appointment. This estimate is meant to provide transparency regarding expected medical expenses."
+    "Under federal law, specifically the \"No Surprises Act,\" health care providers must give patients who don’t have or won’t be using insurance an estimate of the bill for medical items and services. Wildwood Psychotherapy is out-of-network and does not participate with any insurance plans. This means you are entitled to receive a Good Faith Estimate in writing, which provides an upfront estimate of the cost of your care when you schedule your first appointment.",
+    "This estimate is meant to provide transparency regarding expected medical expenses. It is based on what is reasonably expected for your health care needs, diagnosis(es), and reason for seeking treatment. The estimate is based on information known to your provider at the time it was created, and cannot account for unexpected costs that may arise."
   ],
   "highlight_box": [
-    "It is based on what is reasonably expected for your health care needs, diagnosis(es), and reason for seeking treatment. The estimate is created with information known to your provider at the time it was created, and cannot account for unexpected costs that may arise.",
-    "If you receive a bill that is at least $400 more than your Good Faith Estimate, you can dispute the bill. Make sure to save a copy or picture of your Good Faith Estimate."
+    "As you can imagine, a Good Faith Estimate depends on several variables unique to you, including frequency of sessions, length of treatment, and needs/goals. Factors like your schedule, your therapist’s availability, or your finances can also impact it. Ultimately, as the client, you have the right to choose whether to stay in therapy.  Out of an abundance of caution, your Good Faith Estimate will project treatment for 12 months based on current rates.",
+    "Make sure your provider gives you a Good Faith Estimate in writing at least 1 business day before your medical service. You can also ask your provider, and any other provider you choose, for a Good Faith Estimate.\n\nIf you receive a bill that is at least $400 more than your Good Faith Estimate, you can dispute the bill. \n\nMake sure to save a copy or picture of your Good Faith Estimate."
   ],
-  "footer_text": "For questions or more information about your right to a Good Faith Estimate, visit www.cms.gov/nosurprises or call 800-985-3059.",
-  "footer_url": "http://www.cms.gov/nosurprises"
+  "footer_text": "For questions or more information about your right to a Good Faith Estimate, visit www.cms.gov/nosurprises or call 1-800-985-3059.",
+  "footer_url": "http://www.cms.gov/nosurprises",
+  "keep_in_mind": {
+    "title": "Keep In Mind",
+    "text": "* A Good Faith Estimate is just that – an estimate that’s made with the information we have when creating it.\n* A Good Faith Estimate is **not** a contract; it does not obligate or bind you to receive mental health care from Wildwood Psychotherapy.\n* As a self-pay client, we are required to provide a Good Faith Estimate to you.\n* Your estimate will be for 12 months of 50-minute once/week sessions unless otherwise noted. This does not account for any breaks for things like illness, vacation, holidays, and/or unexpected events."
+  }
 }

@@ -1,8 +1,31 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import BackToTop from '../components/BackToTop.astro';
 import homepageData from '../content/homepage.json';
+import { marked } from 'marked';
 
-const { hero_subtitle, hero_title, hero_image, cta_text, cta_url, specialties, intro_title, intro_text, feature_image, feature_title, feature_text, feature_link_text, feature_link_url } = homepageData;
+const { 
+	hero_subtitle, 
+	hero_title, 
+	hero_image, 
+	cta_text, 
+	cta_url, 
+	specialties, 
+	intro_title, 
+	intro_text, 
+	feature_image, 
+	feature_title, 
+	feature_text, 
+	feature_link_text, 
+	feature_link_url,
+	resources_title,
+	resources_text,
+	resources_items,
+	kaylie_title,
+	kaylie_subtitle,
+	kaylie_bio,
+	kaylie_link_text
+} = homepageData;
 const base = import.meta.env.BASE_URL;
 ---
 
@@ -27,12 +50,12 @@ const base = import.meta.env.BASE_URL;
 					{hero_title.split('*').map((part, i) => i % 2 === 1 ? <em class="italic">{part}</em> : part)}
 				</h1>
 				
-				<div class="flex flex-col items-center gap-6 mt-10 opacity-0 animate-[fadeInUp_0.8s_ease-out_0.4s_forwards]">
+				<div class="flex flex-col items-center gap-10 mt-10 opacity-0 animate-[fadeInUp_0.8s_ease-out_0.4s_forwards]">
 					<a href={cta_url} class="bg-[#B17048] text-[#F9F7F0] inline-block px-6 md:px-10 py-4 text-sm font-medium hover:bg-[#965d3a] transition-all uppercase tracking-widest text-center hover:shadow-2xl active:scale-[0.98]">
 						{cta_text}
 					</a>
 					
-					<div class="flex flex-wrap justify-center gap-4">
+					<div class="flex flex-wrap justify-center gap-4 mt-4">
 						{specialties.map(spec => (
 							<a href={`${base}${spec.url.startsWith('/') ? spec.url.slice(1) : spec.url}`} class="border border-white/40 px-6 py-2 text-sm hover:border-white transition-all duration-300 hover:bg-white/5 active:scale-95">
 								{spec.name}
@@ -47,9 +70,7 @@ const base = import.meta.env.BASE_URL;
 		<section class="bg-alternate py-32 px-4">
 			<div class="max-w-4xl mx-auto text-center">
 				<h2 class="text-4xl md:text-6xl font-serif mb-10 text-balance">{intro_title}</h2>
-				<p class="text-lg leading-relaxed max-w-2xl mx-auto opacity-90">
-					{intro_text}
-				</p>
+				<div class="text-lg leading-relaxed max-w-2xl mx-auto opacity-90 prose prose-invert" set:html={marked.parse(intro_text || '')} />
 			</div>
 		</section>
 
@@ -65,14 +86,150 @@ const base = import.meta.env.BASE_URL;
 				</div>
 				<div class="w-full md:w-1/2 space-y-6">
 					<h3 class="text-4xl font-serif text-balance">{feature_title}</h3>
-					<p class=" leading-relaxed opacity-90">
-						{feature_text}
-					</p>
+					<div class="leading-relaxed opacity-90 prose prose-invert" set:html={marked.parse(feature_text || '')} />
 					<a href={`${base}${feature_link_url.startsWith('/') ? feature_link_url.slice(1) : feature_link_url}`} class="inline-block text-sm uppercase tracking-widest border-b border-white/20 pb-1 transition-all duration-300 hover:border-[#B17048] hover:text-[#B17048] link-underline">
 						{feature_link_text}
 					</a>
 				</div>
 			</div>
 		</section>
+
+		{/* Section 4: Expandable Content Section */}
+		<section class="bg-[#414244] text-[#f9f7f0] py-32 px-4">
+			<div class="max-w-4xl mx-auto">
+				<div class="grid md:grid-cols-2 gap-16 items-start">
+					<div class="space-y-6">
+						<h2 class="text-4xl md:text-5xl font-serif text-balance">{resources_title}</h2>
+						<div class="text-lg opacity-80 leading-relaxed prose prose-invert" set:html={marked.parse(resources_text || '')} />
+					</div>
+					
+					<div class="space-y-4">
+						{resources_items.map((item) => (
+							<details class="group border-b border-white/10 pb-4">
+								<summary class="flex justify-between items-center cursor-pointer list-none py-2 text-lg font-serif italic hover:text-white transition-colors">
+									<span>{item.title}</span>
+									<span class="text-2xl transition-transform group-open:rotate-45 block leading-none">+</span>
+								</summary>
+								<div class="pt-4 pb-2 opacity-70 leading-relaxed text-sm prose prose-invert" set:html={marked.parse(item.content || '')} />
+							</details>
+						))}
+					</div>
+				</div>
+
+				<div class="mt-24 pt-20 border-t border-white/10 max-w-3xl mx-auto text-center space-y-8">
+					<p class="text-2xl md:text-3xl font-serif italic leading-snug">
+						These aren't character flaws. They're adaptations you developed to survive situations that were too much to handle at the time. The problem? What helped you survive back then is now keeping you from truly living.
+					</p>
+					<p class="text-lg opacity-80 leading-relaxed uppercase tracking-widest text-sm">
+						As a trauma therapist in Leesburg, I work with adults who are ready to understand why they do what they do and finally create lasting change.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		{/* Section 5: Introduction Section */}
+		<section class="bg-[#eeebdf] text-[#414244] py-32 px-4">
+			<div class="max-w-5xl mx-auto">
+				<div class="flex flex-col md:flex-row gap-12 items-center">
+					<div class="w-full md:w-1/3">
+						<img 
+							src={`${base}images/kaylie-groenhout-headshot.jpg`} 
+							alt="Kaylie Groenhout" 
+							class="w-full h-auto object-cover rounded-sm shadow-md"
+						/>
+					</div>
+					<div class="w-full md:w-2/3 space-y-8">
+						<div class="max-w-2xl">
+							<h2 class="text-5xl md:text-7xl font-serif mb-4">{kaylie_title}</h2>
+							<p class="text-xl md:text-2xl font-serif italic opacity-80">{kaylie_subtitle}</p>
+						</div>
+						
+						<div class="space-y-6">
+							<div class="text-lg leading-relaxed opacity-90 max-w-3xl prose" set:html={marked.parse(kaylie_bio || '')} />
+							
+							<div class="flex justify-end">
+								<a href={`${base}about`} class="inline-flex items-center gap-2 text-sm uppercase tracking-widest font-medium hover:text-[#B17048] transition-colors group">
+									<span>{kaylie_link_text}</span>
+									<svg class="w-4 h-4 transform transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		{/* Section 7: How to Get Started */}
+		<section class="bg-[#B17048] text-[#F9F7F0] py-32 px-4">
+			<div class="max-w-4xl mx-auto text-center space-y-12">
+				<h2 class="text-4xl md:text-6xl font-serif italic lowercase tracking-tight">here's how to get started:</h2>
+				<div class="w-3/4 h-px bg-white/30 mx-auto"></div>
+				
+				<div class="grid md:grid-cols-3 gap-12 mt-16">
+					<div class="space-y-4">
+						<span class="text-4xl font-serif opacity-40">01</span>
+						<h3 class="text-xl uppercase tracking-widest font-bold">Consultation</h3>
+						<p class="text-sm opacity-80 leading-relaxed">Schedule a free 15-minute call to see if we're a good fit.</p>
+					</div>
+					<div class="space-y-4">
+						<span class="text-4xl font-serif opacity-40">02</span>
+						<h3 class="text-xl uppercase tracking-widest font-bold">Intake</h3>
+						<p class="text-sm opacity-80 leading-relaxed">Complete your initial assessment and discuss your goals.</p>
+					</div>
+					<div class="space-y-4">
+						<span class="text-4xl font-serif opacity-40">03</span>
+						<h3 class="text-xl uppercase tracking-widest font-bold">Sessions</h3>
+						<p class="text-sm opacity-80 leading-relaxed">Begin your journey towards healing and growth.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		{/* Section 8: Callout Section */}
+		<section class="bg-[#EEEBDF] text-[#414244] py-32 px-4">
+			<div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-16">
+				<div class="w-full md:w-1/2 text-left space-y-8">
+					<h2 class="text-3xl md:text-5xl font-sans font-bold tracking-[0.2em] uppercase leading-tight text-balance">
+						You don't have to struggle alone.
+					</h2>
+					<div class="space-y-6 text-lg leading-relaxed opacity-90">
+						<p>Life can sometimes feel unbearable. Maybe you’ve tried dealing with your issues by talking to close friends, searching internet rabbit holes, compartmentalizing, and/or distracting yourself with things like scrolling, substances, or spending.</p>
+						<p>Wherever you go, though, there you are. The issue remains, and though you may have had temporary relief, you feel more alone, even shameful, afterward.</p>
+						<p>Whether you’re experiencing new challenges or iterations of long-standing ones, therapy can help. You deserve to feel seen, heard, and supported. You can have a more balanced, joyful existence.</p>
+						<p class="font-bold italic">Healing is possible, and I can help.</p>
+					</div>
+				</div>
+				<div class="w-full md:w-1/2">
+					<div class="w-full aspect-[4/3] bg-black/5 rounded-sm flex items-center justify-center italic text-black/20 text-sm tracking-widest uppercase">
+						Image Placeholder
+					</div>
+				</div>
+			</div>
+		</section>
+
+		{/* Section 9: Final CTA Section */}
+		<section class="flex flex-col md:flex-row min-h-[600px]">
+			<div class="w-full md:w-1/2 bg-alternate flex items-center justify-center p-0">
+				<div class="w-full h-full min-h-[400px] bg-black/5 flex items-center justify-center italic text-black/20 text-sm tracking-widest uppercase">
+					Image Placeholder
+				</div>
+			</div>
+			<div class="w-full md:w-1/2 bg-[#294b27] text-white flex flex-col items-center justify-center p-12 text-center space-y-10">
+				<div class="space-y-6">
+					<h2 class="text-lg md:text-xl uppercase tracking-[0.2em] font-sans opacity-80">TAKE A BREATH. YOU’RE IN THE RIGHT PLACE.</h2>
+					<p class="text-4xl md:text-6xl font-serif italic leading-tight">THIS IS WHERE CHANGE BEGINS.</p>
+				</div>
+				
+				<div class="pt-6">
+					<a href={cta_url} class="inline-block border border-white px-10 py-4 text-sm font-medium hover:bg-white hover:text-[#294b27] transition-all uppercase tracking-widest text-center shadow-lg active:scale-95">
+						Book a Call
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<BackToTop />
 	</main>
 </Layout>

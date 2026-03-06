@@ -1,14 +1,44 @@
 {
   "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
-  "intro_text": "Maybe you've noticed you're drinking more than you used to. Or working longer hours to avoid feeling what's underneath. Or your relationship is struggling because old patterns keep showing up in new ways.\n\nYou know something has to change. You're here because you're finally ready to figure out what that something is.\n\nI'm Kaylie, and I specialize in helping adults and couples in Leesburg, Virginia unpack the trauma that's been running the show. Together, we'll work through the anxiety, depression, and attachment wounds that keep you stuck in cycles you desperately want to break.",
+  "intro_text": "Maybe you've noticed you're drinking more than you used to. Or working longer hours to avoid feeling what's underneath. Or your relationship is struggling because old patterns keep showing up in new ways. You know something has to change. You're here because you're finally ready to figure out what that something is.\n\nI'm Kaylie, and I specialize in helping adults and couples in Leesburg, Virginia unpack the trauma that's been running the show. Together, we'll work through the anxiety, depression, and attachment wounds that keep you stuck in cycles you desperately want to break.",
   "intro_title": "You're exhausted from managing everyone else's expectations while your own needs sit on the back burner.",
+  "resources_items": [
+    {
+      "title": "Constantly feeling like you're waiting for the other shoe to drop.",
+      "content": "Even when life is fairly predictable or even calm, your nervous system is scanning for a crisis. It’s that subtle humming of anxiety in your chest or the inability to truly relax after a day of work. You’ve become an expert at pre-fixing problems that haven't even happened yet."
+    },
+    {
+      "title": "Struggling to separate your worth from your productivity.",
+      "content": "It feels like you have to be high-performing just to be worthy of being in the room. You might be the person everyone leans on, but inside, you’re terrified that if you slow down or make a mistake, the whole facade will crumble and people will see you the way *you* see you."
+    },
+    {
+      "title": "Being an expert at reading the room ... at the expense of your own needs.",
+      "content": "You're incredibly attuned to other people’s moods, shifting the way you show up to keep the peace or stay safe. You often leave interactions feeling exhausted, wondering if you actually liked the person or if you were just busy making sure *they* liked *you*."
+    },
+    {
+      "title": "Feeling like a \"floating head,\" disconnected from your physical self.",
+      "content": "When things get intense, you might feel numb or checked out, as if you’re watching your life through a thick pane of glass. It’s hard to know what you’re feeling in your body until you’re already at a breaking point or completely burnt out."
+    },
+    {
+      "title": "Carrying a quiet, heavy sense that you are fundamentally difficult or broken.",
+      "content": "Beyond just low self-esteem, it’s a deep-seated belief that your needs are a burden to others. You apologize for things that aren't your fault and hesitate to ask for help because you don't want to take up too much space in the world."
+    },
+    {
+      "title": "Using \"doing\" to avoid \"being\" — keeping your world busy so you don't have to feel.",
+      "content": "Whether it’s staying up late to work, the endless scroll on your phone, or that extra (extra) glass of wine to take the edge off, you have a toolkit of habits designed to keep your feelings at bay. It’s a constant race to stay one step ahead of a restlessness you can't quite name. You're exhausted from trying to outrun your own internal landscape."
+    }
+  ],
+  "resources_text": "Developmental trauma doesn't always look like what you see in movies. Sometimes it looks like:",
   "feature_link_text": "Learn more about our approach",
+  "kaylie_bio": "As a Licensed Professional Counselor and trauma-informed therapist, I am dedicated to walking alongside you as you navigate life's complexities. My approach is rooted in empathy, evidence-based practices, and a deep respect for the individual resilience each client brings to the therapeutic space. Together, we will work to uncover your strengths, process past experiences, and build a foundation for a more grounded and fulfilling future.",
   "feature_title": "When Old Wounds Keep Showing Up in Your Present",
+  "kaylie_subtitle": "Compassionate care for your healing journey.",
   "feature_image": "/wildwood/images/side-image.webp",
   "hero_title": "You've Been Holding It Together for Everyone Else. What About *You?*",
   "feature_link_url": "/about",
-  "feature_text": "Developmental trauma doesn't always look like what you see in movies. Sometimes it looks like:\n\n- Never feeling quite good enough, no matter what you accomplish\n- Struggling to trust your own judgment or know what you actually want\n- Feeling anxious in your relationships but not sure why\n- Using work, alcohol, or avoidance to cope with feelings you can't name\n- Repeating the same relationship patterns and wondering why nothing changes\n\nThese aren't character flaws. They're adaptations you developed to survive situations that were too much to handle at the time.\n\nThe problem? What helped you survive back then is now keeping you from truly living.\n\nAs a trauma therapist in Leesburg, I work with adults who are ready to understand *why* they do what they do and finally create lasting change.",
+  "feature_text": "These aren't character flaws. They're adaptations you developed to survive situations that were too much to handle at the time.\n\nThe problem? What helped you survive back then is now keeping you from truly living.\n\nAs a trauma therapist in Leesburg, I work with adults who are ready to understand why they do what they do and finally create lasting change.",
   "hero_image": "/wildwood/images/main.webp",
+  "kaylie_link_text": "Learn more about me",
   "cta_text": "Schedule a Call",
   "specialties": [
     {
@@ -24,5 +54,7 @@
       "url": "/relationships"
     }
   ],
-  "hero_subtitle": "EMDR and Trauma-Informed Therapy in Leesburg, VA for adults and couples ready to stop surviving and start living."
+  "hero_subtitle": "EMDR and Trauma-Informed Therapy in Leesburg, VA for adults and couples ready to stop surviving and start living.",
+  "kaylie_title": "I'm Kaylie.",
+  "resources_title": "Common Signs of Developmental Trauma"
 }

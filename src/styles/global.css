@@ -37,7 +37,7 @@
   }
 
   /* Ensure top-level layout elements and full-width containers remain square */
-  html, body, header, footer, section, main, nav, .w-full, .max-w-full, .h-screen {
+  html, body, header, footer, section, main, nav, .max-w-full, .h-screen {
     border-radius: 0 !important;
   }
   
@@ -97,7 +97,7 @@
 
   /* Typography Logic */
   .bg-alternate:not(.h-screen) :is(h1, h2, h3, h4, h5, h6) {
-    color: #414224 !important; /* Dark Olive Headings */
+    color: #294b27 !important; /* Dark Olive Headings */
   }
 
   .bg-alternate:not(.h-screen) :is(p, li, span, div, strong, em, a:not(.bg-terracotta)) {
@@ -127,7 +127,7 @@
   /* Prose overrides */
   .bg-alternate:not(.h-screen) .prose-invert {
     --tw-prose-body: #414244;
-    --tw-prose-headings: #414224;
+    --tw-prose-headings: #294b27;
     --tw-prose-lead: #414244;
     --tw-prose-links: #B17048; /* Terracotta links for subtle pop */
     --tw-prose-bold: #414244;
@@ -139,7 +139,7 @@
     --tw-prose-captions: #414244;
     --tw-prose-code: #414244;
     --tw-prose-pre-code: #F9F7F0;
-    --tw-prose-pre-bg: #414224;
+    --tw-prose-pre-bg: #294b27;
     --tw-prose-th-borders: rgba(196, 191, 184, 0.4);
     --tw-prose-td-borders: rgba(196, 191, 184, 0.2);
   }
@@ -162,12 +162,12 @@
 
   /* Secondary Button: Dark Olive outline */
   .border-olive {
-    border: 1px solid #414224 !important;
-    color: #414224 !important;
+    border: 1px solid #294b27 !important;
+    color: #294b27 !important;
   }
   
   .border-olive:hover {
-    background-color: #414224 !important;
+    background-color: #294b27 !important;
     color: #F9F7F0 !important;
   }
 

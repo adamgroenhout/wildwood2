@@ -1,5 +1,6 @@
 {
   "title": "Frequently Asked Questions",
+  "meta_description": "Find answers to common questions about trauma therapy, EMDR, insurance, rates, and more at Wildwood Psychotherapy in Leesburg, Virginia.",
   "faqs": [
     {
       "question": "What are some of the things people come to you for?",
@@ -16,15 +17,36 @@
     {
       "question": "What are your rates?",
       "rates": [
-        { "service": "Individual session (50 mins)", "price": "$175" },
-        { "service": "Couples/Relationship session (50 mins)", "price": "$185" },
-        { "service": "Initial Intake (60 mins)", "price": "Same as above", "is_italic": true },
-        { "service": "Intensives", "price": "Starting at $1600", "is_italic": true }
+        {
+          "service": "Initial Individual Intake (60 mins)",
+          "price": "$220",
+          "is_italic": true
+        },
+        {
+          "service": "Individual Session (50 mins)",
+          "price": "$200",
+          "is_italic": true
+        },
+        {
+          "is_italic": true,
+          "service": "Initial Couples/Relationship Intake (60 minutes)",
+          "price": "$250"
+        },
+        {
+          "service": "Couples/Relationship Session (50 mins)",
+          "price": "$225",
+          "is_italic": true
+        },
+        {
+          "service": "<a href=\"/wildwood/intensives\" class=\"hover:text-terracotta transition-colors\">Intensives</a>",
+          "price": "Starting at $1600",
+          "is_italic": true
+        }
       ]
     },
     {
       "question": "Where are you located?",
-      "answer": "My office is located in downtown Leesburg (19 Wirt Street SW) near Town Hall. We are in the same building as Shake and Bops Botanical Cafe, on the 2nd floor."
+      "answer": "The office is located in historic downtown Leesburg at **19 Wirt St SW** near Town Hall. It's in the same building as Shake and Bops Botanical Cafe, on the 2nd floor. The office itself is tucked away behind a private brick walkway to ensure privacy."
     },
     {
       "question": "Do you offer virtual therapy?",
