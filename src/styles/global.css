@@ -193,6 +193,8 @@
   .prose-container {
     padding-top: var(--spacing-section-standard-pt);
     padding-bottom: var(--spacing-section-standard-pb);
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   @media (min-width: 768px) {
