@@ -1,0 +1,45 @@
+---
+interface Props {
+  theme?: 'sage' | 'cream' | 'sand' | 'paper' | 'charcoal' | 'olive' | 'alternate' | 'none';
+  padding?: 'standard' | 'large' | 'small' | 'none' | 'hero';
+  class?: string;
+  id?: string;
+}
+
+const { 
+  theme = 'none', 
+  padding = 'standard', 
+  class: className = '',
+  id 
+} = Astro.props;
+
+const themeClasses = {
+  sage: 'bg-sage text-charcoal',
+  cream: 'bg-cream text-charcoal',
+  sand: 'bg-sand text-charcoal',
+  paper: 'bg-paper text-charcoal',
+  charcoal: 'bg-charcoal text-paper',
+  olive: 'bg-olive text-paper',
+  alternate: 'bg-alternate',
+  none: '',
+};
+
+const paddingClasses = {
+  standard: 'py-20 md:py-32 px-4',
+  large: 'py-32 md:py-48 px-4',
+  small: 'py-12 md:py-20 px-4',
+  hero: 'pt-32 md:pt-40',
+  none: '',
+};
+---
+
+<section 
+  id={id}
+  class:list={[
+    themeClasses[theme], 
+    paddingClasses[padding],
+    className
+  ]}
+>
+  <slot />
+</section>

@@ -1,10 +1,12 @@
 ---
+import { getEntry } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import BackToTop from '../components/BackToTop.astro';
-import faqsData from '../content/faqs.json';
 import { marked } from 'marked';
+import { formatUrl } from '../utils/paths';
 
-const { title, faqs, footer_cta_text, footer_cta_button_text, footer_cta_url, meta_description } = faqsData;
+const faqsEntry = await getEntry('pages', 'faqs');
+const { title, faqs, footer_cta_text, footer_cta_button_text, footer_cta_url, meta_description } = faqsEntry?.data || {};
 
 // Strip markdown for meta tag
 const cleanDescription = meta_description?.replace(/[#*`]/g, '') || "Frequently Asked Questions about Wildwood Psychotherapy.";
@@ -13,7 +15,7 @@ const cleanDescription = meta_description?.replace(/[#*`]/g, '') || "Frequently 
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "mainEntity": faqs.filter(f => f.question && f.answer).map(faq => ({
+  "mainEntity": faqs?.filter((f: any) => f.question && f.answer).map((faq: any) => ({
     "@type": "Question",
     "name": faq.question,
     "acceptedAnswer": {
@@ -36,11 +38,11 @@ const faqSchema = {
 		</section>
 
 		{(() => {
-			const midPoint = Math.ceil(faqs.length / 2);
-			const firstHalf = faqs.slice(0, midPoint);
-			const secondHalf = faqs.slice(midPoint);
+			const midPoint = Math.ceil((faqs?.length || 0) / 2);
+			const firstHalf = faqs?.slice(0, midPoint) || [];
+			const secondHalf = faqs?.slice(midPoint) || [];
 
-			const renderFaqs = (faqList: typeof faqs) => (
+			const renderFaqs = (faqList: any[]) => (
 				<div class="prose prose-invert prose-lg max-w-none  space-y-8">
 					<div class="space-y-8">
 						{faqList.map(faq => (
@@ -53,7 +55,7 @@ const faqSchema = {
 
 								{faq.rates && (
 									<ul class="list-none pl-0 space-y-2 mt-4">
-										{faq.rates.map(rate => (
+										{faq.rates.map((rate: any) => (
 											<li class="flex justify-between border-b border-white/10 pb-2">
 												<span set:html={rate.service} /> 
 												<span class={`${rate.is_italic ? ' italic' : ' font-bold'}`}>{rate.price}</span>
@@ -79,14 +81,15 @@ const faqSchema = {
 						<div class="max-w-4xl mx-auto text-center">
 							{renderFaqs(secondHalf)}
 							
-							<div class="mt-20 pt-20 border-t border-white/10 space-y-8">
-								<h2 class="text-3xl font-serif italic opacity-80">{footer_cta_text}</h2>
-								<div class="mt-8">
-									<a href={`${import.meta.env.BASE_URL}${footer_cta_url.startsWith('/') ? footer_cta_url.slice(1) : footer_cta_url}`} class="bg-terracotta inline-block px-6 md:px-10 py-4 text-sm font-medium hover:bg-[#965d3a] transition-all uppercase tracking-widest text-center">
+							<div class="mt-20 pt-20 border-t border-white/10 text-center space-y-8">
+								<h2 class="text-3xl md:text-5xl font-serif italic text-balance">{footer_cta_text}</h2>
+								<div class="pt-4">
+									<a href={formatUrl(footer_cta_url)} class="bg-terracotta inline-block px-6 md:px-10 py-4 text-sm font-medium hover:bg-terracotta-dark transition-all uppercase tracking-widest text-center">
 										{footer_cta_button_text}
 									</a>
 								</div>
 							</div>
+
 						</div>
 					</section>
 				</>

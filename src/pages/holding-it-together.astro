@@ -1,8 +1,10 @@
 ---
+import { getEntry } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
-import holdingData from '../content/holding-it-together.json';
+import { formatUrl } from '../utils/paths';
 
-const { title, subtitle, hero_section, who_for_section, program_details, footer_cta } = holdingData;
+const holdingEntry = await getEntry('pages', 'holding-it-together');
+const { title, subtitle, hero_section, who_for_section, program_details, footer_cta } = holdingEntry?.data || {};
 ---
 
 <Layout title="Holding It Together Group | Wildwood Psychotherapy">
@@ -14,10 +16,10 @@ const { title, subtitle, hero_section, who_for_section, program_details, footer_
 				
 				<div class="prose prose-invert prose-lg max-w-none  space-y-8">
 					<div class="bg-terracotta/5 p-8 rounded-lg text-center border border-white/5">
-						<h2 class="text-3xl font-serif mb-6 uppercase tracking-widest ">{hero_section.title}</h2>
-						<p>{hero_section.text1}</p>
-						<p>{hero_section.text2}</p>
-						<p>{hero_section.text3}</p>
+						<h2 class="text-3xl font-serif mb-6 uppercase tracking-widest ">{hero_section?.title}</h2>
+						<p>{hero_section?.text1}</p>
+						<p>{hero_section?.text2}</p>
+						<p>{hero_section?.text3}</p>
 					</div>
 				</div>
 			</div>
@@ -27,28 +29,28 @@ const { title, subtitle, hero_section, who_for_section, program_details, footer_
 			<div class="max-w-4xl mx-auto">
 				<div class="prose prose-invert prose-lg max-w-none  space-y-8">
 					<div>
-						<h2 class="text-3xl font-serif mb-6 ">{who_for_section.title}</h2>
+						<h2 class="text-3xl font-serif mb-6 ">{who_for_section?.title}</h2>
 						<ul class="list-disc pl-6 space-y-2">
-							{who_for_section.points.map(point => (
+							{who_for_section?.points?.map((point: string) => (
 								<li>{point}</li>
 							))}
 						</ul>
-						<p class="mt-6 italic ">{who_for_section.footer_italic}</p>
+						<p class="mt-6 italic ">{who_for_section?.footer_italic}</p>
 					</div>
 
 					<div class="mt-12">
-						<h2 class="text-3xl font-serif mb-6 ">{program_details.title}</h2>
+						<h2 class="text-3xl font-serif mb-6 ">{program_details?.title}</h2>
 						<div class="bg-terracotta/5 border border-white/10 p-8 shadow-sm space-y-4">
-							<p><strong class="">Duration:</strong> {program_details.duration}</p>
-							<p><strong class="">Location:</strong> {program_details.location}</p>
-							<p><strong class="">Format:</strong> {program_details.format}</p>
-							<p><strong class="">Cohort Size:</strong> {program_details.cohort_size}</p>
-							<p><strong class="">Cost:</strong> {program_details.cost}</p>
+							<p><strong class="">Duration:</strong> {program_details?.duration}</p>
+							<p><strong class="">Location:</strong> {program_details?.location}</p>
+							<p><strong class="">Format:</strong> {program_details?.format}</p>
+							<p><strong class="">Cohort Size:</strong> {program_details?.cohort_size}</p>
+							<p><strong class="">Cost:</strong> {program_details?.cost}</p>
 							
 							<div class="mt-8">
-								<h3 class="text-xl font-bold mb-4 ">{program_details.weekly_focus.title}</h3>
+								<h3 class="text-xl font-bold mb-4 ">{program_details?.weekly_focus?.title}</h3>
 								<ul class="list-none pl-0 space-y-4">
-									{program_details.weekly_focus.weeks.map((week, index) => (
+									{program_details?.weekly_focus?.weeks?.map((week: string, index: number) => (
 										<li class="border-l border-white/20 pl-4"><strong class="">Week {index + 1}:</strong> {week}</li>
 									))}
 								</ul>
@@ -62,12 +64,13 @@ const { title, subtitle, hero_section, who_for_section, program_details, footer_
 		<section class="bg-alternate py-20 px-4">
 			<div class="max-w-4xl mx-auto">
 				<div class="prose prose-invert prose-lg max-w-none  text-center">
-					<h2 class="text-3xl font-serif mb-6 ">{footer_cta.title}</h2>
-					<p class="mb-10 ">{footer_cta.text}</p>
-					<div class="flex flex-col md:flex-row justify-center items-center gap-6">
-							<a href={footer_cta.primary_button.url} class="bg-terracotta inline-block px-6 md:px-10 py-4 text-sm font-medium hover:bg-[#965d3a] transition-all uppercase tracking-widest text-center">{footer_cta.primary_button.text}</a>
-							<a href={footer_cta.secondary_button.url} class="bg-terracotta inline-block px-6 md:px-10 py-4 text-sm font-medium hover:bg-[#965d3a] transition-all uppercase tracking-widest text-center">{footer_cta.secondary_button.text}</a>
-						</div>
+					<h2 class="text-3xl font-serif mb-6 ">{footer_cta?.title}</h2>
+					<p class="mb-10 ">{footer_cta?.text}</p>
+					<div class="mt-12 flex flex-col sm:flex-row gap-6 justify-center">
+						<a href={formatUrl(footer_cta?.primary_button?.url)} class="bg-terracotta inline-block px-6 md:px-10 py-4 text-sm font-medium hover:bg-terracotta-dark transition-all uppercase tracking-widest text-center">{footer_cta?.primary_button?.text}</a>
+						<a href={formatUrl(footer_cta?.secondary_button?.url)} class="bg-terracotta inline-block px-6 md:px-10 py-4 text-sm font-medium hover:bg-terracotta-dark transition-all uppercase tracking-widest text-center">{footer_cta?.secondary_button?.text}</a>
+					</div>
+
 				</div>
 			</div>
 		</section>

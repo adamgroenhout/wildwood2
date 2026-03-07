@@ -11,6 +11,8 @@
     "dev:cms": "astro dev & decap-server"
   },
   "dependencies": {
+    "@fontsource/arimo": "^5.2.8",
+    "@fontsource/instrument-serif": "^5.2.8",
     "@tailwindcss/vite": "^4.2.1",
     "astro": "^5.17.1",
     "marked": "^17.0.4",

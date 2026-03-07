@@ -6,6 +6,17 @@
   --radius-md: 0.125rem; /* 2px */
   --radius-sm: 0.0625rem; /* 1px */
   --radius: 0.125rem; /* 2px */
+
+  /* Wildwood Brand Palette */
+  --color-olive: #294b27;
+  --color-sage: #B2B29F;
+  --color-cream: #EEEBDF;
+  --color-sand: #E3D5C9;
+  --color-paper: #F9F7F0;
+  --color-terracotta: #B17048;
+  --color-terracotta-dark: #965d3a;
+  --color-charcoal: #414244;
+  --color-taupe: #C4BFB8;
 }
 
 @layer base {
@@ -68,7 +79,7 @@
 
   /* Custom Focus Ring */
   :focus-visible {
-    outline: 2px solid #B17048;
+    outline: 2px solid var(--color-terracotta);
     outline-offset: 4px;
   }
 }
@@ -81,98 +92,98 @@
 
   /* Section 1: Sage */
   .bg-alternate:nth-of-type(4n+1) {
-    background-color: #B2B29F;
+    background-color: var(--color-sage);
   }
 
   /* Section 2: Cream */
   .bg-alternate:nth-of-type(4n+2) {
-    background-color: #EEEBDF;
+    background-color: var(--color-cream);
   }
 
   /* Section 3: Sand */
   .bg-alternate:nth-of-type(4n+3) {
-    background-color: #E3D5C9;
+    background-color: var(--color-sand);
   }
 
   /* Section 4: Paper */
   .bg-alternate:nth-of-type(4n+4) {
-    background-color: #F9F7F0;
+    background-color: var(--color-paper);
   }
 
   /* Typography Logic */
   .bg-alternate:not(.h-screen) :is(h1, h2, h3, h4, h5, h6) {
-    color: #294b27 !important; /* Dark Olive Headings */
+    color: var(--color-olive) !important; /* Dark Olive Headings */
   }
 
   .bg-alternate:not(.h-screen) :is(p, li, span, div, strong, em, a:not(.bg-terracotta)) {
-    color: #414244 !important; /* Charcoal Body Text */
+    color: var(--color-charcoal) !important; /* Charcoal Body Text */
   }
 
   /* Muted text for the new palette */
   .bg-alternate:not(.h-screen) :is(.text-white\/70, .text-white\/80, .text-white\/90) {
-    color: rgba(65, 66, 68, 0.8) !important; /* Based on Charcoal */
+    color: color-mix(in srgb, var(--color-charcoal) 80%, transparent) !important;
   }
 
   .bg-alternate:not(.h-screen) :is(.text-white\/50, .text-white\/60) {
-    color: rgba(65, 66, 68, 0.6) !important;
+    color: color-mix(in srgb, var(--color-charcoal) 60%, transparent) !important;
   }
 
   /* Border color overrides - using Taupe for subtle separation */
   .bg-alternate:not(.h-screen) :is(.border-white\/5, .border-white\/10, .border-white\/20, .border-white\/40) {
-    border-color: rgba(196, 191, 184, 0.6) !important;
+    border-color: color-mix(in srgb, var(--color-taupe) 60%, transparent) !important;
   }
 
   /* Highlight boxes - using Sand for depth */
   .bg-alternate:not(.h-screen) :is(.bg-white\/5, .bg-white\/10) {
-    background-color: rgba(227, 213, 201, 0.5) !important;
-    border: 1px solid rgba(196, 191, 184, 0.3) !important;
+    background-color: color-mix(in srgb, var(--color-sand) 50%, transparent) !important;
+    border: 1px solid color-mix(in srgb, var(--color-taupe) 30%, transparent) !important;
   }
 
   /* Prose overrides */
   .bg-alternate:not(.h-screen) .prose-invert {
-    --tw-prose-body: #414244;
-    --tw-prose-headings: #294b27;
-    --tw-prose-lead: #414244;
-    --tw-prose-links: #B17048; /* Terracotta links for subtle pop */
-    --tw-prose-bold: #414244;
-    --tw-prose-counters: #414244;
-    --tw-prose-bullets: #B17048;
-    --tw-prose-hr: rgba(196, 191, 184, 0.4);
-    --tw-prose-quotes: #414244;
-    --tw-prose-quote-borders: #B17048;
-    --tw-prose-captions: #414244;
-    --tw-prose-code: #414244;
-    --tw-prose-pre-code: #F9F7F0;
-    --tw-prose-pre-bg: #294b27;
-    --tw-prose-th-borders: rgba(196, 191, 184, 0.4);
-    --tw-prose-td-borders: rgba(196, 191, 184, 0.2);
+    --tw-prose-body: var(--color-charcoal);
+    --tw-prose-headings: var(--color-olive);
+    --tw-prose-lead: var(--color-charcoal);
+    --tw-prose-links: var(--color-terracotta); /* Terracotta links for subtle pop */
+    --tw-prose-bold: var(--color-charcoal);
+    --tw-prose-counters: var(--color-charcoal);
+    --tw-prose-bullets: var(--color-terracotta);
+    --tw-prose-hr: color-mix(in srgb, var(--color-taupe) 40%, transparent);
+    --tw-prose-quotes: var(--color-charcoal);
+    --tw-prose-quote-borders: var(--color-terracotta);
+    --tw-prose-captions: var(--color-charcoal);
+    --tw-prose-code: var(--color-charcoal);
+    --tw-prose-pre-code: var(--color-paper);
+    --tw-prose-pre-bg: var(--color-olive);
+    --tw-prose-th-borders: color-mix(in srgb, var(--color-taupe) 40%, transparent);
+    --tw-prose-td-borders: color-mix(in srgb, var(--color-taupe) 20%, transparent);
   }
 
   /* Primary Button: Terracotta */
   .bg-terracotta,
   .bg-alternate:not(.h-screen) a.bg-white {
-    background-color: #B17048 !important;
-    color: #F9F7F0 !important;
+    background-color: var(--color-terracotta) !important;
+    color: var(--color-paper) !important;
     transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
   }
 
   .bg-terracotta:hover,
   .bg-alternate:not(.h-screen) a.bg-white:hover {
-    background-color: #965d3a !important; /* Slightly darker terracotta on hover */
-    color: #F9F7F0 !important;
+    background-color: var(--color-terracotta-dark) !important;
+    color: var(--color-paper) !important;
     transform: translateY(-2px);
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.1);
   }
 
   /* Secondary Button: Dark Olive outline */
   .border-olive {
-    border: 1px solid #294b27 !important;
-    color: #294b27 !important;
+    border: 1px solid var(--color-olive) !important;
+    color: var(--color-olive) !important;
   }
   
   .border-olive:hover {
-    background-color: #294b27 !important;
-    color: #F9F7F0 !important;
+    background-color: var(--color-olive) !important;
+    color: var(--color-paper) !important;
   }
 
   /* Subtle Underline Animation for Links */

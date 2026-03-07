@@ -1,9 +1,11 @@
 ---
+import { getEntry } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
-import groupTherapyData from '../content/group-therapy.json';
+import { marked } from 'marked';
+import { formatUrl } from '../utils/paths';
 
-const { title, subtitle, intro, benefits_section, featured_group, is_right_section, cta_text, cta_url } = groupTherapyData;
-const base = import.meta.env.BASE_URL;
+const groupEntry = await getEntry('pages', 'group-therapy');
+const { title, subtitle, intro, benefits_section, featured_group, is_right_section, cta_text, cta_url } = groupEntry?.data || {};
 ---
 
 <Layout title="Group Therapy | Wildwood Psychotherapy">
@@ -15,9 +17,9 @@ const base = import.meta.env.BASE_URL;
 				
 				<div class="prose prose-invert prose-lg max-w-none  space-y-8">
 					<div class="mb-12">
-						<h2 class="text-3xl font-serif mb-6 ">{intro.title}</h2>
-						<p>{intro.text1}</p>
-						<p class="font-bold text-xl text-center italic ">{intro.quote}</p>
+						<h2 class="text-3xl font-serif mb-6 ">{intro?.title}</h2>
+						<p>{intro?.text1}</p>
+						<p class="font-bold text-xl text-center italic ">{intro?.quote}</p>
 					</div>
 				</div>
 			</div>
@@ -27,9 +29,9 @@ const base = import.meta.env.BASE_URL;
 			<div class="max-w-4xl mx-auto">
 				<div class="prose prose-invert prose-lg max-w-none  space-y-8">
 					<div class="bg-terracotta/5 p-8 rounded-lg mb-12">
-						<h2 class="text-3xl font-serif mb-6 ">{benefits_section.title}</h2>
+						<h2 class="text-3xl font-serif mb-6 ">{benefits_section?.title}</h2>
 						<div class="space-y-6">
-							{benefits_section.benefits.map(benefit => (
+							{benefits_section?.benefits?.map((benefit: any) => (
 								<div>
 									<h3 class="text-xl font-bold ">{benefit.title}</h3>
 									<p>{benefit.text}</p>
@@ -39,10 +41,10 @@ const base = import.meta.env.BASE_URL;
 					</div>
 
 					<div class="bg-terracotta/10 p-12 rounded-lg text-center border border-white/5 mb-12">
-						<h2 class="text-3xl font-serif mb-6  uppercase tracking-widest">{featured_group.title}</h2>
-						<p class="text-xl italic mb-8 ">{featured_group.subtitle}</p>
-						<p class="mb-10">{featured_group.text}</p>
-						<a href={`${base}${featured_group.cta_url.startsWith('/') ? featured_group.cta_url.slice(1) : featured_group.cta_url}`} class="bg-terracotta inline-block px-6 md:px-10 py-4 text-sm font-medium hover:bg-[#965d3a] transition-all uppercase tracking-widest text-center">{featured_group.cta_text}</a>
+						<h2 class="text-3xl font-serif mb-6  uppercase tracking-widest">{featured_group?.title}</h2>
+						<p class="text-xl italic mb-8 ">{featured_group?.subtitle}</p>
+						<p class="mb-10">{featured_group?.text}</p>
+						<a href={formatUrl(featured_group?.cta_url)} class="bg-terracotta inline-block px-6 md:px-10 py-4 text-sm font-medium hover:bg-terracotta-dark transition-all uppercase tracking-widest text-center">{featured_group?.cta_text}</a>
 					</div>
 				</div>
 			</div>
@@ -52,17 +54,17 @@ const base = import.meta.env.BASE_URL;
 			<div class="max-w-4xl mx-auto">
 				<div class="prose prose-invert prose-lg max-w-none  space-y-8">
 					<div>
-						<h2 class="text-3xl font-serif mb-6 ">{is_right_section.title}</h2>
-						<p>{is_right_section.text}</p>
+						<h2 class="text-3xl font-serif mb-6 ">{is_right_section?.title}</h2>
+						<p>{is_right_section?.text}</p>
 						<ul class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-2 list-disc pl-6">
-							{is_right_section.points.map(point => (
+							{is_right_section?.points?.map((point: string) => (
 								<li>{point}</li>
 							))}
 						</ul>
 					</div>
 
 					<div class="mt-16 text-center">
-						<a href={cta_url} class="bg-terracotta inline-block px-6 md:px-10 py-4 text-sm font-medium hover:bg-[#965d3a] transition-all uppercase tracking-widest text-center">
+						<a href={formatUrl(cta_url)} class="bg-terracotta inline-block px-6 md:px-10 py-4 text-sm font-medium hover:bg-terracotta-dark transition-all uppercase tracking-widest text-center">
 							{cta_text}
 						</a>
 					</div>

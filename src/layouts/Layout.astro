@@ -1,14 +1,23 @@
 ---
 import '../styles/global.css';
-import settings from '../content/settings.json';
+import { getEntry } from 'astro:content';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import '@fontsource/arimo/400.css';
+import '@fontsource/arimo/700.css';
+import '@fontsource/arimo/400-italic.css';
+import '@fontsource/arimo/700-italic.css';
+import '@fontsource/instrument-serif/400.css';
+import '@fontsource/instrument-serif/400-italic.css';
 
 interface Props {
 	title?: string;
 	description?: string;
 	hideNav?: boolean;
 }
+
+const settingsEntry = await getEntry('pages', 'settings');
+const settings = settingsEntry?.data || {};
 
 const { 
 	title = settings.site_title, 
@@ -29,9 +38,6 @@ const base = import.meta.env.BASE_URL;
 		<link rel="apple-touch-icon" href={`${base}favicon.png`} />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
 		
 		<script is:inline define:vars={{ base }}>
 			// Basic Gatekeeper script
@@ -47,7 +53,7 @@ const base = import.meta.env.BASE_URL;
 			}
 		</script>
 	</head>
-	<body class="bg-[#294b27] text-white/90 font-sans selection:bg-[#B2B29F]/30">
+	<body class="bg-olive text-white/90 font-sans selection:bg-sage/30">
 		{!hideNav && <Header />}
 		<slot />
 		{!hideNav && <Footer />}

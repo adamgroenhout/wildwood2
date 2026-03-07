@@ -1,0 +1,46 @@
+---
+import { marked } from 'marked';
+
+interface AccordionItem {
+  title: string;
+  content?: string;
+  items?: string[];
+}
+
+interface Props {
+  items: AccordionItem[];
+  theme?: 'standard' | 'large';
+  class?: string;
+}
+
+const { 
+  items, 
+  theme = 'standard',
+  class: className = ''
+} = Astro.props;
+
+const titleClasses = theme === 'large' 
+  ? 'py-4 text-3xl font-serif italic hover:text-terracotta transition-colors'
+  : 'py-2 text-xl font-serif italic hover:text-terracotta transition-colors';
+---
+
+<div class:list={['space-y-4', className]}>
+  {items.map((item) => (
+    <details class="group border-b border-white/10 last:border-0 pb-4">
+      <summary class:list={['flex justify-between items-center cursor-pointer list-none', titleClasses]}>
+        <span>{item.title}</span>
+        <span class="text-3xl transition-transform group-open:rotate-45 block leading-none">+</span>
+      </summary>
+      <div class="pt-4 pb-6 prose prose-invert prose-lg max-w-none">
+        {item.content && <div set:html={marked.parse(item.content)} />}
+        {item.items && (
+          <ul class="list-disc pl-6 space-y-2">
+            {item.items.map(listItem => (
+              <li>{listItem}</li>
+            ))}
+          </ul>
+        )}
+      </div>
+    </details>
+  ))}
+</div>

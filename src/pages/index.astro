@@ -1,26 +1,31 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import settings from '../content/settings.json';
+import { formatUrl } from '../utils/paths';
+import { Image } from 'astro:assets';
 
 const { site_name, tagline, logo, coming_soon_text, staff_login_text } = settings;
 const base = import.meta.env.BASE_URL;
 ---
 
 <Layout title={`${site_name} | Coming Soon`} hideNav={true}>
-	<main class="h-screen flex flex-col items-center justify-center bg-[#294b27] text-white p-4">
+	<main class="h-screen flex flex-col items-center justify-center bg-olive text-white p-4">
 		<div class="max-w-md w-full text-center space-y-12 animate-fade-in">
 			<div class="flex flex-col items-center gap-6">
-				<img 
-					src={logo.startsWith(base) ? logo : `${base}${logo.startsWith('/') ? logo.slice(1) : logo}`}
+				<Image 
+					src={formatUrl(logo)}
 					alt={site_name} 
+					width={200}
+					height={200}
 					class="w-24 h-24 md:w-32 md:h-32 object-contain"
+					loading="eager"
 				/>
 				<h1 class="text-4xl md:text-5xl font-serif tracking-tight uppercase">{site_name}</h1>
 			</div>
 
 			<div class="space-y-4">
 				<p class="text-xl md:text-2xl font-serif italic opacity-90">{tagline}</p>
-				<div class="h-px w-12 bg-[#B17048] mx-auto my-8"></div>
+				<div class="h-px w-12 bg-terracotta mx-auto my-8"></div>
 				<p class="text-sm uppercase tracking-[0.3em] font-medium opacity-60">{coming_soon_text}</p>
 			</div>
 

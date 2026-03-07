@@ -1,12 +1,14 @@
 ---
+import { getEntry } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import Carousel from '../components/Carousel.astro';
-import contactData from '../content/contact.json';
 import { marked } from 'marked';
+import { formatUrl } from '../utils/paths';
 
-const { title, intro_title, intro_text, cta_text, cta_url, location, parking, arrival, studio_title, studio_images } = contactData;
+const contactEntry = await getEntry('pages', 'contact');
+const { title, intro_title, intro_text, cta_text, cta_url, location, parking, arrival, studio_title, studio_images } = contactEntry?.data || {};
 
-const carouselImages = studio_images?.map(item => item.image) || [];
+const carouselImages = studio_images?.map((item: any) => formatUrl(item.image)) || [];
 ---
 
 <Layout title="Contact | Wildwood Psychotherapy">
@@ -21,7 +23,7 @@ const carouselImages = studio_images?.map(item => item.image) || [];
 						<div class="prose prose-invert mx-auto" set:html={marked.parse(intro_text || '')} />
 						
 						<div class="mt-8">
-							<a href={cta_url} class="bg-terracotta inline-block px-6 md:px-10 py-4 text-sm font-medium hover:bg-[#965d3a] transition-all uppercase tracking-widest text-center">{cta_text}</a>
+							<a href={cta_url} class="bg-terracotta inline-block px-6 md:px-10 py-4 text-sm font-medium hover:bg-terracotta-dark transition-all uppercase tracking-widest text-center">{cta_text}</a>
 						</div>
 					</div>
 				</div>
@@ -33,25 +35,25 @@ const carouselImages = studio_images?.map(item => item.image) || [];
 				<div class="prose prose-invert prose-lg max-w-none  space-y-12">
 					<div class="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16 border-t border-white/10 pt-12">
 						<div class="bg-terracotta/5 p-8 border border-white/5 rounded-lg">
-							<h3 class="text-2xl font-serif mb-4 ">{location.title}</h3>
-							<p>{location.name}</p>
-							<p>{location.address_line1}</p>
-							<p>{location.address_line2}</p>
-							<p class="mt-4"><strong class="">Phone:</strong> {location.phone}</p>
-							<p><strong class="">Email:</strong> <a href={`mailto:${location.email}`} class="hover:text-terracotta transition-colors">{location.email}</a></p>
+							<h3 class="text-2xl font-serif mb-4 ">{location?.title}</h3>
+							<p>{location?.name}</p>
+							<p>{location?.address_line1}</p>
+							<p>{location?.address_line2}</p>
+							<p class="mt-4"><strong class="">Phone:</strong> {location?.phone}</p>
+							<p><strong class="">Email:</strong> <a href={`mailto:${location?.email}`} class="hover:text-terracotta transition-colors">{location?.email}</a></p>
 						</div>
 
 						<div class="bg-terracotta/5 p-8 border border-white/5 rounded-lg">
-							<h3 class="text-2xl font-serif mb-4 ">{parking.title}</h3>
-							{parking.options.map(option => (
+							<h3 class="text-2xl font-serif mb-4 ">{parking?.title}</h3>
+							{parking?.options?.map((option: any) => (
 								<p><strong class="">{option.label}:</strong> {option.text}</p>
 							))}
 						</div>
 					</div>
 
 					<div class="bg-terracotta/10 p-8 rounded-lg border border-white/5">
-						<h3 class="text-2xl font-serif mb-4 ">{arrival.title}</h3>
-						<div class="prose prose-invert text-white/80 max-w-none" set:html={marked.parse(arrival.text || '')} />
+						<h3 class="text-2xl font-serif mb-4 ">{arrival?.title}</h3>
+						<div class="prose prose-invert text-white/80 max-w-none" set:html={marked.parse(arrival?.text || '')} />
 					</div>
 
 					{carouselImages.length > 0 && (

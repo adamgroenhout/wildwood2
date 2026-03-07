@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets';
+
 interface Props {
   images: string[];
 }
@@ -11,7 +13,7 @@ const { images } = Astro.props;
     {images.map((img, index) => (
       <div class="carousel-slide min-w-full aspect-video flex items-center justify-center">
         {img ? (
-          <img src={img} alt={`Studio image ${index + 1}`} class="w-full h-full object-cover" />
+          <Image src={img} alt={`Studio image ${index + 1}`} width={800} height={450} class="w-full h-full object-cover" />
         ) : (
           <div class="w-full h-full bg-stone-800 flex items-center justify-center text-stone-500 italic">
             Placeholder for Image {index + 1}

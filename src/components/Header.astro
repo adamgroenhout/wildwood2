@@ -1,31 +1,25 @@
 ---
-import settings from '../content/settings.json';
+import { getEntry } from 'astro:content';
+import { formatUrl } from '../utils/paths';
+import { Image } from 'astro:assets';
 
-const base = import.meta.env.BASE_URL;
-
-const { site_name, logo, navigation, header_cta_text, header_cta_href } = settings;
-
-// Helper to format URLs correctly with base path
-const formatUrl = (url: string) => {
-  if (url === '#' || url.startsWith('http')) return url;
-  if (url.startsWith(base)) return url;
-  return `${base}${url.startsWith('/') ? url.slice(1) : url}`;
-};
+const settingsEntry = await getEntry('pages', 'settings');
+const { site_name, logo, navigation, header_cta_text, header_cta_href } = settingsEntry?.data || {};
 ---
 
-<header class="fixed top-0 left-0 right-0 z-50 bg-[#294b27]/95 backdrop-blur-sm border-b border-white/5">
+<header class="fixed top-0 left-0 right-0 z-50 bg-olive/95 backdrop-blur-sm border-b border-white/5">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="flex justify-between items-center h-20">
 			<div class="flex-shrink-0">
-				<a href={`${base}home`} id="logo-link" class="flex items-center gap-3 text-2xl tracking-tight uppercase font-serif text-white">
-					<img src={formatUrl(logo)} alt={`${site_name} Logo`} class="h-12 w-12 object-contain" />
+				<a href={formatUrl('home')} id="logo-link" class="flex items-center gap-3 text-2xl tracking-tight uppercase font-serif text-white">
+					<Image src={formatUrl(logo)} alt={`${site_name} Logo`} width={48} height={48} class="h-12 w-12 object-contain" loading="eager" />
 					<span>{site_name}</span>
 				</a>
 			</div>
 			
 			<!-- Desktop Navigation -->
 			<nav class="hidden lg:flex space-x-10 items-center">
-				{navigation.map(item => (
+				{navigation?.map(item => (
 					<div class="relative group">
 						<a href={formatUrl(item.href)} class="text-sm font-medium text-white/70 hover:text-white transition-colors link-underline uppercase tracking-wider">
 							{item.name}
@@ -36,7 +30,7 @@ const formatUrl = (url: string) => {
 							)}
 						</a>
 						{item.subItems && (
-							<div class="absolute left-0 mt-2 w-56 bg-[#294b27] border border-white/10 shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 translate-y-1 group-hover:translate-y-0">
+							<div class="absolute left-0 mt-2 w-56 bg-olive border border-white/10 shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 translate-y-1 group-hover:translate-y-0">
 								{item.subItems.map(subItem => (
 									<a href={formatUrl(subItem.href)} class="block px-4 py-3 text-sm text-white/70 hover:bg-white/5 hover:text-white transition-colors uppercase tracking-wider">
 										{subItem.name}
@@ -46,7 +40,7 @@ const formatUrl = (url: string) => {
 						)}
 					</div>
 				))}
-				<a href={formatUrl(header_cta_href)} class="inline-flex items-center px-6 py-2 border border-white/20 text-sm font-medium text-white hover:bg-white hover:text-[#294b27] transition-all duration-300 hover:shadow-lg uppercase tracking-wider">
+				<a href={formatUrl(header_cta_href)} class="inline-flex items-center px-6 py-2 border border-white/20 text-sm font-medium text-white hover:bg-white hover:text-olive transition-all duration-300 hover:shadow-lg uppercase tracking-wider">
 					{header_cta_text}
 				</a>
 			</nav>
@@ -66,8 +60,8 @@ const formatUrl = (url: string) => {
 	</div>
 
 	<!-- Mobile Navigation Drawer -->
-	<div id="mobile-menu" class="hidden lg:hidden bg-[#294b27] border-t border-white/10 px-4 pt-2 pb-6 space-y-1 shadow-2xl transition-all duration-300">
-		{navigation.map(item => (
+	<div id="mobile-menu" class="hidden lg:hidden bg-olive border-t border-white/10 px-4 pt-2 pb-6 space-y-1 shadow-2xl transition-all duration-300">
+		{navigation?.map(item => (
 			<div class="border-b border-white/5 last:border-0">
 				<div class="flex items-center justify-between">
 					<a href={formatUrl(item.href)} class="block px-3 py-4 text-base font-medium text-white hover:text-white/80 transition-colors uppercase tracking-wider">
@@ -93,7 +87,7 @@ const formatUrl = (url: string) => {
 			</div>
 		))}
 		<div class="pt-6">
-			<a href={formatUrl(header_cta_href)} class="block text-center px-6 py-4 bg-[#B17048] text-white text-base font-medium hover:bg-[#965d3a] transition-all uppercase tracking-widest shadow-lg active:scale-[0.98]">
+			<a href={formatUrl(header_cta_href)} class="block text-center px-6 py-4 bg-terracotta text-white text-base font-medium hover:bg-terracotta-dark transition-all uppercase tracking-widest shadow-lg active:scale-[0.98]">
 				{header_cta_text}
 			</a>
 		</div>
@@ -142,7 +136,7 @@ const formatUrl = (url: string) => {
 		document.querySelectorAll('.mobile-submenu-toggle').forEach(toggle => {
 			toggle.onclick = (e) => {
 				e.preventDefault();
-				const submenu = toggle.parentElement?.nextElementSibling;
+				const submenu = (toggle as HTMLElement).parentElement?.nextElementSibling;
 				const icon = toggle.querySelector('svg');
 				if (submenu && icon) {
 					const isHidden = submenu.classList.toggle('hidden');

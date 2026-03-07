@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import gfeData from '../content/good-faith-estimate.json';
 import { marked } from 'marked';
+import { formatUrl } from '../utils/paths';
 
 const { title, subtitle, content, highlight_box, footer_text, footer_url, keep_in_mind } = gfeData;
 
@@ -10,7 +11,7 @@ const linkPlaceholder = "www.cms.gov/nosurprises";
 const footerParts = footer_text.split(linkPlaceholder);
 ---
 
-<Layout title="Good Faith Estimate | Wildwood Psychotherapy">
+<Layout title="Good Faith Estimate | Wildwood Psychotherapy" description="Information about the Good Faith Estimate for Wildwood Psychotherapy services.">
 	<main>
 		<section class="bg-alternate pt-48 pb-20 px-4">
 			<div class="max-w-4xl mx-auto text-center">
@@ -33,7 +34,7 @@ const footerParts = footer_text.split(linkPlaceholder);
 							<>
 								{part}
 								{i < footerParts.length - 1 && (
-									<a href={footer_url} class="underline hover:text-terracotta transition-colors" target="_blank" rel="noopener noreferrer">
+									<a href={formatUrl(footer_url)} class="underline hover:text-terracotta transition-colors" target="_blank" rel="noopener noreferrer">
 										{linkPlaceholder}
 									</a>
 								)}
@@ -42,7 +43,7 @@ const footerParts = footer_text.split(linkPlaceholder);
 					</p>
 
 					{keep_in_mind && (
-						<div class="mt-16 bg-white/5 p-8 border-l-4 border-[#B17048] rounded-r-lg">
+						<div class="mt-16 bg-white/5 p-8 border-l-4 border-terracotta rounded-r-lg">
 							<h3 class="text-2xl font-serif mb-4 italic">{keep_in_mind.title}</h3>
 							<div class="prose prose-sm max-w-none prose-li:list-disc" set:html={marked.parse(keep_in_mind.text || '')} />
 						</div>

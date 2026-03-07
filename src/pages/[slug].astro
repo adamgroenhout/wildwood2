@@ -1,20 +1,19 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { marked } from 'marked';
+import { formatUrl } from '../utils/paths';
+import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
-  const files = import.meta.glob('../content/services/*.json', { eager: true });
-  return Object.entries(files).map(([path, data]) => {
-    const slug = path.split('/').pop().replace('.json', '');
-    return {
-      params: { slug },
-      props: { content: (data as any).default || data },
-    };
-  });
+  const serviceEntries = await getCollection('services');
+  return serviceEntries.map(entry => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
 }
 
-const { content } = Astro.props;
-const { title, subtitle, seo_title, sections, cta_text, cta_url } = content;
+const { entry } = Astro.props;
+const { title, subtitle, seo_title, sections, cta_text, cta_url } = entry.data;
 ---
 
 <Layout title={seo_title}>
@@ -46,7 +45,7 @@ const { title, subtitle, seo_title, sections, cta_text, cta_url } = content;
 							{section.title && <h2 class="text-3xl font-serif mb-6 text-center italic text-balance">{section.title}</h2>}
 							<ul class="grid grid-cols-1 md:grid-cols-2 gap-4 list-none pl-0">
 								{section.items.map((item: string) => (
-									<li class="border-l-4 border-[#B17048]/40 pl-4 py-2 hover:border-[#B17048] transition-colors">{item}</li>
+									<li class="border-l-4 border-terracotta/40 pl-4 py-2 hover:border-terracotta transition-colors">{item}</li>
 								))}
 							</ul>
 						</div>
@@ -71,7 +70,7 @@ const { title, subtitle, seo_title, sections, cta_text, cta_url } = content;
 								{secondHalf.map(renderSection)}
 								
 								<div class="mt-16 text-center">
-									<a href={cta_url} class="bg-terracotta inline-block px-6 md:px-10 py-4 text-sm font-medium hover:bg-[#965d3a] transition-all uppercase tracking-widest text-center">
+									<a href={cta_url} class="bg-terracotta inline-block px-6 md:px-10 py-4 text-sm font-medium hover:bg-terracotta-dark transition-all uppercase tracking-widest text-center">
 										{cta_text}
 									</a>
 								</div>
