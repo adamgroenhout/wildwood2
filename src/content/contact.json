@@ -4,20 +4,6 @@
   "intro_text": "Finding the right therapist is a lot like finding a home. It has to feel right. Because the connection between us is the single most important factor in \"successful\" therapy, I offer a complimentary 15-minute consultation call for all new clients.\n\nThis is a low-pressure space for us to discuss what’s bringing you to therapy, explore how I can help, discuss possible modalities like EMDR or IFS-informed parts work, and ensure we are a good fit before we begin the deep work together.",
   "cta_text": "Book Your Consultation",
   "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
-  "studio_images": [
-    {
-      "image": ""
-    },
-    {
-      "image": ""
-    },
-    {
-      "image": ""
-    },
-    {
-      "image": ""
-    }
-  ],
   "location": {
     "title": "Location",
     "name": "Wildwood Psychotherapy",
@@ -48,5 +34,5 @@
     "text": "The office is located at **19 Wirt St SW** in the heart of Leesburg. You'll see a round sign marked 19 Wirt on the building, the same building as Shake & Bops Cafe.\n\nTo reach the entrance:\nFacing the front of the building, look to the left. You will see two small stone steps leading to a narrow brick walkway.\nFollow the path: Walk down the brick path along the side of the building.\nThe Entrance: When you reach the bank of mailboxes, turn right. You'll see a white door with a welcome mat.\n\nOnce inside:\nHead upstairs: Take the stairs immediately to your left. Straight through will take you to the cafe.\n\nMake yourself at home: The waiting area is at the top of the stairs. Please feel free to use the restroom or help yourself to a cold drink from the fridge. I'll come out to greet you at our scheduled time."
   },
   "studio_title": "Entering the Space",
-  "studio_images": [
-
+  "studio_images": []
+}
