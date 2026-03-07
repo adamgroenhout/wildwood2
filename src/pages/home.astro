@@ -40,7 +40,14 @@ const {
 	kaylie_title,
 	kaylie_subtitle,
 	kaylie_bio,
-	kaylie_link_text
+	kaylie_link_text,
+	kaylie_link_url,
+	hero_alt,
+	feature_alt,
+	kaylie_alt,
+	callout_alt,
+	final_cta_alt,
+	seo_title
 } = homepageData;
 const base = import.meta.env.BASE_URL;
 
@@ -53,7 +60,7 @@ const formatUrl = (url: string) => {
 };
 ---
 
-<Layout title="Wildwood Psychotherapy | Trauma-Informed Therapy in Leesburg, VA">
+<Layout title={seo_title}>
 	
 	<main>
 		{/* Hero Section */}
@@ -61,7 +68,7 @@ const formatUrl = (url: string) => {
 			<div class="absolute inset-0 z-0">
 				<img 
 					src={hero_image.startsWith('http') ? hero_image : (hero_image.startsWith(base) ? hero_image : `${base}${hero_image.startsWith('/') ? hero_image.slice(1) : hero_image}`)}
-					alt="Hero Background" 
+					alt={hero_alt} 
 					class="w-full h-full object-cover filter brightness-[0.4]"
 				/>
 			</div>
@@ -106,7 +113,7 @@ const formatUrl = (url: string) => {
 				<div class="w-full md:w-1/2 group">
 					<img
 						src={feature_image.startsWith('http') ? feature_image : (feature_image.startsWith(base) ? feature_image : `${base}${feature_image.startsWith('/') ? feature_image.slice(1) : feature_image}`)}
-						alt="Feature Image"
+						alt={feature_alt}
 						class="w-full h-[400px] md:h-[600px] object-cover grayscale group-hover:grayscale-0 transition-all duration-1000"
 					/>
 				</div>
@@ -191,7 +198,7 @@ const formatUrl = (url: string) => {
 					<div class="w-full md:w-1/3">
 						<img 
 							src={`${base}images/kaylie-groenhout-headshot.jpg`} 
-							alt="Kaylie Groenhout" 
+							alt={kaylie_alt} 
 							class="w-full h-auto object-cover rounded-sm shadow-md"
 						/>
 					</div>
@@ -205,7 +212,7 @@ const formatUrl = (url: string) => {
 							<div class="text-lg leading-relaxed opacity-90 max-w-3xl prose" set:html={marked.parse(kaylie_bio || '')} />
 							
 							<div class="flex justify-end">
-								<a href={formatUrl('/about')} class="inline-flex items-center gap-2 text-sm uppercase tracking-widest font-medium hover:text-[#B17048] transition-colors group">
+								<a href={formatUrl(kaylie_link_url)} class="inline-flex items-center gap-2 text-sm uppercase tracking-widest font-medium hover:text-[#B17048] transition-colors group">
 									<span>{kaylie_link_text}</span>
 									<svg class="w-4 h-4 transform transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -263,7 +270,7 @@ const formatUrl = (url: string) => {
 				<div class="w-full md:w-1/2">
 					<img 
 						src={callout_image.startsWith('http') ? callout_image : (callout_image.startsWith(base) ? callout_image : `${base}${callout_image.startsWith('/') ? callout_image.slice(1) : callout_image}`)}
-						alt="Callout Image"
+						alt={callout_alt}
 						class="w-full aspect-[4/3] object-cover rounded-sm shadow-xl"
 					/>
 				</div>
@@ -275,7 +282,7 @@ const formatUrl = (url: string) => {
 			<div class="w-full md:w-1/2 bg-alternate flex items-center justify-center p-0">
 				<img 
 					src={hero_image.startsWith('http') ? hero_image : (hero_image.startsWith(base) ? hero_image : `${base}${hero_image.startsWith('/') ? hero_image.slice(1) : hero_image}`)}
-					alt="Final CTA Image"
+					alt={final_cta_alt}
 					class="w-full h-full object-cover grayscale opacity-60"
 				/>
 			</div>

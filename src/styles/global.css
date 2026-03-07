@@ -58,6 +58,10 @@
     letter-spacing: -0.02em;
   }
 
+  p {
+    text-align: left;
+  }
+
   .tracking-widest {
     letter-spacing: 0.15em !important;
   }

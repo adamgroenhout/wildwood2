@@ -72,9 +72,11 @@ collections:
         label: "Home Page"
         file: "src/content/homepage.json"
         fields:
+          - { label: "SEO Title", name: "seo_title", widget: "string" }
           - { label: "Hero Title", name: "hero_title", widget: "string" }
           - { label: "Hero Subtitle", name: "hero_subtitle", widget: "string", required: false }
           - { label: "Hero Image", name: "hero_image", widget: "image" }
+          - { label: "Hero Image Alt Text", name: "hero_alt", widget: "string" }
           - { label: "CTA Text", name: "cta_text", widget: "string" }
           - { label: "CTA URL", name: "cta_url", widget: "string" }
           - { label: "Specialties Header", name: "specialties_header", widget: "string" }
@@ -88,6 +90,7 @@ collections:
           - { label: "Intro Title", name: "intro_title", widget: "string" }
           - { label: "Intro Text", name: "intro_text", widget: "markdown" }
           - { label: "Feature Image", name: "feature_image", widget: "image" }
+          - { label: "Feature Image Alt Text", name: "feature_alt", widget: "string" }
           - { label: "Feature Title", name: "feature_title", widget: "string" }
           - { label: "Feature Text", name: "feature_text", widget: "markdown" }
           - { label: "Feature Link Text", name: "feature_link_text", widget: "string" }
@@ -124,13 +127,17 @@ collections:
           - { label: "Callout Title", name: "callout_title", widget: "string" }
           - { label: "Callout Text", name: "callout_text", widget: "markdown" }
           - { label: "Callout Image", name: "callout_image", widget: "image" }
+          - { label: "Callout Image Alt Text", name: "callout_alt", widget: "string" }
           - { label: "Final CTA Tagline", name: "final_cta_tagline", widget: "string" }
           - { label: "Final CTA Title", name: "final_cta_title", widget: "string" }
           - { label: "Final CTA Button Text", name: "final_cta_button_text", widget: "string" }
+          - { label: "Final CTA Image Alt Text", name: "final_cta_alt", widget: "string" }
           - { label: "Kaylie Intro Title", name: "kaylie_title", widget: "string" }
           - { label: "Kaylie Subtitle", name: "kaylie_subtitle", widget: "string" }
           - { label: "Kaylie Bio", name: "kaylie_bio", widget: "markdown" }
           - { label: "Kaylie Link Text", name: "kaylie_link_text", widget: "string" }
+          - { label: "Kaylie Link URL", name: "kaylie_link_url", widget: "string" }
+          - { label: "Kaylie Headshot Alt Text", name: "kaylie_alt", widget: "string" }
       - name: "about"
         label: "About Page"
         file: "src/content/about.json"
@@ -159,6 +166,7 @@ collections:
           - { label: "Final CTA Tagline", name: "final_cta_tagline", widget: "string" }
           - { label: "CTA Text", name: "cta_text", widget: "string" }
           - { label: "CTA URL", name: "cta_url", widget: "string" }
+          - { label: "Headshot Alt Text", name: "headshot_alt", widget: "string" }
       - name: "contact"
         label: "Contact Page"
         file: "src/content/contact.json"

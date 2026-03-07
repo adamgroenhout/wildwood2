@@ -35,31 +35,42 @@
   ],
   "sections": [
     {
-      "title": "Credentials + Training",
+      "title": "Education & Credentials",
       "items": [
-        "LPC (Licensed Professional Counselor), Virginia (0701007996)",
-        "EMDR Certified Therapist (EMDRIA)",
-        "EMDR Consultant-in-Training",
-        "Flash Technique Trained",
-        "Internal Family Systems (IFS) Informed",
-        "Gottman Level 1 & 2 Trained",
-        "Clinical Trauma Professional (CCTP)",
-        "B.S. in Psychology, George Mason University",
-        "M.A. in Professional Counseling, Liberty University"
+        "EMDRIA Certified Therapist™",
+        "Licensed Professional Counselor (LPC) - Virginia #0701015737",
+        "Master of Education in Clinical Mental Health Counseling - The College of William & Mary",
+        "Bachelor of Arts in Communication - Virginia Polytechnic Institute & State University"
       ]
     },
     {
-      "title": "Professional Affiliations",
+      "title": "Specialized Training",
       "items": [
-        "EMDR International Association (EMDRIA)",
+        "EMDR Therapy (Eye Movement Desensitization and Reprocessing)",
+        "IFS (Internal Family Systems)-Informed Parts Work",
+        "Non-monogamous & Polyamorous Relationships",
+        "Attachment-Based Therapy for Developmental Trauma",
+        "Neurodiversity-Affirming Care",
+        "Gottman Level 1 Trained for Couples Work",
+        "One-year clinical internship at Trauma Specialists of Maryland"
+      ]
+    },
+    {
+      "title": "Professional Memberships",
+      "items": [
         "American Counseling Association (ACA)",
-        "Virginia Counselors Association (VCA)",
-        "Northern Virginia Licensed Professional Counselors (NVLPC)"
+        "National Board for Certified Counselors (NBCC)",
+        "EMDR International Association (EMDRIA)",
+        "Counselors for Social Justice (CSJ)",
+        "Society for Sexual, Affectional, Intersex, & Gender Expansive Identities (SAIGE)",
+        "Association of Counseling Sexology & Sexual Wellness (ACSSW)",
+        "Virginia Mental Health Counselors Association (VAMHCA)"
       ]
     }
   ],
   "final_cta_header": "Healing happens here.",
   "final_cta_tagline": "Ready to get started?",
   "cta_text": "Schedule a Call",
-  "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/"
+  "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
+  "headshot_alt": "Kaylie Groenhout"
 }
