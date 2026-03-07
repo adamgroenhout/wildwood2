@@ -64,7 +64,7 @@ const formatUrl = (url: string) => {
 	
 	<main>
 		{/* Hero Section */}
-		<section class="bg-alternate relative h-screen flex flex-col justify-center items-center overflow-hidden">
+		<section class="bg-alternate relative h-screen flex flex-col justify-center items-center overflow-hidden pt-32 md:pt-40">
 			<div class="absolute inset-0 z-0">
 				<img 
 					src={hero_image.startsWith('http') ? hero_image : (hero_image.startsWith(base) ? hero_image : `${base}${hero_image.startsWith('/') ? hero_image.slice(1) : hero_image}`)}
@@ -74,14 +74,14 @@ const formatUrl = (url: string) => {
 			</div>
 			
 			<div class="relative z-10 text-center text-white px-4 max-w-4xl">
-				<p class="text-[10px] md:text-xs uppercase tracking-[0.3em] font-sans font-medium mb-8 opacity-0 animate-[fadeInUp_0.8s_ease-out_forwards]">
+				<p class="text-base md:text-xl tracking-wider font-sans font-bold mb-8 animate-[fadeInUp_0.8s_ease-out_forwards] text-white/90">
 					{hero_subtitle}
 				</p>
-				<h1 class="text-6xl md:text-8xl font-serif mb-10 leading-tight text-balance opacity-0 animate-[fadeInUp_0.8s_ease-out_0.2s_forwards]">
+				<h1 class="text-6xl md:text-8xl font-serif mb-10 leading-tight text-balance animate-[fadeInUp_0.8s_ease-out_0.2s_forwards]">
 					{hero_title.split('*').map((part, i) => i % 2 === 1 ? <em class="italic">{part}</em> : part)}
 				</h1>
 				
-				<div class="flex flex-col items-center gap-10 mt-10 opacity-0 animate-[fadeInUp_0.8s_ease-out_0.4s_forwards]">
+				<div class="flex flex-col items-center gap-10 mt-10 animate-[fadeInUp_0.8s_ease-out_0.4s_forwards]">
 					<a href={cta_url} class="bg-[#B17048] text-[#F9F7F0] inline-block px-6 md:px-10 py-4 text-sm font-medium hover:bg-[#965d3a] transition-all uppercase tracking-widest text-center hover:shadow-2xl active:scale-[0.98]">
 						{cta_text}
 					</a>
