@@ -11,17 +11,17 @@ const { title, subtitle, why_telehealth, what_to_expect, bottom_text, cta_text, 
 	<main>
 		<section class="bg-alternate pt-32 pb-20 px-4">
 			<div class="max-w-4xl mx-auto text-center">
-				<h1 class="text-5xl font-serif mb-10 text-center ">{title}</h1>
-				<p class="text-2xl text-center italic mb-12 ">{subtitle}</p>
+				<h1 class="display-serif mb-10 text-center ">{title}</h1>
+				<p class="subtitle-serif text-center mb-12 ">{subtitle}</p>
 			</div>
 		</section>
 
 		<section class="bg-alternate py-20 px-4">
 			<div class="max-w-4xl mx-auto">
-				<div class="prose prose-invert prose-lg max-w-none  space-y-12">
+				<div class="prose prose-invert body-lg max-w-none  space-y-12">
 					<div class="grid grid-cols-1 md:grid-cols-2 gap-12 border-b border-white/10 pb-12">
 						<div>
-							<h2 class="text-3xl font-serif mb-6 ">{why_telehealth?.title}</h2>
+							<h2 class="h1-serif mb-6 ">{why_telehealth?.title}</h2>
 							<ul class="list-disc pl-6 space-y-2">
 								{why_telehealth?.items?.map((item: any) => (
 									<li><strong class="">{item.label}:</strong> {item.text}</li>
@@ -29,7 +29,7 @@ const { title, subtitle, why_telehealth, what_to_expect, bottom_text, cta_text, 
 							</ul>
 						</div>
 						<div class="bg-terracotta/5 p-8 rounded-lg border border-white/5">
-							<h2 class="text-3xl font-serif mb-6 ">{what_to_expect?.title}</h2>
+							<h2 class="h1-serif mb-6 ">{what_to_expect?.title}</h2>
 							<ol class="list-decimal pl-6 space-y-4">
 								{what_to_expect?.steps?.map((step: any) => (
 									<li><strong class="">{step.label}:</strong> {step.text}</li>
@@ -41,7 +41,7 @@ const { title, subtitle, why_telehealth, what_to_expect, bottom_text, cta_text, 
 					<div class="text-center">
 						<p class="text-xl">{bottom_text}</p>
 						<div class="mt-8">
-							<a href={formatUrl(cta_url)} class="bg-terracotta inline-block px-6 md:px-10 py-4 text-sm font-medium hover:bg-terracotta-dark transition-all uppercase tracking-widest text-center">{cta_text}</a>
+							<a href={formatUrl(cta_url)} class="bg-terracotta inline-block px-6 md:px-10 py-4 eyebrow hover:bg-terracotta-dark transition-all text-center">{cta_text}</a>
 						</div>
 					</div>
 				</div>

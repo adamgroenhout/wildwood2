@@ -15,15 +15,15 @@ const carouselImages = studio_images?.map((item: any) => formatUrl(item.image)) 
 	<main>
 		<section class="bg-alternate pt-32 pb-20 px-4">
 			<div class="max-w-4xl mx-auto">
-				<h1 class="text-5xl font-serif mb-10 text-center ">{title}</h1>
+				<h1 class="display-serif mb-10 text-center">{title}</h1>
 				
-				<div class="prose prose-invert prose-lg max-w-none ">
+				<div class="prose prose-invert body-lg max-w-none ">
 					<div class="text-center">
-						<h2 class="text-3xl font-serif mb-6 italic ">{intro_title}</h2>
+						<h2 class="h1-serif mb-6 italic ">{intro_title}</h2>
 						<div class="prose prose-invert mx-auto" set:html={marked.parse(intro_text || '')} />
 						
 						<div class="mt-8">
-							<a href={cta_url} class="bg-terracotta inline-block px-6 md:px-10 py-4 text-sm font-medium hover:bg-terracotta-dark transition-all uppercase tracking-widest text-center">{cta_text}</a>
+							<a href={cta_url} class="bg-terracotta inline-block px-6 md:px-10 py-4 eyebrow hover:bg-terracotta-dark transition-all text-center">{cta_text}</a>
 						</div>
 					</div>
 				</div>
@@ -32,10 +32,10 @@ const carouselImages = studio_images?.map((item: any) => formatUrl(item.image)) 
 
 		<section class="bg-alternate py-20 px-4">
 			<div class="max-w-4xl mx-auto">
-				<div class="prose prose-invert prose-lg max-w-none  space-y-12">
+				<div class="prose prose-invert body-lg max-w-none  space-y-12">
 					<div class="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16 border-t border-white/10 pt-12">
 						<div class="bg-terracotta/5 p-8 border border-white/5 rounded-lg">
-							<h3 class="text-2xl font-serif mb-4 ">{location?.title}</h3>
+							<h3 class="h2-serif mb-4 ">{location?.title}</h3>
 							<p>{location?.name}</p>
 							<p>{location?.address_line1}</p>
 							<p>{location?.address_line2}</p>
@@ -44,7 +44,7 @@ const carouselImages = studio_images?.map((item: any) => formatUrl(item.image)) 
 						</div>
 
 						<div class="bg-terracotta/5 p-8 border border-white/5 rounded-lg">
-							<h3 class="text-2xl font-serif mb-4 ">{parking?.title}</h3>
+							<h3 class="h2-serif mb-4 ">{parking?.title}</h3>
 							{parking?.options?.map((option: any) => (
 								<p><strong class="">{option.label}:</strong> {option.text}</p>
 							))}
@@ -52,13 +52,13 @@ const carouselImages = studio_images?.map((item: any) => formatUrl(item.image)) 
 					</div>
 
 					<div class="bg-terracotta/10 p-8 rounded-lg border border-white/5">
-						<h3 class="text-2xl font-serif mb-4 ">{arrival?.title}</h3>
+						<h3 class="h2-serif mb-4 ">{arrival?.title}</h3>
 						<div class="prose prose-invert text-white/80 max-w-none" set:html={marked.parse(arrival?.text || '')} />
 					</div>
 
 					{carouselImages.length > 0 && (
 						<div class="mt-12">
-							<h3 class="text-2xl font-serif mb-6 text-center italic">{studio_title}</h3>
+							<h3 class="h2-serif mb-6 text-center italic">{studio_title}</h3>
 							<Carousel images={carouselImages} />
 						</div>
 					)}

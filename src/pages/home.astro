@@ -74,10 +74,10 @@ const {
 			</div>
 			
 			<div class="relative z-10 text-center text-white px-4 max-w-4xl">
-				<p class="text-base md:text-xl tracking-wider font-sans font-bold mb-8 animate-[fadeInUp_0.8s_ease-out_forwards] text-white/90">
+				<p class="eyebrow text-center mb-8 animate-[fadeInUp_0.8s_ease-out_forwards] text-white/90">
 					{hero_subtitle}
 				</p>
-				<h1 class="text-6xl md:text-8xl font-serif mb-10 leading-tight text-balance animate-[fadeInUp_0.8s_ease-out_0.2s_forwards]">
+				<h1 class="display-serif mb-10 text-balance animate-[fadeInUp_0.8s_ease-out_0.2s_forwards]">
 					{hero_title?.split('*').map((part: string, i: number) => i % 2 === 1 ? <em class="italic">{part}</em> : part)}
 				</h1>
 				
@@ -100,9 +100,9 @@ const {
 		{/* Section 2: Values/Intro */}
 		<Section theme="alternate">
 			<div class="max-w-4xl mx-auto text-center">
-				<h2 class="text-4xl md:text-6xl font-serif mb-10 text-balance">{intro_title}</h2>
-				<div class="text-lg leading-relaxed max-w-2xl mx-auto opacity-90 prose prose-invert">
-					{intro_text?.split('\n\n').map((p: string) => <p class="mb-6 last:mb-0">{p}</p>)}
+				<h2 class="h1-serif mb-10 text-balance">{intro_title}</h2>
+				<div class="body-lg max-w-2xl mx-auto opacity-90 prose prose-invert text-left">
+					{intro_text?.split('\n\n').map((p: string) => <p class="mb-6 last:mb-0 text-left">{p}</p>)}
 				</div>
 			</div>
 		</Section>
@@ -122,10 +122,10 @@ const {
 					)}
 				</div>
 				<div class="w-full md:w-1/2 space-y-6">
-					<h3 class="text-4xl font-serif text-balance">{feature_title}</h3>
-					<div class="leading-relaxed opacity-90 prose prose-invert" set:html={marked.parse(feature_text || '')} />
+					<h3 class="h2-serif text-balance">{feature_title}</h3>
+					<div class="body-lg opacity-90 prose prose-invert" set:html={marked.parse(feature_text || '')} />
 					<div class="flex justify-end pt-4">
-						<a href={formatUrl(feature_link_url || '#')} class="inline-flex items-center gap-2 text-sm uppercase tracking-widest border-b border-white/20 pb-1 transition-all duration-300 hover:border-terracotta hover:text-terracotta group">
+						<a href={formatUrl(feature_link_url || '#')} class="eyebrow inline-flex items-center gap-2 border-b border-white/20 pb-1 transition-all duration-300 hover:border-terracotta hover:text-terracotta group">
 							<span>{feature_link_text}</span>
 							<svg class="w-4 h-4 transform transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -139,20 +139,20 @@ const {
 		{/* Section 4: Expandable Content Section */}
 		<Section theme="charcoal">
 			<div class="max-w-6xl mx-auto space-y-16">
-				<h2 class="text-4xl md:text-7xl font-serif text-center italic opacity-90">{wounds_header}</h2>
+				<h2 class="display-serif text-center italic opacity-90">{wounds_header}</h2>
 				
 				<div class="grid md:grid-cols-2 gap-20 items-start">
 					<div class="space-y-8 text-left pt-2">
-						<h3 class="text-3xl md:text-5xl font-serif text-balance leading-tight">{resources_title}</h3>
-						<div class="text-lg opacity-80 leading-relaxed prose prose-invert max-w-md" set:html={marked.parse(resources_text || '')} />
+						<h3 class="h1-serif text-balance leading-tight">{resources_title}</h3>
+						<div class="body-lg opacity-80 prose prose-invert max-w-md" set:html={marked.parse(resources_text || '')} />
 					</div>
 
 					<Accordion items={resources_items || []} />
 				</div>
 
 				<div class="mt-24 pt-20 border-t border-white/10 max-w-3xl mx-auto text-center space-y-8">
-					<div class="text-2xl md:text-3xl font-serif italic leading-snug prose prose-invert prose-lg max-w-none" set:html={marked.parse(adaptations_text || '')} />
-					<div class="text-lg opacity-80 leading-relaxed uppercase tracking-widest text-sm prose prose-invert prose-lg max-w-none" set:html={marked.parse(trauma_therapist_text || '')} />
+					<div class="subtitle-serif prose prose-invert prose-lg max-w-none" set:html={marked.parse(adaptations_text || '')} />
+					<div class="eyebrow opacity-80 prose prose-invert prose-lg max-w-none" set:html={marked.parse(trauma_therapist_text || '')} />
 				</div>
 			</div>
 		</Section>
@@ -160,20 +160,20 @@ const {
 		{/* Section 4.5: Root Therapy Section */}
 		<Section theme="cream">
 			<div class="max-w-4xl mx-auto text-center space-y-10">
-				<h2 class="text-4xl md:text-6xl font-serif leading-tight">{root_title}</h2>
-				<div class="max-w-3xl mx-auto text-lg leading-relaxed opacity-90 prose text-center">
+				<h2 class="h1-serif leading-tight">{root_title}</h2>
+				<div class="max-w-3xl mx-auto body-lg opacity-90 prose text-center">
 					<div set:html={marked.parse(root_content || '')} />
 				</div>
 
 				<div class="mt-24 pt-20 border-t border-black/10 max-w-3xl mx-auto text-center space-y-12">
-					<h3 class="text-3xl md:text-5xl font-serif italic">{is_this_you_title}</h3>
+					<h3 class="h1-serif italic">{is_this_you_title}</h3>
 					
-					<div class="space-y-10 text-lg leading-relaxed opacity-90 prose text-center">
+					<div class="space-y-10 body-lg opacity-90 prose text-center max-w-none">
 						{is_this_you_items?.map((item: any) => (
-							<div>
-								<h4 class="text-xl uppercase tracking-widest font-bold mb-4">{item.title}</h4>
-								{item.subtitle && <p class="italic mb-4">{item.subtitle}</p>}
-								<div set:html={marked.parse(item.body || '')} />
+							<div class="text-center">
+								<h4 class="eyebrow text-center mb-4">{item.title}</h4>
+								{item.subtitle && <p class="subtitle-serif text-center mb-4">{item.subtitle}</p>}
+								<div class="text-center" set:html={marked.parse(item.body || '')} />
 							</div>
 						))}
 					</div>
@@ -196,15 +196,15 @@ const {
 					</div>
 					<div class="w-full md:w-2/3 space-y-8">
 						<div class="max-w-2xl">
-							<h2 class="text-5xl md:text-7xl font-serif mb-4">{kaylie_title}</h2>
-							<p class="text-xl md:text-2xl font-serif italic opacity-80">{kaylie_subtitle}</p>
+							<h2 class="display-serif mb-4">{kaylie_title}</h2>
+							<p class="subtitle-serif">{kaylie_subtitle}</p>
 						</div>
 						
 						<div class="space-y-6">
-							<div class="text-lg leading-relaxed opacity-90 max-w-3xl prose" set:html={marked.parse(kaylie_bio || '')} />
+							<div class="body-lg opacity-90 max-w-3xl prose" set:html={marked.parse(kaylie_bio || '')} />
 							
 							<div class="flex justify-end">
-								<a href={formatUrl(kaylie_link_url || '#')} class="inline-flex items-center gap-2 text-sm uppercase tracking-widest font-medium hover:text-terracotta transition-colors group">
+								<a href={formatUrl(kaylie_link_url || '#')} class="eyebrow inline-flex items-center gap-2 hover:text-terracotta transition-colors group">
 									<span>{kaylie_link_text}</span>
 									<svg class="w-4 h-4 transform transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -220,8 +220,8 @@ const {
 		{/* Section 6: Specialties Summary */}
 		<Section theme="alternate" class="border-t border-black/5">
 			<div class="max-w-4xl mx-auto text-center space-y-12">
-				<h2 class="text-4xl md:text-6xl font-serif uppercase">My Specialties</h2>
-				<div class="flex flex-col items-center gap-y-6 text-sm md:text-base font-medium tracking-[0.2em] uppercase opacity-80">
+				<h2 class="h1-serif uppercase">My Specialties</h2>
+				<div class="flex flex-col items-center gap-y-6 eyebrow opacity-80">
 					{specialties?.map((spec: any, index: number) => (
 						<>
 							<span>{spec.name}</span>
@@ -235,14 +235,14 @@ const {
 		{/* Section 7: How to Get Started */}
 		<Section theme="none" class="bg-terracotta text-paper">
 			<div class="max-w-4xl mx-auto text-center space-y-12">
-				<h2 class="text-4xl md:text-6xl font-serif italic lowercase tracking-tight">{how_to_start_title}</h2>
+				<h2 class="display-serif italic lowercase tracking-tight">{how_to_start_title}</h2>
 				<div class="w-3/4 h-px bg-white/30 mx-auto"></div>
 				
 				<div class="grid md:grid-cols-3 gap-20 mt-20">
 					{how_to_start_items?.map((item: any) => (
 						<div class="space-y-6">
-							<span class="text-4xl font-serif opacity-40">{item.number}</span>
-							<h3 class="text-xl uppercase tracking-widest font-bold">{item.title}</h3>
+							<span class="display-serif opacity-40">{item.number}</span>
+							<h3 class="eyebrow text-white">{item.title}</h3>
 							<div class="text-sm opacity-80 leading-relaxed" set:html={marked.parse(item.text || '')} />
 						</div>
 					))}
@@ -254,10 +254,10 @@ const {
 		<Section theme="cream">
 			<div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-16">
 				<div class="w-full md:w-1/2 text-left space-y-8">
-					<h2 class="text-3xl md:text-5xl font-sans font-bold tracking-[0.2em] uppercase leading-tight text-balance">
+					<h2 class="h1-serif leading-tight text-balance">
 						{callout_title}
 					</h2>
-					<div class="space-y-6 text-lg leading-relaxed opacity-90 prose" set:html={marked.parse(callout_text || '')} />
+					<div class="space-y-6 body-lg opacity-90 prose" set:html={marked.parse(callout_text || '')} />
 				</div>
 				<div class="w-full md:w-1/2">
 					{callout_image && (
@@ -288,8 +288,8 @@ const {
 			</div>
 			<div class="w-full md:w-1/2 bg-olive text-white flex flex-col items-center justify-center p-12 text-center space-y-10">
 				<div class="space-y-6">
-					<h2 class="text-lg md:text-xl uppercase tracking-[0.2em] font-sans opacity-80">{final_cta_tagline}</h2>
-					<p class="text-4xl md:text-6xl font-serif italic leading-tight">{final_cta_title}</p>
+					<h2 class="eyebrow opacity-80">{final_cta_tagline}</h2>
+					<p class="display-serif italic leading-tight">{final_cta_title}</p>
 				</div>
 				
 				<div class="pt-6">

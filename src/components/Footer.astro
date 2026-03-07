@@ -18,7 +18,7 @@ const base = import.meta.env.BASE_URL;
 		<div class={`grid grid-cols-2 md:grid-cols-${footer_columns?.length || 2} gap-10`}>
 			{footer_columns?.map(column => (
 				<div>
-					<h3 class="text-xs uppercase tracking-widest font-bold mb-4 opacity-40">{column.title}</h3>
+					<h3 class="eyebrow mb-4 opacity-40">{column.title}</h3>
 					<ul class="space-y-2 text-sm opacity-70">
 						{column.links.map(link => (
 							<li><a href={formatUrl(link.href)} class="hover:text-terracotta transition-colors link-underline">{link.name}</a></li>
@@ -36,7 +36,7 @@ const base = import.meta.env.BASE_URL;
 			<p>&copy; {year} {site_name}. All rights reserved.</p>
 			<button 
 				id="logout-button" 
-				class="hidden hover:text-terracotta transition-colors uppercase tracking-widest text-[10px]"
+				class="hidden hover:text-terracotta transition-colors eyebrow text-[10px]"
 			>
 				Staff Logout
 			</button>
