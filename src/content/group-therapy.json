@@ -1,48 +1,56 @@
 {
-  "title": "Group Therapy",
-  "subtitle": "Connection & healing in community.",
-  "intro": {
-    "title": "What group therapy offers that individual therapy doesn't",
-    "text1": "People seek out group therapy because it offers unique benefits that individual therapy alone can't provide: healing through connection. Where individual therapy focuses on one-on-one, personalized support, group therapy provides an interpersonal-based experience that can foster healing in different ways.",
-    "quote": "A space to feel seen, heard, and understood by people who get it."
-  },
+  "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
   "benefits_section": {
-    "title": "Why choose group therapy?",
+    "title": "This Group Is For You If:",
     "benefits": [
       {
-        "title": "Connection & Belonging",
-        "text": "One of the biggest benefits of group therapy is realizing you’re not alone. Group therapy provides a space to connect with others who have similar experiences, which can be deeply validating and reduce feelings of shame or loneliness."
+        "title": "You're doing too much",
+        "text": " for everyone except yourself. You're not resentful yet, but you're close. You feel the weight building."
       },
       {
-        "title": "Peer Support & Feedback",
-        "text": "Group members offer honest, compassionate feedback that can help you gain new perspectives. You’ll learn how others see you and how your behaviors impact those around you."
+        "title": "You struggle to say no",
+        "text": " without feeling guilty. Every boundary feels like you're letting someone down."
       },
       {
-        "title": "Opportunities for Practice - and for Healing",
-        "text": "Many of our deepest wounds are relational. Group therapy allows you to heal in a relational setting. By building trust and connection with group members, you can start to shift unhealthy patterns and learn new ways of relating."
+        "title": "You're exhausted",
+        "text": " from constantly monitoring everyone else's needs while yours go unmet."
+      },
+      {
+        "title": "You feel invisible",
+        "text": " even when you're surrounded by people. Because they see what you DO for them, not who you ARE."
+      },
+      {
+        "title": "Deep down, you're actually terrified",
+        "text": " of being \"too much\" or \"a burden,\" so you stay small and helpful instead."
       }
     ]
   },
-  "featured_group": {
-    "title": "Holding It Together",
-    "subtitle": "Group Therapy for Adults Who Are Quietly Struggling With Overwhelm or Disconnection",
-    "text": "You show up for work, for family, for friends. To the outside world, you look high functioning and capable. But inside, the emotional load can get overwhelming.",
-    "cta_text": "Learn More About This Group",
-    "cta_url": "/holding-it-together"
+  "intro": {
+    "title": "You look like you have it all together. But inside? You're drowning.",
+    "text1": "You show up for everyone. You say yes when you want to scream no. You carry everyone else's emotions while yours pile up in the corner, ignored and heavy.\n\nAnd the worst part? Nobody even knows you're struggling because you're too busy making sure THEY'RE okay.",
+    "quote": "If you're tired of being the person everyone leans on while you quietly fall apart, you're in the right place."
   },
   "is_right_section": {
     "title": "Is group right for you?",
-    "text": "Group therapy may be especially beneficial if you're experiencing:",
+    "text": "Before you register, I need to be honest about who will get the most from this experience. This group may be especially beneficial if you:",
     "points": [
-      "Anxiety (including social anxiety)",
-      "Depression",
-      "Trauma or PTSD",
-      "Relationship challenges",
-      "Shame and self-criticism",
-      "Emotional regulation issues",
-      "Isolation and loneliness"
+      "Struggle with people-pleasing but want to change",
+      "Feel exhausted from constantly saying yes to others",
+      "Are ready to practice setting boundaries in a supportive space",
+      "Want to learn practical skills for managing anxiety and perfectionism",
+      "Can commit to attending all 6 sessions",
+      "Have a therapist or are stable enough for group work"
     ]
   },
-  "cta_text": "Schedule a Call",
-  "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/"
+  "featured_group": {
+    "title": "What You'll Actually Learn In This Group",
+    "subtitle": "\"Holding It Together\"",
+    "text": "This isn't therapy where you just talk about your feelings and nothing changes.\n\nYou'll learn practical skills you can use the moment anxiety or perfectionism kicks into overdrive. Things like:\n\nGrounding techniques that bring you back to YOUR body when you're spiraling in someone else's drama. You'll practice feeling your feet on the floor, your breath in your chest, being present in YOUR moment instead of everyone else's chaos.\n\nThe pause practice. Before you automatically say yes, before you jump into fix-it mode, you'll learn to ask: \"What's here for ME right now? What within me needs my attention?\" And actually respond to that instead of abandoning yourself.\n\nTolerating being seen. Not just SEEING everyone else, but letting yourself be witnessed. Learning that your needs aren't annoying. Your struggles aren't complaining. That weight you're carrying? It IS heavy. And you're allowed to say so.\n\n## How This Group Actually Works\n\n### The Details\n\n* 6-week closed therapy group\n* In-person in Leesburg, Virginia\n* Every Tuesday at 6:00 PM (75-minute sessions)\n* Starting May 6th, 2026\n* Small group: 5 to 8 participants maximum\n* Investment: $495 for the complete 6-week program\n\n### What Each Session Looks Like\n\nThis is a trauma-informed, connection-based group. That means we're not forcing vulnerability or pushing you to share before you're ready.\n\nEach session includes:\n\n* Intentional guided discussions where everyone participates at their comfort level\n* Practical grounding and mindfulness techniques you can use immediately\n* Emotional and embodiment practices that help you stay present with yourself\n* Space to practice being authentic without performing or people-pleasing\n* Real connection with others who actually understand what you're going through\n\n## Why Group Therapy Works Better Than Going It Alone\n\nYou'll finally stop feeling like you're the only one struggling with this. Hearing others share similar experiences breaks the isolation that keeps you stuck.\n\nYou'll learn from watching others set boundaries and practice saying no. Sometimes seeing someone else do it first makes it feel possible for YOU.\n\nSharing your story in a safe space IS healing. Not performative sharing, but real \"this is what's actually happening\" honesty.\n\nYou'll build compassion for yourself by extending it to others first. It's easier to see that someone else isn't \"too much\" before you can believe it about yourself.",
+    "cta_text": "Learn More About This Group",
+    "cta_url": "/holding-it-together"
+  },
+  "seo_title": "Group Therapy for People-Pleasers in Leesburg, VA",
+  "subtitle": "Connection & healing in community.",
+  "title": "Group Therapy",
+  "cta_text": "Schedule a Call"
 }
