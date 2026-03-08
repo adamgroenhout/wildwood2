@@ -8,9 +8,9 @@ const settingsEntry = await getEntry('settings', 'settings');
 const { site_name, logo, navigation, header_cta_text, header_cta_href } = settingsEntry?.data || {};
 ---
 
-<header class="fixed top-0 left-0 right-0 z-50 bg-olive/95 backdrop-blur-sm border-b border-paper/5 pointer-events-none">
+<header class="fixed top-0 left-0 right-0 z-50 bg-olive/0 transition duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] border-b border-transparent pointer-events-none">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pointer-events-auto">
-		<div class="flex justify-between items-center h-20">
+		<div class="flex justify-between items-center h-20 md:h-24 transition-[height] duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]" id="header-inner">
 			<div class="flex-shrink-0">
 				<a href={formatUrl('home')} id="logo-link" class="flex items-center gap-3 text-lg md:text-xl tracking-tight uppercase text-paper font-serif">
 					<Image 
@@ -109,16 +109,21 @@ const { site_name, logo, navigation, header_cta_text, header_cta_href } = settin
 		const menuIcon = document.getElementById('menu-icon');
 		const closeIcon = document.getElementById('close-icon');
 		const header = document.querySelector('header');
+		const headerInner = document.getElementById('header-inner');
 
 		// Scroll listener for header shadow
 		window.addEventListener('scroll', () => {
-			if (header) {
-				if (window.scrollY > 10) {
-					header.classList.add('shadow-xl', 'border-paper/10');
-					header.classList.remove('border-paper/5');
+			if (header && headerInner) {
+				if (window.scrollY > 20) {
+					header.classList.add('bg-olive/95', 'backdrop-blur-md', 'border-paper/10', 'shadow-soft');
+					header.classList.remove('bg-olive/0', 'border-transparent');
+					headerInner.classList.remove('h-20', 'md:h-24');
+					headerInner.classList.add('h-16', 'md:h-20');
 				} else {
-					header.classList.remove('shadow-xl', 'border-paper/10');
-					header.classList.add('border-paper/5');
+					header.classList.remove('bg-olive/95', 'backdrop-blur-md', 'border-paper/10', 'shadow-soft');
+					header.classList.add('bg-olive/0', 'border-transparent');
+					headerInner.classList.add('h-20', 'md:h-24');
+					headerInner.classList.remove('h-16', 'md:h-20');
 				}
 			}
 		}, { passive: true });

@@ -24,22 +24,26 @@ const flexDirection = data.image_position === 'right' ? 'md:flex-row-reverse' : 
 ---
 
 <Section theme={data.theme || 'alternate'} padding={data.padding || 'small'} class="overflow-hidden">
-  <div class={`max-w-7xl mx-auto flex flex-col items-center gap-12 lg:gap-16 ${flexDirection}`}>
+  <div class={`max-w-7xl mx-auto flex flex-col items-center gap-16 lg:gap-24 ${flexDirection}`}>
     <div class="w-full md:w-1/2 group">
       {data.image && (
-        <Image
-          src={formatUrl(data.image)}
-          alt={data.image_alt || ''}
-          width={800}
-          height={1000}
-          class="w-full h-auto max-h-[600px] object-cover rounded-brand shadow-md"
-        />
+        <div class="relative overflow-hidden rounded-brand shadow-soft hover:shadow-elevated transition-all duration-700">
+          <Image
+            src={formatUrl(data.image)}
+            alt={data.image_alt || ''}
+            width={800}
+            height={1000}
+            class="w-full h-auto max-h-[700px] object-cover transition-transform duration-[1.5s] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105"
+          />
+        </div>
       )}
     </div>
-    <div class="w-full md:w-1/2 space-y-6">
-      {data.title && <h2 class="h2-serif text-balance">{data.title}</h2>}
-      {data.subtitle && <p class="subtitle-serif opacity-90">{data.subtitle}</p>}
-      {data.body && <div class="body-lg opacity-90 prose" set:html={marked.parse(data.body)} />}
+    <div class="w-full md:w-1/2 space-y-8">
+      <div class="space-y-4">
+        {data.subtitle && <p class="eyebrow text-terracotta">{data.subtitle}</p>}
+        {data.title && <h2 class="h2-serif text-balance leading-tight">{data.title}</h2>}
+      </div>
+      {data.body && <div class="body-lg opacity-85 prose prose-lg" set:html={marked.parse(data.body)} />}
       
       {data.link_text && data.link_url && (
         <div class="flex justify-start pt-4">

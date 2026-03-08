@@ -20,18 +20,20 @@ const {
 } = Astro.props;
 
 const titleClasses = theme === 'large' 
-  ? 'py-4 text-3xl font-serif italic hover:text-terracotta transition-colors'
-  : 'py-2 text-xl font-serif italic hover:text-terracotta transition-colors';
+  ? 'py-6 text-3xl md:text-4xl font-serif italic hover:text-terracotta transition-colors'
+  : 'py-4 text-xl md:text-2xl font-serif italic hover:text-terracotta transition-colors';
 ---
 
-<div class:list={['space-y-4', className]}>
+<div class:list={['space-y-2', className]}>
   {items.map((item) => (
-    <details class="group border-b border-current/10 last:border-0 pb-4">
-      <summary class:list={['flex justify-between items-center cursor-pointer list-none', titleClasses]}>
+    <details class="group border-b border-current/10 last:border-0">
+      <summary class:list={['flex justify-between items-center cursor-pointer list-none py-2', titleClasses]}>
         <span>{item.title}</span>
-        <span class="text-3xl transition-transform group-open:rotate-45 block leading-none">+</span>
+        <svg class="w-6 h-6 transition-transform duration-500 group-open:rotate-45 opacity-40 group-hover:opacity-100" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M12 6v12m6-6H6" />
+        </svg>
       </summary>
-      <div class="pt-4 pb-6 prose body-lg max-w-none opacity-90 group-open:animate-fade-in">
+      <div class="pt-2 pb-10 prose body-lg max-w-none opacity-0 translate-y-2 group-open:opacity-90 group-open:translate-y-0 transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]">
         {item.content && <div set:html={marked.parse(item.content)} />}
         {item.items && (
           <ul class="list-disc pl-6 space-y-2">

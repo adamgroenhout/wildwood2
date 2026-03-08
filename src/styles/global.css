@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  /* Brand Radius - 4px standard */
-  --radius-brand: 0.25rem;
-  --radius-xl: 0.375rem;
-  --radius-lg: 0.25rem;
-  --radius-md: 0.125rem;
-  --radius-sm: 0.0625rem;
-  --radius: 0.125rem;
+  /* Brand Radius - Softer 8px standard for modern elegance */
+  --radius-brand: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-lg: 0.5rem;
+  --radius-md: 0.375rem;
+  --radius-sm: 0.25rem;
+  --radius: 0.5rem;
 
   /* Wildwood Brand Palette */
   --color-olive: #294b27;
@@ -24,28 +24,32 @@
   --font-sans: "Arimo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   --font-serif: "Instrument Serif", Georgia, Cambria, "Times New Roman", Times, serif;
 
+  /* Sophisticated Transitions - Optimized */
+  --ease-gentle: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: opacity 0.6s var(--ease-gentle), transform 0.6s var(--ease-gentle);
+
   /* Section Spacing Standards */
-  --spacing-section-standard-pt: 4rem; /* 64px */
-  --spacing-section-standard-pt-md: 6rem; /* 96px */
-  --spacing-section-standard-pb: 4rem; /* 64px */
-  --spacing-section-standard-pb-md: 6rem; /* 96px */
+  --spacing-section-standard-pt: 5rem; /* 80px */
+  --spacing-section-standard-pt-md: 8rem; /* 128px */
+  --spacing-section-standard-pb: 5rem; /* 80px */
+  --spacing-section-standard-pb-md: 8rem; /* 128px */
   
-  --spacing-section-small-y: 3rem; /* 48px */
-  --spacing-section-small-y-md: 5rem; /* 80px */
+  --spacing-section-small-y: 3.5rem; /* 56px */
+  --spacing-section-small-y-md: 6rem; /* 96px */
   
-  --spacing-section-large-y: 8rem; /* 128px */
-  --spacing-section-large-y-md: 12rem; /* 192px */
+  --spacing-section-large-y: 10rem; /* 160px */
+  --spacing-section-large-y-md: 14rem; /* 224px */
 
-  --spacing-hero-pt: 6rem; /* 96px */
-  --spacing-hero-pt-md: 8rem; /* 128px */
-  --spacing-hero-pb: 4rem; /* 64px */
-  --spacing-hero-pb-md: 6rem; /* 96px */
+  --spacing-hero-pt: 8rem; /* 128px */
+  --spacing-hero-pt-md: 10rem; /* 160px */
+  --spacing-hero-pb: 5rem; /* 80px */
+  --spacing-hero-pb-md: 8rem; /* 128px */
 
-  --spacing-hero-content-gap: 4rem; /* 64px */
-  --spacing-hero-content-gap-md: 6rem; /* 96px */
+  --spacing-hero-content-gap: 5rem; /* 80px */
+  --spacing-hero-content-gap-md: 8rem; /* 128px */
 
-  --spacing-hero-title-gap: 1.5rem; /* 24px */
-  --spacing-hero-title-gap-md: 2rem; /* 32px */
+  --spacing-hero-title-gap: 2rem; /* 32px */
+  --spacing-hero-title-gap-md: 3rem; /* 48px */
 }
 
 @layer base {
@@ -53,6 +57,8 @@
     --theme-text: var(--color-charcoal);
     --theme-heading: var(--color-olive);
     --theme-border: color-mix(in srgb, var(--color-olive) 10%, transparent);
+    --shadow-soft: 0 4px 20px -2px color-mix(in srgb, var(--color-olive) 12%, transparent), 0 2px 10px -4px color-mix(in srgb, var(--color-olive) 8%, transparent);
+    --shadow-elevated: 0 20px 40px -4px color-mix(in srgb, var(--color-olive) 15%, transparent), 0 8px 16px -8px color-mix(in srgb, var(--color-olive) 10%, transparent);
   }
 
   html {
@@ -79,61 +85,67 @@
   /* Typography Refinements */
   h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.015em;
     font-family: var(--font-serif);
     color: var(--theme-heading);
+    line-height: 1.15;
   }
 
   p {
-    line-height: 1.6;
+    line-height: 1.65;
   }
 
   /* Semantic Typography Classes */
   .display-serif {
     font-family: var(--font-serif);
-    font-size: clamp(2.5rem, 8vw, 5rem);
-    line-height: 1.1;
-    letter-spacing: -0.02em;
+    font-size: clamp(2.75rem, 9vw, 5.5rem);
+    line-height: 1.05;
+    letter-spacing: -0.03em;
     text-align: center;
   }
 
   .h1-serif {
     font-family: var(--font-serif);
-    font-size: clamp(2.25rem, 6vw, 3.75rem);
-    line-height: 1.2;
+    font-size: clamp(2.5rem, 7vw, 4rem);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
   }
 
   .h2-serif {
     font-family: var(--font-serif);
-    font-size: clamp(1.875rem, 4vw, 2.5rem);
-    line-height: 1.3;
+    font-size: clamp(2rem, 5vw, 2.75rem);
+    line-height: 1.2;
+    letter-spacing: -0.015em;
   }
 
   .h3-serif {
     font-family: var(--font-serif);
-    font-size: 1.5rem;
-    line-height: 1.4;
+    font-size: 1.75rem;
+    line-height: 1.3;
   }
 
   .eyebrow {
     font-family: var(--font-sans);
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     text-transform: uppercase;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.18em;
     font-weight: 700;
+    opacity: 0.8;
   }
 
   .subtitle-serif {
     font-family: var(--font-serif);
-    font-size: 1.5rem;
+    font-size: clamp(1.25rem, 3vw, 1.75rem);
     font-style: italic;
-    opacity: 0.9;
+    opacity: 0.85;
+    line-height: 1.5;
   }
 
   .body-lg {
     font-size: 1.125rem;
-    line-height: 1.7;
+    line-height: 1.8;
     text-align: left;
+    opacity: 0.9;
   }
 
   /* Custom Focus Ring */
@@ -141,9 +153,37 @@
     outline: 2px solid var(--color-terracotta);
     outline-offset: 4px;
   }
+
+  /* Reveal on Scroll Core */
+  .reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: var(--transition-smooth);
+    will-change: transform, opacity;
+  }
+
+  .reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @layer components {
+  /* Subtle Grain Overlay Utility - Optimized */
+  .grain {
+    position: relative;
+  }
+
+  .grain::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='1' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    opacity: 0.04;
+    pointer-events: none;
+    z-index: 9999;
+  }
+
   /* Theme Variable Definitions */
   .theme-light {
     --theme-text: var(--color-charcoal);
@@ -157,7 +197,7 @@
     --theme-border: color-mix(in srgb, var(--color-paper) 15%, transparent);
   }
 
-  /* Section Backgrounds - Now mapping to themes manually to avoid @apply issues */
+  /* Section Backgrounds */
   .bg-sage { background-color: var(--color-sage); color: var(--color-charcoal); --theme-text: var(--color-charcoal); --theme-heading: var(--color-olive); }
   .bg-cream { background-color: var(--color-cream); color: var(--color-charcoal); --theme-text: var(--color-charcoal); --theme-heading: var(--color-olive); }
   .bg-sand { background-color: var(--color-sand); color: var(--color-charcoal); --theme-text: var(--color-charcoal); --theme-heading: var(--color-olive); }
@@ -169,7 +209,7 @@
 
   /* Alternating Section Colors */
   .bg-alternate {
-    transition: background-color 0.5s ease;
+    transition: background-color 0.8s var(--ease-gentle);
     --theme-text: var(--color-charcoal);
     --theme-heading: var(--color-olive);
     color: var(--theme-text);
@@ -193,8 +233,8 @@
   .prose-container {
     padding-top: var(--spacing-section-standard-pt);
     padding-bottom: var(--spacing-section-standard-pb);
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   @media (min-width: 768px) {
@@ -223,84 +263,100 @@
     margin-bottom: 0 !important;
   }
   
-  .prose p { margin-top: 1.25em; margin-bottom: 1.25em; }
-  .prose h1, .prose h2, .prose h3, .prose h4 { color: var(--theme-heading); margin-top: 2em; margin-bottom: 1em; }
-  .prose ul { list-style-type: disc; padding-left: 1.625em; margin-top: 1.25em; margin-bottom: 1.25em; }
-  .prose li { margin-top: 0.5em; margin-bottom: 0.5em; }
+  .prose p { margin-top: 1.5em; margin-bottom: 1.5em; }
+  .prose h1, .prose h2, .prose h3, .prose h4 { color: var(--theme-heading); margin-top: 2.5em; margin-bottom: 1.25em; }
+  .prose ul { list-style-type: disc; padding-left: 1.625em; margin-top: 1.5em; margin-bottom: 1.5em; }
+  .prose li { margin-top: 0.75em; margin-bottom: 0.75em; }
   .prose strong { color: inherit; font-weight: 700; }
-  .prose a:not(.btn) { color: var(--color-terracotta); text-decoration: underline; font-weight: 500; }
-  .prose blockquote { border-left: 4px solid var(--color-terracotta); padding-left: 1em; font-style: italic; opacity: 0.9; }
+  .prose a:not(.btn) { 
+    color: var(--color-terracotta); 
+    text-decoration: none; 
+    border-bottom: 1px solid color-mix(in srgb, var(--color-terracotta) 30%, transparent);
+    transition: border-color 0.3s ease;
+    font-weight: 500; 
+  }
+  .prose a:not(.btn):hover {
+    border-color: var(--color-terracotta);
+  }
+  .prose blockquote { border-left: 3px solid var(--color-terracotta); padding-left: 1.5em; font-style: italic; opacity: 0.9; color: var(--color-olive); }
 
   /* Global Button System */
   .btn {
     display: inline-block;
-    padding: 1rem 2.5rem; /* px-10 py-4 */
-    font-size: 0.875rem; /* text-sm */
-    font-weight: 500;
+    padding: 1.125rem 2.75rem;
+    font-size: 0.75rem;
+    font-weight: 700;
     font-family: var(--font-sans);
     text-transform: uppercase;
-    letter-spacing: 0.12em; /* tracking-widest */
+    letter-spacing: 0.2em;
     text-align: center;
-    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    transition: var(--transition-smooth);
     border-radius: var(--radius-brand);
     cursor: pointer;
     text-decoration: none !important;
     line-height: 1;
+    position: relative;
+    overflow: hidden;
   }
 
   .btn:active {
-    transform: scale(0.95);
+    transform: scale(0.97);
   }
 
   .btn-terracotta {
     background-color: var(--color-terracotta);
     color: var(--color-paper);
     border: 1px solid var(--color-terracotta);
-    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow-soft);
   }
 
   .btn-terracotta:hover {
     background-color: var(--color-terracotta-dark);
     border-color: var(--color-terracotta-dark);
-    transform: translateY(-2px);
-    box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-elevated);
     color: var(--color-paper);
   }
 
   .btn-white {
     background-color: transparent;
     color: var(--color-paper);
-    border: 1px solid var(--color-paper);
-    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.1);
+    border: 1px solid color-mix(in srgb, var(--color-paper) 40%, transparent);
+    backdrop-blur: 4px;
   }
 
   .btn-white:hover {
     background-color: var(--color-paper);
     color: var(--color-olive);
-    transform: translateY(-2px);
+    transform: translateY(-3px);
+    border-color: var(--color-paper);
+    box-shadow: var(--shadow-elevated);
   }
 
   .btn-outline {
     background-color: transparent;
-    color: var(--color-olive);
-    border: 1px solid var(--color-olive);
+    color: var(--theme-heading);
+    border: 1px solid color-mix(in srgb, var(--theme-heading) 30%, transparent);
   }
 
   .btn-outline:hover {
-    background-color: var(--color-olive);
+    background-color: var(--theme-heading);
     color: var(--color-paper);
-    transform: translateY(-2px);
+    transform: translateY(-3px);
+    border-color: var(--theme-heading);
+    box-shadow: var(--shadow-elevated);
   }
 
   .btn-ghost {
     background-color: transparent;
     color: var(--color-paper);
-    border: 1px solid rgba(249, 247, 240, 0.2);
+    border: 1px solid rgba(249, 247, 240, 0.15);
   }
 
   .btn-ghost:hover {
     background-color: var(--color-paper);
     color: var(--color-olive);
+    transform: translateY(-3px);
   }
 
   /* Link Underline Animation */
@@ -314,10 +370,10 @@
     position: absolute;
     width: 0;
     height: 1px;
-    bottom: -2px;
+    bottom: -4px;
     left: 0;
     background-color: currentColor;
-    transition: width 0.3s ease;
+    transition: width 0.4s var(--ease-gentle);
   }
 
   .link-underline:hover::after {
@@ -327,7 +383,7 @@
   @keyframes fadeInUp {
     from {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(30px);
     }
     to {
       opacity: 1;
@@ -340,4 +396,7 @@
   .text-balance {
     text-wrap: balance;
   }
+  
+  .shadow-soft { box-shadow: var(--shadow-soft); }
+  .shadow-elevated { box-shadow: var(--shadow-elevated); }
 }

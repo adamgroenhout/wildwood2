@@ -40,15 +40,20 @@ const colClass = gridCols[data.columns || '3'];
       </div>
     )}
     
-    <div class={`grid ${colClass} gap-12 lg:gap-20 ${data.style === 'minimal' ? 'text-center' : 'text-left'}`}>
+    <div class={`grid ${colClass} gap-10 lg:gap-16 ${data.style === 'minimal' ? 'text-center' : 'text-left'}`}>
       {data.items.map((item) => (
-        <div class="space-y-4">
+        <div class:list={[
+          "space-y-6 transition-[transform,box-shadow] duration-500",
+          data.style === 'cards' ? "bg-paper p-8 md:p-10 rounded-brand shadow-soft hover:shadow-elevated hover:-translate-y-1 border border-black/5" : ""
+        ]}>
           {data.style === 'numbered' && item.number && (
-            <span class="display-serif opacity-40 block mb-4">{item.number}</span>
+            <span class="display-serif opacity-20 block mb-6 text-5xl">{item.number}</span>
           )}
-          {item.title && <h3 class="eyebrow">{item.title}</h3>}
-          {item.subtitle && <p class="subtitle-serif opacity-90">{item.subtitle}</p>}
-          {item.text && <div class="text-sm opacity-80 leading-relaxed prose" set:html={marked.parse(item.text)} />}
+          <div class="space-y-4">
+            {item.title && <h3 class="eyebrow text-terracotta">{item.title}</h3>}
+            {item.subtitle && <p class="h3-serif !italic leading-snug">{item.subtitle}</p>}
+            {item.text && <div class="text-sm opacity-80 leading-relaxed prose prose-sm max-w-none" set:html={marked.parse(item.text)} />}
+          </div>
         </div>
       ))}
     </div>

@@ -66,9 +66,44 @@ const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
 			document.addEventListener('astro:after-swap', () => document.documentElement.classList.add('astro-ready'));
 		</script>
 	</head>
-	<body class="bg-olive text-paper/90 font-sans selection:bg-terracotta/40">
+	<body class="bg-olive text-paper/90 font-sans selection:bg-terracotta/40 grain">
 		{!hideNav && <Header transition:persist />}
 		<slot />
 		{!hideNav && <Footer />}
+
+		<script is:inline>
+			// Global reveal on scroll
+			function initReveals() {
+				const observerOptions = {
+					root: null,
+					rootMargin: '0px',
+					threshold: 0.1
+				};
+
+				const observer = new IntersectionObserver((entries) => {
+					entries.forEach(entry => {
+						if (entry.isIntersecting) {
+							entry.target.classList.add('active');
+						}
+					});
+				}, observerOptions);
+
+				// Find all elements that should reveal
+				// We can target sections or specific elements
+				const revealElements = document.querySelectorAll('section, .reveal');
+				revealElements.forEach(el => {
+					if (!el.classList.contains('reveal')) {
+						el.classList.add('reveal');
+					}
+					observer.observe(el);
+				});
+			}
+
+			// Run on initial load
+			initReveals();
+
+			// Run after view transitions
+			document.addEventListener('astro:after-swap', initReveals);
+		</script>
 	</body>
 </html>
