@@ -164,6 +164,8 @@ collections:
                   - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
                   - { label: "Text", name: "text", widget: "markdown", required: false }
                   - { label: "Number", name: "number", widget: "string", required: false }
+                  - { label: "Link URL", name: "link_url", widget: "string", required: false }
+                  - { label: "Link Text", name: "link_text", widget: "string", required: false, default: "Learn more" }
               - { label: "Columns", name: "columns", widget: "select", options: ["2", "3", "4"], default: "3" }
               - { label: "Style", name: "style", widget: "select", options: ["cards", "minimal", "numbered"], default: "minimal" }
               - { label: "Theme", name: "theme", widget: "select", options: ["sage", "cream", "sand", "paper", "charcoal", "olive", "alternate"], default: "alternate" }

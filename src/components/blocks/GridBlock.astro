@@ -1,5 +1,6 @@
 ---
 import Section from '../Section.astro';
+import { formatUrl } from '../../utils/paths';
 import { marked } from 'marked';
 
 interface Props {
@@ -12,6 +13,8 @@ interface Props {
       text?: string;
       body?: string;
       number?: string;
+      link_url?: string;
+      link_text?: string;
     }>;
     theme?: 'sage' | 'cream' | 'sand' | 'paper' | 'charcoal' | 'olive' | 'alternate';
     columns?: '2' | '3' | '4';
@@ -53,17 +56,27 @@ const colClass = gridCols[data.columns || '3'];
     <div class={`grid ${colClass} gap-x-10 gap-y-16 lg:gap-x-16 lg:gap-y-20 ${data.style === 'minimal' ? 'text-center' : 'text-left'}`}>
       {data.items.map((item) => (
         <div class:list={[
-          "space-y-8 transition-[transform,box-shadow] duration-500",
+          "space-y-8 transition-[transform,box-shadow] duration-500 flex flex-col h-full",
           data.style === 'cards' ? "bg-paper p-8 md:p-10 rounded-brand shadow-soft hover:shadow-elevated hover:-translate-y-1 border border-black/5" : ""
         ]}>
           {data.style === 'numbered' && item.number && (
             <span class="display-serif opacity-20 block mb-2 text-6xl text-terracotta">{item.number}</span>
           )}
-          <div class="space-y-4">
+          <div class="space-y-4 flex-grow">
             {item.title && <h3 class="eyebrow text-terracotta tracking-wider">{item.title}</h3>}
             {item.subtitle && <p class="h3-serif !italic leading-snug">{item.subtitle}</p>}
             {(item.text || item.body) && <div class="body-lg opacity-85 leading-relaxed prose prose-sm max-w-none" set:html={marked.parse((item.text || item.body) as string)} />}
           </div>
+          {item.link_url && (
+            <div class="pt-4 mt-auto">
+              <a href={formatUrl(item.link_url)} class="eyebrow inline-flex items-center gap-2 border-b border-current/20 pb-1 transition-all duration-300 hover:border-terracotta hover:text-terracotta group">
+                <span>{item.link_text || 'Learn more'}</span>
+                <svg class="w-4 h-4 transform transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+            </div>
+          )}
         </div>
       ))}
     </div>

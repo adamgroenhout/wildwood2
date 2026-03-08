@@ -138,16 +138,25 @@
       "title": "My Specialties",
       "items": [
         {
-          "title": "Trauma + EMDR"
+          "title": "Trauma + EMDR",
+          "text": "Move past simply talking about your trauma. We use EMDR to help your brain actually reprocess and integrate stuck memories so they stop hijacking your present.",
+          "link_url": "/trauma-and-emdr",
+          "link_text": "Explore EMDR Therapy"
         },
         {
-          "title": "ENM + Polyamorous Relationships"
+          "title": "ENM + Polyamorous Relationships",
+          "text": "Navigate jealousy, boundaries, and communication breakdowns in a judgment-free space with a therapist who truly understands the unique dynamics of non-traditional relationships.",
+          "link_url": "/relationships",
+          "link_text": "Explore Relationship Therapy"
         },
         {
-          "title": "Anxiety & Depression"
+          "title": "Anxiety & Depression",
+          "text": "Break the cycle of high-functioning exhaustion. We'll work to regulate your nervous system so you can stop just surviving and start living with intention.",
+          "link_url": "/anxiety-and-perfectionism",
+          "link_text": "Explore Anxiety Therapy"
         }
       ],
-      "style": "minimal",
+      "style": "cards",
       "columns": "3",
       "theme": "alternate",
       "padding": "standard"
