@@ -1,38 +1,8 @@
 {
-  "title": "I'm Kaylie Groenhout.",
-  "seo_title": "About | Wildwood Psychotherapy",
-  "subtitle": "OWNER, BOARD-CERTIFIED LICENSED PROFESSIONAL COUNSELOR, EMDR CERTIFIED THERAPIST",
-  "bio": "I'm a Licensed Professional Counselor in Virginia and I'm EMDR Certified. I've spent my career working with adults who are exhausted from trying to hold it all together. \n\nWhether you're dealing with the lingering effects of childhood trauma, navigating a difficult relationship, or just feeling like you've lost yourself in your roles and responsibilities, I'm here to help you find your way back to yourself.\n\nMy approach is warm, direct, and deeply grounded in trauma research. I believe that healing happens in connection, and I'm committed to providing a space where you feel seen, heard, and supported as you do the brave work of healing.",
-  "extra_sections": [
-    {
-      "title": "What Makes This Work Different",
-      "subtitle": "Therapy That Actually Gets to the Root",
-      "body": "Most therapy focuses on managing symptoms. You learn coping skills, talk about your week, maybe feel a little better for a few days.\n\nBut here's what I've learned after years of working with developmental trauma: If we're only addressing surface symptoms, we're just rearranging furniture in a burning house.\n\nThe anxiety you feel in your relationship? The overworking that you can't seem to stop? The drinking that's crept up over the years? Those aren't the problems. They're solutions you created to survive situations that were too much to handle at the time.\n\nMy job isn't to take away your coping mechanisms. It's to help you understand why you need them in the first place, and then give you better options.\n\nI'm EMDR Certified, which means I've completed advanced training beyond basic certification. I blend EMDR with Internal Family Systems work, mindfulness, DBT, and ACT because trauma doesn't live in just one part of your brain or body. It's everywhere. And healing it requires more than one approach.\n\n**But here's what matters more than my credentials: I won't waste your time or money keeping you comfortable. If you want someone who just nods sympathetically while you talk, I'm not your person. If you want someone who will challenge you, celebrate your progress, and help you actually change the patterns that are keeping you stuck, let's talk.**",
-      "style": "standard",
-      "alignment": "left"
-    },
-    {
-      "title": "Who I Work With Best",
-      "subtitle": "The Clients I Love Working With",
-      "body": "I specialize in adults (typically 30 to 70) who are done surviving and ready to actually live.\n\nYou've spent decades taking care of everyone else. You're the responsible one, the capable one, the one who has it all together. Except you don't. And you're tired of pretending.\n\n**You might be:**\n\n* Struggling with anxiety or depression that seems to come out of nowhere\n* Noticing old relationship patterns showing up in new relationships\n* Using work, alcohol, or avoidance to cope with feelings you can't name\n* Feeling disconnected from yourself and unsure who you are outside your roles\n* Dealing with attachment wounds that make intimacy feel terrifying and necessary at the same time\n\nI also work extensively with couples, including non-monogamous and polyamorous relationships. Most therapists aren't trained in the unique dynamics of consensual non-monogamy. I am. If you're navigating jealousy, boundary challenges, or communication breakdowns in your non-traditional relationship, you don't have to explain or justify yourself here.",
-      "style": "alternate",
-      "alignment": "left"
-    },
-    {
-      "title": "My Approach",
-      "subtitle": "How We'll Work Together",
-      "body": "I'm warm and direct. I'll meet you where you are and stay present with whatever shows up in our sessions.\n\nSome sessions will feel heavy. Some will feel lighter. All of them will move you forward if you're willing to do the work, because I'm tracking patterns you might not even notice yet. I'm paying attention to what you're saying and what you're not saying. I'm watching for the moments when your nervous system takes over and your rational brain checks out.\n\nAnd I'm going to point those moments out because that's where the real work happens. But whether you decide to explore them or sit with them or work through them? That's your choice. This is your healing. I'm here as your guide.\n\nEMDR helps your brain reprocess traumatic memories so they stop hijacking your present. Parts work helps you understand the different aspects of yourself that are often in conflict. Mindfulness, DBT, and ACT give you practical tools to regulate your emotions and build a life that actually aligns with your values.\n\nBut none of those techniques matter if we don't have a solid therapeutic relationship. Healing happens in connection. That means our relationship matters just as much as any intervention I use.\n\n**I'm committed to ongoing training and staying current with trauma research because your healing deserves a therapist who never stops learning.**",
-      "style": "standard",
-      "alignment": "left"
-    },
-    {
-      "title": "Outside the Therapy Room",
-      "subtitle": "A Little More About Me",
-      "body": "I live in Western Loudoun with my family. Outside of sessions, I'm probably reading the latest trauma research, messing with my plants, or wrangling kids, a dog, and a seemingly endless flow of (at times) wild ideas.\n\nI believe in practicing what I preach, which means I'm also doing my own work. I can't ask you to be vulnerable if I'm not willing to do the same.\n\nI didn't become a therapist because I had all the answers. I became a therapist because I'm deeply curious about what makes humans tick, and I'm committed to helping people untangle the knots that keep them stuck in patterns they desperately want to break.",
-      "style": "standard",
-      "alignment": "left"
-    }
-  ],
+  "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
+  "headshot_alt": "Kaylie Groenhout",
+  "final_cta_header": "Healing happens here.",
+  "bio": "You're exhausted from managing everyone's expectations while your own needs collect dust in the corner.\n\nMaybe you've tried therapy before. Maybe it helped for a while, but the same patterns keep showing up. Or maybe your last therapist was nice but didn't push you enough, and you left sessions feeling heard but not helped.\n\nYou're not looking for someone to tell you everything will be okay. You're looking for someone who understands that it won't be okay until you actually deal with what's underneath.\n\nI'm Kaylie Groenhout, and I get it. Not because I read it in a textbook, but because I've sat across from countless adults and couples who are exactly where you are right now. Successful on paper. Struggling underneath. Wondering if this is just how life is supposed to feel.\n\nSpoiler: **It's not.**",
   "sections": [
     {
       "title": "Education & Credentials",
@@ -68,9 +38,39 @@
       ]
     }
   ],
-  "final_cta_header": "Healing happens here.",
   "final_cta_tagline": "Ready to get started?",
+  "seo_title": "About Wildwood Psychotherapy in Leesburg, VA",
+  "subtitle": "OWNER, BOARD-CERTIFIED LICENSED PROFESSIONAL COUNSELOR, EMDR CERTIFIED THERAPIST",
+  "title": "I'm Kaylie Groenhout.",
   "cta_text": "Schedule a Call",
-  "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
-  "headshot_alt": "Kaylie Groenhout"
+  "extra_sections": [
+    {
+      "title": "What Makes This Work Different",
+      "subtitle": "Therapy That Actually Gets to the Root",
+      "body": "Most therapy focuses on managing symptoms. You learn coping skills, talk about your week, maybe feel a little better for a few days.\n\n### Moving Beyond Coping Skills\n\nBut here's what I've learned after years of working with developmental trauma: If we're only addressing surface symptoms, we're just rearranging furniture in a burning house.\n\nThe anxiety you feel in your relationship? The overworking that you can't seem to stop? The drinking that's crept up over the years? Those aren't the problems. They're solutions you created to survive situations that were too much to handle at the time.\n\nMy job isn't to take away your coping mechanisms. It's to help you understand why you need them in the first place, and then give you better options.\n\nI'm EMDR Certified, which means I've completed advanced training beyond basic certification. I blend EMDR with Internal Family Systems work, mindfulness, DBT, and ACT because trauma doesn't live in just one part of your brain or body. It's everywhere. And healing it requires more than one approach.\n\n**But here's what matters more than my credentials: I won't waste your time or money keeping you comfortable. If you want someone who just nods sympathetically while you talk, I'm not your person. If you want someone who will challenge you, celebrate your progress, and help you actually change the patterns that are keeping you stuck, let's talk.**",
+      "style": "standard",
+      "alignment": "left"
+    },
+    {
+      "title": "Who I Work With Best",
+      "subtitle": "The Clients I Love Working With",
+      "body": "I specialize in adults (typically 30 to 70) who are done surviving and ready to actually live.\n\nYou've spent decades taking care of everyone else. You're the responsible one, the capable one, the one who has it all together. Except you don't. And you're tired of pretending.\n\n**You might be:**\n\n* Struggling with anxiety or depression that seems to come out of nowhere\n* Noticing old relationship patterns showing up in new relationships\n* Using work, alcohol, or avoidance to cope with feelings you can't name\n* Feeling disconnected from yourself and unsure who you are outside your roles\n* Dealing with attachment wounds that make intimacy feel terrifying and necessary at the same time\n\nI also work extensively with couples, including non-monogamous and polyamorous relationships. Most therapists aren't trained in the unique dynamics of consensual non-monogamy. I am. If you're navigating jealousy, boundary challenges, or communication breakdowns in your non-traditional relationship, you don't have to explain or justify yourself here.",
+      "style": "alternate",
+      "alignment": "left"
+    },
+    {
+      "title": "My Approach",
+      "subtitle": "How We'll Work Together",
+      "body": "I'm warm and direct. I'll meet you where you are and hold space for whatever shows up in our sessions.\n\nSome sessions will feel heavy. Some will feel lighter. All of them will move you forward if you're willing to do the work, because I'm tracking patterns you might not even notice yet. I'm paying attention to what you're saying and what you're not saying. I'm watching for the moments when your nervous system takes over, and your rational brain checks out.\n\nAnd I'm going to point those moments out because that's where the real work happens. But whether you decide to explore them, sit with them, or work through them? That's your choice. This is your healing. I'm here to hold space for it.\n\n### Science-Backed & Human-Centered\n\nEMDR helps your brain reprocess traumatic memories so they stop hijacking your present. Parts work helps you understand the different aspects of yourself that are often in conflict. Mindfulness, DBT, and ACT give you practical tools to regulate your emotions and build a life that actually aligns with your values.\n\nBut none of those techniques matter if we don't have a solid therapeutic relationship. **Healing happens in connection.** That means our relationship matters just as much as any intervention I use.\n\nI'm committed to ongoing training and staying current with trauma research because your healing deserves a therapist who never stops learning.",
+      "style": "standard",
+      "alignment": "left"
+    },
+    {
+      "title": "Behind the Practice: A Little More About Me",
+      "subtitle": "Outside the Therapy Room",
+      "body": "I live in Western Loudoun with my family. Outside of sessions, I'm probably reading the latest trauma research, messing with my plants, or wrangling kids, a dog, and a seemingly endless flow of (at times) wild ideas.\n\nI believe in practicing what I preach, which means I'm also doing my own work. I can't ask you to be vulnerable if I'm not willing to do the same.\n\nI didn't become a therapist because I had all the answers. I became a therapist because I'm deeply curious about what makes humans *human* the way they do, and I'm committed to helping people untangle the knots that keep them stuck in patterns they desperately want to break.",
+      "style": "standard",
+      "alignment": "left"
+    }
+  ]
 }
