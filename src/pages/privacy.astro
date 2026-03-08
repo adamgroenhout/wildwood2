@@ -18,7 +18,7 @@ const { title, seo_title, content } = privacyEntry?.data || {};
 
     <Section theme="alternate">
       <div class="max-w-4xl mx-auto">
-        <div class="prose prose-lg max-w-none " set:html={marked.parse(content || '')} />
+        <div class="prose body-lg max-w-none opacity-90" set:html={marked.parse(content || '')} />
       </div>
     </Section>
 	</main>

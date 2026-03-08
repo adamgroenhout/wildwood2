@@ -34,7 +34,7 @@ const {
               {faq.rates ? (
                 <div class="space-y-8">
                   <h2 class="h1-serif text-center mb-12 text-balance">{faq.question}</h2>
-                  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 opacity-90">
                     {faq.rates?.map((item: any) => (
                       <div class="bg-current/5 p-8 border border-current/10 rounded-brand flex flex-col justify-between">
                         <h3 class={`eyebrow mb-4 opacity-70 ${item.is_italic ? 'italic' : ''}`} set:html={item.service}></h3>

@@ -31,7 +31,7 @@ const titleClasses = theme === 'large'
         <span>{item.title}</span>
         <span class="text-3xl transition-transform group-open:rotate-45 block leading-none">+</span>
       </summary>
-      <div class="pt-4 pb-6 prose prose-lg max-w-none group-open:animate-fade-in">
+      <div class="pt-4 pb-6 prose body-lg max-w-none opacity-90 group-open:animate-fade-in">
         {item.content && <div set:html={marked.parse(item.content)} />}
         {item.items && (
           <ul class="list-disc pl-6 space-y-2">

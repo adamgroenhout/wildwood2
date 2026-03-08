@@ -32,7 +32,7 @@ const {
         {/* Intro Section */}
 				<div class="bg-current/5 p-10 md:p-16 border border-current/10 rounded-brand text-center shadow-xl mb-24">
 					<h2 class="h1-serif italic mb-8">{hero_section?.title}</h2>
-					<div class="max-w-2xl mx-auto space-y-8 opacity-90 body-lg prose text-center">
+					<div class="max-w-2xl mx-auto space-y-8 opacity-90 body-lg prose">
             <div set:html={marked.parse(hero_section?.text1 || '')} />
             <div set:html={marked.parse(hero_section?.text2 || '')} />
             <div set:html={marked.parse(hero_section?.text3 || '')} />
@@ -94,7 +94,7 @@ const {
       <div class="max-w-4xl mx-auto text-center space-y-12">
         {/* Footer CTA */}
         <h2 class="display-serif italic text-center text-balance">{footer_cta?.title}</h2>
-        <div class="max-w-2xl mx-auto opacity-90 body-lg prose text-center">
+        <div class="max-w-2xl mx-auto opacity-90 body-lg prose">
           <p>{footer_cta?.text}</p>
         </div>
         <div class="flex flex-wrap justify-center gap-6 pt-8">

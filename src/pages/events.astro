@@ -23,12 +23,12 @@ const { title, seo_title, subtitle, content, sections } = eventsEntry?.data || {
 		<Section theme="alternate">
 			<div class="max-w-4xl mx-auto">
 				<div class="space-y-24">
-					{content?.map((p: string) => <div class="prose body-lg max-w-none text-center" set:html={marked.parse(p)} />)}
+					{content?.map((p: string) => <div class="prose body-lg max-w-none opacity-90" set:html={marked.parse(p)} />)}
 
 					{sections?.map((section: any, index: number) => (
 						<div class={`space-y-12 ${index !== 0 ? 'pt-16 border-t border-current/10' : ''}`}>
-							<div class="max-w-3xl mx-auto text-center space-y-6">
-								<h2 class="h1-serif italic">{section.title}</h2>
+							<div class="max-w-3xl mx-auto space-y-6">
+								<h2 class="h1-serif italic text-center">{section.title}</h2>
 								{section.text && <div class="body-lg opacity-90 prose max-w-none" set:html={marked.parse(section.text)} />}
 							</div>
 							
@@ -67,7 +67,7 @@ const { title, seo_title, subtitle, content, sections } = eventsEntry?.data || {
 												</div>
 											</div>
 
-											{item.text && <div class="prose max-w-none opacity-90" set:html={marked.parse(item.text)} />}
+											{item.text && <div class="prose body-lg max-w-none opacity-90" set:html={marked.parse(item.text)} />}
 											
 											{item.footer && (
 												<div class="pt-6 border-t border-current/10">

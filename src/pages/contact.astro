@@ -23,10 +23,10 @@ const carouselImages = studio_images?.map((item: any) => formatUrl(item.image)) 
 
 		<Section theme="alternate">
 			<div class="max-w-4xl mx-auto">
-				<div class="body-lg max-w-none">
-					<div class="text-center">
+				<div class="body-lg max-w-none opacity-90">
+					<div>
 						<h2 class="h1-serif mb-6 italic text-center">{intro_title}</h2>
-						<div class="prose mx-auto text-left" set:html={marked.parse(intro_text || '')} />
+						<div class="prose mx-auto" set:html={marked.parse(intro_text || '')} />
 						
 						<div class="mt-8 text-center">
 							<Button href={cta_url} theme="terracotta">

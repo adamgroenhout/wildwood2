@@ -49,8 +49,8 @@ const {
             </div>
 					</div>
 
-					<div class="text-center space-y-12">
-						<div class="prose body-lg max-w-2xl mx-auto italic opacity-90 text-center" set:html={marked.parse(bottom_text || '')} />
+					<div class="space-y-12">
+						<div class="prose body-lg max-w-2xl mx-auto italic opacity-90" set:html={marked.parse(bottom_text || '')} />
 						
 						<div class="pt-8 text-center">
 						  <Button href={cta_url || '#'} theme="terracotta">

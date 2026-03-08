@@ -24,14 +24,14 @@ const footerParts = (footer_text || "").split(linkPlaceholder);
 
 		<Section theme="alternate">
 			<div class="max-w-4xl mx-auto">
-				<div class="prose max-w-none space-y-8 text-left">
+				<div class="prose body-lg max-w-none space-y-8 opacity-90">
 					{content.map((p: string) => <div set:html={marked.parse(p)} />)}
 
 					<div class="bg-current/5 p-8 border border-current/10 rounded-brand space-y-6">
-						{highlight_box.map((p: string) => <div class="opacity-80" set:html={marked.parse(p)} />)}
+						{highlight_box.map((p: string) => <div class="opacity-90" set:html={marked.parse(p)} />)}
 					</div>
 
-					<div class="pt-8 opacity-80 italic">
+					<div class="pt-8 opacity-80 italic text-center">
 						<p>
 							{footerParts[0]}
 							<a href={footer_url} class="text-terracotta hover:underline" target="_blank" rel="noopener noreferrer">
@@ -42,8 +42,8 @@ const footerParts = (footer_text || "").split(linkPlaceholder);
 					</div>
 
 					<div class="mt-12 pt-12 border-t border-current/10">
-						<h3 class="h2-serif mb-6 italic">{keep_in_mind.title}</h3>
-						<div class="opacity-80 space-y-4" set:html={marked.parse(keep_in_mind.text)} />
+						<h3 class="h2-serif mb-6 italic text-center">{keep_in_mind.title}</h3>
+						<div class="opacity-90 space-y-4" set:html={marked.parse(keep_in_mind.text)} />
 					</div>
 				</div>
 			</div>
