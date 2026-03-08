@@ -14,20 +14,19 @@ interface Props {
 }
 
 const { data } = Astro.props;
-const alignmentClass = data.alignment === 'center' ? 'text-center mx-auto' : 'text-left';
 ---
 
 <Section theme={data.theme || 'alternate'} padding={data.padding || 'standard'}>
-  <div class={`max-w-4xl ${alignmentClass} space-y-8`}>
+  <div class="max-w-4xl mx-auto space-y-8">
     {(data.title || data.subtitle) && (
-      <div class="space-y-4">
+      <div class="space-y-4 text-center max-w-3xl mx-auto">
         {data.subtitle && (
-          <p class={`eyebrow text-terracotta ${data.alignment === 'center' ? 'mx-auto' : ''}`}>
+          <p class="eyebrow text-terracotta">
             {data.subtitle}
           </p>
         )}
         {data.title && (
-          <h2 class={`h2-serif text-balance leading-tight ${data.alignment === 'center' ? 'mx-auto' : ''}`}>
+          <h2 class="h2-serif text-balance leading-tight">
             {data.title}
           </h2>
         )}
@@ -35,7 +34,10 @@ const alignmentClass = data.alignment === 'center' ? 'text-center mx-auto' : 'te
     )}
     
     {data.body && (
-      <div class={`body-lg opacity-85 prose ${data.alignment === 'center' ? 'mx-auto text-left' : ''} ${!data.title && data.subtitle ? 'mt-4' : ''}`} set:html={marked.parse(data.body)} />
+      <div class:list={[
+        "body-lg opacity-85 prose mx-auto text-left",
+        !data.title && data.subtitle ? 'mt-4' : ''
+      ]} set:html={marked.parse(data.body)} />
     )}
   </div>
 </Section>
