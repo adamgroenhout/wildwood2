@@ -144,33 +144,39 @@
       "padding": "standard"
     },
     {
-      "type": "grid",
+      "type": "accordion",
       "title": "TRAUMA + EMDR FAQ",
       "items": [
         {
-          "text": "What is EMDR therapy?  Eye Movement Desensitization and Reprocessing (EMDR) is a therapy approach that helps your brain reprocess traumatic or distressing memories so they stop running your life. Instead of just talking about what happened, EMDR uses bilateral stimulation (like eye movements or tapping) to help your nervous system actually process and integrate experiences that got stuck. It's not about erasing memories. It's about changing how your body and brain respond to them so you can finally stop getting triggered by things that happened years ago."
+          "title": "What is EMDR therapy?",
+          "content": "Eye Movement Desensitization and Reprocessing (EMDR) is a therapy approach that helps your brain reprocess traumatic or distressing memories so they stop running your life. Instead of just talking about what happened, EMDR uses bilateral stimulation (like eye movements or tapping) to help your nervous system actually process and integrate experiences that got stuck. It's not about erasing memories. It's about changing how your body and brain respond to them so you can finally stop getting triggered by things that happened years ago."
         },
         {
-          "text": "Does EMDR really work?  Yes. EMDR is one of the most researched and evidence-based treatments for trauma and PTSD. It's recognized by the World Health Organization, the American Psychological Association, and the Department of Veterans Affairs as an effective trauma treatment. Most people start seeing real shifts within the first few sessions, not just \"I feel a little better\" but actual changes like sleeping through the night, not spiraling after tough conversations, or feeling calm for the first time in years. The research backs it up, but more importantly, my clients' lives look completely different after doing this work."
+          "title": "Does EMDR really work?",
+          "content": "Yes. EMDR is one of the most researched and evidence-based treatments for trauma and PTSD. It's recognized by the World Health Organization, the American Psychological Association, and the Department of Veterans Affairs as an effective trauma treatment. Most people start seeing real shifts within the first few sessions, not just \"I feel a little better\" but actual changes like sleeping through the night, not spiraling after tough conversations, or feeling calm for the first time in years. The research backs it up, but more importantly, my clients' lives look completely different after doing this work."
         },
         {
-          "text": "Is EMDR only for trauma?  No. While EMDR was originally developed for trauma, it's incredibly effective for anxiety, panic attacks, phobias, relationship patterns you can't seem to break, perfectionism, chronic pain tied to stress, and that constant feeling of being on edge. If your nervous system is overreacting to things that logically shouldn't be triggering you, EMDR can help. I use it with people who've experienced big traumas and people whose nervous systems are fried from years of smaller, repeated stressful experiences."
+          "title": "Is EMDR only for trauma?",
+          "content": "No. While EMDR was originally developed for trauma, it's incredibly effective for anxiety, panic attacks, phobias, relationship patterns you can't seem to break, perfectionism, chronic pain tied to stress, and that constant feeling of being on edge. If your nervous system is overreacting to things that logically shouldn't be triggering you, EMDR can help. I use it with people who've experienced big traumas and people whose nervous systems are fried from years of smaller, repeated stressful experiences."
         },
         {
-          "text": "Will EMDR make me relive my trauma?  No. This is one of the biggest misconceptions. EMDR doesn't require you to relive anything in graphic detail. You're not re-experiencing the trauma, you're reprocessing it while staying grounded in the present. We work at a pace that feels safe for your nervous system. If things get too intense, we have tools to slow down or pause. You're in control the entire time. The goal is to process the memory without getting flooded by it."
+          "title": "Will EMDR make me relive my trauma?",
+          "content": "No. This is one of the biggest misconceptions. EMDR doesn't require you to relive anything in graphic detail. You're not re-experiencing the trauma, you're reprocessing it while staying grounded in the present. We work at a pace that feels safe for your nervous system. If things get too intense, we have tools to slow down or pause. You're in control the entire time. The goal is to process the memory without getting flooded by it."
         },
         {
-          "text": "How many EMDR sessions will I need?  It depends on what we're working on and how your nervous system responds. Some people see significant shifts in 6-12 sessions. Complex trauma or developmental trauma (the stuff that happened repeatedly over time, or didn’t happen but should have - not just one big event) typically takes longer. We're not just processing one memory, we're rewiring patterns that have been running for years. Most people start noticing changes quickly, but the full work takes time. I'll give you a realistic timeline based on what you're dealing with once we start working together."
+          "title": "How many EMDR sessions will I need?",
+          "content": "It depends on what we're working on and how your nervous system responds. Some people see significant shifts in 6-12 sessions. Complex trauma or developmental trauma (the stuff that happened repeatedly over time, or didn’t happen but should have - not just one big event) typically takes longer. We're not just processing one memory, we're rewiring patterns that have been running for years. Most people start noticing changes quickly, but the full work takes time. I'll give you a realistic timeline based on what you're dealing with once we start working together."
         },
         {
-          "text": "What does EMDRIA Certified Therapist™ mean?  EMDRIA (Eye Movement Desensitization and Reprocessing International Association) certification means I've completed advanced training beyond basic EMDR education and met rigorous standards for competency. It's not just about taking a weekend workshop. It means I've logged significant clinical hours using EMDR, received ongoing consultation, and demonstrated mastery of the protocol. When you work with an EMDRIA Certified Therapist, you're working with someone who's proven they know what they're doing and is held to high ethical and clinical standards."
+          "title": "What does EMDRIA Certified Therapist™ mean?",
+          "content": "EMDRIA (Eye Movement Desensitization and Reprocessing International Association) certification means I've completed advanced training beyond basic EMDR education and met rigorous standards for competency. It's not just about taking a weekend workshop. It means I've logged significant clinical hours using EMDR, received ongoing consultation, and demonstrated mastery of the protocol. When you work with an EMDRIA Certified Therapist, you're working with someone who's proven they know what they're doing and is held to high ethical and clinical standards."
         },
         {
-          "text": "What if I've tried therapy before and it didn't work?  A lot of people come to me after years of talk therapy that helped them understand their trauma but didn't actually change how they felt or reacted. That's because trauma lives in your nervous system, not just your thoughts. You can talk about what happened for years and still have your body respond like it's happening right now. EMDR works differently because it directly targets how your brain and nervous system hold onto those experiences. If traditional therapy didn't work, that doesn't mean you're broken or unfixable. It means you needed a different approach. This might be it."
+          "title": "What if I've tried therapy before and it didn't work?",
+          "content": "A lot of people come to me after years of talk therapy that helped them understand their trauma but didn't actually change how they felt or reacted. That's because trauma lives in your nervous system, not just your thoughts. You can talk about what happened for years and still have your body respond like it's happening right now. EMDR works differently because it directly targets how your brain and nervous system hold onto those experiences. If traditional therapy didn't work, that doesn't mean you're broken or unfixable. It means you needed a different approach. This might be it."
         }
       ],
-      "columns": "2",
-      "style": "minimal",
+      "layout": "stacked",
       "theme": "cream",
       "padding": "standard"
     },
