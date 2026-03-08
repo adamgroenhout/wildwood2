@@ -8,7 +8,7 @@
       "hero_alt": "Hero Background",
       "theme": "dark",
       "hero_title": "You've Been Holding It Together for Everyone Else. What About *You?*",
-      "hero_image": "/wildwood2/images/main.webp",
+      "hero_image": "/wildwood/images/main.webp",
       "type": "hero",
       "cta_text": "Schedule a Call",
       "specialties": [
@@ -45,7 +45,7 @@
       "link_text": "Learn more about our approach",
       "title": "Reclaiming Your Narrative in a Space Built for Healing.",
       "type": "image_text",
-      "image": "/wildwood2/images/side-image.webp"
+      "image": "/wildwood/images/side-image.webp"
     },
     {
       "type": "accordion",
@@ -91,7 +91,7 @@
       "image_position": "right",
       "image_alt": "Peaceful forest trail",
       "padding": "standard",
-      "image": "/wildwood2/images/a_calming_photorealistic_image_o.png"
+      "image": "/wildwood/images/a_calming_photorealistic_image_o.png"
     },
     {
       "type": "text",
@@ -193,7 +193,7 @@
       "type": "image_text",
       "title": "You don't have to struggle alone.",
       "body": "Life can sometimes feel unbearable. Maybe you’ve tried dealing with your issues by talking to close friends, searching internet rabbit holes, compartmentalizing, and/or distracting yourself with things like scrolling, substances, or spending.\n\nWherever you go, though, there you are. The issue remains, and though you may have had temporary relief, you feel more alone, even shameful, afterward.\n\nWhether you’re experiencing new challenges or iterations of long-standing ones, therapy can help. You deserve to feel seen, heard, and supported. You can have a more balanced, joyful existence.\n\n**Healing is possible, and I can help.**",
-      "image": "/wildwood2/images/a_gentle_companionship_wildflowers.png",
+      "image": "/wildwood/images/a_gentle_companionship_wildflowers.png",
       "image_alt": "Callout Image",
       "image_position": "right",
       "theme": "cream",
@@ -208,7 +208,7 @@
       "title": "THIS IS WHERE CHANGE BEGINS.",
       "button_text": "Book a Call",
       "type": "cta",
-      "image": "/wildwood2/images/a_breathtaking_calm_image_of_a_s.png"
+      "image": "/wildwood/images/a_breathtaking_calm_image_of_a_s.png"
     }
   ]
 }

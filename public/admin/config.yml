@@ -4,13 +4,13 @@ local_backend: true
 # Backend for GitHub
 backend:
   name: github
-  repo: adamgroenhout/wildwood2
+  repo: adamgroenhout/wildwood
   branch: main
   base_url: https://wildwood-gateway.vercel.app
   auth_endpoint: api/auth
 
 media_folder: "public/images"
-public_folder: "/wildwood2/images"
+public_folder: "/wildwood/images"
 
 collections:
   - name: "settings"
