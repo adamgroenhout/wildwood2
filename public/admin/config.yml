@@ -4,7 +4,7 @@ local_backend: true
 # Backend for GitHub
 backend:
   name: github
-  repo: adamgroenhout/wildwood
+  repo: adamgroenhout/wildwood2
   branch: main
   base_url: https://wildwood-gateway.vercel.app
   auth_endpoint: api/auth
