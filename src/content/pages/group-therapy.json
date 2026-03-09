@@ -74,6 +74,51 @@
       "theme": "olive",
       "alignment": "left",
       "padding": "standard"
+    },
+    {
+      "type": "text",
+      "theme": "alternate",
+      "alignment": "left",
+      "padding": "standard",
+      "body": "* Are dealing with active substance abuse issues\n* Are currently in a domestic violence situation\n* Are in crisis mode from recent severe trauma\n* Struggle with extreme emotional dysregulation that hasn't been addressed\n* Tend to dominate conversations and can't tolerate being redirected\n* Have significant untreated personality disorder symptoms\n* Can't commit to the full 6-week program\n\n*If you're unsure whether this is right for you, that's what the screening call is for.*",
+      "title": "This group is NOT for you if you:"
+    },
+    {
+      "type": "grid",
+      "columns": "4",
+      "style": "minimal",
+      "theme": "alternate",
+      "padding": "standard",
+      "title": "How to Join",
+      "items": [
+        {
+          "link_text": "Learn more",
+          "text": "Complete the registration form below",
+          "title": "Step 1"
+        },
+        {
+          "link_text": "Learn more",
+          "title": "Step 2",
+          "text": "Schedule your required 15-minute screening call"
+        },
+        {
+          "link_text": "Learn more",
+          "title": "Step 3",
+          "text": "Once approved, secure your spot with payment"
+        },
+        {
+          "link_text": "Learn more",
+          "title": "Step 4",
+          "text": "Show up on Tuesday, May 6th at 6 PM ready to finally put yourself first"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "theme": "alternate",
+      "alignment": "left",
+      "padding": "standard",
+      "body": "Group is limited to a maximum of 8 people. Once spots are full, the next group won't start until fall 2026."
     }
   ],
   "subtitle": "Connection & healing in community."
