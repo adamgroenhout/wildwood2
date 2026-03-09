@@ -7,7 +7,7 @@
       "alignment": "center",
       "hero_alt": "Hero Background",
       "theme": "dark",
-      "hero_title": "You've Been Holding It Together for Everyone Else. What About *You?*",
+      "hero_title": "You've Been Holding It Together for Everyone Else. \nWhat About *You?*",
       "hero_image": "/wildwood/images/main.webp",
       "type": "hero",
       "cta_text": "Schedule a Call",
@@ -83,14 +83,14 @@
       "padding": "top-only"
     },
     {
-      "type": "image_text",
-      "subtitle": "A Note on Adaptation",
-      "title": "These aren't character flaws.",
       "body": "They're adaptations you developed to survive situations that were too much to handle at the time. The problem? What helped you survive back then is now keeping you from truly living.\n\nAs a trauma therapist in Leesburg, I work with adults who are ready to understand why they do what they do and finally create lasting change.",
+      "image_alt": "Peaceful forest trail",
       "theme": "charcoal",
       "image_position": "right",
-      "image_alt": "Peaceful forest trail",
       "padding": "standard",
+      "subtitle": "A Note on Adaptation",
+      "title": "These aren't character flaws.",
+      "type": "image_text",
       "image": "/wildwood/images/a_calming_photorealistic_image_o.png"
     },
     {
