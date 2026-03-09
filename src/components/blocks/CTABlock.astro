@@ -38,8 +38,15 @@ const buttonTheme = isDark ? 'white' : 'terracotta';
     </div>
     <div class={`w-full md:w-1/2 ${themeClass} flex flex-col items-center justify-center p-12 text-center space-y-10 ${isDark ? 'theme-dark' : ''}`}>
       <div class="space-y-6">
-        {data.tagline && <h2 class="eyebrow opacity-80">{data.tagline}</h2>}
-        <p class="display-serif italic leading-tight">{data.title}</p>
+        {data.tagline && <h2 class="eyebrow opacity-80 text-pretty">{data.tagline}</h2>}
+        <p class="display-serif italic leading-tight whitespace-pre-wrap text-pretty">
+          {data.title.split('\n').map((line, i) => (
+            <>
+              {i > 0 && <br />}
+              {line}
+            </>
+          ))}
+        </p>
       </div>
       <div class="pt-6">
         <Button href={data.button_url} theme={buttonTheme}>
@@ -51,8 +58,15 @@ const buttonTheme = isDark ? 'white' : 'terracotta';
 ) : (
   <Section theme={data.theme || 'olive'} class={`text-center space-y-10 ${isDark ? 'theme-dark' : ''}`}>
     <div class="max-w-3xl mx-auto space-y-6">
-      {data.tagline && <h2 class="eyebrow opacity-80">{data.tagline}</h2>}
-      <p class="display-serif italic leading-tight">{data.title}</p>
+      {data.tagline && <h2 class="eyebrow opacity-80 text-pretty">{data.tagline}</h2>}
+      <p class="display-serif italic leading-tight whitespace-pre-wrap text-pretty">
+        {data.title.split('\n').map((line, i) => (
+          <>
+            {i > 0 && <br />}
+            {line}
+          </>
+        ))}
+      </p>
     </div>
     <div class="pt-6">
       <Button href={data.button_url} theme={buttonTheme}>

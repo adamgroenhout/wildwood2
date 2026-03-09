@@ -25,7 +25,7 @@ collections:
           - { label: "Site Name", name: "site_name", widget: "string" }
           - { label: "Default SEO Title", name: "site_title", widget: "string" }
           - { label: "Default Meta Description", name: "site_description", widget: "markdown" }
-          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "text" }
           - { label: "Copyright Text", name: "copyright_text", widget: "string" }
           - { label: "Coming Soon Text", name: "coming_soon_text", widget: "string" }
           - { label: "Staff Login Text", name: "staff_login_text", widget: "string" }
@@ -80,8 +80,8 @@ collections:
     identifier_field: "title"
     slug: "{{slug}}"
     fields:
-      - { label: "Page Title", name: "title", widget: "string" }
-      - { label: "Page Subtitle", name: "subtitle", widget: "string", required: false }
+      - { label: "Page Title", name: "title", widget: "text" }
+      - { label: "Page Subtitle", name: "subtitle", widget: "text", required: false }
       - { label: "SEO Title", name: "seo_title", widget: "string", required: false }
       - label: "Blocks"
         name: "blocks"
@@ -91,7 +91,7 @@ collections:
             label: "Hero Section"
             widget: "object"
             fields:
-              - { label: "Title", name: "hero_title", widget: "string" }
+              - { label: "Title", name: "hero_title", widget: "text" }
               - { label: "Subtitle", name: "hero_subtitle", widget: "string", required: false }
               - { label: "Background Image", name: "hero_image", widget: "image", required: false }
               - { label: "Image Alt Text", name: "hero_alt", widget: "string", required: false }
@@ -111,7 +111,7 @@ collections:
             label: "Text Content"
             widget: "object"
             fields:
-              - { label: "Title", name: "title", widget: "string", required: false }
+              - { label: "Title", name: "title", widget: "text", required: false }
               - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
               - { label: "Body", name: "body", widget: "markdown" }
               - { label: "Theme", name: "theme", widget: "select", options: ["sage", "cream", "sand", "paper", "charcoal", "olive", "alternate"], default: "alternate" }
@@ -122,7 +122,7 @@ collections:
             label: "Image & Text Split"
             widget: "object"
             fields:
-              - { label: "Title", name: "title", widget: "string", required: false }
+              - { label: "Title", name: "title", widget: "text", required: false }
               - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
               - { label: "Body", name: "body", widget: "markdown" }
               - { label: "Image", name: "image", widget: "image" }
@@ -137,7 +137,7 @@ collections:
             label: "Accordion / FAQs"
             widget: "object"
             fields:
-              - { label: "Title", name: "title", widget: "string", required: false }
+              - { label: "Title", name: "title", widget: "text", required: false }
               - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
               - { label: "Intro Body", name: "body", widget: "markdown", required: false }
               - label: "Items"
@@ -154,7 +154,7 @@ collections:
             label: "Grid List / Cards"
             widget: "object"
             fields:
-              - { label: "Title", name: "title", widget: "string", required: false }
+              - { label: "Title", name: "title", widget: "text", required: false }
               - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
               - label: "Items"
                 name: "items"
@@ -175,7 +175,7 @@ collections:
             label: "Call To Action"
             widget: "object"
             fields:
-              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Title", name: "title", widget: "text" }
               - { label: "Tagline", name: "tagline", widget: "string", required: false }
               - { label: "Button Text", name: "button_text", widget: "string" }
               - { label: "Button URL", name: "button_url", widget: "string" }

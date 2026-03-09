@@ -13,7 +13,7 @@ const base = import.meta.env.BASE_URL;
 	<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-10">
 		<div>
 			<a href={formatUrl('')} class="text-3xl tracking-tight uppercase font-serif text-olive">{site_name?.split(' ')[0]}</a>
-			<p class="mt-4 text-sm opacity-70">{tagline}</p>
+			<p class="mt-4 text-sm opacity-70 text-pretty">{tagline}</p>
 		</div>
 		<div class={`grid grid-cols-2 md:grid-cols-${footer_columns?.length || 2} gap-10`}>
 			{footer_columns?.map(column => (
@@ -30,7 +30,7 @@ const base = import.meta.env.BASE_URL;
 	</div>
 	<div class="max-w-7xl mx-auto mt-20 pt-10 border-t border-black/5 space-y-4">
 		{land_acknowledgment && (
-			<div class="text-[10px] opacity-40 italic max-w-2xl leading-relaxed" set:html={land_acknowledgment} />
+			<div class="text-[10px] opacity-40 italic max-w-2xl leading-relaxed text-pretty" set:html={land_acknowledgment} />
 		)}
 		<div class="flex justify-between items-center text-xs opacity-40">
 			<p>&copy; {year} {site_name}. {copyright_text || 'All rights reserved.'}</p>

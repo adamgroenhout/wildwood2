@@ -40,14 +40,24 @@ const alignmentClass = data.alignment === 'left' ? 'text-left items-start' : 'te
   
   <div class={`relative z-10 max-w-5xl flex flex-col ${alignmentClass} w-full`}>
     {data.hero_subtitle && (
-      <p class="eyebrow mb-10 animate-[fadeInUp_1s_var(--ease-gentle)_forwards] opacity-0" style="animation-delay: 0.1s;">
+      <p class="eyebrow mb-10 animate-[fadeInUp_1s_var(--ease-gentle)_forwards] opacity-0 text-pretty" style="animation-delay: 0.1s;">
         {data.hero_subtitle}
       </p>
     )}
     
     {data.hero_title && (
-      <h1 class={`display-serif mb-10 text-balance animate-[fadeInUp_1s_var(--ease-gentle)_forwards] opacity-0 ${data.alignment === 'left' ? 'text-left' : 'text-center'}`} style="animation-delay: 0.3s;">
-        {data.hero_title.split('*').map((part: string, i: number) => i % 2 === 1 ? <em class="italic serif-italic">{part}</em> : part)}
+      <h1 class={`display-serif mb-10 animate-[fadeInUp_1s_var(--ease-gentle)_forwards] opacity-0 whitespace-pre-wrap text-pretty ${data.alignment === 'left' ? 'text-left' : 'text-center'}`} style="animation-delay: 0.3s;">
+        {data.hero_title.split('\n').map((line, lineIdx) => (
+          <Fragment key={lineIdx}>
+            {lineIdx > 0 && <br />}
+            {line.split('<br>').map((subLine, subLineIdx) => (
+              <Fragment key={subLineIdx}>
+                {subLineIdx > 0 && <br />}
+                {subLine.split('*').map((part: string, i: number) => i % 2 === 1 ? <em class="italic serif-italic">{part}</em> : part)}
+              </Fragment>
+            ))}
+          </Fragment>
+        ))}
       </h1>
     )}
     

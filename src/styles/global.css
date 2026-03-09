@@ -411,6 +411,10 @@
     text-wrap: balance;
   }
   
+  .text-pretty {
+    text-wrap: pretty;
+  }
+
   .shadow-soft { box-shadow: var(--shadow-soft); }
   .shadow-elevated { box-shadow: var(--shadow-elevated); }
 }

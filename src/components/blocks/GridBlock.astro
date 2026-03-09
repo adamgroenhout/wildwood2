@@ -40,13 +40,18 @@ const colClass = gridCols[data.columns || '3'];
     {(data.title || data.subtitle) && (
       <div class="space-y-4 text-center max-w-3xl mx-auto">
         {data.subtitle && (
-          <p class="eyebrow text-terracotta">
+          <p class="eyebrow text-terracotta text-pretty">
             {data.subtitle}
           </p>
         )}
         {data.title && (
-          <h2 class="display-serif italic lowercase tracking-tight">
-            {data.title}
+          <h2 class="display-serif italic lowercase tracking-tight whitespace-pre-wrap text-pretty">
+            {data.title.split('\n').map((line, i) => (
+              <>
+                {i > 0 && <br />}
+                {line}
+              </>
+            ))}
           </h2>
         )}
         {data.title && !data.subtitle && <div class="w-24 h-px bg-terracotta/30 mx-auto mt-8"></div>}
@@ -67,9 +72,9 @@ const colClass = gridCols[data.columns || '3'];
             <span class="display-serif opacity-20 block mb-2 text-6xl text-terracotta">{item.number}</span>
           )}
           <div class="space-y-4 flex-grow">
-            {item.title && <h3 class="eyebrow text-terracotta tracking-wider">{item.title}</h3>}
-            {item.subtitle && <p class="h3-serif !italic leading-snug">{item.subtitle}</p>}
-            {(item.text || item.body) && <div class="body-lg opacity-85 leading-relaxed prose prose-sm max-w-none" set:html={marked.parse((item.text || item.body) as string)} />}
+            {item.title && <h3 class="eyebrow text-terracotta tracking-wider text-pretty">{item.title}</h3>}
+            {item.subtitle && <p class="h3-serif !italic leading-snug text-pretty">{item.subtitle}</p>}
+            {(item.text || item.body) && <div class="body-lg opacity-85 leading-relaxed prose prose-sm max-w-none text-pretty" set:html={marked.parse((item.text || item.body) as string)} />}
           </div>
           {item.link_url && (
             <div class="pt-4 mt-auto">

@@ -23,8 +23,24 @@ const { title, subtitle, seo_title, blocks } = entry.data;
 		{!blocks?.some((b: any) => b.type === 'hero') && (
 			<Section theme="alternate" padding="hero" class="text-center">
 				<div class="max-w-4xl mx-auto">
-					<h1 class="display-serif m-0 text-balance">{title}</h1>
-					{subtitle && <p class="subtitle-serif m-0 text-center mt-[var(--spacing-hero-title-gap)] md:mt-[var(--spacing-hero-title-gap-md)] text-balance opacity-80">{subtitle}</p>}
+					<h1 class="display-serif m-0 whitespace-pre-wrap text-center text-pretty">
+						{title.split('\n').map((line: string, i: number) => (
+							<Fragment key={i}>
+								{i > 0 && <br />}
+								{line}
+							</Fragment>
+						))}
+					</h1>
+					{subtitle && (
+						<p class="subtitle-serif m-0 text-center mt-[var(--spacing-hero-title-gap)] md:mt-[var(--spacing-hero-title-gap-md)] whitespace-pre-wrap opacity-80 text-pretty">
+							{subtitle.split('\n').map((line: string, i: number) => (
+								<Fragment key={i}>
+									{i > 0 && <br />}
+									{line}
+								</Fragment>
+							))}
+						</p>
+					)}
 				</div>
 			</Section>
 		)}

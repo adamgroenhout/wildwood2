@@ -24,19 +24,24 @@ const { data } = Astro.props;
     <div class={`space-y-8 ${data.layout === 'split' ? 'lg:col-span-5 text-left' : 'text-center'}`}>
       <div class="space-y-4">
         {data.subtitle && (
-          <p class={`eyebrow text-terracotta ${data.layout === 'split' ? '' : 'text-center'}`}>
+          <p class={`eyebrow text-terracotta text-pretty ${data.layout === 'split' ? '' : 'text-center'}`}>
             {data.subtitle}
           </p>
         )}
         {data.title && (
-          <h2 class={`h2-serif text-balance leading-tight ${data.layout === 'split' ? '' : 'text-center'}`}>
-            {data.title}
+          <h2 class={`h2-serif leading-tight whitespace-pre-wrap text-pretty ${data.layout === 'split' ? '' : 'text-center'}`}>
+            {data.title.split('\n').map((line, i) => (
+              <>
+                {i > 0 && <br />}
+                {line}
+              </>
+            ))}
           </h2>
         )}
       </div>
       
       {data.body && (
-        <div class={`body-lg opacity-85 prose max-w-none ${data.layout === 'split' ? 'text-left' : 'mx-auto text-center'}`} set:html={marked.parse(data.body)} />
+        <div class={`body-lg opacity-85 prose max-w-none text-pretty ${data.layout === 'split' ? 'text-left' : 'mx-auto text-center'}`} set:html={marked.parse(data.body)} />
       )}
     </div>
 
