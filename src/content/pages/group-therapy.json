@@ -9,7 +9,8 @@
       "theme": "cream",
       "image_position": "left",
       "image_alt": "Welcoming group therapy circle",
-      "image": "/wildwood/images/a_welcoming_softly_lit_room_with.png"
+      "image": "/wildwood/images/a_welcoming_softly_lit_room_with.png",
+      "padding": "standard"
     },
     {
       "type": "grid",
@@ -38,27 +39,41 @@
       ],
       "columns": "2",
       "style": "minimal",
-      "theme": "sage"
+      "theme": "sage",
+      "padding": "standard"
     },
     {
       "type": "text",
-      "title": "What You'll Actually Learn In This Group",
+      "title": "What You'll Learn In This Group",
       "subtitle": "\"Holding It Together\"",
       "body": "This isn't therapy where you just talk about your feelings and nothing changes.\n\nYou'll learn practical skills you can use the moment anxiety or perfectionism kicks into overdrive. Things like:\n\nGrounding techniques that bring you back to YOUR body when you're spiraling in someone else's drama. You'll practice feeling your feet on the floor, your breath in your chest, being present in YOUR moment instead of everyone else's chaos.\n\nThe pause practice. Before you automatically say yes, before you jump into fix-it mode, you'll learn to ask: \"What's here for ME right now? What within me needs my attention?\" And actually respond to that instead of abandoning yourself.\n\nTolerating being seen. Not just SEEING everyone else, but letting yourself be witnessed. Learning that your needs aren't annoying. Your struggles aren't complaining. That weight you're carrying? It IS heavy. And you're allowed to say so.\n\n## How This Group Actually Works\n\n### The Details\n\n* 6-week closed therapy group\n* In-person in Leesburg, Virginia\n* Every Tuesday at 6:00 PM (75-minute sessions)\n* Starting May 6th, 2026\n* Small group: 5 to 8 participants maximum\n* Investment: $495 for the complete 6-week program\n\n### What Each Session Looks Like\n\nThis is a trauma-informed, connection-based group. That means we're not forcing vulnerability or pushing you to share before you're ready.\n\nEach session includes:\n\n* Intentional guided discussions where everyone participates at their comfort level\n* Practical grounding and mindfulness techniques you can use immediately\n* Emotional and embodiment practices that help you stay present with yourself\n* Space to practice being authentic without performing or people-pleasing\n* Real connection with others who actually understand what you're going through\n\n## Why Group Therapy Works Better Than Going It Alone\n\nYou'll finally stop feeling like you're the only one struggling with this. Hearing others share similar experiences breaks the isolation that keeps you stuck.\n\nYou'll learn from watching others set boundaries and practice saying no. Sometimes seeing someone else do it first makes it feel possible for YOU.\n\nSharing your story in a safe space IS healing. Not performative sharing, but real \"this is what's actually happening\" honesty.\n\nYou'll build compassion for yourself by extending it to others first. It's easier to see that someone else isn't \"too much\" before you can believe it about yourself.",
-      "theme": "alternate"
+      "theme": "alternate",
+      "alignment": "center",
+      "padding": "standard"
     },
     {
       "type": "cta",
       "title": "Join the Group",
       "button_text": "Learn More About This Group",
       "button_url": "/holding-it-together",
-      "theme": "terracotta"
+      "theme": "terracotta",
+      "layout": "centered"
+    },
+    {
+      "type": "text",
+      "theme": "alternate",
+      "alignment": "left",
+      "padding": "standard",
+      "title": "Common Concerns (And Real Answers)",
+      "body": "> \"What if I don't know what to say?\"\n\nYou don't have to have it all figured out. There's zero pressure to share anything you're not ready for. Sometimes just listening and being present is enough.\n\n> \"What if I don't want to talk about my past?\"\n\nYou don't have to. This group focuses on what's happening NOW and building skills for moving forward. Your past is yours to share or not share.\n\n> \"What if everyone else has bigger problems than me?\"\n\nThis thinking right here? This is the people-pleaser talking. Your struggles matter. Your exhaustion is real. You don't need permission to take up space here.\n\n> Can I really commit to 6 weeks?\"\n\nThat's the question you need to answer honestly. This group requires commitment because transformation happens through consistency, not one-off sessions. If you can't commit to every Tuesday at 6 PM for 6 weeks (barring emergencies), this might not be the right timing for you."
     },
     {
       "type": "text",
       "title": "Is group right for you?",
       "body": "Before you register, I need to be honest about who will get the most from this experience. This group may be especially beneficial if you:\n\n* Struggle with people-pleasing but want to change\n* Feel exhausted from constantly saying yes to others\n* Are ready to practice setting boundaries in a supportive space\n* Want to learn practical skills for managing anxiety and perfectionism\n* Can commit to attending all 6 sessions\n* Have a therapist or are stable enough for group work",
-      "theme": "olive"
+      "theme": "olive",
+      "alignment": "left",
+      "padding": "standard"
     }
   ],
   "subtitle": "Connection & healing in community."
