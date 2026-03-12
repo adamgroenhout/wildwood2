@@ -1,10 +1,10 @@
 {
-  "title": "I'm Kaylie Groenhout.",
+  "title": "Where clinical expertise meets human connection.",
   "seo_title": "About Wildwood Psychotherapy in Leesburg, VA",
   "blocks": [
     {
       "type": "image_text",
-      "body": "You're exhausted from managing everyone's expectations while your own needs collect dust in the corner.\n\nMaybe you've tried therapy before. Maybe it helped for a while, but the same patterns keep showing up. Or maybe your last therapist was nice but didn't push you enough, and you left sessions feeling heard but not helped.\n\nYou're not looking for someone to tell you everything will be okay. You're looking for someone who understands that it won't be okay until you actually deal with what's underneath.\n\nI'm Kaylie Groenhout, and I get it. Not because I read it in a textbook, but because I've sat across from countless adults and couples who are exactly where you are right now. Successful on paper. Struggling underneath. Wondering if this is just how life is supposed to feel.\n\nSpoiler: **It's not.**",
+      "body": "You’ve built a life that looks enviable from the outside, but the internal cost of maintaining that success has become unsustainable. I work with the \"reliable\" ones, the people who've spent decades perfecting the art of \"fine\" while their own well-being sits on the back burner. You aren't just looking for a listener who will tell you everything will be okay. You're looking for someone who understands that it won't be okay until you actually deal with what's underneath.\n\nI get it. Not because I read it in a textbook, but because I've sat across from countless adults and couples who are exactly where you are right now. Successful on paper. Struggling underneath. Wondering if this is just how life is supposed to feel.\n\nSpoiler: **It's not.**",
       "theme": "alternate",
       "image_position": "left",
       "image_alt": "Warm therapist office",
@@ -14,9 +14,9 @@
     },
     {
       "type": "text",
-      "title": "What Makes This Work Different",
-      "subtitle": "Therapy That Actually Gets to the Root",
-      "body": "Most therapy focuses on managing symptoms. You learn coping skills, talk about your week, maybe feel a little better for a few days.\n\n### Moving Beyond Coping Skills\n\nBut here's what I've learned after years of working with developmental trauma: If we're only addressing surface symptoms, we're just rearranging furniture in a burning house.\n\nThe anxiety you feel in your relationship? The overworking that you can't seem to stop? The drinking that's crept up over the years? Those aren't the problems. They're solutions you created to survive situations that were too much to handle at the time.\n\nMy job isn't to take away your coping mechanisms. It's to help you understand why you need them in the first place, and then give you better options.\n\nI'm EMDR Certified, which means I've completed advanced training beyond basic certification. I blend EMDR with Internal Family Systems work, mindfulness, DBT, and ACT because trauma doesn't live in just one part of your brain or body. It's everywhere. And healing it requires more than one approach.\n\n**But here's what matters more than my credentials: I won't waste your time or money keeping you comfortable. If you want someone who just nods sympathetically while you talk, I'm not your person. If you want someone who will challenge you, celebrate your progress, and help you actually change the patterns that are keeping you stuck, let's talk.**",
+      "title": "Where Insight Meets Integration",
+      "subtitle": "The Wildwood Methodology",
+      "body": "Most therapy focuses on managing symptoms. You learn coping skills, talk about your week, and maybe feel a little better for a few days.\n\n### Beyond Symptom Management\n\nBut here's what I've learned after years of working with developmental trauma: If we're only addressing surface symptoms, we're just rearranging furniture in a burning house.\n\nThe anxiety you feel in your relationship? The overworking that you can't seem to stop? The drinking that's crept up over the years? Those aren't the problems. They're solutions you created to survive situations that were too much to handle at the time.\n\nMy job isn't to take away your coping mechanisms. It's to help you understand why you need them in the first place, and then give you better options.\n\nI'm EMDR Certified, which means I've completed advanced training beyond basic certification. I blend EMDR with Internal Family Systems work, mindfulness, DBT, and ACT because trauma doesn't live in just one part of your brain or body. It's everywhere. And healing it requires more than one approach.\n\n**But here's what matters more than my credentials: I won't waste your time or money keeping you comfortable. If you want someone who just nods sympathetically while you talk, I'm not your person. If you want someone who will challenge you, celebrate your progress, and help you actually change the patterns that are keeping you stuck, let's talk.**",
       "theme": "standard",
       "alignment": "left",
       "padding": "standard"
@@ -78,5 +78,5 @@
       "layout": "centered"
     }
   ],
-  "subtitle": "Owner, Board-Certified Licensed Professional Counselor, EMDR Certified Therapist"
+  "subtitle": "I’m Kaylie Groenhout, LPC and EMDR Certified Therapist in Leesburg helping high-achieving adults trade performance for presence."
 }
