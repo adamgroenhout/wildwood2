@@ -54,6 +54,15 @@
       "theme": "alternate",
       "alignment": "center",
       "padding": "standard"
+    },
+    {
+      "type": "image_text",
+      "image_position": "left",
+      "theme": "alternate",
+      "padding": "small",
+      "image": "/wildwood/images/office-brick-walkway.png",
+      "body": "Step up the two small brick steps leading to a narrow brick walkway. Follow the path, walking down the brick path along the side of the building.",
+      "title": "Entering the Building"
     }
   ],
   "seo_title": "Schedule Your Free Consultation"
