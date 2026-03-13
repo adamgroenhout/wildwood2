@@ -60,7 +60,7 @@
     {
       "type": "text",
       "title": "Here's How We Resolve This",
-      "body": "I don't teach communication frameworks. I don't give you scripts for \"healthy conflict.\"\n\nWe do the actual work: slowing your nervous system down enough that you can hold space for hard conversations without falling apart or shutting down.\n\nWe build the kind of safety where you can tell each other the truth - the real truth, not the version you think the other person can handle - and stay present for what comes next.\n\nWe learn to regulate instead of react. To pause instead of push through. To ask for what you want without shame, instead of demanding reassurance through tests your partner keeps failing.\n\nThis isn't about learning better ways to talk to each other. It's about learning how to be in your own body during conflict without needing to fight, flee, or people-please your way out of discomfort.",
+      "body": "Six months from now, you’re having the hard conversation, maybe about the thing you've been avoiding because it felt too big, too scary, too likely to end everything. It’s not happening in the dark, through a screen, or while pretending to sleep. It’s happening face-to-face, with a sense of grounded clarity.\n\nAnd you're both still there.\n\nOne of you says something that would've triggered a three-day silent treatment or a screaming match six months ago. But instead, you pause. You notice what's happening in your body. You take the breath you need before responding.\n\nThe other person doesn't immediately jump to defense or people-pleasing or reassurance-seeking. They stay with the discomfort long enough to hear what's actually being said.\n\nYou trust each other's word again because you've both learned how to keep it - even when your nervous system wants you to run or fight or freeze.\n\nYou ask for what you want without shame. You set boundaries without guilt. You have vulnerable conversations without one of you collapsing or the other one exploding.\n\nYou know what this relationship can actually become. And you've made an honest choice about whether that's what you both want.",
       "theme": "alternate",
       "alignment": "left",
       "padding": "standard"
@@ -120,14 +120,15 @@
       "padding": "standard"
     },
     {
-      "type": "cta",
-      "title": "Ready to get started?",
-      "button_text": "Schedule a Call",
+      "body": "You're committed to each other, but the way you’ve structured your life together is evolving. Whether you're navigating an open marriage or a complex polyamorous transition, the heavy silence of those midnight hours usually isn't about the other people in your lives, but about the connection between the two of you right here.\n\nWhether you're navigating a long-standing open marriage or just beginning to explore the transition from monogamy, you need a space where your home base relationship is protected and prioritized.\n\nAt Wildwood, we focus on the health of your relationship as a unit. We navigate the complexities of ENM not as a problem to be solved, but as the context in which we strengthen your connection, deepen your security, and ensure your foundation stays rock-solid.",
       "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
+      "image_alt": "Warm therapist office",
       "theme": "olive",
       "layout": "split",
-      "image": "/wildwood/images/a_warm_photorealistic_image_of_a.png",
-      "image_alt": "Warm therapist office"
+      "title": "Ready to get started?",
+      "button_text": "Schedule a Call",
+      "type": "cta",
+      "image": "/wildwood/images/a_warm_photorealistic_image_of_a.png"
     },
     {
       "body": "*Imagine six months from now. It’s late again, and you’re both sitting in that same quiet room. But the heaviness is gone. One of you says something that, six months ago, would have triggered a three-day silent treatment or a late-night spiral.*\n\n*But instead, you both pause. You notice the familiar ping in your chest, and instead of reacting, you breathe. You stay in your body. You say what you actually mean, not the version you think the other person can handle.*\n\n*You trust each other’s word again, not because things are perfect, but because you finally have the tools to navigate the imperfect moments without falling apart. You’ve moved from merely surviving the complexity of your dynamic to living with a shared sense of ease and intentionality.*"
