@@ -26,7 +26,7 @@ const buttonTheme = isDark ? 'white' : 'terracotta';
 ---
 
 {data.layout === 'split' ? (
-  <Section theme="none" padding="none" class="flex flex-col md:flex-row min-h-[600px]">
+  <Section theme="none" padding="none" class="flex flex-col md:flex-row min-h-[600px] relative z-10">
     <div class="w-full md:w-1/2 bg-alternate flex items-center justify-center p-0 overflow-hidden">
       {data.image && (
         <Image 
@@ -41,7 +41,7 @@ const buttonTheme = isDark ? 'white' : 'terracotta';
     <div class={`w-full md:w-1/2 ${themeClass} flex flex-col items-center justify-center p-12 text-center space-y-10 ${isDark ? 'theme-dark' : ''} relative z-20`}>
       <div class="space-y-6">
         {data.tagline && <h2 class="eyebrow opacity-80 text-pretty">{data.tagline}</h2>}
-        <h2 class="display-serif italic leading-tight whitespace-pre-wrap text-pretty">
+        <h2 class="display-serif italic leading-tight whitespace-pre-wrap text-pretty relative z-30">
           {data.title.split('\n').map((line, i) => (
             <>
               {i > 0 && <br />}
@@ -61,10 +61,10 @@ const buttonTheme = isDark ? 'white' : 'terracotta';
     </div>
   </Section>
 ) : (
-  <Section theme={data.theme || 'olive'} class={`text-center space-y-10 ${isDark ? 'theme-dark' : ''}`}>
+  <Section theme={data.theme || 'olive'} class={`text-center space-y-10 ${isDark ? 'theme-dark' : ''} relative z-10`}>
     <div class="max-w-3xl mx-auto space-y-6 relative z-20">
       {data.tagline && <h2 class="eyebrow opacity-80 text-pretty">{data.tagline}</h2>}
-      <h2 class="display-serif italic leading-tight whitespace-pre-wrap text-pretty">
+      <h2 class="display-serif italic leading-tight whitespace-pre-wrap text-pretty relative z-30">
         {data.title.split('\n').map((line, i) => (
           <>
             {i > 0 && <br />}
@@ -76,7 +76,7 @@ const buttonTheme = isDark ? 'white' : 'terracotta';
         <div class="body-lg opacity-85 prose mx-auto text-center text-pretty" set:html={marked.parse(data.body)} />
       )}
     </div>
-    <div class="pt-6">
+    <div class="pt-6 relative z-20">
       <Button href={data.button_url} theme={buttonTheme}>
         {data.button_text}
       </Button>

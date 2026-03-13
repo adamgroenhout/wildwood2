@@ -66,7 +66,7 @@ const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
 			document.addEventListener('astro:after-swap', () => document.documentElement.classList.add('astro-ready'));
 		</script>
 	</head>
-	<body class="bg-olive text-paper/90 font-sans selection:bg-terracotta/40 grain">
+	<body class="bg-olive text-paper/90 font-sans grain">
 		{!hideNav && <Header transition:persist />}
 		<slot />
 		{!hideNav && <Footer />}
