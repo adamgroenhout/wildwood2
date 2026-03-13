@@ -29,16 +29,7 @@
     },
     {
       "type": "text",
-      "theme": "alternate",
-      "alignment": "center",
-      "padding": "standard",
-      "title": "You’ve mastered the art of fine, but the weight of holding it all is becoming too heavy to carry alone.",
-      "subtitle": "",
-      "body": ""
-    },
-    {
-      "type": "text",
-      "title": "You're exhausted from managing everyone else's expectations while your own needs sit on the back burner.",
+      "title": "You’re exhausted from managing everyone else's expectations while your own needs sit on the back burner.",
       "body": "Maybe you've noticed you're drinking more than you used to. Or working longer hours to avoid feeling what's underneath. Or your relationship is struggling because old patterns keep showing up in new ways. You know something has to change. You're here because you're finally ready to figure out what that something is.\n\nI'm Kaylie, and I specialize in helping adults and couples in Leesburg, Virginia unpack the trauma that's been running the show. Together, we'll work through the anxiety, depression, and attachment wounds that keep you stuck in cycles you desperately want to break.",
       "theme": "alternate",
       "alignment": "center",
@@ -245,15 +236,15 @@
       "padding": "standard"
     },
     {
-      "type": "cta",
-      "title": "THIS IS WHERE CHANGE BEGINS.",
       "body": "TAKE A BREATH. YOU’RE IN THE RIGHT PLACE.\n\n#### You’ve mastered the art of fine, but the weight of holding it all is becoming too heavy to carry alone.",
-      "button_text": "Book a Call",
       "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
-      "image": "/wildwood/images/a_breathtaking_calm_image_of_a_s.png",
       "image_alt": "Final CTA Image",
       "theme": "olive",
-      "layout": "split"
+      "layout": "split",
+      "title": "THIS IS WHERE CHANGE BEGINS.",
+      "button_text": "Book a Call",
+      "type": "cta",
+      "image": "/wildwood/images/a_breathtaking_calm_image_of_a_s.png"
     }
   ]
 }
