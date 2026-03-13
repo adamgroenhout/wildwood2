@@ -22,7 +22,9 @@
     },
     {
       "type": "cta",
+      "tagline": "FREE CONSULTATION",
       "title": "Get in Touch",
+      "body": "Ready to see if we're a good fit? Book your 15-minute consultation call today.",
       "button_text": "Book Your Consultation",
       "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
       "theme": "terracotta",

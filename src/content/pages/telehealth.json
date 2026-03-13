@@ -39,10 +39,13 @@
     },
     {
       "type": "cta",
+      "tagline": "CONVENIENT CARE",
       "title": "Start Telehealth",
+      "body": "Therapy from the comfort of your own home. Virtual sessions provide the same level of care as in-person sessions, with added flexibility.",
       "button_text": "Schedule a Call",
       "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
-      "theme": "olive"
+      "theme": "olive",
+      "layout": "centered"
     }
   ],
   "subtitle": "Online therapy via video for adults in Virginia."

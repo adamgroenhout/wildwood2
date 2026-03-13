@@ -64,7 +64,9 @@
     },
     {
       "type": "cta",
+      "tagline": "NEXT COHORT ENROLLING",
       "title": "Join the Group",
+      "body": "Ready to trade performance for presence in a supportive community of peers?",
       "button_text": "Learn More About This Group",
       "button_url": "/holding-it-together",
       "theme": "terracotta",

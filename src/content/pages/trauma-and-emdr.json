@@ -194,7 +194,9 @@
     },
     {
       "type": "cta",
+      "tagline": "HEALING HAPPENS HERE",
       "title": "Ready to get started?",
+      "body": "It's time to move beyond survival and start living the life you deserve. Schedule your free consultation to begin the work of recovery.",
       "button_text": "Schedule a Call",
       "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
       "theme": "olive",

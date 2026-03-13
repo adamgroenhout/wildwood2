@@ -3,11 +3,13 @@ import Section from '../Section.astro';
 import Button from '../Button.astro';
 import { formatUrl } from '../../utils/paths';
 import { Image } from 'astro:assets';
+import { marked } from 'marked';
 
 interface Props {
   data: {
     title: string;
     tagline?: string;
+    body?: string;
     button_text: string;
     button_url: string;
     image?: string;
@@ -47,6 +49,9 @@ const buttonTheme = isDark ? 'white' : 'terracotta';
             </>
           ))}
         </p>
+        {data.body && (
+          <div class="body-lg opacity-85 prose mx-auto text-center text-pretty" set:html={marked.parse(data.body)} />
+        )}
       </div>
       <div class="pt-6">
         <Button href={data.button_url} theme={buttonTheme}>
@@ -67,6 +72,9 @@ const buttonTheme = isDark ? 'white' : 'terracotta';
           </>
         ))}
       </p>
+      {data.body && (
+        <div class="body-lg opacity-85 prose mx-auto text-center text-pretty" set:html={marked.parse(data.body)} />
+      )}
     </div>
     <div class="pt-6">
       <Button href={data.button_url} theme={buttonTheme}>

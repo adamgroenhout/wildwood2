@@ -120,7 +120,9 @@
     },
     {
       "type": "cta",
+      "tagline": "REBUILD CONNECTION",
       "title": "Ready to get started?",
+      "body": "Your relationship doesn't have to stay stuck in the same cycles. Schedule a consultation to see if we're the right fit for your relationship work.",
       "button_text": "Schedule a Call",
       "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
       "theme": "olive",

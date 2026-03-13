@@ -183,6 +183,7 @@ collections:
             fields:
               - { label: "Title", name: "title", widget: "text" }
               - { label: "Tagline", name: "tagline", widget: "string", required: false }
+              - { label: "Body", name: "body", widget: "markdown", required: false }
               - { label: "Button Text", name: "button_text", widget: "string" }
               - { label: "Button URL", name: "button_url", widget: "string" }
               - { label: "Background Image", name: "image", widget: "image", required: false }

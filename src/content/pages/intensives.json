@@ -74,7 +74,9 @@
     },
     {
       "type": "cta",
+      "tagline": "ACCELERATED HEALING",
       "title": "Ready to get started?",
+      "body": "Therapy intensives provide the space to do deep, meaningful work in a concentrated timeframe. Schedule a call to discuss if an intensive is the right path for you.",
       "button_text": "Schedule a Call",
       "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
       "theme": "olive",
