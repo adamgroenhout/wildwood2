@@ -42,7 +42,7 @@
     },
     {
       "type": "text",
-      "title": "1. PRE-INTENSIVE INTERVIEW",
+      "title": "1. THE DISCOVERY SESSION",
       "body": "In this 90-minute session, we'll determine your goal(s) for the intensive and prepare for it. We'll look at your support system, stressors, and coping strategies.",
       "theme": "alternate",
       "alignment": "left",
@@ -58,8 +58,8 @@
     },
     {
       "type": "text",
-      "title": "3. PERSONALIZED TREATMENT PROGRAM",
-      "body": "Your intensive will include targeted treatment and resourcing activities like guided imagery, movement, meditation, and a self-care plan - tailored to you.",
+      "title": "3. THE INTENSIVE EXPERIENCE",
+      "body": "Your intensive will include targeted treatment as well as resourcing activities like guided imagery, movement, meditation, and a self-care plan all tailored to you.",
       "theme": "alternate",
       "alignment": "left",
       "padding": "standard"
