@@ -124,22 +124,22 @@
       "items": [
         {
           "link_text": "",
-          "title": "The Reset | $",
-          "subtitle": "*Equivalent to approximately 1 month of weekly therapy.*",
+          "title": "*Equivalent to approximately 1 month of weekly therapy.*",
+          "subtitle": "The Reset | $",
           "text": "*A focused, half-day container to move past a specific stuck point.*\n\n* Comprehensive Pre-Intensive Discovery Session (90 mins)\n* Intensive Workbook with Customized Self-Care Plan\n* 3-hour Intensive reprocessing session\n* Post-Intensive Integration Session (90 mins)",
           "number": "1"
         },
         {
           "link_text": "",
-          "title": "The Deep Dive | $",
-          "subtitle": "*Equivalent to approximately 2-3 months of weekly therapy.*",
+          "title": "*Equivalent to approximately 2-3 months of weekly therapy.*",
+          "subtitle": "The Deep Dive | $",
           "text": "*A two-day experience for those navigating more complex patterns or multiple goals.*\n\n* Comprehensive Pre-Intensive Discovery Session (90 mins)\n* Intensive Workbook & Customized Self-Care Plan\n* 6 hours of Intensive reprocessing (split over two days)\n* Post-Intensive Integration Session (90 mins)",
           "number": "2"
         },
         {
           "link_text": "",
-          "title": "The Transformation | $",
-          "subtitle": "*Equivalent to approximately 4-5 months of weekly therapy.*",
+          "title": "*Equivalent to approximately 4-5 months of weekly therapy.*",
+          "subtitle": "The Transformation | $",
           "text": "*A comprehensive three-day retreat-style intensive for deep, systemic change.*\n\n* Comprehensive Pre-Intensive Discovery Session (90 mins)\n* Intensive Workbook & Customized Self-Care Plan\n* 9 hours of Intensive reprocessing (split over three days)\n* Post-Intensive Integration Session (90 mins)",
           "number": "3"
         }
