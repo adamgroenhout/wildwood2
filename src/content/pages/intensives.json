@@ -48,6 +48,15 @@
     },
     {
       "type": "text",
+      "title": "",
+      "body": "Whether you're a busy professional with a demanding schedule or someone already in weekly therapy who needs to move past a specific stuck point, an intensive offers a different path.\n\nFor the Busy Professional: Your schedule is constantly full and your brain is always running. You don’t have the bandwidth for the slow drip of weekly appointments and need a format that respects your time while hitting the target directly.\n\nFor the Targeted Deep-Dive: You may already have a therapist you love for weekly support, but you’ve realized that 50 minutes isn't enough to safely unpack and process deep-seated trauma. An intensive allows you to do the heavy lifting of EMDR in a dedicated, protected container before returning to your regular care.\n\nAn intensive may be for you if you:\n\n* Feel \"stuck\" in regular weekly therapy\n* Often leave sessions feeling frustrated you're on the cusp of a breakthrough but run out of time\n* Struggle to let yourself \"go there\" and feel painful feelings knowing you'll have to box them up until your next session\n* Have a busy schedule and can't commit to the slower, prolonged pace of weekly therapy\n* Spend your therapy hour each week updating on life between sessions instead of addressing root issues",
+      "theme": "alternate",
+      "alignment": "left",
+      "padding": "standard",
+      "subtitle": "You may be ready for an intensive if:"
+    },
+    {
+      "type": "text",
       "theme": "alternate",
       "alignment": "left",
       "padding": "standard",
@@ -58,19 +67,10 @@
     {
       "type": "text",
       "title": "Traditional Therapy vs. Intensive Therapy",
-      "body": "A typical 50-minute session can involve 5-10 minutes of opening and closing each time, leaving only about 35 minutes of processing time. We often spend our time processing the week that just happened. In an intensive, we stop treading water and start diving. It’s the difference between managing symptoms and moving past them. Scheduling may also be more convenient, but the real value is in the sustained momentum. We aren't switching gears and resetting every 50 minutes.\n\nA therapy intensive allows anywhere from 3 hours on one day to 9 hours over three days to dive deeply into the therapeutic work to address targeted goals without the same time constraint and challenge of keeping up momentum. No checking in or having to recap recent events or new issues each week between sessions.\n\nBecause of this, a 3-hour intensive can equate to about 5-6 hours of weekly therapy. Scheduling may also be more convenient. No need to regularly schedule around and take time away from work or family commitments each week.",
+      "body": "* Feel \"stuck\" in regular weekly therapy\n* Often leave sessions feeling frustrated you're on the cusp of a breakthrough but run out of time\n* Struggle to let yourself \"go there\" and feel painful feelings knowing you'll have to box them up until your next session\n* Spend your therapy hour each week updating on life between sessions instead of addressing root issues",
       "theme": "paper",
       "alignment": "left",
       "padding": "standard"
-    },
-    {
-      "type": "text",
-      "title": "",
-      "body": "Whether you're a busy professional with a demanding schedule or someone already in weekly therapy who needs to move past a specific stuck point, an intensive offers a different path.\n\nFor the Busy Professional: Your schedule is constantly full and your brain is always running. You don’t have the bandwidth for the slow drip of weekly appointments and need a format that respects your time while hitting the target directly.\n\nFor the Targeted Deep-Dive: You may already have a therapist you love for weekly support, but you’ve realized that 50 minutes isn't enough to safely unpack and process deep-seated trauma. An intensive allows you to do the heavy lifting of EMDR in a dedicated, protected container before returning to your regular care.\n\nAn intensive may be for you if you:\n\n* Feel \"stuck\" in regular weekly therapy\n* Often leave sessions feeling frustrated you're on the cusp of a breakthrough but run out of time\n* Struggle to let yourself \"go there\" and feel painful feelings knowing you'll have to box them up until your next session\n* Have a busy schedule and can't commit to the slower, prolonged pace of weekly therapy\n* Spend your therapy hour each week updating on life between sessions instead of addressing root issues",
-      "theme": "alternate",
-      "alignment": "left",
-      "padding": "standard",
-      "subtitle": "Is an Intensive Right for You?"
     },
     {
       "type": "text",
