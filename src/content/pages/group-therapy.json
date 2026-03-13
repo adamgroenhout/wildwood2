@@ -41,7 +41,8 @@
       "button_text": "See Current Groups",
       "button_url": "/holding-it-together",
       "theme": "terracotta",
-      "layout": "centered"
+      "layout": "centered",
+      "body": "[Holding It Together](/holding-it-together/)"
     },
     {
       "type": "grid",
@@ -83,12 +84,6 @@
       "body": "#### \"Do I have to share everything?\"\n\nNope. You're always in charge of your own level of vulnerability. Sometimes, just being present and listening can be the thing you need.\n\n#### \"What if I'm too much/not enough?\"\n\nThis is one of the most common group fears. Our groups are curated to be small and trauma-informed, ensuring everyone has space without anyone feeling overwhelmed. We also hold screening calls to make sure group is an appropriate setting for folks.\n\n#### \"Is this just a vent session?\"\n\nWhile sharing is part of groups, Wildwood groups are structured. We balance emotional processing with practical, concrete tools you can use immediately."
     },
     {
-      "type": "grid",
-      "columns": "3",
-      "style": "minimal",
-      "theme": "alternate",
-      "padding": "standard",
-      "title": "How it Works",
       "items": [
         {
           "link_text": "",
@@ -107,7 +102,15 @@
           "text": "Join a small, confidential cohort of peers."
         }
       ],
-      "body": "##### Holding It Together: A 6-Week Journey for High-Functioning Adults\n\nA small, trauma-informed circle for those moving past people-pleasing and overwhelm.\n\n##### Have a specific need? [[Join our general group interest list](list)] to be notified of upcoming cohorts."
+      "body": "##### Holding It Together: A 6-Week Journey for High-Functioning Adults\n\nA small, trauma-informed circle for those moving past people-pleasing and overwhelm.\n\n##### Have a specific need? [[Join our general group interest list](list)] to be notified of upcoming cohorts.",
+      "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
+      "theme": "alternate",
+      "padding": "standard",
+      "style": "minimal",
+      "title": "How it Works",
+      "button_text": "Schedule Your Call",
+      "type": "grid",
+      "columns": "3"
     }
   ],
   "subtitle": "Connection & healing in community."
