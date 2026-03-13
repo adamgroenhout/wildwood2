@@ -1,18 +1,18 @@
 {
-  "title": "Intensive Therapy",
-  "seo_title": "Therapy Intensives | Wildwood Psychotherapy",
-  "subtitle": "Accelerated therapy for faster change.",
+  "title": "Deep Work, Accelerated: Therapy Intensives in Leesburg, VA",
+  "seo_title": "Deep Work, Accelerated: Therapy Intensives in Leesburg, VA",
+  "subtitle": "When 50 minutes a week isn’t enough to reach the roots.",
   "blocks": [
     {
-      "type": "hero",
-      "hero_title": "Intensive Therapy",
-      "hero_subtitle": "Accelerated therapy for faster change.",
-      "hero_image": "/wildwood/images/a_deepfocus_photorealistic_image.png",
+      "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
+      "alignment": "center",
       "hero_alt": "Quiet sunlit library for intensive focus",
       "theme": "dark",
-      "alignment": "center",
+      "hero_title": "Deep Work, Accelerated: Therapy Intensives in Leesburg, VA",
+      "hero_image": "/wildwood/images/a_deepfocus_photorealistic_image.png",
+      "type": "hero",
       "cta_text": "Book an Intensive",
-      "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/"
+      "hero_subtitle": "When 50 minutes a week isn’t enough to reach the roots."
     },
     {
       "type": "image_text",
