@@ -168,15 +168,13 @@
       "link_url": "/about",
       "image_position": "left",
       "padding": "standard",
-      "link_text": "Learn more about me",
+      "link_text": "Learn more about my background and certifications",
       "subtitle": "Owner, Board-Certified Licensed Professional Counselor, EMDR Certified Therapist",
       "title": "I'm Kaylie.",
       "type": "image_text",
       "image": "images/kaylie-groenhout-headshot.jpg"
     },
     {
-      "type": "grid",
-      "title": "My Specialties",
       "items": [
         {
           "title": "Trauma + EMDR",
@@ -197,11 +195,14 @@
           "link_text": "Explore Anxiety Therapy"
         }
       ],
-      "style": "cards",
-      "columns": "3",
+      "body": "You deserve more than a therapist who \"just listens\"; you deserve a partner in your growth. My approach is warm and grounded, but I’m not afraid to be direct. I’ll challenge the patterns that no longer serve you and help you connect the dots between your past and your present.\n\nI believe that real healing happens in the space between us. That’s why I’m committed to showing up as a real human in our sessions, bringing clinical expertise, specialized trauma training, and a deep respect for the work you're doing.",
       "theme": "alternate",
       "padding": "standard",
-      "subtitle": "Space for the Complex"
+      "style": "cards",
+      "subtitle": "Space for the Complex",
+      "title": "My Specialties",
+      "type": "grid",
+      "columns": "3"
     },
     {
       "type": "grid",
