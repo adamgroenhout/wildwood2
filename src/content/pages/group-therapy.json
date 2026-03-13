@@ -3,14 +3,14 @@
   "seo_title": "Group Therapy for People-Pleasers in Leesburg, VA",
   "blocks": [
     {
-      "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
+      "cta_url": "https://adamgroenhout.github.io/wildwood/holding-it-together/",
       "alignment": "center",
       "hero_alt": "Circle of smooth river stones representing community",
       "theme": "dark",
       "hero_title": "Group Therapy",
       "hero_image": "/wildwood/images/a_gentle_photorealistic_image_of.png",
       "type": "hero",
-      "cta_text": "Schedule Your Screening Call",
+      "cta_text": "See Current Groups",
       "hero_subtitle": "Connection & healing in community."
     },
     {
@@ -64,8 +64,8 @@
     },
     {
       "type": "cta",
-      "title": "Join the Group",
-      "button_text": "Learn More About This Group",
+      "title": "See Current Groups",
+      "button_text": "See Current Groups",
       "button_url": "/holding-it-together",
       "theme": "terracotta",
       "layout": "centered"
@@ -115,7 +115,7 @@
       "link_url": "https://adamgroenhout.github.io/wildwood/holding-it-together/",
       "image_position": "left",
       "padding": "small",
-      "link_text": "View Group Details & Schedule",
+      "link_text": "See Current Groups",
       "subtitle": "Current & Upcoming Groups",
       "title": "",
       "type": "image_text",
