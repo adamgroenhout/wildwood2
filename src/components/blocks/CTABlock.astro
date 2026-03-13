@@ -50,7 +50,7 @@ const buttonTheme = isDark ? 'white' : 'terracotta';
           ))}
         </h2>
         {data.body && (
-          <div class="body-lg opacity-85 prose mx-auto text-left text-pretty max-w-2xl" set:html={marked.parse(data.body)} />
+          <div class="body-lg opacity-85 prose mx-auto text-center text-pretty max-w-2xl" set:html={marked.parse(data.body)} />
         )}
       </div>
       <div class="pt-6">
@@ -73,7 +73,7 @@ const buttonTheme = isDark ? 'white' : 'terracotta';
         ))}
       </h2>
       {data.body && (
-        <div class="body-lg opacity-85 prose mx-auto text-left text-pretty max-w-2xl" set:html={marked.parse(data.body)} />
+        <div class="body-lg opacity-85 prose mx-auto text-center text-pretty max-w-2xl" set:html={marked.parse(data.body)} />
       )}
     </div>
     <div class="pt-6 relative z-20">
