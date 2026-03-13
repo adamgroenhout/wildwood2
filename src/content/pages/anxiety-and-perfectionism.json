@@ -1,18 +1,18 @@
 {
-  "title": "Anxiety + Depression Therapy in Leesburg, VA",
+  "title": "Calming the Overwhelmed & Awakening the Underwhelmed: Boutique Therapy for Adults in Leesburg, VA",
   "seo_title": "Anxiety & Depression Therapy in Leesburg, VA",
-  "subtitle": "THIS IS FOR A SUBTITLE",
+  "subtitle": "FINDING YOUR WAY BACK TO THE MIDDLE.",
   "blocks": [
     {
-      "type": "hero",
-      "hero_title": "Anxiety + Depression Therapy in Leesburg, VA",
-      "hero_subtitle": "THIS IS FOR A SUBTITLE",
-      "hero_image": "/wildwood/images/a_minimalist_photorealistic_imag.png",
+      "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
+      "alignment": "center",
       "hero_alt": "Minimalist green leaf representing regulation",
       "theme": "dark",
-      "alignment": "center",
+      "hero_title": "Calming the Overwhelmed & Awakening the Underwhelmed: Boutique Therapy for Adults in Leesburg, VA",
+      "hero_image": "/wildwood/images/a_minimalist_photorealistic_imag.png",
+      "type": "hero",
       "cta_text": "Schedule a Call",
-      "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/"
+      "hero_subtitle": "THIS IS FOR A SUBTITLE"
     },
     {
       "type": "image_text",
