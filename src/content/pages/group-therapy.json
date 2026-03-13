@@ -22,6 +22,18 @@
       "body": "One-on-one therapy offers a deep dive into your personal story, but there's a specific kind of magic that can only happen in the presence of others. Beyond support, our groups are curated, trauma-informed containers designed to help you practice new ways of being in real-time.\n\nWhether you're looking to quiet the noise of perfectionism, process shared trauma, or simply find a space where you don't have to explain yourself, our groups offer a grounded path back to connection."
     },
     {
+      "body": "### Now Enrolling: Holding It Together\n\nA 6-Week Journey for High-Functioning Adults\nA small, in-person cohort in Leesburg for those moving past the put-together front to practice regulation and authentic connection.\n[View Group Details & Dates →](https://www.google.com/search?q=/wildwood/holding-it-together)",
+      "theme": "alternate",
+      "link_url": "https://adamgroenhout.github.io/wildwood/holding-it-together/",
+      "image_position": "left",
+      "padding": "small",
+      "link_text": "See Current Groups",
+      "subtitle": "Current & Upcoming Groups",
+      "title": "",
+      "type": "image_text",
+      "image": "/wildwood/images/a_photorealistic_image_of_an_ope.png"
+    },
+    {
       "type": "grid",
       "title": "Why Community Healing?",
       "items": [
@@ -44,16 +56,13 @@
       "padding": "standard"
     },
     {
-      "body": "### Now Enrolling: Holding It Together\n\nA 6-Week Journey for High-Functioning Adults\nA small, in-person cohort in Leesburg for those moving past the put-together front to practice regulation and authentic connection.\n[View Group Details & Dates →](https://www.google.com/search?q=/wildwood/holding-it-together)",
+      "type": "text",
       "theme": "alternate",
-      "link_url": "https://adamgroenhout.github.io/wildwood/holding-it-together/",
-      "image_position": "left",
-      "padding": "small",
-      "link_text": "See Current Groups",
-      "subtitle": "Current & Upcoming Groups",
-      "title": "",
-      "type": "image_text",
-      "image": "/wildwood/images/a_photorealistic_image_of_an_ope.png"
+      "alignment": "left",
+      "padding": "standard",
+      "title": "Why you should consider group instead of (or in addition to) individual therapy?",
+      "subtitle": "The Unique Power of Groups",
+      "body": "* **Perspective Shift:** In individual therapy, you have a mirror. In a group, you have a prism. Seeing your own struggles reflected in others helps dissolve shame that thrives in isolation.\n* **Real-Life Practice:** A group is a social laboratory. It’s a safe place where you can say, \"*I’m feeling anxious right now,\"* or *\"I want to say no, but I feel like I have to say yes,\"* and receive immediate, supportive feedback in a safe container.\n* **Affordability + Accessibility:** Groups offer a way to access high-level therapeutic support and skill-building at a different investment point than weekly individual sessions."
     },
     {
       "type": "text",
@@ -63,6 +72,36 @@
       "theme": "alternate",
       "alignment": "left",
       "padding": "standard"
+    },
+    {
+      "type": "grid",
+      "columns": "3",
+      "style": "minimal",
+      "theme": "alternate",
+      "padding": "standard",
+      "subtitle": "Why Wildwood Groups Are Different",
+      "title": "",
+      "items": [
+        {
+          "link_text": "",
+          "title": "Pillar 1",
+          "subtitle": "Small By Design",
+          "number": "1",
+          "text": "We limit our cohorts to 6-8 participants. This ensures the space remains intimate, quiet, and safe enough for deep nervous system work."
+        },
+        {
+          "link_text": "",
+          "subtitle": "Closed Containers",
+          "title": "Pillar 2",
+          "text": "Once a group begins, we do not add new members. This allows the circle to build a unique level of trust and consistency over the weeks."
+        },
+        {
+          "link_text": "",
+          "subtitle": "Autonomy + Mindful Choice",
+          "title": "Pillar 3",
+          "text": "Healing is never forced. We prioritize your right to choose how, and if, you participate in any exercise. Whether we're practicing a grounding tool or sharing reflections, you're always in the driver’s seat. We honor your pace and your *no* as much as your *yes*, creating a space where your autonomy is a priority."
+        }
+      ]
     },
     {
       "type": "text",
@@ -100,45 +139,6 @@
       "button_text": "Schedule Your Call",
       "type": "grid",
       "columns": "3"
-    },
-    {
-      "type": "grid",
-      "columns": "3",
-      "style": "minimal",
-      "theme": "alternate",
-      "padding": "standard",
-      "subtitle": "Why Wildwood Groups Are Different",
-      "title": "",
-      "items": [
-        {
-          "link_text": "",
-          "title": "Pillar 1",
-          "subtitle": "Small By Design",
-          "number": "1",
-          "text": "We limit our cohorts to 6-8 participants. This ensures the space remains intimate, quiet, and safe enough for deep nervous system work."
-        },
-        {
-          "link_text": "",
-          "subtitle": "Closed Containers",
-          "title": "Pillar 2",
-          "text": "Once a group begins, we do not add new members. This allows the circle to build a unique level of trust and consistency over the weeks."
-        },
-        {
-          "link_text": "",
-          "subtitle": "Autonomy + Mindful Choice",
-          "title": "Pillar 3",
-          "text": "Healing is never forced. We prioritize your right to choose how, and if, you participate in any exercise. Whether we're practicing a grounding tool or sharing reflections, you're always in the driver’s seat. We honor your pace and your *no* as much as your *yes*, creating a space where your autonomy is a priority."
-        }
-      ]
-    },
-    {
-      "type": "text",
-      "theme": "alternate",
-      "alignment": "left",
-      "padding": "standard",
-      "title": "Why you should consider group instead of (or in addition to) individual therapy?",
-      "subtitle": "The Unique Power of Groups",
-      "body": "* **Perspective Shift:** In individual therapy, you have a mirror. In a group, you have a prism. Seeing your own struggles reflected in others helps dissolve shame that thrives in isolation.\n* **Real-Life Practice:** A group is a social laboratory. It’s a safe place where you can say, \"*I’m feeling anxious right now,\"* or *\"I want to say no, but I feel like I have to say yes,\"* and receive immediate, supportive feedback in a safe container.\n* **Affordability + Accessibility:** Groups offer a way to access high-level therapeutic support and skill-building at a different investment point than weekly individual sessions."
     }
   ],
   "subtitle": "Connection & healing in community."
