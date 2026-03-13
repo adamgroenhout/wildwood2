@@ -72,20 +72,20 @@
     },
     {
       "type": "text",
+      "theme": "alternate",
+      "alignment": "left",
+      "padding": "standard",
+      "subtitle": "Healing in Community",
+      "body": "While much of our work happens in the sacred space of one-on-one therapy, I believe there's a unique, profound power in being witnessed by others who share your struggle.\n\nIf you're tired of carrying the weight of holding it all together in isolation, you might find your place in one of our [Leesburg Group Therapy cohorts](https://www.google.com/search?q=/wildwood/group-therapy). It's a space designed to move you from feeling invisible to feeling deeply understood."
+    },
+    {
+      "type": "text",
       "title": "Behind the Practice: A Little More About Me",
       "subtitle": "Outside the Therapy Room",
       "body": "I live in Western Loudoun with my family. Outside of sessions, I'm probably reading the latest trauma research, messing with my plants, or navigating life with a big family, dog, and seemingly endless flow of (at times) wild ideas.\n\nI believe in practicing what I preach, which means I'm also doing my own work. I can't ask you to be vulnerable if I'm not willing to do the same.\n\nI didn't become a therapist because I had all the answers. I became a therapist because I'm deeply curious about what makes humans *human* the way they do, and I'm committed to helping people untangle the knots that keep them stuck in patterns they desperately want to break.",
       "theme": "alternate",
       "alignment": "left",
       "padding": "standard"
-    },
-    {
-      "type": "text",
-      "theme": "alternate",
-      "alignment": "left",
-      "padding": "standard",
-      "subtitle": "Healing in Community",
-      "body": "While much of our work happens in the sacred space of one-on-one therapy, I believe there's a unique, profound power in being witnessed by others who share your struggle.\n\nIf you're tired of carrying the weight of holding it all together in isolation, you might find your place in one of our [Leesburg Group Therapy cohorts](https://www.google.com/search?q=/wildwood/group-therapy). It's a space designed to move you from feeling invisible to feeling deeply understood."
     },
     {
       "type": "cta",
