@@ -5,18 +5,33 @@ import { formatUrl } from '../utils/paths';
 const settingsEntry = await getEntry('settings', 'settings');
 const { site_name, tagline, land_acknowledgment, footer_columns, staff_logout_text, staff_login_text, copyright_text } = settingsEntry?.data || {};
 
+const areasServedColumn = footer_columns?.find(col => col.title === 'Areas Served');
+const otherColumns = footer_columns?.filter(col => col.title !== 'Areas Served');
+
 const year = new Date().getFullYear();
 const base = import.meta.env.BASE_URL;
 ---
 
 <footer class="bg-cream text-charcoal border-t border-black/5 py-20 px-6 md:px-12 lg:px-16">
 	<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-10">
-		<div>
+		<div class="max-w-md">
 			<a href={formatUrl('')} class="text-3xl tracking-tight uppercase font-serif text-olive">{site_name?.split(' ')[0]}</a>
 			<p class="mt-4 text-sm opacity-70 text-pretty">{tagline}</p>
+			{areasServedColumn && (
+				<div class="mt-12">
+					<h3 class="eyebrow mb-4 opacity-40">{areasServedColumn.title}</h3>
+					<p class="text-xs opacity-50 leading-relaxed">
+						{areasServedColumn.links.map((link, index) => (
+							<span key={link.name}>
+								{link.name}{index < areasServedColumn.links.length - 1 ? ' • ' : ''}
+							</span>
+						))}
+					</p>
+				</div>
+			)}
 		</div>
-		<div class={`grid grid-cols-2 md:grid-cols-${footer_columns?.length || 2} gap-10`}>
-			{footer_columns?.map(column => (
+		<div class={`grid grid-cols-2 md:grid-cols-${otherColumns?.length || 2} gap-10`}>
+			{otherColumns?.map(column => (
 				<div>
 					<h3 class="eyebrow mb-4 opacity-40">{column.title}</h3>
 					<ul class="space-y-2 text-sm opacity-70">
@@ -30,7 +45,7 @@ const base = import.meta.env.BASE_URL;
 	</div>
 	<div class="max-w-7xl mx-auto mt-20 pt-10 border-t border-black/5 space-y-4">
 		{land_acknowledgment && (
-			<div class="text-[10px] opacity-40 italic max-w-2xl leading-relaxed text-pretty" set:html={land_acknowledgment} />
+			<div class="text-xs opacity-40 italic max-w-2xl leading-relaxed text-pretty" set:html={land_acknowledgment} />
 		)}
 		<div class="flex justify-between items-center text-xs opacity-40">
 			<p>&copy; {year} {site_name}. {copyright_text || 'All rights reserved.'}</p>
