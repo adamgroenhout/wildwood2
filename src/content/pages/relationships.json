@@ -1,18 +1,18 @@
 {
-  "title": "Couples Therapy for ENM + Polyamorous Relationships",
+  "title": "Relationship Therapy for ENM & Polyamory.",
   "seo_title": "Kink-aware & Polyamory-Affirming Therapy in Leesburg, VA",
   "subtitle": "Kink-aware & Polyamory-Affirming Therapy in Leesburg, VA",
   "blocks": [
     {
-      "type": "hero",
-      "hero_title": "Couples Therapy for ENM + Polyamorous Relationships",
-      "hero_subtitle": "Kink-aware & Polyamory-Affirming Therapy in Leesburg, VA",
-      "hero_image": "/wildwood/images/a_warm_inviting_photorealistic_s.png",
+      "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
+      "alignment": "center",
       "hero_alt": "Two comfortable chairs in a sunlit room",
       "theme": "dark",
-      "alignment": "center",
+      "hero_title": "Couples Therapy for ENM + Polyamorous Relationships",
+      "hero_image": "/wildwood/images/a_warm_inviting_photorealistic_s.png",
+      "type": "hero",
       "cta_text": "Schedule a Call",
-      "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/"
+      "hero_subtitle": "Kink-aware & Polyamory-Affirming Therapy in Leesburg, VA"
     },
     {
       "type": "text",
