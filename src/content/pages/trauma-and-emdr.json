@@ -79,10 +79,10 @@
     {
       "type": "text",
       "title": "Sound familiar?",
-      "body": "If you've been searching for \"[EMDR therapy near me](https://adamgroenhout.github.io/wildwood/contact)\" or \"trauma therapist Leesburg,\" you probably already know this is what you need. If you landed here because you Googled \"why do I keep ruining my relationships\" or \"can't relax ever,\" then welcome. This is exactly where you need to be.",
-      "theme": "alternate",
-      "alignment": "left",
-      "padding": "standard"
+      "body": "If you've been searching for \"[EMDR therapy near me](https://adamgroenhout.github.io/wildwood/contact)\" or \"trauma therapist Leesburg,\" you probably already know this is what you need. If you landed here because you Googled \"why do I keep ruining my relationships\" or \"can't relax ever,\" then welcome. This is exactly where you need to be.\n\n\n\n**You aren’t broken. Your nervous system is simply performing the job it was trained to do. At Wildwood, we provide the tools to give it new instructions.**",
+      "theme": "olive",
+      "alignment": "center",
+      "padding": "large"
     },
     {
       "type": "text",
