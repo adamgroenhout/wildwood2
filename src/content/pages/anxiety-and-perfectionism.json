@@ -118,7 +118,8 @@
       "columns": "2",
       "style": "minimal",
       "theme": "cream",
-      "padding": "standard"
+      "padding": "standard",
+      "body": "**It's therapy that requires more time because we're literally retraining your nervous system, and that doesn't happen in soundbites.**"
     },
     {
       "type": "text",
@@ -126,7 +127,8 @@
       "body": "It's therapy that requires more time because we're literally retraining your nervous system, and that doesn't happen in soundbites.\n\n\\[Link to Session Options page]",
       "theme": "paper",
       "alignment": "left",
-      "padding": "standard"
+      "padding": "standard",
+      "subtitle": ""
     },
     {
       "type": "text",
