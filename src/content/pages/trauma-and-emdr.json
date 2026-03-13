@@ -120,6 +120,15 @@
       "padding": "standard"
     },
     {
+      "type": "image_text",
+      "image_position": "left",
+      "theme": "alternate",
+      "padding": "small",
+      "title": "The 90-Minute Advantage",
+      "body": "Standard 50-minute sessions often end just as the real work begins. At Wildwood, we prioritize deep work with extended sessions. By dedicating 90 minutes to the EMDR process, we bypass the rush, allowing your nervous system the space it needs to fully process, integrate, and return to a state of calm. It’s not just about having more time; it’s about more movement.",
+      "image": "/wildwood/images/annie-spratt-l9avqfj0pmu-unsplash.jpg"
+    },
+    {
       "type": "grid",
       "title": "90-minute EMDR sessions allow us to:",
       "items": [
@@ -203,15 +212,6 @@
       "layout": "split",
       "image": "/wildwood/images/a_closeup_photorealistic_image_o.png",
       "image_alt": "Grounded natural texture"
-    },
-    {
-      "type": "image_text",
-      "image_position": "left",
-      "theme": "alternate",
-      "padding": "small",
-      "title": "The 90-Minute Advantage",
-      "body": "Standard 50-minute sessions often end just as the real work begins. At Wildwood, we prioritize deep work with extended sessions. By dedicating 90 minutes to the EMDR process, we bypass the rush, allowing your nervous system the space it needs to fully process, integrate, and return to a state of calm. It’s not just about having more time; it’s about more movement.",
-      "image": "/wildwood/images/annie-spratt-l9avqfj0pmu-unsplash.jpg"
     }
   ]
 }
