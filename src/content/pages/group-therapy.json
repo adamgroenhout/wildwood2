@@ -69,7 +69,7 @@
       "type": "text",
       "title": "What You'll Learn In Group",
       "subtitle": "\"Holding It Together\"",
-      "body": "This isn't therapy where you just talk about your feelings and nothing changes.\n\nYou'll learn practical skills you can use the moment anxiety or perfectionism kicks into overdrive. Things like:\n\nGrounding techniques that bring you back to YOUR body when you're spiraling in someone else's drama. You'll practice feeling your feet on the floor, your breath in your chest, being present in YOUR moment instead of everyone else's chaos.\n\nThe pause practice. Before you automatically say yes, before you jump into fix-it mode, you'll learn to ask: \"What's here for ME right now? What within me needs my attention?\" And actually respond to that instead of abandoning yourself.\n\nTolerating being seen. Not just SEEING everyone else, but letting yourself be witnessed. Learning that your needs aren't annoying. Your struggles aren't complaining. That weight you're carrying? It IS heavy. And you're allowed to say so.\n\n## Why Group Therapy Works Better Than Going It Alone\n\nYou'll finally stop feeling like you're the only one struggling with this. Hearing others share similar experiences breaks the isolation that keeps you stuck.\n\nYou'll learn from watching others set boundaries and practice saying no. Sometimes seeing someone else do it first makes it feel possible for YOU.\n\nSharing your story in a safe space IS healing. Not performative sharing, but real \"this is what's actually happening\" honesty.\n\nYou'll build compassion for yourself by extending it to others first. It's easier to see that someone else isn't \"too much\" before you can believe it about yourself.",
+      "body": "#### \"What if I don't know what to say?\"\n\nYou don't have to have it all figured out. There's zero pressure to share anything you're not ready for. Sometimes just listening and being present is enough.\n\n#### \"What if I don't want to talk about my past?\"\n\nYou don't have to. This group focuses on what's happening NOW and building skills for moving forward. Your past is yours to share or not share.\n\n#### \"What if everyone else has bigger problems than me?\"\n\nThis thinking right here? This is the people-pleaser talking. Your struggles matter. Your exhaustion is real. You don't need permission to take up space here.",
       "theme": "alternate",
       "alignment": "left",
       "padding": "standard"
@@ -79,39 +79,35 @@
       "theme": "alternate",
       "alignment": "left",
       "padding": "standard",
-      "title": "Common Concerns (And Real Answers)",
+      "title": "Common Concerns (And Answers)",
       "body": "#### \"What if I don't know what to say?\"\n\nYou don't have to have it all figured out. There's zero pressure to share anything you're not ready for. Sometimes just listening and being present is enough.\n\n#### \"What if I don't want to talk about my past?\"\n\nYou don't have to. This group focuses on what's happening NOW and building skills for moving forward. Your past is yours to share or not share.\n\n#### \"What if everyone else has bigger problems than me?\"\n\nThis thinking right here? This is the people-pleaser talking. Your struggles matter. Your exhaustion is real. You don't need permission to take up space here.\n\n#### Can I really commit to 6 weeks?\"\n\nThat's the question you need to answer honestly. This group requires commitment because transformation happens through consistency, not one-off sessions. If you can't commit to every Tuesday at 6 PM for 6 weeks (barring emergencies), this might not be the right timing for you."
     },
     {
       "type": "grid",
-      "columns": "4",
+      "columns": "3",
       "style": "minimal",
       "theme": "alternate",
       "padding": "standard",
-      "title": "How to Join",
+      "title": "How it Works",
       "items": [
         {
-          "link_text": "Learn more",
-          "text": "Complete the registration form \\[here/link]",
+          "link_text": "",
+          "text": "Browse current groups.",
           "title": "Step 1"
         },
         {
-          "link_text": "Learn more",
+          "link_text": "",
           "title": "Step 2",
-          "text": "Schedule your required 15-minute screening call"
+          "text": "Schedule a 15-minute screening call.",
+          "link_url": "https://wildwoodpsychotherapy.clientsecure.me/"
         },
         {
-          "link_text": "Learn more",
+          "link_text": "",
           "title": "Step 3",
-          "text": "Once approved, secure your spot with payment"
-        },
-        {
-          "link_text": "Learn more",
-          "title": "Step 4",
-          "text": "Show up on Tuesday, May 6th at 6 PM ready to finally put yourself first"
+          "text": "Join a small, confidential cohort of peers."
         }
       ],
-      "body": "##### Holding It Together: A 6-Week Journey for High-Functioning Adults\n\nA small, trauma-informed circle for those moving past people-pleasing and overwhelm."
+      "body": "##### Holding It Together: A 6-Week Journey for High-Functioning Adults\n\nA small, trauma-informed circle for those moving past people-pleasing and overwhelm.\n\n##### Have a specific need? [[Join our general group interest list](list)] to be notified of upcoming cohorts."
     }
   ],
   "subtitle": "Connection & healing in community."
