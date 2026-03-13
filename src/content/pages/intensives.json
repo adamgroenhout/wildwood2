@@ -105,6 +105,17 @@
       "padding": "standard"
     },
     {
+      "body": "Have a client who's stuck in their work with you due to developmental or single-incident trauma? I love collaborating with other providers and using EMDR intensives to bridge the gap. You keep the bond with your client; I spend 1-3 days with them doing the heavy lifting of targeted reprocessing. At the end, they transition back to you for ongoing care. Think of it as a specialized tool for your clinical toolkit.\n\n#### How We Collaborate:\n\n* Secure ROI/Case Consultation before we begin\n* Targeted focus on one stuck target or theme\n* Seamless hand-off back to you with an integration summary",
+      "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
+      "alignment": "left",
+      "theme": "alternate",
+      "padding": "standard",
+      "subtitle": "For Fellow Therapists",
+      "title": "Adjunct EMDR for Your Clients",
+      "button_text": "Schedule a Consultation Call",
+      "type": "text"
+    },
+    {
       "type": "text",
       "theme": "alternate",
       "alignment": "left",
@@ -183,17 +194,6 @@
       ],
       "button_text": "Schedule a Free Consultation to Explore Intensives.",
       "button_url": "https://wildwoodpsychotherapy.clientsecure.me/"
-    },
-    {
-      "body": "Have a client who's stuck in their work with you due to developmental or single-incident trauma? I love collaborating with other providers and using EMDR intensives to bridge the gap. You keep the bond with your client; I spend 1-3 days with them doing the heavy lifting of targeted reprocessing. At the end, they transition back to you for ongoing care. Think of it as a specialized tool for your clinical toolkit.\n\n#### How We Collaborate:\n\n* Secure ROI/Case Consultation before we begin\n* Targeted focus on one stuck target or theme\n* Seamless hand-off back to you with an integration summary",
-      "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
-      "alignment": "left",
-      "theme": "alternate",
-      "padding": "standard",
-      "subtitle": "For Fellow Therapists",
-      "title": "Adjunct EMDR for Your Clients",
-      "button_text": "Schedule a Consultation Call",
-      "type": "text"
     },
     {
       "type": "cta",
