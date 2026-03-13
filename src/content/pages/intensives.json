@@ -76,8 +76,10 @@
       "type": "text",
       "theme": "alternate",
       "alignment": "center",
-      "padding": "large",
-      "body": "![](/wildwood/images/pexels-jjskorupski-11114980.jpg)"
+      "padding": "standard",
+      "body": "In this 90-minute session, we'll determine your goal(s) for the intensive and prepare for it. We'll look at your support system, stressors, and coping strategies.\n\n![](/wildwood/images/pexels-jjskorupski-11114980.jpg)",
+      "subtitle": "",
+      "title": "1. THE DISCOVERY SESSION"
     },
     {
       "type": "text",
