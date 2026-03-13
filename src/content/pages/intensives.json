@@ -105,6 +105,47 @@
       "padding": "standard"
     },
     {
+      "type": "text",
+      "theme": "alternate",
+      "alignment": "left",
+      "padding": "standard",
+      "body": "Therapy intensives are a front-loaded investment of time and resources. By condensing months of traditional therapy into a few days, you reduce the long-term overhead of healing, meaning, minimizing things like time away from work, the cost of childcare, and the emotional exhaustion of the weekly reset.",
+      "title": "Investment & Logistics",
+      "subtitle": "Choosing a dedicated format for the work you need and deserve."
+    },
+    {
+      "type": "grid",
+      "columns": "3",
+      "style": "minimal",
+      "theme": "alternate",
+      "padding": "standard",
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "link_text": "",
+          "title": "The Reset",
+          "subtitle": "$",
+          "text": "*A focused, half-day container to move past a specific stuck point.*\n\n* * Comprehensive Pre-Intensive Discovery Session (90 mins)\n\n  * Wildwood Intensive Workbook with Customized Self-Care Plan\n\n  * 3-hour Intensive reprocessing session\n* * Post-Intensive Integration Session (90 mins)",
+          "number": "1"
+        },
+        {
+          "link_text": "",
+          "title": "The Deep Dive",
+          "subtitle": "$",
+          "text": "A two-day experience for those navigating more complex patterns or multiple goals.\n\n* Comprehensive Pre-Intensive Discovery Session (90 mins)\n* Wildwood Intensive Workbook & Customized Self-Care Plan\n* 6 hours of Intensive reprocessing (split over two days)\n* Post-Intensive Integration Session (90 mins)",
+          "number": "2"
+        },
+        {
+          "link_text": "",
+          "title": "The Transformation",
+          "subtitle": "$",
+          "text": "*A comprehensive three-day retreat-style intensive for deep, systemic change.*\n\n* Comprehensive Pre-Intensive Discovery Session (90 mins)\n* Wildwood Intensive Workbook & Customized Self-Care Plan\n* 9 hours of Intensive reprocessing (split over three days)\n* Post-Intensive Integration Session (90 mins)",
+          "number": "3"
+        }
+      ]
+    },
+    {
       "type": "cta",
       "title": "Ready to get started?",
       "button_text": "Schedule a Free Consultation to Explore Intensives",
