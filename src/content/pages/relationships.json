@@ -49,22 +49,6 @@
       "image": "/wildwood/images/a_cozy_inviting_scene_of_two_war.png"
     },
     {
-      "type": "grid",
-      "title": "What Healing Actually Looks Like",
-      "items": [
-        {
-          "text": "“Imagine six months from now. You’re sitting in the same car, in the same parking lot. But everything feels different...”"
-        },
-        {
-          "text": "“You trust each other’s word again because you’ve both learned how to keep it. You understand your own triggers and each other’s, and you know how to navigate them without shame...”"
-        }
-      ],
-      "columns": "2",
-      "style": "minimal",
-      "theme": "cream",
-      "padding": "standard"
-    },
-    {
       "type": "text",
       "title": "Here's How We Resolve This",
       "body": "I don't teach communication frameworks. I don't give you scripts for \"healthy conflict.\"\n\nWe do the actual work: slowing your nervous system down enough that you can hold space for hard conversations without falling apart or shutting down.\n\nWe build the kind of safety where you can tell each other the truth - the real truth, not the version you think the other person can handle - and stay present for what comes next.\n\nWe learn to regulate instead of react. To pause instead of push through. To ask for what you want without shame, instead of demanding reassurance through tests your partner keeps failing.\n\nThis isn't about learning better ways to talk to each other. It's about learning how to be in your own body during conflict without needing to fight, flee, or people-please your way out of discomfort.",
@@ -135,6 +119,18 @@
       "layout": "split",
       "image": "/wildwood/images/a_warm_photorealistic_image_of_a.png",
       "image_alt": "Warm therapist office"
+    },
+    {
+      "type": "text",
+      "theme": "alternate",
+      "alignment": "left",
+      "padding": "standard",
+      "body": "\n\n\n\nYou trust each other’s word again because you’ve both learned how to keep it. You understand your own triggers and each other’s, and you know how to navigate them without shame...",
+      "title": "The Shift You’re Actually Looking For",
+      "subtitle": "The Morning After the Work"
+    },
+    {
+      "body": "*Imagine six months from now. It’s late again, and you’re both sitting in that same quiet room. But the heaviness is gone. One of you says something that, six months ago, would have triggered a three-day silent treatment or a late-night spiral.*\n\n*But instead, you both pause. You notice the familiar ping in your chest, and instead of reacting, you breathe. You stay in your body. You say what you actually mean, not the version you think the other person can handle.*\n\n*You trust each other’s word again, not because things are perfect, but because you finally have the tools to navigate the imperfect moments without falling apart. You’ve moved from merely surviving the complexity of your dynamic to living with a shared sense of ease and intentionality.*"
     }
   ]
 }
