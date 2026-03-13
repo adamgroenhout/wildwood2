@@ -47,7 +47,8 @@
       "layout": "centered",
       "title": "You don’t have to carry the weight alone.",
       "button_text": "Learn more about our \"Holding It Together\" group →",
-      "button_url": "/holding-it-together/"
+      "button_url": "/holding-it-together/",
+      "body": "For many high-functioning adults in Northern Virginia, the hardest part of anxiety is feeling like you’re the only one struggling to keep it all together.\n\nIn addition to individual therapy, I facilitate a small, curated [Group Therapy program in Leesburg](<>) specifically for people-pleasers and \"high achievers\" who are ready to put down the mask. It’s a space to practice being seen, setting boundaries, and finding real connection with others who truly understand the load you're carrying."
     },
     {
       "type": "text",
@@ -147,7 +148,7 @@
       "padding": "standard"
     },
     {
-      "body": "For many high-functioning adults in Northern Virginia, the hardest part of anxiety is feeling like you’re the only one struggling to keep it all together.\n\nIn addition to individual therapy, I facilitate a small, curated [Group Therapy program in Leesburg](https://www.google.com/search?q=/wildwood/group-therapy) specifically for people-pleasers and \"high achievers\" who are ready to put down the mask. It’s a space to practice being seen, setting boundaries, and finding real connection with others who truly understand the load you're carrying.",
+      "body": "",
       "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
       "image_alt": "Gentle hand reaching into stream with river rocks representing nervous system regulation and anxiety therapy in Leesburg, VA - Wildwood Psychotherapy.",
       "theme": "olive",
