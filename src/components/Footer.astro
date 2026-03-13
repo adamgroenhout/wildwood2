@@ -14,9 +14,9 @@ const base = import.meta.env.BASE_URL;
 
 <footer class="bg-cream text-charcoal border-t border-black/5 py-20 px-6 md:px-12 lg:px-16">
 	<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-10">
-		<div class="max-w-md">
+		<div class="max-w-2xl">
 			<a href={formatUrl('')} class="text-3xl tracking-tight uppercase font-serif text-olive">{site_name?.split(' ')[0]}</a>
-			<p class="mt-4 text-sm opacity-70 text-pretty">{tagline}</p>
+			<p class="mt-6 text-base opacity-70 leading-relaxed">{tagline}</p>
 			{areasServedColumn && (
 				<div class="mt-12">
 					<h3 class="eyebrow mb-4 opacity-40">{areasServedColumn.title}</h3>
