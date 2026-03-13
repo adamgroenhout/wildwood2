@@ -4,6 +4,17 @@
   "subtitle": "You've been wearing the mask for so long, you're not sure what your actual face looks like anymore.",
   "blocks": [
     {
+      "type": "hero",
+      "hero_title": "Healing the Past to Free Your Present",
+      "hero_subtitle": "EMDR Therapy & Trauma Recovery in Leesburg, VA",
+      "hero_image": "/wildwood/images/a_serene_photorealistic_cinemati.png",
+      "hero_alt": "Serene river flowing over stones",
+      "theme": "dark",
+      "alignment": "center",
+      "cta_text": "Schedule a Call",
+      "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/"
+    },
+    {
       "type": "text",
       "title": "The version of you that shows up at work? Totally fine. Competent. Together.",
       "body": "The version that exists when you're *alone*? Exhausted. Hypervigilant. Constantly bracing for the next thing to go wrong.\n\n## Why Talk Therapy Hasn't Been Enough for Your Trauma\n\nYou've tried everything to fix it. Meditation apps that make you more anxious because you can't stop your brain long enough to meditate. Self-help books that make perfect sense when you read them, but somehow don't translate to your actual life. You’ve spent years intellectually understanding your past, but your body hasn't received the memo. You’re here because you’re tired of having insight that doesn't lead to integration.",
@@ -187,7 +198,9 @@
       "button_text": "Schedule a Call",
       "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
       "theme": "olive",
-      "layout": "centered"
+      "layout": "split",
+      "image": "/wildwood/images/a_closeup_photorealistic_image_o.png",
+      "image_alt": "Grounded natural texture"
     }
   ]
 }

@@ -3,6 +3,17 @@
   "seo_title": "Online therapy for adults in Virginia.",
   "blocks": [
     {
+      "type": "hero",
+      "hero_title": "Healing Without Barriers",
+      "hero_subtitle": "Online therapy for adults in Virginia",
+      "hero_image": "/wildwood/images/a_clean_photorealistic_image_of_.png",
+      "hero_alt": "Cozy desk with laptop representing digital connection",
+      "theme": "dark",
+      "alignment": "center",
+      "cta_text": "Schedule a Call",
+      "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/"
+    },
+    {
       "type": "grid",
       "title": "Why use telehealth?",
       "items": [],

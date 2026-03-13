@@ -3,6 +3,17 @@
   "seo_title": "Group Therapy for People-Pleasers in Leesburg, VA",
   "blocks": [
     {
+      "type": "hero",
+      "hero_title": "Healing in Community",
+      "hero_subtitle": "Group Therapy in Leesburg, VA",
+      "hero_image": "/wildwood/images/a_gentle_photorealistic_image_of.png",
+      "hero_alt": "Circle of smooth river stones representing community",
+      "theme": "dark",
+      "alignment": "center",
+      "cta_text": "Join the Waitlist",
+      "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/"
+    },
+    {
       "type": "image_text",
       "title": "You look like you have it all together. But inside? You're drowning.",
       "body": "You show up for everyone. You say yes when you want to scream no. You carry everyone else's emotions while yours pile up in the corner, ignored and heavy.\n\nAnd the worst part? Nobody even knows you're struggling because you're too busy making sure THEY'RE okay.\n\n> If you're tired of being the person everyone leans on while you quietly fall apart, you're in the right place.",

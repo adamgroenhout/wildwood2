@@ -2,6 +2,17 @@
   "title": "Book Club, Workshops, & Community Events",
   "blocks": [
     {
+      "type": "hero",
+      "hero_title": "Grow in Community",
+      "hero_subtitle": "Book Club, Workshops, & Events",
+      "hero_image": "/wildwood/images/a_photorealistic_image_of_an_ope.png",
+      "hero_alt": "Open book and tea representing community learning",
+      "theme": "dark",
+      "alignment": "center",
+      "cta_text": "Join an Event",
+      "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/"
+    },
+    {
       "type": "text",
       "title": "Therapeutic Book Club",
       "body": "This isn't your neighborhood book club (and, hey, we love a neighborhood book club!). While it definitely has a social component, our virtual book club focuses on self-reflection and building and sharing insight.",

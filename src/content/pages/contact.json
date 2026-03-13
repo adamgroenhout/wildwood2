@@ -2,6 +2,17 @@
   "title": "Schedule Your Free Consultation",
   "blocks": [
     {
+      "type": "hero",
+      "hero_title": "Begin Your Journey",
+      "hero_subtitle": "Schedule Your Free Consultation",
+      "hero_image": "/wildwood/images/a_photorealistic_image_of_a_warm.png",
+      "hero_alt": "Sunlit hallway representing a welcoming entry",
+      "theme": "dark",
+      "alignment": "center",
+      "cta_text": "Schedule a Call",
+      "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/"
+    },
+    {
       "type": "text",
       "title": "A Space Where You Don't Have to Carry It All.",
       "body": "Finding the right therapist is a lot like finding a home. It has to feel right. Because the connection between us is the single most important factor in \"successful\" therapy, I offer a complimentary 15-minute consultation call for all new clients.\n\nThis is a low-pressure way for us to discuss what’s bringing you to therapy, how I can help, possible modalities like EMDR or IFS-informed parts work, and to ensure we're a good fit before we begin the deep work together.",

@@ -4,6 +4,17 @@
   "subtitle": "Kink-aware & Polyamory-Affirming Therapy in Leesburg, VA",
   "blocks": [
     {
+      "type": "hero",
+      "hero_title": "Safety in the Truth",
+      "hero_subtitle": "Couples Therapy for ENM + Polyamorous Relationships",
+      "hero_image": "/wildwood/images/a_warm_inviting_photorealistic_s.png",
+      "hero_alt": "Two comfortable chairs in a sunlit room",
+      "theme": "dark",
+      "alignment": "center",
+      "cta_text": "Schedule a Call",
+      "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/"
+    },
+    {
       "type": "text",
       "title": "You're both sitting in the car outside my office right now, aren't you?",
       "body": "One of you suggested therapy weeks ago. The other one finally agreed. And now you're both pretending you're fine while everything inside screams that you're not.\n\nHere's what you're really wondering: *Is our love actually enough?*\n\nBecause you've tried talking it out. You've promised to do better. You've had the same fight seventeen different ways. And somewhere between the third broken agreement and the fourth round of \"I'm sorry, I didn't mean to hurt you,\" you started wondering if some problems just can't be fixed.\n\nI get it. And I'm not here to tell you your relationship is definitely salvageable or definitely doomed.",
@@ -113,7 +124,9 @@
       "button_text": "Schedule a Call",
       "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
       "theme": "olive",
-      "layout": "centered"
+      "layout": "split",
+      "image": "/wildwood/images/a_warm_photorealistic_image_of_a.png",
+      "image_alt": "Warm therapist office"
     }
   ]
 }

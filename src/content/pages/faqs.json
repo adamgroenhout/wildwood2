@@ -3,6 +3,17 @@
   "seo_title": "FAQ about Therapy at Wildwood Psychotherapy in Leesburg, VA",
   "blocks": [
     {
+      "type": "hero",
+      "hero_title": "Clarity for Your Journey",
+      "hero_subtitle": "Frequently Asked Questions",
+      "hero_image": "/wildwood/images/a_minimalist_photorealistic_imag_1.png",
+      "hero_alt": "Light through a window representing clarity",
+      "theme": "dark",
+      "alignment": "center",
+      "cta_text": "Still Have Questions?",
+      "cta_url": "/contact"
+    },
+    {
       "type": "image_text",
       "body": "Find answers to common questions about trauma therapy, EMDR, insurance, rates, and more at Wildwood Psychotherapy in Leesburg, Virginia.",
       "theme": "cream",

@@ -2,6 +2,17 @@
   "title": "Good Faith Estimate",
   "blocks": [
     {
+      "type": "hero",
+      "hero_title": "Transparency in Healing",
+      "hero_subtitle": "Good Faith Estimate",
+      "hero_image": "/wildwood/images/a_minimalist_photorealistic_imag_gfe.png",
+      "hero_alt": "Clear glass of water representing transparency",
+      "theme": "dark",
+      "alignment": "center",
+      "cta_text": "Learn More",
+      "cta_url": "http://www.cms.gov/nosurprises"
+    },
+    {
       "type": "text",
       "body": "\n\n\n\n",
       "theme": "paper",

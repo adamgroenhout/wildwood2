@@ -4,6 +4,17 @@
   "subtitle": "THIS IS FOR A SUBTITLE",
   "blocks": [
     {
+      "type": "hero",
+      "hero_title": "Finding Your Middle Ground",
+      "hero_subtitle": "Anxiety & Depression Therapy in Leesburg, VA",
+      "hero_image": "/wildwood/images/a_minimalist_photorealistic_imag.png",
+      "hero_alt": "Minimalist green leaf representing regulation",
+      "theme": "dark",
+      "alignment": "center",
+      "cta_text": "Schedule a Call",
+      "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/"
+    },
+    {
       "type": "image_text",
       "title": "Your chest gets tight before you even open your work laptop.",
       "body": "Your jaw aches from clenching it in your sleep. You're exhausted but your brain won't shut up long enough to let you rest.\n\nOr maybe it's the opposite. You feel nothing. You're going through the motions, showing up to sessions, responding to texts, but it's like you're watching your life happen from behind glass.\n\nEither way, you're tired of feeling like this is just how it is now.",
@@ -122,7 +133,9 @@
       "button_text": "Schedule a Call",
       "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
       "theme": "olive",
-      "layout": "centered"
+      "layout": "split",
+      "image": "/wildwood/images/a_photorealistic_image_of_a_calm.png",
+      "image_alt": "Calm horizon at dawn"
     }
   ]
 }

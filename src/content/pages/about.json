@@ -3,6 +3,17 @@
   "seo_title": "About Wildwood Psychotherapy in Leesburg, VA",
   "blocks": [
     {
+      "type": "hero",
+      "hero_title": "Reclaiming Your Narrative",
+      "hero_subtitle": "Meet Kaylie Groenhout, LPC",
+      "hero_image": "/wildwood/images/a_photorealistic_image_of_a_lush.png",
+      "hero_alt": "Green sprout representing growth",
+      "theme": "dark",
+      "alignment": "center",
+      "cta_text": "Schedule a Call",
+      "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/"
+    },
+    {
       "type": "image_text",
       "body": "You’ve built a life that looks enviable from the outside, but the internal cost of maintaining that success has become unsustainable. I work with the \"reliable\" ones, the people who've spent decades perfecting the art of \"fine\" while their own well-being sits on the back burner. You aren't just looking for a listener who will tell you everything will be okay. You're looking for someone who understands that it won't be okay until you actually deal with what's underneath.\n\nI get it. Not because I read it in a textbook, but because I've sat across from countless adults and couples who are exactly where you are right now. Successful on paper. Struggling underneath. Wondering if this is just how life is supposed to feel.\n\nSpoiler: **It's not.**",
       "theme": "alternate",

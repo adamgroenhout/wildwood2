@@ -2,6 +2,17 @@
   "title": "You look like you're holding everything together. But inside, it feels heavy.",
   "blocks": [
     {
+      "type": "hero",
+      "hero_title": "Put Down the Weight",
+      "hero_subtitle": "Holding It Together",
+      "hero_image": "/wildwood/images/a_photorealistic_image_of_a_bala.png",
+      "hero_alt": "Balanced stones representing letting go",
+      "theme": "dark",
+      "alignment": "center",
+      "cta_text": "Join the Interest List",
+      "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/"
+    },
+    {
       "type": "image_text",
       "body": "You show up for work, for family, for friends. To the outside world, you look high functioning and capable. People rely on you. You're a master at pushing through.\n\nBut inside, the emotional load can get overwhelming. The quiet moments are when overwhelm and disconnection hit hardest. Maybe your nervous system is on edge more often than you admit.\n\nYou’re not broken, and you’re not alone. This group creates room for that — a place where you don’t have to hold everything by yourself.",
       "theme": "cream",
