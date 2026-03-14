@@ -44,17 +44,17 @@
       "padding": "standard"
     },
     {
-      "type": "image_text",
-      "title": "Now Enrolling: Holding It Together",
-      "subtitle": "Current & Upcoming Groups",
-      "body": "A 6-Week Journey for High-Functioning Adults\n\nA small, in-person cohort in Leesburg for those moving past the put-together front to practice regulation and authentic connection.\n\n[View Group Details & Dates →](/holding-it-together)",
-      "image": "src/assets/images/a_photorealistic_image_of_an_ope.webp",
+      "body": "A 6-Week Journey for High-Functioning Adults\n\nA small, in-person cohort in Leesburg for those moving past the put-together front to practice regulation and authentic connection.",
       "image_alt": "Now Enrolling: Holding It Together",
-      "image_position": "left",
       "theme": "alternate",
+      "link_url": "/holding-it-together",
+      "image_position": "left",
       "padding": "small",
       "link_text": "See Current Groups",
-      "link_url": "/holding-it-together"
+      "subtitle": "Current & Upcoming Groups",
+      "title": "Now Enrolling: Holding It Together",
+      "type": "image_text",
+      "image": "src/assets/images/a_photorealistic_image_of_an_ope.webp"
     },
     {
       "type": "grid",
@@ -87,7 +87,6 @@
       ]
     },
     {
-      "type": "grid",
       "items": [
         {
           "text": "Browse current groups.",
