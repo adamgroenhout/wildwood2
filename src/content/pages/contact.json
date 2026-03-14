@@ -7,10 +7,10 @@
       "hero_subtitle": "",
       "hero_image": "/wildwood/images/a_photorealistic_image_of_a_warm.png",
       "hero_alt": "Sunlit hallway representing a welcoming entry",
-      "theme": "dark",
-      "alignment": "center",
       "cta_text": "Schedule a Call",
-      "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/"
+      "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
+      "theme": "dark",
+      "alignment": "center"
     },
     {
       "type": "text",
@@ -29,15 +29,7 @@
       "layout": "centered"
     },
     {
-      "type": "map",
-      "title": "Location",
-      "address": "19 Wirt St SW, Suite 205\nLeesburg, VA 20175",
-      "body": "Downtown Leesburg near the Town Hall and Loudoun Museum",
-      "phone": "(703) 493-0459",
-      "email": "info@wildwoodpsychotherapy.co",
-      "map_link_url": "https://maps.app.goo.gl/MnMZViMsUDX4wTj28",
-      "theme": "cream",
-      "padding": "standard"
+      "type": "map"
     },
     {
       "type": "grid",
@@ -71,22 +63,22 @@
     },
     {
       "type": "image_text",
+      "title": "Entering the Building",
+      "subtitle": "Same building as Shake & Bops Cafe.",
+      "body": "Facing the front of the building, you'll see the cafe. Instead of taking the front steps and red door, look to the left for a narrow brick walkway.",
+      "image": "/wildwood/images/19-wirt-street-sw.jpg",
       "image_position": "left",
       "theme": "alternate",
-      "padding": "small",
-      "image": "/wildwood/images/19-wirt-street-sw.jpg",
-      "body": "Facing the front of the building, you'll see the cafe. Instead of taking the front steps and red door, look to the left for a narrow brick walkway.",
-      "title": "Entering the Building",
-      "subtitle": "Same building as Shake & Bops Cafe."
+      "padding": "small"
     },
     {
       "type": "image_text",
+      "subtitle": "Follow the Path",
+      "body": "Step up the two small brick steps leading to a narrow brick walkway. Follow the pathway, walking down along the side of the building until you see a bank of mailboxes on the wall. Immediately to your right will be the door for the entrance.",
+      "image": "/wildwood/images/office-brick-walkway.png",
       "image_position": "right",
       "theme": "alternate",
-      "padding": "small",
-      "subtitle": "Follow the Path",
-      "image": "/wildwood/images/office-brick-walkway.png",
-      "body": "Step up the two small brick steps leading to a narrow brick walkway. Follow the pathway, walking down along the side of the building until you see a bank of mailboxes on the wall. Immediately to your right will be the door for the entrance."
+      "padding": "small"
     }
   ],
   "seo_title": "Schedule Your Free Consultation"

@@ -26,10 +26,36 @@ const blockMap: Record<string, any> = {
   cta: CTABlock,
   map: MapBlock,
 };
+
+// Strict schema for rendering (matches config.yml)
+const BLOCK_SCHEMA: Record<string, string[]> = {
+  hero: ['type', 'hero_title', 'hero_subtitle', 'hero_image', 'hero_alt', 'cta_text', 'cta_url', 'theme', 'alignment', 'specialties'],
+  text: ['type', 'title', 'subtitle', 'body', 'button_text', 'button_url', 'theme', 'alignment', 'padding'],
+  image_text: ['type', 'title', 'subtitle', 'body', 'image', 'image_alt', 'image_position', 'link_text', 'link_url', 'theme', 'padding'],
+  accordion: ['type', 'title', 'subtitle', 'body', 'items', 'button_text', 'button_url', 'theme', 'layout', 'padding'],
+  grid: ['type', 'title', 'subtitle', 'items', 'button_text', 'button_url', 'columns', 'style', 'theme', 'padding'],
+  cta: ['type', 'title', 'tagline', 'body', 'button_text', 'button_url', 'image', 'image_alt', 'theme', 'layout'],
+  map: ['type']
+};
+
+function filterData(block: any) {
+  const type = block.type;
+  const validFields = BLOCK_SCHEMA[type];
+  if (!validFields) return block;
+
+  const cleaned: any = {};
+  validFields.forEach(field => {
+    if (Object.prototype.hasOwnProperty.call(block, field)) {
+      cleaned[field] = block[field];
+    }
+  });
+  return cleaned;
+}
 ---
 
 {blocks.map((block) => {
   const Component = blockMap[block.type];
   if (!Component) return null;
-  return <Component data={block} />;
+  const filteredData = filterData(block);
+  return <Component data={filteredData} />;
 })}

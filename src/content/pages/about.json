@@ -3,27 +3,30 @@
   "seo_title": "About Wildwood Psychotherapy in Leesburg, VA",
   "blocks": [
     {
-      "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
-      "alignment": "center",
-      "hero_alt": "Green sprout representing growth",
-      "theme": "dark",
-      "hero_title": "Where clinical expertise meets human connection.",
-      "hero_image": "/wildwood/images/a_photorealistic_image_of_a_lush.png",
       "type": "hero",
+      "hero_title": "Where clinical expertise meets human connection.",
+      "hero_subtitle": "I’m Kaylie Groenhout, LPC and EMDR Certified Therapist in Leesburg helping high-achieving adults trade performance for presence.",
+      "hero_image": "/wildwood/images/a_photorealistic_image_of_a_lush.png",
+      "hero_alt": "Green sprout representing growth",
       "cta_text": "Schedule a Call",
-      "hero_subtitle": "I’m Kaylie Groenhout, LPC and EMDR Certified Therapist in Leesburg helping high-achieving adults trade performance for presence."
+      "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
+      "theme": "dark",
+      "alignment": "center"
     },
     {
       "type": "image_text",
-      "body": "You’ve built a life that looks enviable from the outside, but the internal cost of maintaining that success has become unsustainable. I work with the \"reliable\" ones, the people who've spent decades perfecting the art of \"fine\" while their own well-being sits on the back burner. You aren't just looking for a listener who will tell you everything will be okay. You're looking for someone who understands that it won't be okay until you actually deal with what's underneath.\n\nI get it. Not because I read it in a textbook, but because I've sat across from countless adults and couples who are exactly where you are right now. Successful on paper. Struggling underneath. Wondering if this is just how life is supposed to feel.\n\nSpoiler: **It's not.**",
-      "theme": "alternate",
-      "image_position": "left",
-      "image_alt": "Warm therapist office",
       "title": "",
-      "padding": "standard",
-      "image": "/wildwood/images/a_warm_inviting_therapist_office.png"
+      "body": "You’ve built a life that looks enviable from the outside, but the internal cost of maintaining that success has become unsustainable. I work with the \"reliable\" ones, the people who've spent decades perfecting the art of \"fine\" while their own well-being sits on the back burner. You aren't just looking for a listener who will tell you everything will be okay. You're looking for someone who understands that it won't be okay until you actually deal with what's underneath.\n\nI get it. Not because I read it in a textbook, but because I've sat across from countless adults and couples who are exactly where you are right now. Successful on paper. Struggling underneath. Wondering if this is just how life is supposed to feel.\n\nSpoiler: **It's not.**",
+      "image": "/wildwood/images/a_warm_inviting_therapist_office.png",
+      "image_alt": "Warm therapist office",
+      "image_position": "left",
+      "theme": "alternate",
+      "padding": "standard"
     },
     {
+      "type": "grid",
+      "title": "The Wildwood Methodology",
+      "subtitle": "Addressing the roots, not just the symptoms.",
       "items": [
         {
           "link_text": "",
@@ -38,14 +41,10 @@
           "subtitle": "Beyond Just Being Heard"
         }
       ],
-      "body": "",
-      "theme": "alternate",
-      "padding": "standard",
+      "columns": "2",
       "style": "minimal",
-      "subtitle": "Addressing the roots, not just the symptoms.",
-      "title": "The Wildwood Methodology",
-      "type": "grid",
-      "columns": "2"
+      "theme": "alternate",
+      "padding": "standard"
     },
     {
       "type": "text",
@@ -87,11 +86,11 @@
     },
     {
       "type": "text",
+      "subtitle": "Healing in Community",
+      "body": "While much of our work happens in the sacred space of one-on-one therapy, I believe there's a unique, profound power in being witnessed by others who share your struggle.\n\nIf you're tired of carrying the weight of holding it all together in isolation, you might find your place in one of our [Leesburg Group Therapy cohorts](https://www.google.com/search?q=/wildwood/group-therapy). It's a space designed to move you from feeling invisible to feeling deeply understood.",
       "theme": "alternate",
       "alignment": "left",
-      "padding": "standard",
-      "subtitle": "Healing in Community",
-      "body": "While much of our work happens in the sacred space of one-on-one therapy, I believe there's a unique, profound power in being witnessed by others who share your struggle.\n\nIf you're tired of carrying the weight of holding it all together in isolation, you might find your place in one of our [Leesburg Group Therapy cohorts](https://www.google.com/search?q=/wildwood/group-therapy). It's a space designed to move you from feeling invisible to feeling deeply understood."
+      "padding": "standard"
     },
     {
       "type": "text",
@@ -106,11 +105,11 @@
       "type": "cta",
       "title": "Healing happens here.",
       "tagline": "Ready to get started?",
+      "body": "",
       "button_text": "Schedule a Call",
       "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
       "theme": "olive",
-      "layout": "centered",
-      "body": ""
+      "layout": "centered"
     }
   ],
   "subtitle": "I’m Kaylie Groenhout, LPC and EMDR Certified Therapist in Leesburg helping high-achieving adults trade performance for presence."

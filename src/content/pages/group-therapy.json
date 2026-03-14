@@ -86,14 +86,7 @@
       ]
     },
     {
-      "type": "text",
-      "theme": "alternate",
-      "alignment": "left",
-      "padding": "standard",
-      "title": "Common Concerns",
-      "body": "#### \"Do I have to share everything?\"\n\nNope. You're always in charge of your own level of vulnerability. Sometimes, just being present and listening can be the thing you need.\n\n#### \"What if I'm too much/not enough?\"\n\nThis is one of the most common group fears. Our groups are curated to be small and trauma-informed, ensuring everyone has space without anyone feeling overwhelmed. We also hold screening calls to make sure group is an appropriate setting for folks.\n\n#### \"Is this just a vent session?\"\n\nWhile sharing is part of groups, Wildwood groups are structured. We balance emotional processing with practical, concrete tools you can use immediately.\n\n#### \"What if I see someone I know?\"\n\nIf it's a small world, Loudoun County can feel even smaller sometimes. In our screening call, we check for potential dual relationships to ensure the group remains private. We also establish a firm \"Vegas Rule\" from minute one: what is said and who is seen in group stays in group."
-    },
-    {
+      "type": "grid",
       "items": [
         {
           "link_text": "",
@@ -112,7 +105,6 @@
           "text": "Join a small, confidential cohort of peers."
         }
       ],
-      "body": "One-on-one therapy offers a deep dive into your personal story, but there's a specific kind of magic that can only happen in the presence of others. Beyond support, our groups are curated, trauma-informed containers designed to help you practice new ways of being in real-time.\n\nWhether you're looking to quiet the noise of perfectionism, process shared trauma, or simply find a space where you don't have to explain yourself, our groups offer a grounded path back to connection.",
       "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
       "theme": "alternate",
       "padding": "standard",
@@ -123,6 +115,11 @@
       "columns": "3"
     },
     {
+      "type": "text",
+      "title": "Common Concerns",
+      "theme": "alternate",
+      "alignment": "left",
+      "padding": "standard",
       "body": "#### \"Do I have to share everything?\"\n\nNope. You're always in charge of your own level of vulnerability. Sometimes, just being present and listening can be the thing you need.\n\n#### \"What if I'm too much/not enough?\"\n\nThis is one of the most common group fears. Our groups are curated to be small and trauma-informed, ensuring everyone has space without anyone feeling overwhelmed. We also hold screening calls to make sure group is an appropriate setting for folks.\n\n#### \"Is this just a vent session?\"\n\nWhile sharing is part of groups, Wildwood groups are structured. We balance emotional processing with practical, concrete tools you can use immediately.\n\n#### \"What if I see someone I know?\"\n\nIf it's a small world, Loudoun County can feel even smaller sometimes. In our screening call, we check for potential dual relationships to ensure the group remains private. We also establish a firm \"Vegas Rule\" from minute one: what is said and who is seen in group, stays in group.\n\n#### \"Is this covered by insurance?\"\n\nWe are not in-network with any insurance provider. However, we provide superbills if you want to submit to your insurance for potential out-of-network reimbursement. We recommend checking with your provider specifically about Group Therapy (CPT Code 90853) coverage.\n\n#### \"How do I know if I'm a good fit?\"\n\nEvery participant has a 15-minute screening call with [Kaylie](/about), the group facilitator, first. This ensures the group dynamic is balanced and that the program matches your specific goals."
     }
   ],

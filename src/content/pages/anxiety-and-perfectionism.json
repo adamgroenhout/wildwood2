@@ -4,25 +4,25 @@
   "subtitle": "FINDING YOUR WAY BACK TO THE MIDDLE.",
   "blocks": [
     {
-      "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
-      "alignment": "center",
-      "hero_alt": "Sunset landscape view of the Shenandoah Mountains as peaceful element for anxiety therapy in Leesburg VA - Wildwood Psychotherapy.",
-      "theme": "dark",
-      "hero_title": "Calm the Overwhelmed & Awaken the Underwhelmed: Anxiety & Depression Therapy for Adults in Leesburg, VA",
-      "hero_image": "/wildwood/images/lorimcm-5rodojcglvi-unsplash.jpg",
       "type": "hero",
+      "hero_title": "Calm the Overwhelmed & Awaken the Underwhelmed: Anxiety & Depression Therapy for Adults in Leesburg, VA",
+      "hero_subtitle": "FINDING YOUR WAY BACK TO THE MIDDLE.",
+      "hero_image": "/wildwood/images/lorimcm-5rodojcglvi-unsplash.jpg",
+      "hero_alt": "Sunset landscape view of the Shenandoah Mountains as peaceful element for anxiety therapy in Leesburg VA - Wildwood Psychotherapy.",
       "cta_text": "Schedule a Free Consultation",
-      "hero_subtitle": "FINDING YOUR WAY BACK TO THE MIDDLE."
+      "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
+      "theme": "dark",
+      "alignment": "center"
     },
     {
       "type": "image_text",
       "title": "Your chest gets tight before you even open your work laptop.",
       "body": "Your jaw aches from clenching it in your sleep. You're exhausted but your brain won't shut up long enough to let you rest.\n\nOr maybe it's the opposite. You feel nothing. You're going through the motions, showing up to meetings and sports practices, responding to texts, but it's like you're watching your life happen from behind glass.\n\nEither way, you're tired of feeling like this is just how it is now.",
-      "theme": "alternate",
-      "image_position": "left",
+      "image": "/wildwood/images/a_serene_abstract_painting_with_.png",
       "image_alt": "Abstract serenity",
-      "padding": "standard",
-      "image": "/wildwood/images/a_serene_abstract_painting_with_.png"
+      "image_position": "left",
+      "theme": "alternate",
+      "padding": "standard"
     },
     {
       "type": "text",
@@ -34,34 +34,26 @@
     },
     {
       "type": "text",
+      "title": "The Burden of Managing It All",
+      "subtitle": "For most of the Loudoun County and Northern Virginia clients I see, anxiety doesn't look like a panic attack. It looks like *perfectionism.*",
+      "body": "You're the reliable one. You meet every deadline, anticipate every need, and keep the house running. But internally, the motor never stops. You’re driven by a relentless *should* and a crushing fear that if you slow down, the whole version of the life you've built will come apart.\n\nThat's not just a personality trait. That's a survival strategy. You learned that being perfect is the way to stay safe, but it’s leaving you exhausted and underwhelmed by the very life you've worked so hard to create.",
       "theme": "olive",
       "alignment": "left",
-      "padding": "large",
-      "title": "The Burden of Managing It All",
-      "body": "You're the reliable one. You meet every deadline, anticipate every need, and keep the house running. But internally, the motor never stops. You’re driven by a relentless *should* and a crushing fear that if you slow down, the whole version of the life you've built will come apart.\n\nThat's not just a personality trait. That's a survival strategy. You learned that being perfect is the way to stay safe, but it’s leaving you exhausted and underwhelmed by the very life you've worked so hard to create.",
-      "subtitle": "For most of the Loudoun County and Northern Virginia clients I see, anxiety doesn't look like a panic attack. It looks like *perfectionism.*"
+      "padding": "large"
     },
     {
       "type": "text",
-      "theme": "alternate",
-      "alignment": "left",
-      "padding": "standard",
       "title": "",
+      "subtitle": "The End of Performing",
       "body": "High-functioning anxiety often feels like a solo performance of \"effortless\" capability. But healing doesn't have to be a private project you manage behind closed doors.\n\nIn addition to individual sessions, I facilitate a small [Group Therapy program in Leesburg](https://www.google.com/search?q=/wildwood/group-therapy) specifically for those who are tired of being the anchor for everyone else's storm. It’s a space to trade the \"I've got it\" mask for real presence, finding connection with others who are also learning to exhale.\n\n[Explore the \"Holding It Together\" Group →](https://www.google.com/search?q=/wildwood/holding-it-together)",
-      "subtitle": "The End of Performing"
-    },
-    {
-      "type": "text",
-      "title": "This Isn't About Thinking Positive Thoughts",
-      "body": "I work with people whose bodies are stuck in fight, flight, freeze, and fawn. We don't just talk about your anxiety or depression. We work with what's actually happening in your nervous system that's keeping you stuck there.\n\nEMDR helps your brain process the experiences that taught your nervous system to stay on high alert or shut down completely. Nervous system regulation work helps you learn what safety actually feels like in your body, not just in your head.",
       "theme": "alternate",
       "alignment": "left",
       "padding": "standard"
     },
     {
       "type": "text",
-      "title": "How We Move Your Nervous System Out of Survival Mode",
-      "body": "I work with people whose bodies are stuck in fight, flight, or freeze. We don't just talk about your anxiety or depression. We work with what's actually happening in your nervous system that's keeping you stuck there.\n\nEMDR helps your brain process the experiences that taught your nervous system to stay on high alert or shut down completely. Nervous system regulation work helps you learn what safety actually feels like in your body, not just in your head.",
+      "title": "This Isn't About Thinking Positive Thoughts",
+      "body": "I work with people whose bodies are stuck in fight, flight, freeze, and fawn. We don't just talk about your anxiety or depression. We work with what's actually happening in your nervous system that's keeping you stuck there.\n\nEMDR helps your brain process the experiences that taught your nervous system to stay on high alert or shut down completely. Nervous system regulation work helps you learn what safety actually feels like in your body, not just in your head.",
       "theme": "alternate",
       "alignment": "left",
       "padding": "standard"
@@ -127,36 +119,27 @@
       "columns": "2",
       "style": "minimal",
       "theme": "cream",
-      "padding": "standard",
-      "body": "**It's therapy that requires more time because we're literally retraining your nervous system, and that doesn't happen in soundbites.**"
-    },
-    {
-      "type": "text",
-      "title": "This isn't therapy that needs more time because it’s \"deeper.\"",
-      "body": "Let’s move past the \"shoulds\" and start working with what's here - your body. Schedule a free consultation to see if our approach is the right fit for you.",
-      "theme": "paper",
-      "alignment": "left",
-      "padding": "standard",
-      "subtitle": "Retraining Your System for Real Life"
+      "padding": "standard"
     },
     {
       "type": "text",
       "title": "Ready to find your way back to the middle?",
+      "subtitle": "Retraining Your System for Real Life",
       "body": "Let’s move past the \"shoulds\" and start working with what's here right now. Schedule a free consultation to see if our approach is the right fit for you.",
       "theme": "charcoal",
       "alignment": "left",
       "padding": "standard"
     },
     {
+      "type": "cta",
+      "title": "Healing happens here.",
       "body": "",
+      "button_text": "Schedule a Free Consultation",
       "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
+      "image": "/wildwood/images/pexels-ridvan-ayrik-306414752-13524587.jpg",
       "image_alt": "Gentle hand reaching into stream with river rocks representing nervous system regulation and anxiety therapy in Leesburg, VA - Wildwood Psychotherapy.",
       "theme": "olive",
-      "layout": "split",
-      "title": "Healing happens here.",
-      "button_text": "Schedule a Free Consultation",
-      "type": "cta",
-      "image": "/wildwood/images/pexels-ridvan-ayrik-306414752-13524587.jpg"
+      "layout": "split"
     }
   ]
 }

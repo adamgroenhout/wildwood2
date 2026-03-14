@@ -11,12 +11,14 @@
     "dev:cms": "astro dev & decap-server"
   },
   "dependencies": {
+    "@astrojs/check": "^0.9.7",
     "@fontsource/arimo": "^5.2.8",
     "@fontsource/instrument-serif": "^5.2.8",
     "@tailwindcss/vite": "^4.2.1",
     "astro": "^5.17.1",
     "marked": "^17.0.4",
-    "tailwindcss": "^4.2.1"
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
     "decap-server": "^3.5.2"

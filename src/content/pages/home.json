@@ -158,8 +158,7 @@
       "style": "cards",
       "columns": "3",
       "theme": "cream",
-      "padding": "standard",
-      "body": "### This isn't about fixing you; you aren’t broken. It’s about healing the wounds that convinced you that you were."
+      "padding": "standard"
     },
     {
       "type": "text",
@@ -183,6 +182,13 @@
       "image": "images/kaylie-groenhout-headshot.jpg"
     },
     {
+      "type": "text",
+      "theme": "alternate",
+      "alignment": "center",
+      "padding": "standard",
+      "body": "You deserve more than a therapist who \"just listens\"; you deserve a partner in your growth. My approach is warm and grounded, but I’m not afraid to be direct. I’ll challenge the patterns that no longer serve you and help you connect the dots between your past and your present.\n\nI believe that real healing happens in the space between us. That’s why I’m committed to showing up as a real human in our sessions, bringing clinical expertise, specialized trauma training, and a deep respect for the work you're doing."
+    },
+    {
       "items": [
         {
           "title": "Trauma + EMDR",
@@ -203,7 +209,6 @@
           "link_text": "Explore Anxiety Therapy"
         }
       ],
-      "body": "You deserve more than a therapist who \"just listens\"; you deserve a partner in your growth. My approach is warm and grounded, but I’m not afraid to be direct. I’ll challenge the patterns that no longer serve you and help you connect the dots between your past and your present.\n\nI believe that real healing happens in the space between us. That’s why I’m committed to showing up as a real human in our sessions, bringing clinical expertise, specialized trauma training, and a deep respect for the work you're doing.",
       "theme": "alternate",
       "padding": "standard",
       "style": "cards",
