@@ -60,21 +60,16 @@
       "padding": "standard"
     },
     {
-      "type": "text",
-      "theme": "alternate",
-      "alignment": "left",
-      "padding": "standard",
-      "subtitle": "Investment",
-      "body": "$495 for the full 6-week journey. This includes weekly, 75-minute sessions, curated materials, and a 15-minute 1:1 screening call.\n\n## This group is NOT for you if you:\n\n* Are dealing with active substance abuse issues\n* Are currently in a domestic violence situation\n* Are in crisis mode from recent severe trauma\n* Struggle with extreme emotional dysregulation that hasn't been addressed\n* Tend to dominate conversations and can't tolerate being redirected\n* Have significant untreated personality disorder symptoms\n* Can't commit to the full 6-week program\n\n*If you're unsure whether this is right for you, we'll determine this together on the screening call.*"
-    },
-    {
       "type": "cta",
       "title": "Ready to put down the weight?",
       "body": "$495 for the full 6-week journey. This includes weekly, 75-minute sessions, curated materials, and a 15-minute 1:1 screening call.\n\n## This group is NOT for you if you:\n\n* Are dealing with active substance abuse issues\n* Are currently in a domestic violence situation\n* Are in crisis mode from recent severe trauma\n* Struggle with extreme emotional dysregulation that hasn't been addressed\n* Tend to dominate conversations and can't tolerate being redirected\n* Have significant untreated personality disorder symptoms\n* Can't commit to the full 6-week program\n\n*If you're unsure whether this is right for you, we'll determine this together on the screening call.*",
-      "button_text": "Request Your 15-Minute Screening Call",
+      "button_text": "Schedule My 15-Minute Group Screening",
       "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
       "theme": "terracotta",
       "layout": "centered"
+    },
+    {
+      "body": ""
     }
   ],
   "seo_title": "Holding It Together: 6-Week In-Person Group Therapy in Leesburg",
