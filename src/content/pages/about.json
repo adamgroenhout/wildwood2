@@ -65,6 +65,41 @@
       "padding": "standard"
     },
     {
+      "type": "grid",
+      "columns": "4",
+      "style": "cards",
+      "theme": "alternate",
+      "padding": "standard",
+      "subtitle": "Tools I Use in My Work",
+      "items": [
+        {
+          "link_text": "",
+          "subtitle": "EMDR",
+          "text": "Move beyond merely talking about the issues. We use Eye Movement Desensitization and Reprocessing (EMDR) to help your brain file away traumatic memories so they no longer flood your present with anxiety, fear, or other self-limiting beliefs."
+        },
+        {
+          "link_text": "",
+          "subtitle": "IFS-Informed Parts Work",
+          "text": "Stop the internal tug-of-war. By identifying the different parts of you (the critic, the caretaker, the achiever), we create increased self-compassion and internal harmony, and help your core Self lead with confidence and clarity."
+        },
+        {
+          "link_text": "",
+          "subtitle": "DBT Skills",
+          "text": "Build a practical toolkit for the here and now. These strategies can help you navigate intense emotions and high-stress moments without feeling overwhelmed, keeping you grounded in your daily life."
+        },
+        {
+          "link_text": "",
+          "subtitle": "ACT",
+          "text": "Clarify what truly matters to you. Acceptance and Commitment Therapy (ACT) helps you stop fighting uncomfortable thoughts and start taking meaningful action toward a life aligned with your identified values."
+        },
+        {
+          "link_text": "",
+          "subtitle": "Somatic-Informed",
+          "text": "True healing isn't just changing the way you think. We check in with your physical sensations to help your nervous system move out of survival responses and back into a state of grounded safety and ease."
+        }
+      ]
+    },
+    {
       "type": "accordion",
       "items": [
         {
