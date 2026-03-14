@@ -90,18 +90,14 @@
       "type": "grid",
       "items": [
         {
-          "link_text": "",
           "text": "Browse current groups.",
           "title": "Step 1"
         },
         {
-          "link_text": "",
           "title": "Step 2",
-          "text": "Schedule a 15-minute screening call.",
-          "link_url": "https://wildwoodpsychotherapy.clientsecure.me/"
+          "text": "Schedule a 15-minute screening call."
         },
         {
-          "link_text": "",
           "title": "Step 3",
           "text": "Join a small, confidential cohort of peers."
         }
