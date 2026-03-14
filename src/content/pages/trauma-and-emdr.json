@@ -24,7 +24,7 @@
     },
     {
       "body": "That's why you can logically understand you're safe, but your heart races when a door slams or smell a distinct triggering smell.\n\nThat's why you can cognitively know something to be true, but it doesn't *feel* true. \n\nYour nervous system is stuck in a threat response that made sense at one point in your life, but is now running the show when it shouldn't be.\n\n**EMDR is how we give your body the memo that the storm has passed. It's over.**",
-      "image_alt": "",
+      "image_alt": "light",
       "theme": "alternate",
       "image_position": "left",
       "padding": "standard",
@@ -65,7 +65,7 @@
         }
       ],
       "columns": "2",
-      "style": "minimal",
+      "style": "cards",
       "theme": "cream",
       "padding": "standard"
     },
@@ -111,7 +111,8 @@
       "padding": "small",
       "title": "The 90-Minute Advantage",
       "body": "Not every session is EMDR. We also work on building your internal resilience and real-time regulation, so you're not just healing the past, you're changing how you show up in the present.\n\n## Real Results for High-Functioning Adults\n\nMost people start noticing shifts within the first few sessions. Not \"I feel a little better\" shifts. Real, tangible changes like sleeping through the night, not spiraling after a tough conversation, or feeling genuinely calm for the first time in years.\n\n## Why EMDR Is Well-Suited for Extended Sessions\n\nStandard 50-minute sessions can sometimes feel like rushing a surgery. Trauma processing needs space to breathe. At Wildwood, we utilize 90-minute EMDR sessions to ensure you have the time to go deep, process fully, and leave our session feeling regulated, not activated.\n\nHere's why: EMDR isn't talk therapy. We're not just discussing what happened. We're reprocessing the actual memories stored in your nervous system. And that process has specific phases that can't be rushed or cut short.\n\nIf we stop in the middle of processing because we hit the 50-minute mark, you leave activated with half-processed trauma still running through your system. That's not just ineffective, it's potentially retraumatizing.",
-      "image": "src/assets/images/annie-spratt-l9avqfj0pmu-unsplash.webp"
+      "image": "src/assets/images/annie-spratt-l9avqfj0pmu-unsplash.webp",
+      "image_alt": "path"
     },
     {
       "type": "grid",
