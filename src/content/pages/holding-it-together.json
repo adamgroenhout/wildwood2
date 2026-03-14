@@ -62,33 +62,27 @@
         {
           "link_text": "",
           "title": "",
-          "subtitle": "Duration +Dates",
-          "text": "6-week closed therapy group\\\nTuesdays, May 6th - June 10th, 2026",
+          "subtitle": "Dates & Times",
+          "text": "Tuesdays, May 6th - June 10th, 2026\\\n6 PM - 7:15 PM\n75-minute sessions; 6 weeks in total",
           "number": "1"
         },
         {
           "link_text": "",
-          "subtitle": "Times",
-          "text": "6 PM - 7:15 PM (75-minute sessions)",
+          "subtitle": "Location",
+          "text": "[In person at the Wildwood office](<>)\n\n19 Wirt St SW, #205\nLeesburg, VA 20175",
           "number": "2"
         },
         {
           "link_text": "",
-          "subtitle": "Location",
-          "text": "[In person at the Wildwood office](<>)",
+          "subtitle": "Group Size & Format",
+          "text": "Small cohort (8 participants max.)\\\nClosed group (no new members after first session)",
           "number": "3"
-        },
-        {
-          "link_text": "",
-          "subtitle": "Group Size",
-          "text": "Small cohort (8 participants max.)",
-          "number": "4"
         },
         {
           "link_text": "",
           "subtitle": "Investment",
           "text": "$495 for the complete 6-week program (Superbills available for out-of-network benefits.)",
-          "number": "5"
+          "number": "4"
         }
       ]
     },
