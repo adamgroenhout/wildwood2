@@ -73,6 +73,40 @@
       "padding": "standard"
     },
     {
+      "body": ""
+    },
+    {
+      "body": "## Weeks 1-2: Finding Your Feet (Grounding)\n\n### We start with the body. You’ll learn practical ways to notice the bouncing knee, tight chest, or antsy energy and bring yourself back to the present before the overwhelm takes over.\n\n## Weeks 3-4: The Power of the Pause\n\n### We look at the Autopilot Yes. You’ll practice The Pause, learning to check in with what *you* need before reflexively responding to everyone else's.\n\n## Week 5-6: Being Seen\n\n### The final shift: moving from performing to *being*. We practice relational courage, the art of letting yourself be witnessed without a mask, and realizing your needs aren't a burden. (Seriously.)"
+    },
+    {
+      "type": "accordion",
+      "theme": "charcoal",
+      "layout": "stacked",
+      "padding": "standard",
+      "items": [
+        {
+          "title": "What if I see someone I know from the community?",
+          "content": "Leesburg can feel like a small town because it is one. We screen all participants beforehand to avoid dual relationships (like coworkers or close friends in the same circle). Privacy is our cornerstone. We establish a firm agreement that who's seen and what's said stays within the group."
+        },
+        {
+          "title": "I’m nervous about being put on the spot.",
+          "content": "This isn't a performance. There's zero pressure to share more than you're comfortable with. Many people find that just being present and listening to others' stories can be reassuring. You're always in control of your level of participation."
+        },
+        {
+          "title": "Do I have to be in individual therapy to join?",
+          "content": "Not necessarily, but group works best as a relational laboratory alongside individual work, meaning a place for you to try out things like setting boundaries or being more assertive. During our screening call, we’ll talk about your current support system to make sure this is the right level of care for you, right now."
+        },
+        {
+          "title": "What if I have to miss a session?",
+          "content": "Because this is a closed, 6-week group, consistency is a key ingredient in making it successful. We ask that you commit to all six sessions. However, we know life happens. If you have an emergency, we just ask for as much communication as possible to support the group dynamics."
+        },
+        {
+          "title": "Can I use my insurance for this?",
+          "content": "Wildwood is an out-of-network provider. We provide a monthly Superbill for Group Therapy (CPT Code 90853). Depending on their benefits, many clients receive at least partial reimbursement from their insurance providers, but we recommend checking your specific out-of-network benefits first."
+        }
+      ]
+    },
+    {
       "type": "cta",
       "title": "Finally, a place where \"fine\" isn't required.",
       "body": "",
@@ -80,12 +114,6 @@
       "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
       "theme": "terracotta",
       "layout": "centered"
-    },
-    {
-      "body": ""
-    },
-    {
-      "body": "## Weeks 1-2: Finding Your Feet (Grounding)\n\n### We start with the body. You’ll learn practical ways to notice the bouncing knee, tight chest, or antsy energy and bring yourself back to the present before the overwhelm takes over.\n\n## Weeks 3-4: The Power of the Pause\n\n### We look at the Autopilot Yes. You’ll practice The Pause, learning to check in with what *you* need before reflexively responding to everyone else's.\n\n## Week 5-6: Being Seen\n\n### The final shift: moving from performing to *being*. We practice relational courage, the art of letting yourself be witnessed without a mask, and realizing your needs aren't a burden. (Seriously.)"
     }
   ],
   "seo_title": "Holding It Together: 6-Week, In-Person Group Therapy in Leesburg",
