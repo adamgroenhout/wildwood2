@@ -41,12 +41,6 @@ const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 		<ClientRouter />
-
-		<style is:inline>
-			/* Prevent FOUC */
-			[data-astro-transition-scope] { visibility: hidden; }
-			html.astro-ready [data-astro-transition-scope] { visibility: visible; }
-		</style>
 		
 		<script is:inline define:vars={{ base }}>
 			// Basic Gatekeeper script
@@ -60,10 +54,6 @@ const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
 					window.location.href = base;
 				}
 			}
-		</script>
-		<script is:inline>
-			document.documentElement.classList.add('astro-ready');
-			document.addEventListener('astro:after-swap', () => document.documentElement.classList.add('astro-ready'));
 		</script>
 	</head>
 	<body class="bg-olive text-paper/90 font-sans grain">

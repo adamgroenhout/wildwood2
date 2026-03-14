@@ -5,7 +5,7 @@
       "type": "hero",
       "hero_title": "Good Faith Estimate",
       "hero_subtitle": "Your right to clear, upfront pricing.",
-      "hero_image": "/wildwood/images/a_minimalist_photorealistic_imag_gfe.png",
+      "hero_image": "src/assets/images/a_minimalist_photorealistic_imag_gfe.png",
       "hero_alt": "Clear glass of water representing transparency",
       "cta_text": "Learn More",
       "cta_url": "http://www.cms.gov/nosurprises",

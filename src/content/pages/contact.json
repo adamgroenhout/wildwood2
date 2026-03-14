@@ -5,7 +5,7 @@
       "type": "hero",
       "hero_title": "Schedule Your Free Consultation",
       "hero_subtitle": "",
-      "hero_image": "/wildwood/images/a_photorealistic_image_of_a_warm.png",
+      "hero_image": "src/assets/images/a_photorealistic_image_of_a_warm.png",
       "hero_alt": "Sunlit hallway representing a welcoming entry",
       "cta_text": "Schedule a Call",
       "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
@@ -66,7 +66,7 @@
       "title": "Entering the Building",
       "subtitle": "Same building as Shake & Bops Cafe.",
       "body": "Facing the front of the building, you'll see the cafe. Instead of taking the front steps and red door, look to the left for a narrow brick walkway.",
-      "image": "/wildwood/images/19-wirt-street-sw.jpg",
+      "image": "src/assets/images/19-wirt-street-sw.jpg",
       "image_position": "left",
       "theme": "alternate",
       "padding": "small"
@@ -75,7 +75,7 @@
       "type": "image_text",
       "subtitle": "Follow the Path",
       "body": "Step up the two small brick steps leading to a narrow brick walkway. Follow the pathway, walking down along the side of the building until you see a bank of mailboxes on the wall. Immediately to your right will be the door for the entrance.",
-      "image": "/wildwood/images/office-brick-walkway.png",
+      "image": "src/assets/images/office-brick-walkway.png",
       "image_position": "right",
       "theme": "alternate",
       "padding": "small"

@@ -3,6 +3,12 @@
   "seo_title": "About Wildwood Psychotherapy in Leesburg, VA",
   "blocks": [
     {
+      "type": "hero",
+      "hero_title": "Where clinical expertise meets human connection.",
+      "hero_subtitle": "I’m Kaylie Groenhout, LPC and EMDR Certified Therapist in Leesburg helping high-achieving adults trade performance for presence.",
+      "hero_image": "src/assets/images/a_photorealistic_image_of_a_lush.png",
+      "hero_alt": "Green sprout representing growth",
+      "cta_text": "Schedule a Call",
       "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
       "alignment": "center",
       "hero_alt": "Green sprout representing growth",
@@ -24,7 +30,7 @@
       "type": "image_text",
       "subtitle": "Hi, I’m Kaylie Groenhout (she/her).",
       "body": "*I’m a board-certified Licensed Professional Counselor in Leesburg, but more importantly, I’m a therapist who believes in depth over clinical distance. I created Wildwood because I saw too many people who were \"self-aware\" but still suffering. You deserve a space that is as professional as it is personal.*",
-      "image": "/wildwood/images/kaylie-groenhout-lpc.jpg",
+      "image": "src/assets/images/kaylie-groenhout-lpc.jpg",
       "image_position": "left",
       "theme": "alternate",
       "padding": "small"

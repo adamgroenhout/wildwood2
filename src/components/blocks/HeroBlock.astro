@@ -1,7 +1,7 @@
 ---
 import Section from '../Section.astro';
 import Button from '../Button.astro';
-import { formatUrl } from '../../utils/paths';
+import { formatUrl, resolveAsset } from '../../utils/paths';
 import { Image } from 'astro:assets';
 
 interface Props {
@@ -21,13 +21,15 @@ interface Props {
 const { data } = Astro.props;
 const themeClass = data.theme === 'dark' || data.theme === 'olive' ? 'bg-olive theme-dark' : 'bg-paper theme-light';
 const alignmentClass = data.alignment === 'left' ? 'text-left items-start' : 'text-center items-center';
+
+const heroAsset = resolveAsset(data.hero_image || '');
 ---
 
 <Section theme="none" padding="hero" class={`relative min-h-screen flex flex-col justify-center items-center overflow-hidden ${themeClass}`}>
   <div class="absolute inset-0 z-0">
-    {data.hero_image && (
+    {heroAsset && (
       <Image 
-        src={formatUrl(data.hero_image)}
+        src={heroAsset}
         alt={data.hero_alt || ''} 
         width={1920}
         height={1080}

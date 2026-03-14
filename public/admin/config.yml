@@ -9,8 +9,8 @@ backend:
   base_url: https://wildwood-gateway.vercel.app
   auth_endpoint: api/auth
 
-media_folder: "public/images"
-public_folder: "/wildwood/images"
+media_folder: "src/assets/images"
+public_folder: "src/assets/images"
 
 collections:
   - name: "settings"
@@ -94,7 +94,7 @@ collections:
               - { label: "Title", name: "hero_title", widget: "text" }
               - { label: "Subtitle", name: "hero_subtitle", widget: "string", required: false }
               - { label: "Background Image", name: "hero_image", widget: "image", required: false }
-              - { label: "Image Alt Text", name: "hero_alt", widget: "string", required: false }
+              - { label: "Image Alt Text", name: "hero_alt", widget: "string", required: true }
               - { label: "CTA Button Text", name: "cta_text", widget: "string", required: false }
               - { label: "CTA Button URL", name: "cta_url", widget: "string", required: false }
               - { label: "Theme", name: "theme", widget: "select", options: ["dark", "light", "terracotta", "olive"], default: "dark" }
@@ -128,7 +128,7 @@ collections:
               - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
               - { label: "Body", name: "body", widget: "markdown" }
               - { label: "Image", name: "image", widget: "image" }
-              - { label: "Image Alt Text", name: "image_alt", widget: "string", required: false }
+              - { label: "Image Alt Text", name: "image_alt", widget: "string", required: true }
               - { label: "Image Position", name: "image_position", widget: "select", options: ["left", "right"], default: "left" }
               - { label: "Link Text", name: "link_text", widget: "string", required: false }
               - { label: "Link URL", name: "link_url", widget: "string", required: false }
@@ -186,6 +186,6 @@ collections:
               - { label: "Button Text", name: "button_text", widget: "string" }
               - { label: "Button URL", name: "button_url", widget: "string" }
               - { label: "Background Image", name: "image", widget: "image", required: false }
-              - { label: "Image Alt Text", name: "image_alt", widget: "string", required: false }
+              - { label: "Image Alt Text", name: "image_alt", widget: "string", required: true }
               - { label: "Theme", name: "theme", widget: "select", options: ["sage", "cream", "sand", "paper", "charcoal", "olive", "terracotta", "alternate"], default: "olive" }
               - { label: "Layout", name: "layout", widget: "select", options: ["centered", "split"], default: "centered" }

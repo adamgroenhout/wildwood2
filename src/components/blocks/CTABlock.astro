@@ -1,9 +1,8 @@
 ---
 import Section from '../Section.astro';
 import Button from '../Button.astro';
-import { formatUrl } from '../../utils/paths';
+import { formatUrl, resolveAsset } from '../../utils/paths';
 import { Image } from 'astro:assets';
-import { marked } from 'marked';
 
 interface Props {
   data: {
@@ -22,14 +21,15 @@ const { data } = Astro.props;
 const themeClass = `bg-${data.theme || 'olive'}`;
 const isDark = ['olive', 'terracotta', 'charcoal'].includes(data.theme || 'olive');
 const buttonTheme = isDark ? 'white' : 'terracotta';
+const asset = resolveAsset(data.image || '');
 ---
 
 {data.layout === 'split' ? (
   <Section theme="none" padding="none" class="flex flex-col md:flex-row min-h-[600px] relative z-10">
     <div class="w-full md:w-1/2 bg-alternate flex items-center justify-center p-0 overflow-hidden">
-      {data.image && (
+      {asset && (
         <Image 
-          src={formatUrl(data.image)}
+          src={asset}
           alt={data.image_alt || ''}
           width={1000}
           height={800}

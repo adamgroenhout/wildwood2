@@ -5,7 +5,7 @@
       "type": "hero",
       "hero_title": "Holding It Together: 6-Week, \nIn-Person Group Therapy in Leesburg",
       "hero_subtitle": "For the high-functioning adult moving from seamless performance to authentic connection.",
-      "hero_image": "/wildwood/images/a_photorealistic_image_of_a_bala.png",
+      "hero_image": "src/assets/images/a_photorealistic_image_of_a_bala.png",
       "hero_alt": "Balanced stones representing letting go",
       "cta_text": "Request Your 15-Minute Screening Call",
       "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
@@ -15,7 +15,7 @@
     {
       "type": "image_text",
       "body": "You're the person everyone relies on. You anticipate needs, meet every deadline, and keep the motor running. But inside, the engine is, well, overheating. You're exhausted from the quiet pressure of always being *fine*. This is the place where you finally don't have to be.",
-      "image": "/wildwood/images/a_welcoming_softly_lit_room_with.png",
+      "image": "src/assets/images/a_welcoming_softly_lit_room_with.png",
       "image_alt": "Welcoming group therapy circle",
       "image_position": "left",
       "theme": "cream",

@@ -6,7 +6,7 @@
       "type": "hero",
       "hero_title": "Telehealth",
       "hero_subtitle": "Online therapy via video for adults in Virginia.",
-      "hero_image": "/wildwood/images/a_clean_photorealistic_image_of_.png",
+      "hero_image": "src/assets/images/a_clean_photorealistic_image_of_.png",
       "hero_alt": "Cozy desk with laptop representing digital connection",
       "theme": "dark",
       "alignment": "center",
@@ -35,7 +35,7 @@
       "theme": "alternate",
       "image_position": "left",
       "image_alt": "Comfortable home telehealth desk",
-      "image": "/wildwood/images/a_clean_aesthetically_pleasing_h.png"
+      "image": "src/assets/images/a_clean_aesthetically_pleasing_h.png"
     },
     {
       "type": "cta",

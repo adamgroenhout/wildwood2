@@ -1,10 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import settings from '../content/settings.json';
-import { formatUrl } from '../utils/paths';
+import { formatUrl, resolveAsset } from '../utils/paths';
 import { Image } from 'astro:assets';
 
 const { site_name, tagline, logo, coming_soon_text, staff_login_text } = settings;
+const logoAsset = resolveAsset(logo || '');
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
 ---
@@ -13,14 +14,16 @@ const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
 	<main class="h-screen flex flex-col items-center justify-center bg-olive text-paper p-6 md:p-12 theme-dark">
 		<div class="max-w-md w-full text-center space-y-12 animate-fade-in">
 			<div class="flex flex-col items-center gap-6">
-				<Image 
-					src={formatUrl(logo)}
-					alt={site_name} 
-					width={200}
-					height={200}
-					class="w-24 h-24 md:w-32 md:h-32 object-contain"
-					loading="eager"
-				/>
+				{logoAsset && (
+					<Image 
+						src={logoAsset}
+						alt={site_name} 
+						width={200}
+						height={200}
+						class="w-24 h-24 md:w-32 md:h-32 object-contain"
+						loading="eager"
+					/>
+				)}
 				<h1 class="text-4xl md:text-5xl font-serif tracking-tight uppercase">{site_name}</h1>
 			</div>
 

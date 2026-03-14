@@ -9,7 +9,7 @@
       "hero_alt": "Serene river flowing over stones",
       "theme": "dark",
       "hero_title": "EMDR Therapy & Trauma Recovery in Leesburg, VA",
-      "hero_image": "/wildwood/images/a_serene_photorealistic_cinemati.png",
+      "hero_image": "src/assets/images/a_serene_photorealistic_cinemati.png",
       "type": "hero",
       "cta_text": "Schedule a Call",
       "hero_subtitle": "You've been wearing the mask for so long, you're not sure what your actual face looks like anymore."
@@ -31,7 +31,7 @@
       "subtitle": "Here's what nobody tells you about trauma: It doesn't just live in your thoughts. It lives in your body.",
       "title": "Understanding the Always-On Nervous System",
       "type": "image_text",
-      "image": "/wildwood/images/priscilla-du-preez-432c5o60xsa-unsplash.jpg"
+      "image": "src/assets/images/priscilla-du-preez-432c5o60xsa-unsplash.jpg"
     },
     {
       "type": "text",
@@ -111,7 +111,7 @@
       "padding": "small",
       "title": "The 90-Minute Advantage",
       "body": "Not every session is EMDR. We also work on building your internal resilience and real-time regulation, so you're not just healing the past, you're changing how you show up in the present.\n\n## Real Results for High-Functioning Adults\n\nMost people start noticing shifts within the first few sessions. Not \"I feel a little better\" shifts. Real, tangible changes like sleeping through the night, not spiraling after a tough conversation, or feeling genuinely calm for the first time in years.\n\n## Why EMDR Is Well-Suited for Extended Sessions\n\nStandard 50-minute sessions can sometimes feel like rushing a surgery. Trauma processing needs space to breathe. At Wildwood, we utilize 90-minute EMDR sessions to ensure you have the time to go deep, process fully, and leave our session feeling regulated, not activated.\n\nHere's why: EMDR isn't talk therapy. We're not just discussing what happened. We're reprocessing the actual memories stored in your nervous system. And that process has specific phases that can't be rushed or cut short.\n\nIf we stop in the middle of processing because we hit the 50-minute mark, you leave activated with half-processed trauma still running through your system. That's not just ineffective, it's potentially retraumatizing.",
-      "image": "/wildwood/images/annie-spratt-l9avqfj0pmu-unsplash.jpg"
+      "image": "src/assets/images/annie-spratt-l9avqfj0pmu-unsplash.jpg"
     },
     {
       "type": "grid",
@@ -197,7 +197,7 @@
       "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
       "theme": "olive",
       "layout": "split",
-      "image": "/wildwood/images/a_closeup_photorealistic_image_o.png",
+      "image": "src/assets/images/a_closeup_photorealistic_image_o.png",
       "image_alt": "Grounded natural texture"
     }
   ]

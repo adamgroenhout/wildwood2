@@ -8,7 +8,7 @@
       "hero_alt": "Circle of smooth river stones representing community",
       "theme": "dark",
       "hero_title": "Group Therapy in Leesburg, VA",
-      "hero_image": "/wildwood/images/a_gentle_photorealistic_image_of.png",
+      "hero_image": "src/assets/images/a_gentle_photorealistic_image_of.png",
       "type": "hero",
       "cta_text": "See Current Groups",
       "hero_subtitle": "Connection & healing in community."
@@ -53,7 +53,7 @@
       "subtitle": "Current & Upcoming Groups",
       "title": "",
       "type": "image_text",
-      "image": "/wildwood/images/a_photorealistic_image_of_an_ope.png"
+      "image": "src/assets/images/a_photorealistic_image_of_an_ope.png"
     },
     {
       "type": "grid",

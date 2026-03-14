@@ -5,7 +5,7 @@
       "type": "hero",
       "hero_title": "Book Club, Workshops, & Community Events",
       "hero_subtitle": "Find connection and growth through community.",
-      "hero_image": "/wildwood/images/a_photorealistic_image_of_an_ope.png",
+      "hero_image": "src/assets/images/a_photorealistic_image_of_an_ope.png",
       "hero_alt": "Open book and tea representing community learning",
       "theme": "dark",
       "alignment": "center",

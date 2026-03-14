@@ -6,7 +6,7 @@
       "type": "hero",
       "hero_title": "Frequently Asked Questions",
       "hero_subtitle": "",
-      "hero_image": "/wildwood/images/a_minimalist_photorealistic_imag_1.png",
+      "hero_image": "src/assets/images/a_minimalist_photorealistic_imag_1.png",
       "hero_alt": "Light through a window representing clarity",
       "theme": "dark",
       "alignment": "center",
@@ -19,7 +19,7 @@
       "theme": "cream",
       "image_position": "left",
       "image_alt": "Notebook and pen for clarity",
-      "image": "/wildwood/images/a_serene_minimalist_flat_lay_ima.png"
+      "image": "src/assets/images/a_serene_minimalist_flat_lay_ima.png"
     },
     {
       "type": "accordion",

@@ -11,7 +11,7 @@
   "staff_logout_text": "Staff Logout",
   "site_description": "A grounded sanctuary for healing in Loudoun County. Wildwood Psychotherapy offers specialized EMDR and IFS-informed therapy for adults in Leesburg and throughout Virginia. Move beyond \"holding it together\" and start healing the roots. Schedule your free consultation today.",
   "copyright_text": "All rights reserved.",
-  "logo": "/wildwood/images/1-300x300.png",
+  "logo": "src/assets/images/1-300x300.png",
   "header_cta_href": "/contact",
   "tagline": "Therapy for adult individuals and couples in Leesburg, VA. Specializing in Trauma & EMDR Therapy, Anxiety & Depression, and ENM/Polyamorous Relationships.",
   "header_cta_text": "Contact",

@@ -20,3 +20,24 @@ export const formatUrl = (url: string, base: string = import.meta.env.BASE_URL) 
   const normalizedUrl = url.startsWith('/') ? url.slice(1) : url;
   return `${normalizedBase}${normalizedUrl}`;
 };
+
+/**
+ * Image asset resolver for dynamic CMS paths.
+ * Uses Vite's import.meta.glob to find and return optimized image assets.
+ */
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/images/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}', { eager: true });
+
+export const resolveAsset = (path: string) => {
+  if (!path) return undefined;
+  
+  // Normalize path: Decap might save as "src/assets/images/img.jpg" or "/src/assets/images/img.jpg"
+  const normalizedPath = path.startsWith('/') ? path : `/${path}`;
+  
+  const asset = images[normalizedPath];
+  if (!asset) {
+    console.warn(`Asset not found: ${normalizedPath}`);
+    return path; // Fallback to raw string if not found in glob
+  }
+  
+  return asset.default;
+};
