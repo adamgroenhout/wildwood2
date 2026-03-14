@@ -4,15 +4,15 @@
   "subtitle": "FINDING YOUR WAY BACK TO THE MIDDLE.",
   "blocks": [
     {
-      "type": "hero",
-      "hero_title": "Calm the Overwhelmed & Awaken the Underwhelmed: Anxiety & Depression Therapy for Adults in Leesburg, VA",
-      "hero_subtitle": "FINDING YOUR WAY BACK TO THE MIDDLE.",
-      "hero_image": "src/assets/images/lorimcm-5rodojcglvi-unsplash.webp",
-      "hero_alt": "Sunset landscape view of the Shenandoah Mountains as peaceful element for anxiety therapy in Leesburg VA - Wildwood Psychotherapy.",
-      "cta_text": "Schedule a Free Consultation",
       "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
+      "alignment": "center",
+      "hero_alt": "Sunset landscape view of the Shenandoah Mountains as peaceful element for anxiety therapy in Leesburg VA - Wildwood Psychotherapy.",
       "theme": "dark",
-      "alignment": "center"
+      "hero_title": "Calm the Overwhelmed & Awaken the Underwhelmed: Anxiety & Depression Therapy for Adults in Leesburg, VA",
+      "hero_image": "src/assets/images/lorimcm-5rodojcglvi-unsplash.webp",
+      "type": "hero",
+      "cta_text": "Schedule a Free Consultation",
+      "hero_subtitle": "FINDING YOUR WAY BACK TO THE MIDDLE."
     },
     {
       "type": "image_text",
@@ -79,7 +79,7 @@
         }
       ],
       "columns": "2",
-      "style": "minimal",
+      "style": "cards",
       "theme": "cream",
       "padding": "standard"
     },
