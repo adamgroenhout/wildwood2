@@ -46,10 +46,51 @@
     {
       "type": "text",
       "title": "Program Details",
-      "body": "**Duration:** 6-week closed therapy group\\\n**Dates:** Tuesdays, May 6th - June 10th, 2026\\\n**Time:** 6 PM - 7:15 PM (75-minute sessions)\\\n**Location:** [In person at the Wildwood office](/contact)\\\n**Cohort Size:** Small cohort (8 participants max.)\\\n**Cost:** $495 for the complete 6-week program (superbills available for out-of-network benefits).",
+      "body": "**Duration:** 6-week closed therapy group\\\n**Dates:** Tuesdays, May 6th - June 10th, 2026\\\n**Time:** 6 PM - 7:15 PM (75-minute sessions)\\\n**Location:** [In person at the Wildwood office](/contact)\\\n**Cohort Size:** Small cohort (8 participants max.)\\\n**Investment:** $495 for the complete 6-week program (superbills available for out-of-network benefits).",
       "theme": "alternate",
       "alignment": "left",
       "padding": "standard"
+    },
+    {
+      "type": "grid",
+      "columns": "4",
+      "style": "cards",
+      "theme": "alternate",
+      "padding": "standard",
+      "subtitle": "Program Details",
+      "items": [
+        {
+          "link_text": "",
+          "title": "",
+          "subtitle": "Duration +Dates",
+          "text": "6-week closed therapy group\\\nTuesdays, May 6th - June 10th, 2026",
+          "number": "1"
+        },
+        {
+          "link_text": "",
+          "subtitle": "Times",
+          "text": "6 PM - 7:15 PM (75-minute sessions)",
+          "number": "2"
+        },
+        {
+          "link_text": "",
+          "subtitle": "Location",
+          "text": "[In person at the Wildwood office](<>)",
+          "number": "3"
+        },
+        {
+          "link_text": "",
+          "subtitle": "Group Size",
+          "text": "Small cohort (8 participants max.)",
+          "number": "4"
+        },
+        {
+          "link_text": "",
+          "subtitle": "Investment",
+          "text": "$495 for the complete 6-week program (Superbills available for out-of-network benefits.)",
+          "number": "5"
+        }
+      ]
     },
     {
       "type": "text",
