@@ -75,10 +75,18 @@
     {
       "type": "image_text",
       "title": "1. THE DISCOVERY SESSION",
-      "body": "In this 90-minute session, we'll determine your goal(s) for the intensive and prepare for it. We'll look at your support system, stressors, and coping strategies.\n\n# 2. THE WILDWOOD INTENSIVE CUSTOM WORKBOOK\n\nBefore your intensive, you'll receive a personalized digital workbook with assessments and activities to help us prepare. This is your roadmap to ensure every hour of our time together is spent on what matters most.",
+      "body": "In this 90-minute session, we'll determine your goal(s) for the intensive and prepare for it. We'll look at your support system, stressors, and coping strategies.",
       "image": "src/assets/images/pexels-jjskorupski-11114980.jpg",
       "image_position": "right",
       "theme": "alternate",
+      "padding": "standard"
+    },
+    {
+      "type": "text",
+      "title": "2. THE WILDWOOD INTENSIVE CUSTOM WORKBOOK",
+      "body": "Before your intensive, you'll receive a personalized digital workbook with assessments and activities to help us prepare. This is your roadmap to ensure every hour of our time together is spent on what matters most.",
+      "theme": "alternate",
+      "alignment": "left",
       "padding": "standard"
     },
     {
@@ -101,10 +109,18 @@
       "type": "text",
       "title": "Adjunct EMDR for Your Clients",
       "subtitle": "For Fellow Therapists",
-      "body": "Have a client who's stuck in their work with you due to developmental or single-incident trauma? I love collaborating with other providers and using EMDR intensives to bridge the gap. You keep the bond with your client; I spend 1-3 days with them doing the heavy lifting of targeted reprocessing. At the end, they transition back to you for ongoing care. Think of it as a specialized tool for your clinical toolkit.\n\n#### How We Collaborate:\n\n* Secure ROI/Case Consultation before we begin\n* Targeted focus on one stuck target or theme\n* Seamless hand-off back to you with an integration summary",
+      "body": "Have a client who's stuck in their work with you due to developmental or single-incident trauma? I love collaborating with other providers and using EMDR intensives to bridge the gap. You keep the bond with your client; I spend 1-3 days with them doing the heavy lifting of targeted reprocessing. At the end, they transition back to you for ongoing care. Think of it as a specialized tool for your clinical toolkit.",
       "button_text": "Schedule a Consultation Call",
       "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
       "theme": "alternate",
+      "alignment": "left",
+      "padding": "standard"
+    },
+    {
+      "type": "text",
+      "title": "How We Collaborate",
+      "body": "* Secure ROI/Case Consultation before we begin\n* Targeted focus on one stuck target or theme\n* Seamless hand-off back to you with an integration summary",
+      "theme": "paper",
       "alignment": "left",
       "padding": "standard"
     },

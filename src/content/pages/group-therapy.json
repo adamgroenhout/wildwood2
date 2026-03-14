@@ -44,16 +44,17 @@
       "padding": "standard"
     },
     {
-      "body": "### Now Enrolling: Holding It Together\n\nA 6-Week Journey for High-Functioning Adults\nA small, in-person cohort in Leesburg for those moving past the put-together front to practice regulation and authentic connection.\n[View Group Details & Dates →](https://www.google.com/search?q=/wildwood/holding-it-together)",
-      "theme": "alternate",
-      "link_url": "https://adamgroenhout.github.io/wildwood/holding-it-together/",
+      "type": "image_text",
+      "title": "Now Enrolling: Holding It Together",
+      "subtitle": "Current & Upcoming Groups",
+      "body": "A 6-Week Journey for High-Functioning Adults\n\nA small, in-person cohort in Leesburg for those moving past the put-together front to practice regulation and authentic connection.\n\n[View Group Details & Dates →](/holding-it-together)",
+      "image": "src/assets/images/a_photorealistic_image_of_an_ope.png",
+      "image_alt": "Now Enrolling: Holding It Together",
       "image_position": "left",
+      "theme": "alternate",
       "padding": "small",
       "link_text": "See Current Groups",
-      "subtitle": "Current & Upcoming Groups",
-      "title": "",
-      "type": "image_text",
-      "image": "src/assets/images/a_photorealistic_image_of_an_ope.png"
+      "link_url": "/holding-it-together"
     },
     {
       "type": "grid",
@@ -115,12 +116,37 @@
       "columns": "3"
     },
     {
-      "type": "text",
+      "type": "accordion",
       "title": "Common Concerns",
       "theme": "alternate",
-      "alignment": "left",
+      "layout": "stacked",
       "padding": "standard",
-      "body": "#### \"Do I have to share everything?\"\n\nNope. You're always in charge of your own level of vulnerability. Sometimes, just being present and listening can be the thing you need.\n\n#### \"What if I'm too much/not enough?\"\n\nThis is one of the most common group fears. Our groups are curated to be small and trauma-informed, ensuring everyone has space without anyone feeling overwhelmed. We also hold screening calls to make sure group is an appropriate setting for folks.\n\n#### \"Is this just a vent session?\"\n\nWhile sharing is part of groups, Wildwood groups are structured. We balance emotional processing with practical, concrete tools you can use immediately.\n\n#### \"What if I see someone I know?\"\n\nIf it's a small world, Loudoun County can feel even smaller sometimes. In our screening call, we check for potential dual relationships to ensure the group remains private. We also establish a firm \"Vegas Rule\" from minute one: what is said and who is seen in group, stays in group.\n\n#### \"Is this covered by insurance?\"\n\nWe are not in-network with any insurance provider. However, we provide superbills if you want to submit to your insurance for potential out-of-network reimbursement. We recommend checking with your provider specifically about Group Therapy (CPT Code 90853) coverage.\n\n#### \"How do I know if I'm a good fit?\"\n\nEvery participant has a 15-minute screening call with [Kaylie](/about), the group facilitator, first. This ensures the group dynamic is balanced and that the program matches your specific goals."
+      "items": [
+        {
+          "title": "Do I have to share everything?",
+          "content": "Nope. You're always in charge of your own level of vulnerability. Sometimes, just being present and listening can be the thing you need."
+        },
+        {
+          "title": "What if I'm too much/not enough?",
+          "content": "This is one of the most common group fears. Our groups are curated to be small and trauma-informed, ensuring everyone has space without anyone feeling overwhelmed. We also hold screening calls to make sure group is an appropriate setting for folks."
+        },
+        {
+          "title": "Is this just a vent session?",
+          "content": "While sharing is part of groups, Wildwood groups are structured. We balance emotional processing with practical, concrete tools you can use immediately."
+        },
+        {
+          "title": "What if I see someone I know?",
+          "content": "If it's a small world, Loudoun County can feel even smaller sometimes. In our screening call, we check for potential dual relationships to ensure the group remains private. We also establish a firm \"Vegas Rule\" from minute one: what is said and who is seen in group, stays in group."
+        },
+        {
+          "title": "Is this covered by insurance?",
+          "content": "We are not in-network with any insurance provider. However, we provide superbills if you want to submit to your insurance for potential out-of-network reimbursement. We recommend checking with your provider specifically about Group Therapy (CPT Code 90853) coverage."
+        },
+        {
+          "title": "How do I know if I'm a good fit?",
+          "content": "Every participant has a 15-minute screening call with [Kaylie](/about), the group facilitator, first. This ensures the group dynamic is balanced and that the program matches your specific goals."
+        }
+      ]
     }
   ],
   "subtitle": "Connection & healing in community."

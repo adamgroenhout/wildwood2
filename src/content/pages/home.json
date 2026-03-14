@@ -156,7 +156,15 @@
     {
       "type": "text",
       "title": "A space for you to feel seen and understood.",
-      "body": "Most people come to Wildwood because they’re tired of band-aid therapy. You don’t need more coping skills for a life that’s burning you out; you need to address the root of the fire.\n\nWhether we're using EMDR to process old trauma or navigating the complexities of ethical non-monogamy, my approach is grounded, direct, and deeply human. We skip the Therapy 101 explanations and dive straight into the work that actually shifts how you feel on a Tuesday morning.\n\n### Boutique Care in the Heart of Loudoun County\n\nWalk through the doors of our Leesburg office for an in-person session, or join virtually from anywhere in Virginia. Either way, you get a therapist who sees *you*, not a diagnosis.",
+      "body": "Most people come to Wildwood because they’re tired of band-aid therapy. You don’t need more coping skills for a life that’s burning you out; you need to address the root of the fire.\n\nWhether we're using EMDR to process old trauma or navigating the complexities of ethical non-monogamy, my approach is grounded, direct, and deeply human. We skip the Therapy 101 explanations and dive straight into the work that actually shifts how you feel on a Tuesday morning.",
+      "theme": "alternate",
+      "alignment": "left",
+      "padding": "standard"
+    },
+    {
+      "type": "text",
+      "title": "Boutique Care in the Heart of Loudoun County",
+      "body": "Walk through the doors of our Leesburg office for an in-person session, or join virtually from anywhere in Virginia. Either way, you get a therapist who sees *you*, not a diagnosis.",
       "theme": "alternate",
       "alignment": "left",
       "padding": "standard"
