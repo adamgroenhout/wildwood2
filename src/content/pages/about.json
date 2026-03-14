@@ -57,6 +57,23 @@
     },
     {
       "type": "text",
+      "theme": "alternate",
+      "alignment": "left",
+      "padding": "standard",
+      "body": "I'm warm and direct. I'll meet you where you are and hold space for whatever shows up in our sessions.\n\nSome sessions will feel heavy. Some will feel lighter. All of them will move you forward if you're willing to do the work, because I'm tracking patterns you might not even notice yet. I'm paying attention to what you're saying and what you're not saying. I'm watching for the moments when your nervous system takes over, and your rational brain checks out.\n\nAnd I'm going to point those moments out because that's where the real work happens. But whether you decide to explore them, sit with them, or work through them? That's your choice. This is your healing. I'm here to hold space for it.\n\nTechniques don't matter if we don't have a solid therapeutic relationship. **Healing happens in connection.** That means our relationship matters *just as much* as any intervention I use. This isn’t just a philosophy; it’s a clinical reality supported by research.",
+      "subtitle": "Insight is the Beginning. Integration is the Goal."
+    },
+    {
+      "type": "text",
+      "theme": "alternate",
+      "alignment": "center",
+      "padding": "large",
+      "subtitle": "We bridge the gap between understanding your story and actually changing how you feel within it.",
+      "title": "",
+      "body": "  ."
+    },
+    {
+      "type": "text",
       "title": "My Approach",
       "subtitle": "Depth, Directness, and Grounded Insight",
       "body": "I'm warm and direct. I'll meet you where you are and hold space for whatever shows up in our sessions.\n\nSome sessions will feel heavy. Some will feel lighter. All of them will move you forward if you're willing to do the work, because I'm tracking patterns you might not even notice yet. I'm paying attention to what you're saying and what you're not saying. I'm watching for the moments when your nervous system takes over, and your rational brain checks out.\n\nAnd I'm going to point those moments out because that's where the real work happens. But whether you decide to explore them, sit with them, or work through them? That's your choice. This is your healing. I'm here to hold space for it.\n\n### Science-Backed & Human-Centered\n\nI lead with EMDR and IFS-informed parts work because they go where conversation cannot - reaching the neurological roots of your story to facilitate true unburdening. I supplement this depth with the practical, boots-on-the-ground tools of DBT and ACT to ensure you feel regulated and capable in your daily life.\n\nBut none of these techniques matter if we don't have a solid therapeutic relationship. **Healing happens in connection.** That means our relationship matters *just as much* as any intervention I use. This isn’t just a philosophy; it’s a clinical reality supported by research.",
@@ -140,7 +157,7 @@
       "type": "cta",
       "title": "Healing happens here.",
       "tagline": "Ready to get started?",
-      "body": "",
+      "body": "You’ve either spent years analyzing the why of it all or, frankly, haven't really considered it at all. You know what happened in your past, you’ve read some books, and you can articulate your patterns, and yet, you still feel the same tightness in your chest. You’re capable and accomplished, but underneath that, there's a persistent sense of being overwhelmed, disconnected, or just plain *stuck*.\n\nIn Northern Virginia’s fast-paced culture, it’s easy to intellectualize your pain. But true transformation doesn’t happen in your logical brain alone. It happens when your nervous system finally feels safe enough to experience it, witness it, and let it go.",
       "button_text": "Schedule a Call",
       "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
       "theme": "olive",
