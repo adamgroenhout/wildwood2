@@ -19,6 +19,10 @@ function cleanBlocks(blocks) {
 
   return blocks.map(block => {
     const type = block.type;
+    if (!type) {
+      console.warn(`Block missing 'type' field:`, block);
+      return block;
+    }
     const validFields = BLOCK_SCHEMA[type];
 
     if (!validFields) {
