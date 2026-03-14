@@ -132,6 +132,13 @@
       "padding": "standard"
     },
     {
+      "type": "text",
+      "theme": "alternate",
+      "alignment": "left",
+      "padding": "standard",
+      "body": "This isn't about fixing you; you aren't broken. It's about healing the wounds that convinced you that you were."
+    },
+    {
       "type": "grid",
       "title": "Is this you?",
       "items": [
