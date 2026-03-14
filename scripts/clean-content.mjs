@@ -17,12 +17,27 @@ const BLOCK_SCHEMA = {
 function cleanBlocks(blocks) {
   if (!Array.isArray(blocks)) return blocks;
 
+  const seenContent = new Set();
+
   return blocks.filter(block => {
     const type = block.type;
     if (!type) {
       console.warn(`Block missing 'type' field, removing:`, block);
       return false; // Remove blocks without a type
     }
+
+    // Deduplication logic: Check for identical body or text content
+    const contentKey = block.body || block.text;
+    if (contentKey && contentKey.trim().length > 50) { 
+      // Normalize: Remove ALL whitespace and non-alphanumeric characters for comparison
+      const normalized = contentKey.toLowerCase().replace(/[^a-z0-9]/g, '');
+      if (seenContent.has(normalized)) {
+        console.warn(`Duplicate content found in block [${type}], removing instance.`);
+        return false;
+      }
+      seenContent.add(normalized);
+    }
+
     return true;
   }).map(block => {
     const type = block.type;
