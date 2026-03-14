@@ -10,14 +10,8 @@
       "hero_alt": "Green sprout representing growth",
       "cta_text": "Schedule a Call",
       "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
-      "alignment": "center",
-      "hero_alt": "Green sprout representing growth",
       "theme": "dark",
-      "hero_title": "Where clinical expertise meets human connection.",
-      "hero_image": "/wildwood/images/a_photorealistic_image_of_a_lush.png",
-      "type": "hero",
-      "cta_text": "Schedule a Call",
-      "hero_subtitle": "I’m Kaylie Groenhout, LPC and EMDR Certified Therapist in Leesburg helping high-achieving adults trade performance for presence."
+      "alignment": "center"
     },
     {
       "type": "text",
@@ -31,6 +25,7 @@
       "subtitle": "Hi, I’m Kaylie Groenhout (she/her).",
       "body": "*I’m a board-certified Licensed Professional Counselor in Leesburg, but more importantly, I’m a therapist who believes in depth over clinical distance. I created Wildwood because I saw too many people who were \"self-aware\" but still suffering. You deserve a space that is as professional as it is personal.*",
       "image": "src/assets/images/kaylie-groenhout-lpc.jpg",
+      "image_alt": "Kaylie Groenhout",
       "image_position": "left",
       "theme": "alternate",
       "padding": "small"
@@ -49,7 +44,7 @@
         {
           "link_text": "",
           "number": "2",
-          "text": "Healing from trauma requires more than a sympathetic ear. It requires a specialist who understands that your past is stored in your nervous system, not just your memory. By integrating EMDR and Internal Family Systems (IFS), our work goes beneath the surface to resolve the physical and emotional weight you're carrying. This isn't talk therapy in the traditional sense. Instead, it's a focused, active process designed to shift the internal patterns that keep you stuck.\n\nYour time and investment are valuable, and you deserve a space that balances progress with safety and stability. If you're looking for a therapist to simply nod while you vent, sure, I could do that. But if you're ready for someone to also challenge you, celebrate your breakthroughs, and walk with you toward a life that feels truly yours, let’s talk.",
+          "text": "Healing from trauma requires more than a sympathetic ear. It requires a specialist who understands that your past is stored in your nervous system, not just your memory. By integrating EMDR and Internal Family Systems (IFS), our work goes beneath the surface to resolve the physical and emotional weight you're carrying. This isn't talk therapy in the traditional sense. Instead, it's a focused, active process designed to shift the internal patterns that keep you stuck in your life.\n\nYour time and investment are valuable, and you deserve a space that balances progress with safety and stability. If you're looking for a therapist to simply nod while you vent, sure, I could do that. But if you're ready for someone to also challenge you, celebrate your breakthroughs, and walk with you toward a life that feels truly yours, let’s talk.",
           "subtitle": "Beyond Just Being Heard"
         }
       ],
