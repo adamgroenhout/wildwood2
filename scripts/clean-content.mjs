@@ -11,7 +11,7 @@ const BLOCK_SCHEMA = {
   accordion: ['type', 'title', 'subtitle', 'body', 'items', 'button_text', 'button_url', 'theme', 'layout', 'padding'],
   grid: ['type', 'title', 'subtitle', 'items', 'button_text', 'button_url', 'columns', 'style', 'theme', 'padding'],
   cta: ['type', 'title', 'tagline', 'button_text', 'button_url', 'image', 'image_alt', 'theme', 'layout'], // REMOVED 'body' to prevent ghost text movement
-  map: ['type'] // Map block is minimal in config
+  map_section: ['type', 'title', 'subtitle', 'body', 'address', 'phone', 'email', 'map_embed_url', 'map_link_url', 'theme', 'padding']
 };
 
 function cleanBlocks(blocks) {

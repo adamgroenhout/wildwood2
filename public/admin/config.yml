@@ -190,7 +190,7 @@ collections:
               - { label: "Theme", name: "theme", widget: "select", options: ["sage", "cream", "sand", "paper", "charcoal", "olive", "terracotta", "alternate"], default: "olive" }
               - { label: "Layout", name: "layout", widget: "select", options: ["centered", "split"], default: "centered" }
 
-          - name: "map"
+          - name: "map_section"
             label: "Map & Contact"
             widget: "object"
             fields:

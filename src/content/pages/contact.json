@@ -30,7 +30,10 @@
       "layout": "centered"
     },
     {
-      "type": "map"
+      "type": "map_section",
+      "title": "Visit the Office",
+      "subtitle": "Leesburg, VA",
+      "theme": "cream"
     },
     {
       "type": "grid",
