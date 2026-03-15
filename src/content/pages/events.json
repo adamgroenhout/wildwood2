@@ -13,7 +13,7 @@
       "hero_subtitle": "Find connection, support, and growth through community."
     },
     {
-      "body": "This isn't your neighborhood book club (and, hey, we love a neighborhood book club!). While it definitely has a social component, our virtual **Therapeutic Book Club** focuses on self-reflection and building and sharing insight. We dive into texts that explore the human experience, from nervous system regulation to the art of belonging, facilitated through a therapeutic lens.\n\n#### A Note on the Space:\n\nWhile this book club is facilitated by a [therapist](/about) and may be therapeutic, it's **not therapy**. Because this is an educational and growth-oriented space rather than a clinical one, you don't need to be an active therapy client, and you don't need to be a resident of Virginia to join us. Everyone is welcome at the table.\n\n* The Model: We’re returning to a **monthly** drop-in format. No long-term commitments; just a seat at the digital table when a specific book or topic resonates with you and your journey.\n* Next Gathering: Curating our Spring 2026 titles.\n* The Vibe: Low pressure, high insight, grounded in community.\n\n*Be the first to receive our monthly title selections and registration links by joining the waitlist!*",
+      "body": "This isn't your neighborhood book club (and, hey, we love a neighborhood book club!). While it definitely has a social component, our virtual **Therapeutic Book Club** focuses on self-reflection and building and sharing insight. We dive into texts that explore the human experience, from nervous system regulation to the art of belonging, facilitated through a therapeutic lens.\n\n*A Note About the Club:* While this book club is facilitated by a [therapist](/about) and may be therapeutic, it's **not therapy**. Because this is an educational and growth-oriented space rather than a clinical one, you don't need to be an active therapy client, and you don't need to be a resident of Virginia to join us. Everyone is welcome at the table.\n\n* **Model:** We’re returning to a **monthly** drop-in format. No long-term commitments; just a seat at the digital table when a specific book or topic resonates with you and your journey.\n* **Status:** Curating our Spring 2026 titles.\n* **Vibe:** Low pressure, high insight, grounded in community.\n\n*Be the first to receive our monthly title selections and registration links by joining the waitlist!*",
       "button_url": "https://forms.gle/mDakVEmJs6McDKwo6",
       "alignment": "left",
       "theme": "cream",
@@ -38,9 +38,9 @@
         {
           "title": "Breathing Room (Free Community Series)",
           "subtitle": "Accessible | Practical | Grounded",
-          "text": "Feeling overwhelmed? Could you just use a break, a moment to breathe? Breathing Room is a community initiative by Wildwood designed to help you find calm and clarity through simple, bite-sized mindfulness exercises.\n\nThis event is open to the public with no pressure to participate beyond your comfort level. Whether you’re new to mindfulness or looking to deepen your practice, you’re welcome here. We believe everyone deserves a space to simply *be*.\n\n* The Status: We're currently finalizing administrative details for 2026 sessions. We look forward to gathering in community spaces like the Rust Library in Leesburg soon.\n* Disclosure: This is an independent Wildwood event. It is **not** sponsored, endorsed, or partnered with the Loudoun County Public Library (LCPL) system.\n\n  * The Vibe: Low pressure, high presence.",
+          "text": "Feeling overwhelmed? Could you just use a break, a moment to breathe? Breathing Room is a community initiative by Wildwood designed to help you find calm and clarity through simple, bite-sized mindfulness exercises.\n\nThis event is open to the public with no pressure to participate beyond your comfort level. Whether you’re new to mindfulness or looking to deepen your practice, you’re welcome here. We believe everyone deserves a space to simply *be*.\n\n* **Status:** We're currently finalizing administrative details for 2026 sessions. We look forward to gathering in community spaces like the Rust Library in Leesburg soon.\n* **Disclosure:** This is an independent Wildwood event. It is **not** sponsored, endorsed, or partnered with the Loudoun County Public Library (LCPL) system.\n* **Vibe:** Low pressure, high presence.",
           "link_text": "Inquire About Breathing Room",
-          "link_url": "mailto: kaylie@wildwoodpsychotherapy.co"
+          "link_url": "mailto:kaylie@wildwoodpsychotherapy.co"
         }
       ],
       "columns": "2",
@@ -61,8 +61,10 @@
       "items": [
         {
           "title": "Quarterly Networking Lunch",
-          "subtitle": " | ",
-          "text": "Looking to connect with fellow therapists and mental health professionals in Loudoun County? Join us for a relaxed, community-focused quarterly networking lunch. This gathering is a welcoming space for Loudoun-based clinicians to meet, share resources, and build relationships.\n\nWhether you're a seasoned practitioner, recently licensed, or just starting in private practice, you're welcome here. No pressure to present or perform—just come as you are.\n\n<div class=\"text-center mt-8\"><a href=\"https://wildwoodpsychotherapy.clientsecure.me/\" class=\"btn btn-terracotta\">Get on the invite list</a></div>"
+          "subtitle": "Gathering Loudoun mental health clinicians for intentional conversation and comraderie.",
+          "text": "Looking to connect with fellow therapists and mental health professionals in Loudoun County? Join us for a relaxed, community-focused quarterly networking lunch. This gathering is a welcoming space for Loudoun-based clinicians to meet, share resources, and build relationships.\n\nWhether you're a seasoned practitioner, recently licensed, or just starting in private practice, you're welcome here. No pressure to present or perform. Come as you are.\n\n* **Status:** Scouting venues in Loudoun County for our 2026 series.",
+          "link_url": "mailto:kaylie@wildwoodpsychotherapy.co",
+          "link_text": "Notify Me of the Next Lunch"
         }
       ],
       "columns": "2",
