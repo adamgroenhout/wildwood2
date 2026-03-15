@@ -1,17 +1,17 @@
 {
-  "title": "Telehealth",
-  "seo_title": "Online therapy for adults in Virginia.",
+  "title": "SPECIALIZED VIRTUAL THERAPY FOR ADULTS IN FREDERICKSBURG, CHARLOTTESVILLE, AND ACROSS VIRGINIA",
+  "seo_title": "SPECIALIZED VIRTUAL THERAPY FOR ADULTS IN FREDERICKSBURG, CHARLOTTESVILLE, AND ACROSS VIRGINIA",
   "blocks": [
     {
       "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
       "alignment": "center",
       "hero_alt": "Cozy desk with laptop representing digital connection",
       "theme": "dark",
-      "hero_title": "Telehealth",
+      "hero_title": "Thoughtful Therapy That Meets You Where You Are.",
       "hero_image": "src/assets/images/a_clean_photorealistic_image_of_.webp",
       "type": "hero",
-      "cta_text": "Schedule a Call",
-      "hero_subtitle": "Online therapy via video for adults in Virginia."
+      "cta_text": "Schedule a Consultation",
+      "hero_subtitle": "SPECIALIZED VIRTUAL THERAPY FOR ADULTS IN FREDERICKSBURG, CHARLOTTESVILLE, AND ACROSS VIRGINIA"
     },
     {
       "type": "grid",
@@ -58,5 +58,5 @@
       "image_alt": "call to action button encouraging inquirer to schedule a consultation call"
     }
   ],
-  "subtitle": "Online therapy via video for adults in Virginia."
+  "subtitle": "Thoughtful Therapy That Meets You Where You Are."
 }
