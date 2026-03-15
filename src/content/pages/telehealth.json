@@ -3,19 +3,20 @@
   "seo_title": "Specialized Virtual Therapy for Adults in Fredericksburg, Charlottesville, and Across Virginia",
   "blocks": [
     {
-      "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
-      "alignment": "center",
-      "hero_alt": "Cozy desk with laptop representing digital connection",
-      "theme": "dark",
-      "hero_title": "Thoughtful Therapy That Meets You Where You Are.",
-      "hero_image": "src/assets/images/a_clean_photorealistic_image_of_.webp",
       "type": "hero",
+      "hero_title": "Thoughtful Therapy That Meets You Where You Are.",
+      "hero_subtitle": "SPECIALIZED VIRTUAL THERAPY FOR ADULTS IN FREDERICKSBURG, CHARLOTTESVILLE, AND ACROSS VIRGINIA",
+      "hero_image": "src/assets/images/a_clean_photorealistic_image_of_.webp",
+      "hero_alt": "Cozy desk with laptop representing digital connection",
       "cta_text": "Schedule a Consultation",
-      "hero_subtitle": "SPECIALIZED VIRTUAL THERAPY FOR ADULTS IN FREDERICKSBURG, CHARLOTTESVILLE, AND ACROSS VIRGINIA"
+      "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
+      "theme": "dark",
+      "alignment": "center"
     },
     {
       "type": "grid",
       "title": "",
+      "subtitle": "High-Touch Therapy, Designed for Your Life",
       "items": [
         {
           "link_text": "",
@@ -36,8 +37,7 @@
       "columns": "3",
       "style": "minimal",
       "theme": "sage",
-      "padding": "standard",
-      "subtitle": "High-Touch Therapy, Designed for Your Life"
+      "padding": "standard"
     },
     {
       "type": "image_text",
@@ -59,29 +59,29 @@
     },
     {
       "type": "text",
+      "subtitle": "Why This Flexibility Actually Matters",
+      "body": "Therapy only works if you show up. And showing up gets exponentially harder when life is already overwhelming you.\n\nThe clients who make real progress aren't the ones with perfect schedules. They're the ones who adapt when life gets messy instead of abandoning therapy entirely.\n\nVirtual sessions have a different rhythm. But they're better than canceling. Better than losing weeks of momentum. Better than letting your nervous system destabilize because you couldn't make it to the office.",
       "theme": "alternate",
       "alignment": "left",
-      "padding": "standard",
-      "subtitle": "Why This Flexibility Actually Matters",
-      "body": "Therapy only works if you show up. And showing up gets exponentially harder when life is already overwhelming you.\n\nThe clients who make real progress aren't the ones with perfect schedules. They're the ones who adapt when life gets messy instead of abandoning therapy entirely.\n\nVirtual sessions have a different rhythm. But they're better than canceling. Better than losing weeks of momentum. Better than letting your nervous system destabilize because you couldn't make it to the office."
+      "padding": "standard"
     },
     {
       "type": "text",
+      "subtitle": "What Virtual Sessions Can't Do",
+      "body": "I won't pretend it's the same as in-person therapy. It's not.\n\nScreen-based sessions miss subtle body language. Co-regulation is harder through a camera. Technology glitches at the worst moments. Privacy at home isn't always guaranteed.\n\nSome trauma work genuinely needs in-person presence. If we're doing deep somatic work or intensive nervous system regulation, we need to be in the room together. Virtual has limits.\n\nBut for maintaining consistency, processing recent events, or navigating immediate stressors? Virtual keeps you connected to the work when in-person isn't possible or is just plain inconvenient.",
       "theme": "alternate",
       "alignment": "left",
-      "padding": "standard",
-      "subtitle": "What Virtual Sessions Can't Do",
-      "body": "I won't pretend it's the same as in-person therapy. It's not.\n\nScreen-based sessions miss subtle body language. Co-regulation is harder through a camera. Technology glitches at the worst moments. Privacy at home isn't always guaranteed.\n\nSome trauma work genuinely needs in-person presence. If we're doing deep somatic work or intensive nervous system regulation, we need to be in the room together. Virtual has limits.\n\nBut for maintaining consistency, processing recent events, or navigating immediate stressors? Virtual keeps you connected to the work when in-person isn't possible or is just plain inconvenient."
+      "padding": "standard"
     },
     {
       "type": "image_text",
-      "image_position": "right",
-      "theme": "alternate",
-      "padding": "small",
       "subtitle": "How This Works in Practice",
       "body": "We meet in person as your default. That's where the deepest work happens.\n\nWhen life interferes, we switch to virtual for that session. You stay on track. We address what's happening. Then we return to in-person when circumstances allow.\n\nThis isn't about choosing virtual or in-person. It's about having both options so consistency doesn't become another thing life takes from you.\n\n*For clients living further afield in Virginia, we design a custom hybrid or fully virtual plan that ensures you receive deep, consistent care without the burden of travel.*",
       "image": "src/assets/images/wildwood-psychotherapy-virtual-telehealth.jpg",
-      "image_alt": "image of wood desk and computer screen in soft-lit office with table lamp on and large fig tree with basked filled with pillows"
+      "image_alt": "image of wood desk and computer screen in soft-lit office with table lamp on and large fig tree with basked filled with pillows",
+      "image_position": "right",
+      "theme": "alternate",
+      "padding": "small"
     },
     {
       "type": "text",
@@ -90,16 +90,6 @@
       "theme": "alternate",
       "alignment": "left",
       "padding": "standard"
-    },
-    {
-      "type": "cta",
-      "title": "Start Telehealth",
-      "button_text": "Schedule a Call",
-      "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
-      "theme": "olive",
-      "layout": "centered",
-      "image_alt": "call to action button encouraging inquirer to schedule a consultation call",
-      "body": "I won't pretend it's the same as in-person therapy. It's not.\n\nScreen-based sessions miss subtle body language. Co-regulation is harder through a camera. Technology glitches at the worst moments. Privacy at home isn't always guaranteed.\n\nSome trauma work genuinely needs in-person presence. If we're doing deep somatic work or intensive nervous system regulation, we need to be in the room together. Virtual has limits.\n\nBut for maintaining consistency, processing recent events, or navigating immediate stressors? Virtual keeps you connected to the work when in-person isn't possible or is just plain inconvenient."
     }
   ],
   "subtitle": "Thoughtful Therapy That Meets You Where You Are."
