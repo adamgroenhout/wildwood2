@@ -13,22 +13,15 @@
       "hero_subtitle": "Find connection, support, and growth through community."
     },
     {
-      "type": "text",
-      "title": "Therapeutic Book Club",
       "body": "This isn't your neighborhood book club (and, hey, we love a neighborhood book club!). While it definitely has a social component, our virtual book club focuses on self-reflection and building and sharing insight. We dive into texts that explore the human experience, from nervous system regulation to the art of belonging, facilitated through a therapeutic lens.\n\nA Note on the Space:\nWhile this book club is facilitated by a [therapist](/about) and may be therapeutic, *it's not therapy*. Because this is an educational and growth-oriented space rather than a clinical one, you don't need to be an active therapy client, and you don't need to be a resident of Virginia to join us. Everyone is welcome at the table.\n\n* The Model: We’re returning to a monthly drop-in format. No long-term commitments; just a seat at the digital table when a specific book or topic resonates with you and your journey.\n* Next Gathering: Currently curating for Spring 2025.\n* The Vibe: Low pressure, high insight, grounded in community.\n\n*Be the first to receive our monthly title selections and registration links by joining the waitlist!*",
+      "button_url": "https://forms.gle/mDakVEmJs6McDKwo6",
+      "alignment": "left",
       "theme": "cream",
-      "alignment": "left",
+      "padding": "standard",
       "subtitle": "Monthly | Virtual | Deeply Reflective",
+      "title": "Therapeutic Book Club",
       "button_text": "Join the Book Club Waitlist",
-      "padding": "standard"
-    },
-    {
-      "type": "text",
-      "title": "Spring Season: March to May 2026",
-      "body": "**Book:** One selected book per season\n**Meetings:** Three live meetings, once each month, from 6-7:15 PM EST: March 24th, April 21st, May 19th\n**Cost:** $150 (total for the season)\n**Group Size:** Ten-person maximum\n\n<div class=\"text-center mt-8\"><a href=\"https://wildwoodpsychotherapy.clientsecure.me/\" class=\"btn btn-terracotta\">Join the Club</a></div>",
-      "theme": "sage",
-      "alignment": "left",
-      "padding": "standard"
+      "type": "text"
     },
     {
       "type": "text",
@@ -36,7 +29,8 @@
       "theme": "cream",
       "alignment": "left",
       "body": "Coming",
-      "padding": "standard"
+      "padding": "standard",
+      "subtitle": "Community Events"
     },
     {
       "type": "grid",
