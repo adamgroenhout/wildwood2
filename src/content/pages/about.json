@@ -3,15 +3,15 @@
   "seo_title": "About Wildwood Psychotherapy in Leesburg, VA",
   "blocks": [
     {
-      "type": "hero",
-      "hero_title": "Where clinical expertise meets human connection.",
-      "hero_subtitle": "I’m Kaylie Groenhout, LPC and EMDR Certified Therapist in Leesburg helping high-achieving adults trade performance for presence.",
-      "hero_image": "src/assets/images/a_photorealistic_image_of_a_lush.webp",
-      "hero_alt": "Green sprout representing growth",
-      "cta_text": "Schedule a Call",
       "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
+      "alignment": "center",
+      "hero_alt": "Green sprout representing growth",
       "theme": "dark",
-      "alignment": "center"
+      "hero_title": "Where clinical expertise meets human connection.",
+      "hero_image": "src/assets/images/a_photorealistic_image_of_a_lush.webp",
+      "type": "hero",
+      "cta_text": "Schedule a Call",
+      "hero_subtitle": "I’m Kaylie Groenhout, LPC and EMDR Certified Therapist in Leesburg helping high-achieving adults trade performance for presence."
     },
     {
       "type": "text",
@@ -55,8 +55,12 @@
     },
     {
       "type": "grid",
-      "title": "Depth-Oriented Therapy for the Complex Internal Landscape",
+      "columns": "3",
+      "style": "minimal",
+      "theme": "alternate",
+      "padding": "standard",
       "subtitle": "Therapy for adult individuals (30-70+) and their non-traditional partners.",
+      "title": "Depth-Oriented Therapy for the Complex Internal Landscape",
       "items": [
         {
           "link_text": "",
@@ -74,28 +78,24 @@
           "title": "\"Because your rational brain eventually checks out.\"",
           "text": "You can intellectualize your story and your pain all day, but true change happens when we track what is happening in the room. We bridge the gap between knowing better and feeling better, unburdening the roles you’ve played for decades so you can show up authentically in the present."
         }
-      ],
-      "columns": "3",
-      "style": "minimal",
-      "theme": "alternate",
-      "padding": "standard"
+      ]
     },
     {
-      "type": "image_text",
-      "title": "Depth, Directness, and Grounded Insight",
-      "subtitle": "What It Feels Like in the Room",
       "body": "Some sessions will feel heavy. Some will feel lighter. All of them are part of moving forward. My approach is warm but active; I’m not just a passive listener. I'm tracking the moments when your nervous system takes over and your rational brain checks out. I’m paying attention to what you’re saying, and more importantly, what you’re *not* saying. \n\nI'll point those patterns out as they happen, because that's where insight turns into integration. Whether you decide to explore those moments, sit with them, or work through them is always your choice. This is your healing; I'm here to hold the space for it.",
-      "image": "src/assets/images/pexels-mdsnmdsnmdsn-2821756.jpg",
       "image_alt": "Soft botanical shadows on a warm, earthy-toned wall in a peaceful therapy office, representing the mindful, grounded approach of Wildwood Psychotherapy in Leesburg, VA",
-      "image_position": "left",
       "theme": "alternate",
-      "padding": "small"
+      "image_position": "left",
+      "padding": "small",
+      "subtitle": "What It Feels Like in the Room",
+      "title": "Depth, Directness, and Grounded Insight",
+      "type": "image_text",
+      "image": "src/assets/images/pexels-mdsnmdsnmdsn-2821756.jpg"
     },
     {
       "type": "text",
       "title": "",
       "subtitle": "",
-      "body": "## We bridge the gap between understanding your story and actually changing how you feel within it.",
+      "body": "If we don't have a solid therapeutic relationship, the modalities and techniques I use won't matter. This means our relationship matters *just as much* as any intervention I use. And that's not just a philosophy; it’s a clinical reality supported by research.",
       "theme": "alternate",
       "alignment": "center",
       "padding": "large"
@@ -132,11 +132,12 @@
     },
     {
       "type": "text",
-      "title": "Science-Backed & Human-Centered",
+      "title": "",
       "body": "Techniques don't matter if we don't have a solid therapeutic relationship. **Healing happens in connection.** That means our relationship matters *just as much* as any intervention I use. This isn’t just a philosophy; it’s a clinical reality supported by research.",
       "theme": "standard",
       "alignment": "left",
-      "padding": "standard"
+      "padding": "standard",
+      "subtitle": "Healing happens in connection."
     },
     {
       "type": "accordion",
@@ -181,9 +182,12 @@
       "tagline": "Ready to get started?",
       "button_text": "Schedule a Call",
       "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
-      "image_alt": "image",
       "theme": "olive",
-      "layout": "centered"
+      "layout": "centered",
+      "image_alt": "image"
+    },
+    {
+      "body": "Some sessions will feel heavy; some will feel lighter. All of them will move you forward. My approach is warm but active; I’m not just a passive listener. I'm paying attention to what you’re saying, and more importantly, what you’re *not*.\n\nI track the moments when a protective part of you steps in. I’m watching for those shifts in your energy where the thinking brain gives way to a deeper, more reactive feeling. I notice when your logic is bypassed by a surge of emotion or a need to retreat. I point these transitions out as they happen, because they usually point us exactly toward what needs the most care.\n\nThis is your space, and I'm here to hold the space for it. Whether you decide to explore those moments, sit with them, or work through them is always your choice. I bridge the gap between \"knowing better\" and \"feeling better,\" unburdening the roles you’ve played for decades so you can show up authentically in your present."
     }
   ],
   "subtitle": "I’m Kaylie Groenhout, LPC and EMDR Certified Therapist in Leesburg helping high-achieving adults trade performance for presence."
