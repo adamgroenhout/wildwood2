@@ -15,12 +15,29 @@
     },
     {
       "type": "grid",
-      "title": "Why use telehealth?",
-      "items": [],
+      "title": "",
+      "items": [
+        {
+          "link_text": "",
+          "subtitle": "Consistency Over Distance",
+          "text": "Access specialized trauma care from Fredericksburg, Charlottesville, or anywhere in Virginia without the hours of drive time."
+        },
+        {
+          "link_text": "",
+          "subtitle": "Life-Proof Flexibility",
+          "text": "Transition to a virtual session when a sick child, work emergency, or Virginia weather makes getting to the office impossible."
+        },
+        {
+          "link_text": "Learn more",
+          "subtitle": "Your Own Sanctuary",
+          "text": "Engage in deep work like EMDR or IFS from the environment where you feel most secure."
+        }
+      ],
       "columns": "3",
       "style": "minimal",
       "theme": "sage",
-      "padding": "standard"
+      "padding": "standard",
+      "subtitle": "High-Touch Therapy, Designed for Your Life"
     },
     {
       "type": "image_text",
@@ -35,7 +52,7 @@
     {
       "type": "text",
       "title": "How We Use Virtual Sessions Strategically",
-      "body": "I specialize in in-person trauma therapy. Being in the same room matters for this work. I can see the shift in your posture when something lands. The way your knee bounces when anxiety spikes. The micro-expressions that tell me we're hitting something real.\n\nBut I also know life doesn't cooperate with your healing schedule.\n\nVirtual sessions keep you moving forward when:\n\n* Your kid wakes up with a fever on therapy day\n* Work dumps an emergency meeting in your calendar\n* Virginia weather turns dangerous and roads aren't safe\n* You're traveling but don't want to break momentum\n* You're having a high-pain day and leaving home feels impossible\n* Childcare falls through and you need to stay home\n\nWe start in person. Build the relationship. Establish the foundation. Then when life threatens to derail your progress, we switch to virtual temporarily. You stay consistent. The work continues. Your nervous system doesn't lose ground.\n\n## Why This Flexibility Actually Matters\n\nTherapy only works if you show up. And showing up gets exponentially harder when life is already overwhelming you.\n\nThe clients who make real progress aren't the ones with perfect schedules. They're the ones who adapt when life gets messy instead of abandoning therapy entirely.\n\nVirtual sessions aren't ideal. But they're better than canceling. Better than losing weeks of momentum. Better than letting your nervous system destabilize because you couldn't make it to the office.\n\n## What Virtual Sessions Can't Do\n\nI won't pretend it's the same. It's not.\n\nScreen-based sessions miss subtle body language. Co-regulation is harder through a camera. Technology glitches at the worst moments. Privacy at home isn't always guaranteed.\n\nSome trauma work genuinely needs in-person presence. If we're doing deep somatic work or intensive nervous system regulation, we need to be in the room together. Virtual has limits.\n\nBut for maintaining consistency, processing recent events, or navigating immediate stressors? Virtual keeps you connected to the work when in-person isn't possible.\n\n## How This Works in Practice\n\nWe meet in person as your default. That's where the deepest work happens.\n\nWhen life interferes, we switch to virtual for that session. You stay on track. We address what's happening. Then we return to in-person when circumstances allow.\n\nThis isn't about choosing virtual or in-person. It's about having both options so consistency doesn't become another thing life takes from you.",
+      "body": "I specialize in in-person trauma therapy. Being in the same room matters for this work. I can see the shift in your posture when something lands. The way your knee bounces when anxiety spikes. The micro-expressions that tell me we're hitting something real.\n\nBut I also know life doesn't cooperate with your healing schedule.\n\nVirtual sessions keep you moving forward when:\n\n* Your kid wakes up with a fever on therapy day\n* Work dumps an emergency meeting in your calendar\n* Virginia weather turns dangerous and roads aren't safe\n* You're traveling but don't want to break momentum\n* You're having a high-pain day and leaving home feels impossible\n* Childcare falls through and you need to stay home\n* You live outside of Northern Virginia in places like Fredericksburg, Richmond, or the Charlottesville areas and want specialized trauma care without the 3-hour commute\n\nWe start in person. Build the relationship. Establish the foundation. Then when life threatens to derail your progress, we switch to virtual temporarily. You stay consistent. The work continues. Your nervous system doesn't lose ground.\n\n## Why This Flexibility Actually Matters\n\nTherapy only works if you show up. And showing up gets exponentially harder when life is already overwhelming you.\n\nThe clients who make real progress aren't the ones with perfect schedules. They're the ones who adapt when life gets messy instead of abandoning therapy entirely.\n\nVirtual sessions have a different rhythm. But they're better than canceling. Better than losing weeks of momentum. Better than letting your nervous system destabilize because you couldn't make it to the office.\n\n## What Virtual Sessions Can't Do\n\nI won't pretend it's the same. It's not.\n\nScreen-based sessions miss subtle body language. Co-regulation is harder through a camera. Technology glitches at the worst moments. Privacy at home isn't always guaranteed.\n\nSome trauma work genuinely needs in-person presence. If we're doing deep somatic work or intensive nervous system regulation, we need to be in the room together. Virtual has limits.\n\nBut for maintaining consistency, processing recent events, or navigating immediate stressors? Virtual keeps you connected to the work when in-person isn't possible.\n\n## How This Works in Practice\n\nWe meet in person as your default. That's where the deepest work happens.\n\nWhen life interferes, we switch to virtual for that session. You stay on track. We address what's happening. Then we return to in-person when circumstances allow.\n\nThis isn't about choosing virtual or in-person. It's about having both options so consistency doesn't become another thing life takes from you.\n\n*For clients living further afield in Virginia, we design a custom hybrid or fully virtual plan that ensures you receive deep, consistent care without the burden of travel.*",
       "theme": "alternate",
       "alignment": "left",
       "padding": "standard"
