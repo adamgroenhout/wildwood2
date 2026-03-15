@@ -3,20 +3,19 @@
   "seo_title": "Specialized Virtual Therapy for Adults in Fredericksburg, Charlottesville, and Across Virginia",
   "blocks": [
     {
-      "type": "hero",
-      "hero_title": "Thoughtful Therapy That Meets You Where You Are.",
-      "hero_subtitle": "SPECIALIZED VIRTUAL THERAPY FOR ADULTS IN FREDERICKSBURG, CHARLOTTESVILLE, AND ACROSS VIRGINIA",
-      "hero_image": "src/assets/images/a_clean_photorealistic_image_of_.webp",
-      "hero_alt": "Cozy desk with laptop representing digital connection",
-      "cta_text": "Schedule a Consultation",
       "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
+      "alignment": "center",
+      "hero_alt": "Cozy desk with laptop representing digital connection",
       "theme": "dark",
-      "alignment": "center"
+      "hero_title": "Thoughtful Therapy That Meets You Where You Are.",
+      "hero_image": "src/assets/images/a_clean_photorealistic_image_of_.webp",
+      "type": "hero",
+      "cta_text": "Schedule a Consultation",
+      "hero_subtitle": "SPECIALIZED VIRTUAL THERAPY FOR ADULTS IN FREDERICKSBURG, CHARLOTTESVILLE, AND ACROSS VIRGINIA"
     },
     {
       "type": "grid",
       "title": "",
-      "subtitle": "High-Touch Therapy, Designed for Your Life",
       "items": [
         {
           "link_text": "",
@@ -37,21 +36,26 @@
       "columns": "3",
       "style": "minimal",
       "theme": "sage",
-      "padding": "standard"
+      "padding": "standard",
+      "subtitle": "High-Touch Therapy, Designed for Your Life"
     },
     {
-      "type": "image_text",
-      "title": "When Life (or Distance) Gets in the Way",
-      "subtitle": "",
       "body": "You know that sinking feeling when you realize you have to cancel therapy again because your kid is sick, work exploded, or the roads are a nightmare?\n\nThat pattern of canceling and rescheduling kills momentum. Your nervous system doesn't regulate in fits and starts. Trauma work requires consistency. And life is designed to destroy consistency.\n\nThat's where virtual therapy becomes your backup plan instead of your barrier.",
-      "image": "src/assets/images/a_clean_aesthetically_pleasing_h.webp",
       "image_alt": "Comfortable home telehealth desk",
-      "image_position": "left",
       "theme": "alternate",
-      "padding": "standard"
+      "image_position": "left",
+      "padding": "standard",
+      "subtitle": "",
+      "title": "When Life (or Distance) Gets in the Way",
+      "type": "image_text",
+      "image": "src/assets/images/a_clean_aesthetically_pleasing_h.webp"
     },
     {
       "type": "grid",
+      "columns": "2",
+      "style": "minimal",
+      "theme": "alternate",
+      "padding": "standard",
       "title": "How We Use Virtual Sessions Strategically",
       "subtitle": "",
       "items": [
@@ -65,44 +69,40 @@
           "title": "For Long-Distance (VA) Clients:",
           "text": "For those joining me from Fredericksburg, Charlottesville, Richmond, or other parts of Virginia, virtual sessions allow us to work together regardless of the miles. It means you can choose the therapist that feels like the right fit for you, without letting a 2-hour (plus) drive dictate your care."
         }
-      ],
-      "columns": "2",
-      "style": "minimal",
-      "theme": "alternate",
-      "padding": "standard"
+      ]
     },
     {
       "type": "text",
-      "title": "Why This Flexibility Actually Matters",
+      "theme": "alternate",
+      "alignment": "left",
+      "padding": "standard",
       "subtitle": "",
       "body": "Therapy only works when you can consistently show up for it. But showing up gets exponentially harder when life is overwhelming you, or when the drive from Fredericksburg or Charlottesville starts to feel like a second job.\n\nThe clients who make the most sustainable progress aren’t the ones with perfect schedules. They're the ones who adapt when life gets messy instead of abandoning the work. Whether it’s a sick kid, a work emergency, or a 60-mile gap, virtual sessions ensure that your healing isn't at the mercy of your calendar or your commute.",
-      "theme": "alternate",
-      "alignment": "left",
-      "padding": "standard"
+      "title": "Why This Flexibility Actually Matters"
     },
     {
       "type": "text",
-      "title": "The Rhythm of Virtual Work",
+      "theme": "alternate",
+      "alignment": "left",
+      "padding": "standard",
       "subtitle": "",
       "body": "### Honesty is a core part of the work we do together.\n\nI won’t pretend that a screen is identical to being in the same room. Virtual sessions have a different rhythm. It's harder to co-regulate through a computer screen; we miss the subtle shifts in body language that happen when we’re face-to-face, and, quite frankly, technology glitches at the *worst* moments.\n\nBut here's why we use it: some of the most profound trauma work happens when you feel truly safe. For many, that sanctuary is their own home. While some intensive work genuinely benefits from being in-person, virtual sessions serve as a powerful tool to keep you connected to the work when the office feels out of reach. We don't let a screen (or a Wi-Fi signal) stand in the way of your momentum.",
-      "theme": "alternate",
-      "alignment": "left",
-      "padding": "standard"
+      "title": "The Rhythm of Virtual Work"
     },
     {
-      "type": "image_text",
-      "title": "How Telehealth Works in Practice",
-      "subtitle": "",
       "body": "We meet in person as your default. That's where the deepest work happens.\n\nWhen life interferes, we switch to virtual for that session. You stay on track. We address what's happening. Then we return to in-person when circumstances allow.\n\nThis isn't about choosing virtual or in-person. It's about having both options so consistency doesn't become another thing life takes from you.\n\n*For clients living further afield in Virginia, we design a custom hybrid or fully virtual plan that ensures you receive deep, consistent care without the burden of travel.*",
-      "image": "src/assets/images/wildwood-psychotherapy-virtual-telehealth.jpg",
       "image_alt": "image of wood desk and computer screen in soft-lit office with table lamp on and large fig tree with basked filled with pillows",
-      "image_position": "right",
       "theme": "alternate",
-      "padding": "small"
+      "image_position": "right",
+      "padding": "small",
+      "subtitle": "",
+      "title": "How Telehealth Works in Practice",
+      "type": "image_text",
+      "image": "src/assets/images/wildwood-psychotherapy-virtual-telehealth.jpg"
     },
     {
       "type": "text",
-      "title": "Ready to Start?",
+      "title": "Ready to find your rhythm?",
       "body": "If you’re looking for therapy that adapts to your reality, whether that’s a busy schedule in Leesburg or a long-distance connection from southwestern Virginia, let’s talk.\n\n**A quick note on geography: Due to state licensing regulations, all telehealth clients must be physically present in Virginia during telehealth appointments.**",
       "theme": "alternate",
       "alignment": "left",
@@ -110,12 +110,13 @@
     },
     {
       "type": "cta",
-      "title": "Ready to find your rhythm?",
+      "title": "Let’s Connect",
       "button_text": "Schedule a Free Consultation",
       "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
-      "image_alt": "call to action button encouraging inquirer to schedule a consultation call",
       "theme": "olive",
-      "layout": "centered"
+      "layout": "centered",
+      "image_alt": "call to action button encouraging inquirer to schedule a consultation call",
+      "body": "If you’re looking for therapy that adapts to your reality, whether that’s a busy schedule in Leesburg or a long-distance connection from Fredericksburg or Charlottesville, your path to consistency starts here.\n\n> Let's build a therapy plan that actually fits your life.\n\n*A quick note on geography: Due to state licensing regulations, all telehealth clients must be physically present in Virginia during telehealth appointments.*"
     }
   ],
   "subtitle": "Thoughtful Therapy That Meets You Where You Are."
