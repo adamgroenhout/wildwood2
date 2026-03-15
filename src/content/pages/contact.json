@@ -2,15 +2,15 @@
   "title": "Schedule Your Free Consultation",
   "blocks": [
     {
-      "type": "hero",
-      "hero_title": "Schedule Your Free Consultation",
-      "hero_subtitle": "",
-      "hero_image": "src/assets/images/a_photorealistic_image_of_a_warm.webp",
-      "hero_alt": "Sunlit hallway representing a welcoming entry",
-      "cta_text": "Schedule a Call",
       "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
+      "alignment": "center",
+      "hero_alt": "Sunlit hallway representing a welcoming entry",
       "theme": "dark",
-      "alignment": "center"
+      "hero_title": "Schedule Your Free Consultation",
+      "hero_image": "src/assets/images/a_photorealistic_image_of_a_warm.webp",
+      "type": "hero",
+      "cta_text": "Schedule a Call",
+      "hero_subtitle": ""
     },
     {
       "type": "text",
@@ -26,7 +26,8 @@
       "button_text": "Book Your Consultation",
       "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
       "theme": "terracotta",
-      "layout": "centered"
+      "layout": "centered",
+      "image_alt": "book your consultation button"
     },
     {
       "type": "map"
@@ -62,14 +63,15 @@
       "padding": "standard"
     },
     {
-      "type": "image_text",
-      "title": "Entering the Building",
-      "subtitle": "Same building as Shake & Bops Cafe.",
-      "body": "Facing the front of the building, you'll see the cafe. Instead of taking the front steps and red door, look to the left for a narrow brick walkway.",
-      "image": "src/assets/images/19-wirt-street-sw.webp",
-      "image_position": "left",
+      "body": "Facing the front of the building, you'll see the cafe's red door. To enter the office, look to the left of the building for a small iron gate and narrow brick walkway.",
+      "image_alt": "image of a white brick little house from early 1900s with a metal roof, black shutters, and red front door which is the home of Wildwood Psychotherapy in Leesburg, VA",
       "theme": "alternate",
-      "padding": "small"
+      "image_position": "left",
+      "padding": "small",
+      "subtitle": "Same building as Shake & Bops Cafe.",
+      "title": "Location",
+      "type": "image_text",
+      "image": "src/assets/images/19-wirt-street-sw.webp"
     },
     {
       "type": "image_text",
@@ -78,7 +80,8 @@
       "image": "src/assets/images/office-brick-walkway.webp",
       "image_position": "right",
       "theme": "alternate",
-      "padding": "small"
+      "padding": "small",
+      "image_alt": "narrow brick walkway along the white brick wall of the building that houses Wildwood Psychotherapy"
     }
   ],
   "seo_title": "Schedule Your Free Consultation"
