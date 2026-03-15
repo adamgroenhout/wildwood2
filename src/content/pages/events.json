@@ -51,7 +51,7 @@
     {
       "type": "text",
       "title": "For Therapists & Clinicians",
-      "theme": "cream",
+      "theme": "alternate",
       "alignment": "left",
       "body": "RSVP Required.",
       "padding": "standard"
