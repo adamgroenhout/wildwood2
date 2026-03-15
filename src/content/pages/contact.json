@@ -30,7 +30,10 @@
       "image_alt": "book your consultation button"
     },
     {
-      "type": "map"
+      "type": "map",
+      "title": "Visit the Office",
+      "subtitle": "Leesburg, VA",
+      "theme": "cream"
     },
     {
       "type": "grid",

@@ -1,6 +1,7 @@
 ---
 import Section from '../Section.astro';
 import { marked } from 'marked';
+import { getEntry } from 'astro:content';
 
 interface Props {
   data: {
@@ -20,11 +21,19 @@ interface Props {
 
 const { data } = Astro.props;
 
+// Fetch global contact settings
+const settingsEntry = await getEntry('settings', 'settings');
+const globalContact = settingsEntry?.data?.contact || {};
+
 // Default map embed for 19 Wirt St SW, Suite 205, Leesburg, VA 20175
 const defaultMapEmbed = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3099.9328243616656!2d-77.5684742!3d39.1121543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b6164295d86289%3A0x673160e1844b256!2s19%20Wirt%20St%20SW%20%23205%2C%20Leesburg%2C%20VA%2020175!5e0!3m2!1sen!2sus!4v1710255375545!5m2!1sen!2sus";
 
 const mapEmbedUrl = data.map_embed_url || defaultMapEmbed;
 const mapLinkUrl = data.map_link_url || "https://maps.app.goo.gl/MnMZViMsUDX4wTj28";
+
+const address = data.address || globalContact.address;
+const phone = data.phone || globalContact.phone;
+const email = data.email || globalContact.email;
 ---
 
 <Section theme={data.theme || 'cream'} padding={data.padding || 'standard'}>
@@ -43,7 +52,7 @@ const mapLinkUrl = data.map_link_url || "https://maps.app.goo.gl/MnMZViMsUDX4wTj
         </div>
 
         <div class="space-y-8">
-          {data.address && (
+          {address && (
             <div class="flex gap-4">
               <div class="flex-shrink-0 mt-1">
                 <svg class="w-6 h-6 text-terracotta" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -53,13 +62,13 @@ const mapLinkUrl = data.map_link_url || "https://maps.app.goo.gl/MnMZViMsUDX4wTj
               </div>
               <div>
                 <h3 class="eyebrow text-xs mb-2 opacity-60">Location</h3>
-                <p class="body-lg font-medium whitespace-pre-line leading-snug">{data.address}</p>
+                <p class="body-lg font-medium whitespace-pre-line leading-snug">{address}</p>
               </div>
             </div>
           )}
 
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-8">
-            {data.phone && (
+            {phone && (
               <div class="flex gap-4">
                 <div class="flex-shrink-0 mt-1">
                   <svg class="w-6 h-6 text-terracotta" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -68,12 +77,12 @@ const mapLinkUrl = data.map_link_url || "https://maps.app.goo.gl/MnMZViMsUDX4wTj
                 </div>
                 <div>
                   <h3 class="eyebrow text-xs mb-2 opacity-60">Phone</h3>
-                  <p class="body-lg font-medium">{data.phone}</p>
+                  <p class="body-lg font-medium">{phone}</p>
                 </div>
               </div>
             )}
 
-            {data.email && (
+            {email && (
               <div class="flex gap-4">
                 <div class="flex-shrink-0 mt-1">
                   <svg class="w-6 h-6 text-terracotta" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -82,7 +91,7 @@ const mapLinkUrl = data.map_link_url || "https://maps.app.goo.gl/MnMZViMsUDX4wTj
                 </div>
                 <div>
                   <h3 class="eyebrow text-xs mb-2 opacity-60">Email</h3>
-                  <a href={`mailto:${data.email}`} class="body-lg font-medium hover:text-terracotta transition-colors">{data.email}</a>
+                  <a href={`mailto:${email}`} class="body-lg font-medium hover:text-terracotta transition-colors">{email}</a>
                 </div>
               </div>
             )}
