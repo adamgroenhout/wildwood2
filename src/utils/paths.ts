@@ -1,24 +1,11 @@
+import { formatUrl as baseFormatUrl } from './url.ts';
+
 /**
  * Formats a URL with the base path from Astro's config.
  * Handles external links and already-formatted links gracefully.
  */
-export const formatUrl = (url: string, base: string = import.meta.env.BASE_URL) => {
-  if (!url || url.startsWith('#') || url.startsWith('http')) return url;
-  
-  // Ensure base ends with a single slash
-  const normalizedBase = base.endsWith('/') ? base : `${base}/`;
-  
-  // If url already starts with the base, return it
-  if (url.startsWith(normalizedBase)) return url;
-  
-  // Also check if url starts with base without trailing slash (e.g. /wildwood)
-  const baseNoTrailing = normalizedBase.slice(0, -1);
-  if (url.startsWith(baseNoTrailing) && (url[baseNoTrailing.length] === '/' || url[baseNoTrailing.length] === undefined)) {
-    return url;
-  }
-  
-  const normalizedUrl = url.startsWith('/') ? url.slice(1) : url;
-  return `${normalizedBase}${normalizedUrl}`;
+export const formatUrl = (url: string, base: string = import.meta.env?.BASE_URL || '/') => {
+  return baseFormatUrl(url, base);
 };
 
 /**
@@ -44,7 +31,7 @@ export const resolveAsset = (path: string) => {
   
   if (!asset) {
     // During dev, this warning is helpful. In prod it will be silent but return the string.
-    if (import.meta.env.DEV) {
+    if (import.meta.env?.DEV) {
       console.warn(`Asset not found: ${globKey}. Available keys:`, Object.keys(images).slice(0, 5));
     }
     return path; 
