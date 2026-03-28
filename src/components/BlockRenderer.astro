@@ -7,8 +7,15 @@ import GridBlock from './blocks/GridBlock.astro';
 import CTABlock from './blocks/CTABlock.astro';
 import MapBlock from './blocks/MapBlock.astro';
 
+interface Block {
+  type: string;
+  [key: string]: any;
+}
+
+type BlockComponent = (props: { data: any }) => any;
+
 interface Props {
-  blocks: any[];
+  blocks: Block[];
 }
 
 const { blocks } = Astro.props;
@@ -17,7 +24,7 @@ if (!blocks) {
   return null;
 }
 
-const blockMap: Record<string, any> = {
+const blockMap: Record<string, BlockComponent> = {
   hero: HeroBlock,
   text: TextBlock,
   image_text: ImageTextBlock,
