@@ -1,16 +1,16 @@
 {
-  "title": "Holding It Together: 6-Week, In-Person Group Therapy in Leesburg",
+  "title": "Holding It Together: 6-Week Virtual Group Therapy | Virginia",
   "blocks": [
     {
-      "type": "hero",
-      "hero_title": "Holding It Together: 6-Week, \nIn-Person Group Therapy in Leesburg",
-      "hero_subtitle": "For the high-functioning adult moving from seamless performance to authentic connection.",
-      "hero_image": "src/assets/images/a_photorealistic_image_of_a_bala.webp",
-      "hero_alt": "Balanced stones representing letting go",
-      "cta_text": "Request Your 15-Minute Screening Call",
       "cta_url": "https://wildwoodpsychotherapy.clientsecure.me/",
+      "alignment": "center",
+      "hero_alt": "Balanced stones representing letting go",
       "theme": "dark",
-      "alignment": "center"
+      "hero_title": "Holding It Together: 6-Week, \nVirtual Group Therapy for Adults in Virginia",
+      "hero_image": "src/assets/images/a_photorealistic_image_of_a_bala.webp",
+      "type": "hero",
+      "cta_text": "Request Your 15-Minute Screening Call",
+      "hero_subtitle": "For the high-functioning adult moving from seamless performance to authentic connection."
     },
     {
       "type": "image_text",
@@ -54,13 +54,13 @@
           "link_text": "",
           "title": "",
           "subtitle": "Dates & Times",
-          "text": "Every Tuesday, \\\n6:00 PM – 7:15 PM\n\nMay 6 - June 10, \\\n2026\n\n75-minute sessions; 6 weeks in total",
+          "text": "Every Tuesday, \\\n6:00 PM – 7:15 PM\n\nMay 26 - June 30, \\\n2026\n\n75-minute sessions; 6 weeks in total",
           "number": "1"
         },
         {
           "link_text": "",
           "subtitle": "Location",
-          "text": "[In person at the Wildwood office](<>)\n\n19 Wirt St SW, #205\nLeesburg, VA 20175",
+          "text": "Online\n\nNote: Participants **must** be physically located in Virginia during sessions.",
           "number": "2"
         },
         {
@@ -94,7 +94,7 @@
       "items": [
         {
           "title": "What if I see someone I know from the community?",
-          "content": "Leesburg can feel like a small town because it is one. We screen all participants beforehand to avoid dual relationships (like coworkers or close friends in the same circle). Privacy is our cornerstone. We establish a firm agreement that who's seen and what's said stays within the group."
+          "content": "We screen all participants beforehand to avoid dual relationships (like coworkers or close friends in the same circle). Privacy is our cornerstone. We establish a firm agreement that who's seen and what's said stays within the group."
         },
         {
           "title": "I’m nervous about being put on the spot.",
@@ -123,9 +123,10 @@
       "button_text": "Schedule My 15-Minute Group Screening",
       "button_url": "https://wildwoodpsychotherapy.clientsecure.me/",
       "theme": "terracotta",
-      "layout": "centered"
+      "layout": "centered",
+      "image_alt": " "
     }
   ],
-  "seo_title": "Holding It Together: 6-Week, In-Person Group Therapy in Leesburg",
+  "seo_title": "Holding It Together: 6-Week Virtual Group Therapy | Virginia",
   "subtitle": "For the high-functioning adult moving from seamless performance to authentic connection."
 }
