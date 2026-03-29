@@ -3,7 +3,7 @@
  * Handles external links and already-formatted links gracefully.
  */
 export const formatUrl = (url: string, base: string = '/') => {
-  if (!url || url.startsWith('#') || url.startsWith('http')) return url;
+  if (!url || url.startsWith('#') || url.startsWith('http') || url.startsWith('mailto:') || url.startsWith('tel:')) return url;
 
   // Ensure base ends with a single slash
   const normalizedBase = base.endsWith('/') ? base : `${base}/`;

@@ -17,6 +17,11 @@ test('formatUrl handles external links', () => {
   assert.strictEqual(formatUrl('http://example.com'), 'http://example.com');
 });
 
+test('formatUrl handles special link schemes', () => {
+  assert.strictEqual(formatUrl('mailto:test@example.com'), 'mailto:test@example.com');
+  assert.strictEqual(formatUrl('tel:1234567890'), 'tel:1234567890');
+});
+
 test('formatUrl formats relative paths with base', () => {
   assert.strictEqual(formatUrl('about', '/base/'), '/base/about');
   assert.strictEqual(formatUrl('/about', '/base/'), '/base/about');
