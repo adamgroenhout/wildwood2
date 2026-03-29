@@ -1,0 +1,18 @@
+{
+  "title": "Page not found",
+  "subtitle": "It seems the page you're looking for has moved or no longer exists. Let's help you find your way back.",
+  "seo_title": "404: Page Not Found",
+  "blocks": [
+    {
+      "type": "text",
+      "alignment": "center",
+      "padding": "large",
+      "theme": "alternate",
+      "subtitle": "Error 404",
+      "title": "Page not found",
+      "body": "It seems the page you're looking for has moved or no longer exists. Let's help you find your way back.",
+      "button_text": "Return Home",
+      "button_url": "/"
+    }
+  ]
+}

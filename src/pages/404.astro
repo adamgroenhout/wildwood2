@@ -1,28 +1,41 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Section from '../components/Section.astro';
-import Button from '../components/Button.astro';
+import BlockRenderer from '../components/BlockRenderer.astro';
+import { getEntry } from 'astro:content';
+
+const entry = await getEntry('site_pages', '404');
+
+const { 
+  title = "Page not found", 
+  subtitle = "It seems the page you're looking for has moved or no longer exists.", 
+  seo_title = "404: Page Not Found", 
+  blocks 
+} = entry?.data || {};
 ---
 
-<Layout title="Page Not Found">
+<Layout title={seo_title}>
 	<main>
-		<Section theme="alternate" padding="hero" class="text-center min-h-[70vh] flex items-center justify-center">
-			<div class="max-w-2xl mx-auto reveal">
-				<p class="eyebrow mb-6">Error 404</p>
-				<h1 class="display-serif mb-8 text-balance">Page not found</h1>
-				<p class="subtitle-serif mb-12 text-pretty">
-					It seems the page you're looking for has moved or no longer exists. 
-					Let's help you find your way back.
-				</p>
-				<div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
-					<Button href="/" theme="terracotta">
-						Return Home
-					</Button>
-					<Button href="/contact" theme="outline">
-						Get in Touch
-					</Button>
+		{!blocks?.some((b: any) => b.type === 'hero') && (
+			<Section theme="alternate" padding="hero" class="text-center min-h-[60vh] flex items-center justify-center">
+				<div class="max-w-4xl mx-auto">
+					<h1 class="display-serif m-0 whitespace-pre-wrap text-center text-pretty">{title.split('\n').map((line: string, i: number) => (
+							<Fragment key={i}>
+								{i > 0 && <br />}
+								{line}
+							</Fragment>
+						))}</h1>
+					{subtitle && (
+						<p class="subtitle-serif m-0 text-center mt-[var(--spacing-hero-title-gap)] md:mt-[var(--spacing-hero-title-gap-md)] whitespace-pre-wrap opacity-80 text-pretty">{subtitle.split('\n').map((line: string, i: number) => (
+								<Fragment key={i}>
+									{i > 0 && <br />}
+									{line}
+								</Fragment>
+							))}</p>
+					)}
 				</div>
-			</div>
-		</Section>
+			</Section>
+		)}
+		{blocks && <BlockRenderer blocks={blocks} />}
 	</main>
 </Layout>
