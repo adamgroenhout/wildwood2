@@ -80,6 +80,22 @@ const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
 		})} />
 
 		<ClientRouter />
+
+		{/* Google Analytics */}
+		{settings.google_analytics_id && (
+			<>
+				<script async src={`https://www.googletagmanager.com/gtag/js?id=${settings.google_analytics_id}`} is:inline></script>
+				<script is:inline define:vars={{ gaId: settings.google_analytics_id }}>
+					window.dataLayer = window.dataLayer || [];
+					function gtag(){dataLayer.push(arguments);}
+					gtag('js', new Date());
+
+					document.addEventListener('astro:page-load', () => {
+						gtag('config', gaId);
+					});
+				</script>
+			</>
+		)}
 	</head>
 	<body class="bg-olive text-paper/90 font-sans grain">
 		{!hideNav && <Header transition:persist />}
