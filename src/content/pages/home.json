@@ -107,22 +107,16 @@
       "type": "grid",
       "items": [
         {
-          "link_text": "Learn more",
           "title": "EMDR Therapy",
-          "text": "Find a structured path to finally file away the memories and sensations that keep you stuck in survival mode.",
-          "link_url": "/trauma-and-emdr"
+          "text": "Find a structured path to finally file away the memories and sensations that keep you stuck in survival mode."
         },
         {
-          "link_text": "Learn more",
           "title": "IFS-Informed Parts Work",
-          "text": "Understand the different parts of yourself, like the one that wants to be vulnerable and the one terrified of getting hurt, so we can create more internal harmony.",
-          "link_url": "/trauma-and-emdr"
+          "text": "Understand the different parts of yourself, like the one that wants to be vulnerable and the one terrified of getting hurt, so we can create more internal harmony."
         },
         {
-          "link_text": "Learn more",
           "title": "Somatic & Practical Tools",
-          "text": "Gain the tools to regulate your nervous system in real-time, building a life that feels grounded and intentional.",
-          "link_url": "/trauma-and-emdr"
+          "text": "Gain the tools to regulate your nervous system in real-time, building a life that feels grounded and intentional."
         }
       ],
       "button_text": "Schedule a Free Consultation",
