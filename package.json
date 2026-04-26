@@ -16,15 +16,15 @@
     "@astrojs/sitemap": "^3.7.2",
     "@fontsource/arimo": "^5.2.8",
     "@fontsource/instrument-serif": "^5.2.8",
-    "@tailwindcss/vite": "^4.2.2",
-    "astro": "^6.1.5",
-    "marked": "^18.0.0",
+    "@tailwindcss/vite": "^4.2.4",
+    "astro": "^6.1.9",
+    "marked": "^18.0.2",
     "sharp": "^0.34.5",
     "tailwindcss": "^4.2.2",
     "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "decap-server": "^3.6.0"
+    "decap-server": "^3.7.0"
   },
   "overrides": {
     "yaml": "^2.8.3"
