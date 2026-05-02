@@ -3,7 +3,9 @@ import path from 'path';
 
 const CONTENT_DIR = 'src/content/pages';
 
-// Map of valid fields for each block type from config.yml
+// IMPORTANT: This schema must match public/admin/config.yml.
+// If you add a new field to a block in the CMS, you MUST add it here
+// or this script will delete that field from your JSON files during cleanup.
 const BLOCK_SCHEMA = {
   hero: ['type', 'hero_title', 'hero_subtitle', 'hero_image', 'hero_alt', 'cta_text', 'cta_url', 'theme', 'alignment', 'specialties'],
   text: ['type', 'title', 'subtitle', 'body', 'button_text', 'button_url', 'theme', 'alignment', 'padding'],

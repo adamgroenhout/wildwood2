@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "prebuild": "node scripts/optimize-images.mjs",
     "preview": "astro preview",
     "astro": "astro",
     "cms": "decap-server",

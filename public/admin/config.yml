@@ -86,6 +86,9 @@ collections:
       - label: "Blocks"
         name: "blocks"
         widget: "list"
+        # IMPORTANT: If you add or remove fields from the blocks below, 
+        # you MUST also update the 'BLOCK_SCHEMA' in scripts/clean-content.mjs
+        # to prevent the cleanup script from accidentally deleting your new data.
         types:
           - name: "hero"
             label: "Hero Section"

@@ -34,8 +34,7 @@ async function optimize() {
       
       console.log(`Optimized: ${file} (${(oldSize / 1024 / 1024).toFixed(2)}MB -> ${(newSize / 1024 / 1024).toFixed(2)}MB)`);
       
-      // Delete the original file
-      await fs.unlink(inputPath);
+      // DO NOT delete the original file - Astro needs the source to build its own optimized versions
     } catch (err) {
       console.error(`Error processing ${file}:`, err);
     }
