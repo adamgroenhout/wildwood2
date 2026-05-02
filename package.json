@@ -12,19 +12,19 @@
     "test": "node --experimental-strip-types src/utils/url.test.ts"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.9",
+    "@astrojs/check": "0.9.8",
     "@astrojs/sitemap": "^3.7.2",
     "@fontsource/arimo": "^5.2.8",
     "@fontsource/instrument-serif": "^5.2.8",
-    "@tailwindcss/vite": "^4.2.4",
-    "astro": "^6.2.1",
-    "marked": "^18.0.3",
+    "@tailwindcss/vite": "4.2.2",
+    "astro": "6.1.5",
+    "marked": "18.0.2",
     "sharp": "^0.34.5",
-    "tailwindcss": "^4.2.2",
+    "tailwindcss": "4.2.2",
     "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "decap-server": "^3.7.0"
+    "decap-server": "3.6.0"
   },
   "overrides": {
     "yaml": "^2.8.3"
